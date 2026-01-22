@@ -1,0 +1,211 @@
+{
+  "event_id": "2025-10-26-3-3000",
+  "date": "2025-10-26",
+  "title": "我国3岁以下婴幼儿约3000万",
+  "category": "健康政策与公共服务",
+  "health_minor": "公共健康服务",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1761480000,
+  "end_ts": 1761490800,
+  "heat_peak": 242009.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1761480000,
+      "heat": 242009.0,
+      "rank": null
+    },
+    {
+      "ts": 1761483600,
+      "heat": 242009.0,
+      "rank": null
+    },
+    {
+      "ts": 1761487200,
+      "heat": 242009.0,
+      "rank": null
+    },
+    {
+      "ts": 1761490800,
+      "heat": 242009.0,
+      "rank": null
+    }
+  ],
+  "summary": "我国3岁以下婴幼儿约3000万",
+  "tags": [
+    "我国3岁以下婴幼儿约3000万",
+    "微博兴趣创作计划",
+    "反骨妹的日常",
+    "带娃日常",
+    "带娃随手拍",
+    "2024年人口出生率数据公布",
+    "多名考古学家白天考古晚上盗墓",
+    "龚俊破万福利是半裸肌肉照",
+    "天涯问早",
+    "早安",
+    "今年第300天",
+    "党历史上又一重要纲领性文件",
+    "孕产知识",
+    "多所高校正在培养带娃专家"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "我国3岁以下婴幼儿约3000万",
+        "label": "我国3岁以下婴幼儿约3000万",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "反骨妹的日常",
+        "label": "反骨妹的日常",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "带娃日常",
+        "label": "带娃日常",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "带娃随手拍",
+        "label": "带娃随手拍",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2024年人口出生率数据公布",
+        "label": "2024年人口出生率数据公布",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "多名考古学家白天考古晚上盗墓",
+        "label": "多名考古学家白天考古晚上盗墓",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "龚俊破万福利是半裸肌肉照",
+        "label": "龚俊破万福利是半裸肌肉照",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "天涯问早",
+        "label": "天涯问早",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "早安",
+        "label": "早安",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "今年第300天",
+        "label": "今年第300天",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "党历史上又一重要纲领性文件",
+        "label": "党历史上又一重要纲领性文件",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "孕产知识",
+        "label": "孕产知识",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "多所高校正在培养带娃专家",
+        "label": "多所高校正在培养带娃专家",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

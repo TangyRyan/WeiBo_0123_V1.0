@@ -1,0 +1,208 @@
+{
+  "event_id": "2025-11-04-topic-044902d1",
+  "date": "2025-11-04",
+  "title": "何炅 最近谣传我有衰老焦虑",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": 0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.05
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762189200,
+  "end_ts": 1762228800,
+  "heat_peak": 182296.0,
+  "point_count": 9,
+  "points": [
+    {
+      "ts": 1762189200,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762192800,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762196400,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762200000,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762203600,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762207200,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762210800,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762221600,
+      "heat": 182296.0,
+      "rank": null
+    },
+    {
+      "ts": 1762228800,
+      "heat": 182296.0,
+      "rank": null
+    }
+  ],
+  "summary": "何炅 最近谣传我有衰老焦虑",
+  "tags": [
+    "每天摸鱼打卡",
+    "何炅 最近谣传我有衰老焦虑",
+    "身体释放的8个衰老信号",
+    "遇见艺术",
+    "艺术造梦师",
+    "她一上午挣了我一个月的工资",
+    "王鹤棣攒了一年八卦就等今天了",
+    "王鹤棣 何老师我们爱你",
+    "微博视界大会",
+    "微博视界大会内场"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "每天摸鱼打卡",
+        "label": "每天摸鱼打卡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "何炅 最近谣传我有衰老焦虑",
+        "label": "何炅 最近谣传我有衰老焦虑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "身体释放的8个衰老信号",
+        "label": "身体释放的8个衰老信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "遇见艺术",
+        "label": "遇见艺术",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "艺术造梦师",
+        "label": "艺术造梦师",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "她一上午挣了我一个月的工资",
+        "label": "她一上午挣了我一个月的工资",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王鹤棣攒了一年八卦就等今天了",
+        "label": "王鹤棣攒了一年八卦就等今天了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王鹤棣 何老师我们爱你",
+        "label": "王鹤棣 何老师我们爱你",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博视界大会",
+        "label": "微博视界大会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博视界大会内场",
+        "label": "微博视界大会内场",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.05
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

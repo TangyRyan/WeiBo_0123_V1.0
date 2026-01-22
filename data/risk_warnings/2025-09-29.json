@@ -1,0 +1,171 @@
+{
+  "generated_at": "2025-12-05T20:16:52.231493+08:00",
+  "events": [
+    {
+      "name": "高市错误言论破坏中日联合声明",
+      "date": "2025-12-04",
+      "risk_score": 79.97654580960499,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.97654580960499,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.8,
+        "region": "北京",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.4,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 90.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 94.88272904802494
+      },
+      "sort_key": 74.97654580960499
+    },
+    {
+      "name": "官方确认倒车致2人身亡女子系法官",
+      "date": "2025-12-04",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "内蒙古",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.8,
+          "讨厌": 0.6,
+          "气愤": 0.9,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 74.25
+    },
+    {
+      "name": "丈夫中千万大奖后打赏女主播近120万",
+      "date": "2025-12-04",
+      "risk_score": 78.375,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.375,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.65,
+        "region": "未知",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.1,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.1,
+          "伤心": 0.7,
+          "讨厌": 0.7,
+          "气愤": 0.8,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 82.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 73.375
+    },
+    {
+      "name": "幼儿园15天虐童上千次案最新进展",
+      "date": "2025-12-03",
+      "risk_score": 81.875,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 81.875,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.85,
+        "region": "辽宁",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.0,
+          "恐惧": 0.65,
+          "惊喜": 0.0,
+          "伤心": 0.75,
+          "讨厌": 0.7,
+          "气愤": 0.85,
+          "期盼": 0.4
+        }
+      },
+      "risk_dims": {
+        "negativity": 92.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 71.875
+    },
+    {
+      "name": "河北东光县事业编考试确认重考",
+      "date": "2025-12-04",
+      "risk_score": 75.72702355711175,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 75.72702355711175,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "河北",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.6,
+          "讨厌": 0.5,
+          "气愤": 0.7,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 82.38511778555873
+      },
+      "sort_key": 70.72702355711175
+    }
+  ],
+  "date": "2025-09-29"
+}

@@ -1,0 +1,171 @@
+{
+  "event_id": "2025-12-02-topic-eaf50dcb",
+  "date": "2025-12-02",
+  "title": "倒头就睡可能是身体求救信号",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": -0.35,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764604800,
+  "end_ts": 1764622800,
+  "heat_peak": 36173.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1764604800,
+      "heat": 36173.0,
+      "rank": null
+    },
+    {
+      "ts": 1764615600,
+      "heat": 36173.0,
+      "rank": null
+    },
+    {
+      "ts": 1764622800,
+      "heat": 36173.0,
+      "rank": null
+    }
+  ],
+  "summary": "倒头就睡可能是身体求救信号",
+  "tags": [
+    "倒头就睡可能是身体求救信号",
+    "入睡快不等于睡眠好",
+    "虚假睡觉vs真正睡觉",
+    "微博声浪计划",
+    "听见微博",
+    "闽大评",
+    "经常早醒可能是疾病的信号",
+    "频繁早醒的人注意排查5种病",
+    "冬季警惕心血管疾病"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "倒头就睡可能是身体求救信号",
+        "label": "倒头就睡可能是身体求救信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "入睡快不等于睡眠好",
+        "label": "入睡快不等于睡眠好",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "虚假睡觉vs真正睡觉",
+        "label": "虚假睡觉vs真正睡觉",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博声浪计划",
+        "label": "微博声浪计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "听见微博",
+        "label": "听见微博",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "闽大评",
+        "label": "闽大评",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "经常早醒可能是疾病的信号",
+        "label": "经常早醒可能是疾病的信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "频繁早醒的人注意排查5种病",
+        "label": "频繁早醒的人注意排查5种病",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬季警惕心血管疾病",
+        "label": "冬季警惕心血管疾病",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

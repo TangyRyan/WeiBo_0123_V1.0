@@ -1,0 +1,173 @@
+{
+  "generated_at": "2025-12-05T13:05:36.008060+08:00",
+  "events": [
+    {
+      "name": "香港火灾已致151人遇难",
+      "date": "2025-12-02",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "香港",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.2,
+          "气愤": 0.3,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 64.25
+    },
+    {
+      "name": "高市早苗被爆花8384万日元仍惨败",
+      "date": "2025-12-02",
+      "risk_score": 78.375,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.375,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.65,
+        "region": "国外",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.4,
+          "惊喜": 0.3,
+          "伤心": 0.2,
+          "讨厌": 0.7,
+          "气愤": 0.8,
+          "期盼": 0.5
+        }
+      },
+      "risk_dims": {
+        "negativity": 82.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 63.375
+    },
+    {
+      "name": "女子烫发4小时称出去透气后疑跑路",
+      "date": "2025-12-02",
+      "risk_score": 76.81875856359588,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 76.81875856359588,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.6,
+        "region": "河南",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.1,
+          "惊喜": 0.3,
+          "伤心": 0.4,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 80.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 96.59379281797942
+      },
+      "sort_key": 61.81875856359588
+    },
+    {
+      "name": "香港火灾女子拍门救4人自己遇难",
+      "date": "2025-12-02",
+      "risk_score": 75.06875856359588,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 75.06875856359588,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.5,
+        "region": "河南",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.0,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.7,
+          "气愤": 0.8,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 75.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 96.59379281797942
+      },
+      "sort_key": 60.06875856359588
+    },
+    {
+      "name": "名校硕士沦为患艾吸毒者",
+      "date": "2025-12-02",
+      "risk_score": 74.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 74.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "四川",
+        "topic_type": "健康",
+        "source": "llm",
+        "health_major": "健康观念与社会现象",
+        "health_minor": "健康相关社会争议",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.3,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 60.0,
+        "crowd": 100.0
+      },
+      "sort_key": 59.25
+    }
+  ],
+  "date": "2025-12-02"
+}

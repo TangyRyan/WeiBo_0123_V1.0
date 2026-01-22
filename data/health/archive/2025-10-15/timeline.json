@@ -1,0 +1,141 @@
+{
+  "updated_at": "2025-12-07T05:32:41.460063+08:00",
+  "summary": {
+    "total_events": 7,
+    "by_major": {
+      "健康政策与公共服务": 2,
+      "健康观念与社会现象": 2,
+      "医疗行业与技术动态": 1,
+      "食品药品安全": 2
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-13-topic-3c51e049",
+      "title": "洗脸巾残留化学纤维存在安全风险",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760324400,
+      "end_ts": 1760338800,
+      "heat_peak": 224959.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1760338800,
+          "heat": 224959.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-13-topic-a1c4d8f5",
+      "title": "我们的盛会",
+      "category": "健康政策与公共服务",
+      "start_ts": 1760346000,
+      "end_ts": 1760346000,
+      "heat_peak": 456318.0,
+      "sentiment": 0.5,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1760346000,
+          "heat": 456318.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-13-topic-5daaa318",
+      "title": "两男子吃酸汤子中毒警方介入调查",
+      "category": "食品药品安全",
+      "start_ts": 1760356800,
+      "end_ts": 1760364000,
+      "heat_peak": 251201.0,
+      "sentiment": -0.7,
+      "region": "黑龙江",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760364000,
+          "heat": 251201.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-topic-4b33e726",
+      "title": "很少用震撼来形容一个手机壳",
+      "category": "健康政策与公共服务",
+      "start_ts": 1760403600,
+      "end_ts": 1760410800,
+      "heat_peak": 269807.0,
+      "sentiment": 0.35,
+      "region": "四川",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760410800,
+          "heat": 269807.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-3",
+      "title": "学生自习看恐怖片被吓病索赔3万",
+      "category": "食品药品安全",
+      "start_ts": 1760414400,
+      "end_ts": 1760421600,
+      "heat_peak": 241544.0,
+      "sentiment": -0.7,
+      "region": "吉林",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760421600,
+          "heat": 241544.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-topic-774c9f47",
+      "title": "李沛恩合约",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760446800,
+      "end_ts": 1760454000,
+      "heat_peak": 288127.0,
+      "sentiment": 0.65,
+      "region": "上海",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760454000,
+          "heat": 288127.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-topic-a74f8da8",
+      "title": "飞鹤发布新一代奶粉",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1760450400,
+      "end_ts": 1760450400,
+      "heat_peak": 261996.0,
+      "sentiment": 0.8,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1760450400,
+          "heat": 261996.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-15"
+}

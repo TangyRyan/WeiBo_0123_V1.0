@@ -1,0 +1,171 @@
+{
+  "generated_at": "2025-12-05T13:11:10.420287+08:00",
+  "events": [
+    {
+      "name": "幼儿园15天虐童上千次案最新进展",
+      "date": "2025-12-03",
+      "risk_score": 81.875,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 81.875,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.85,
+        "region": "辽宁",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.0,
+          "恐惧": 0.65,
+          "惊喜": 0.0,
+          "伤心": 0.75,
+          "讨厌": 0.7,
+          "气愤": 0.85,
+          "期盼": 0.4
+        }
+      },
+      "risk_dims": {
+        "negativity": 92.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 71.875
+    },
+    {
+      "name": "日本正发动无声战争",
+      "date": "2025-12-03",
+      "risk_score": 80.125,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 80.125,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.75,
+        "region": "国外",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.0,
+          "恐惧": 0.7,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.8,
+          "气愤": 0.9,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 87.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 70.125
+    },
+    {
+      "name": "妻子为孩子花15800丈夫坦白离职",
+      "date": "2025-12-03",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "浙江",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.3,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.5,
+          "气愤": 0.6,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 69.25
+    },
+    {
+      "name": "张雪峰30天掉粉近13万",
+      "date": "2025-12-03",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "未知",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.0,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 69.25
+    },
+    {
+      "name": "李刚受贿1.02亿余元",
+      "date": "2025-12-03",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "湖北",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.5,
+          "讨厌": 0.7,
+          "气愤": 0.8,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 69.25
+    }
+  ],
+  "date": "2025-12-03"
+}

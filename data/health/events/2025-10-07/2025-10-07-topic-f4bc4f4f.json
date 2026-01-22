@@ -1,0 +1,561 @@
+{
+  "event_id": "2025-10-07-topic-f4bc4f4f",
+  "date": "2025-10-07",
+  "title": "迪奥设计师 工作累丑",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "国外",
+  "start_ts": 1759834800,
+  "end_ts": 1759849200,
+  "heat_peak": 406329.0,
+  "point_count": 5,
+  "points": [
+    {
+      "ts": 1759834800,
+      "heat": 406329.0,
+      "rank": null
+    },
+    {
+      "ts": 1759838400,
+      "heat": 406329.0,
+      "rank": null
+    },
+    {
+      "ts": 1759842000,
+      "heat": 406329.0,
+      "rank": null
+    },
+    {
+      "ts": 1759845600,
+      "heat": 406329.0,
+      "rank": null
+    },
+    {
+      "ts": 1759849200,
+      "heat": 406329.0,
+      "rank": null
+    }
+  ],
+  "summary": "迪奥设计师 工作累丑",
+  "tags": [
+    "迪奥设计师 工作累丑",
+    "邓为巴黎时装周",
+    "工作累丑的人6招自救",
+    "打工人过劳变丑只是第一步"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "迪奥设计师 工作累丑",
+        "label": "迪奥设计师 工作累丑",
+        "weight": 21.0,
+        "community": 0
+      },
+      {
+        "id": "邓为巴黎时装周",
+        "label": "邓为巴黎时装周",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "工作累丑的人6招自救",
+        "label": "工作累丑的人6招自救",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "打工人过劳变丑只是第一步",
+        "label": "打工人过劳变丑只是第一步",
+        "weight": 2.0,
+        "community": 1
+      }
+    ],
+    "edges": [
+      {
+        "source": "迪奥设计师 工作累丑",
+        "target": "邓为巴黎时装周",
+        "weight": 1.0
+      },
+      {
+        "source": "工作累丑的人6招自救",
+        "target": "打工人过劳变丑只是第一步",
+        "weight": 1.0
+      },
+      {
+        "source": "工作累丑的人6招自救",
+        "target": "迪奥设计师 工作累丑",
+        "weight": 1.0
+      },
+      {
+        "source": "打工人过劳变丑只是第一步",
+        "target": "迪奥设计师 工作累丑",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "工作",
+      "weight": 32.0
+    },
+    {
+      "text": "迪奥",
+      "weight": 27.0
+    },
+    {
+      "text": "设计师",
+      "weight": 26.0
+    },
+    {
+      "text": "累丑",
+      "weight": 25.0
+    },
+    {
+      "text": "Anderson",
+      "weight": 6.0
+    },
+    {
+      "text": "系列",
+      "weight": 6.0
+    },
+    {
+      "text": "Jonathan",
+      "weight": 5.0
+    },
+    {
+      "text": "邓为",
+      "weight": 5.0
+    },
+    {
+      "text": "Dior",
+      "weight": 4.0
+    },
+    {
+      "text": "优衣库",
+      "weight": 4.0
+    },
+    {
+      "text": "合作",
+      "weight": 4.0
+    },
+    {
+      "text": "感觉",
+      "weight": 4.0
+    },
+    {
+      "text": "确实",
+      "weight": 4.0
+    },
+    {
+      "text": "设计",
+      "weight": 4.0
+    },
+    {
+      "text": "安德森",
+      "weight": 3.0
+    },
+    {
+      "text": "工人",
+      "weight": 3.0
+    },
+    {
+      "text": "还有",
+      "weight": 3.0
+    },
+    {
+      "text": "颜值",
+      "weight": 3.0
+    },
+    {
+      "text": "憔悴",
+      "weight": 3.0
+    },
+    {
+      "text": "状态",
+      "weight": 3.0
+    },
+    {
+      "text": "真的",
+      "weight": 3.0
+    },
+    {
+      "text": "鸽子",
+      "weight": 3.0
+    },
+    {
+      "text": "作品",
+      "weight": 3.0
+    },
+    {
+      "text": "巴黎",
+      "weight": 3.0
+    },
+    {
+      "text": "时装周",
+      "weight": 3.0
+    },
+    {
+      "text": "一年",
+      "weight": 2.0
+    },
+    {
+      "text": "品牌",
+      "weight": 2.0
+    },
+    {
+      "text": "劳模",
+      "weight": 2.0
+    },
+    {
+      "text": "下滑",
+      "weight": 2.0
+    },
+    {
+      "text": "才华",
+      "weight": 2.0
+    },
+    {
+      "text": "展开",
+      "weight": 2.0
+    },
+    {
+      "text": "充满",
+      "weight": 2.0
+    },
+    {
+      "text": "迪丽",
+      "weight": 2.0
+    },
+    {
+      "text": "热巴",
+      "weight": 2.0
+    },
+    {
+      "text": "衣服",
+      "weight": 2.0
+    },
+    {
+      "text": "时候",
+      "weight": 2.0
+    },
+    {
+      "text": "哈哈哈",
+      "weight": 2.0
+    },
+    {
+      "text": "松弛",
+      "weight": 2.0
+    },
+    {
+      "text": "合照",
+      "weight": 2.0
+    },
+    {
+      "text": "果然",
+      "weight": 2.0
+    },
+    {
+      "text": "期待",
+      "weight": 2.0
+    },
+    {
+      "text": "生活",
+      "weight": 2.0
+    },
+    {
+      "text": "仿佛",
+      "weight": 2.0
+    },
+    {
+      "text": "这样",
+      "weight": 2.0
+    },
+    {
+      "text": "一种",
+      "weight": 2.0
+    },
+    {
+      "text": "自由",
+      "weight": 2.0
+    },
+    {
+      "text": "乐趣",
+      "weight": 2.0
+    },
+    {
+      "text": "变化",
+      "weight": 2.0
+    },
+    {
+      "text": "只是",
+      "weight": 2.0
+    },
+    {
+      "text": "长期",
+      "weight": 2.0
+    },
+    {
+      "text": "五个",
+      "weight": 1.0
+    },
+    {
+      "text": "概括",
+      "weight": 1.0
+    },
+    {
+      "text": "jonathan",
+      "weight": 1.0
+    },
+    {
+      "text": "anderson",
+      "weight": 1.0
+    },
+    {
+      "text": "累成",
+      "weight": 1.0
+    },
+    {
+      "text": "十年",
+      "weight": 1.0
+    },
+    {
+      "text": "青春",
+      "weight": 1.0
+    },
+    {
+      "text": "洋溢",
+      "weight": 1.0
+    },
+    {
+      "text": "意气风发",
+      "weight": 1.0
+    },
+    {
+      "text": "青年",
+      "weight": 1.0
+    },
+    {
+      "text": "变成",
+      "weight": 1.0
+    },
+    {
+      "text": "气质",
+      "weight": 1.0
+    },
+    {
+      "text": "内敛",
+      "weight": 1.0
+    },
+    {
+      "text": "略显",
+      "weight": 1.0
+    },
+    {
+      "text": "忧郁",
+      "weight": 1.0
+    },
+    {
+      "text": "中年",
+      "weight": 1.0
+    },
+    {
+      "text": "大叔",
+      "weight": 1.0
+    },
+    {
+      "text": "Loewe",
+      "weight": 1.0
+    },
+    {
+      "text": "谢幕",
+      "weight": 1.0
+    },
+    {
+      "text": "演活",
+      "weight": 1.0
+    },
+    {
+      "text": "工作量",
+      "weight": 1.0
+    },
+    {
+      "text": "包括",
+      "weight": 1.0
+    },
+    {
+      "text": "个人",
+      "weight": 1.0
+    },
+    {
+      "text": "JW",
+      "weight": 1.0
+    },
+    {
+      "text": "推出",
+      "weight": 1.0
+    },
+    {
+      "text": "密度",
+      "weight": 1.0
+    },
+    {
+      "text": "本模",
+      "weight": 1.0
+    },
+    {
+      "text": "肉眼",
+      "weight": 1.0
+    },
+    {
+      "text": "可见",
+      "weight": 1.0
+    },
+    {
+      "text": "累到",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-596556885902892126",
+      "published_at": "2025-10-07T19:35:00+08:00",
+      "account_name": "内娱心动少年",
+      "content_text": "#迪奥设计师 工作累丑#五个字概括迪奥设计师 jonathan anderson：累成直男了。 ​",
+      "reposts": 72,
+      "comments": 55,
+      "likes": 2143
+    },
+    {
+      "post_id": "detail-2004985890339869640",
+      "published_at": "2025-10-07T23:37:00+08:00",
+      "account_name": "悠然米拉",
+      "content_text": "十年，安德森Jonathan Anderson 从一个青春洋溢、意气风发的青年，变成了一个气质内敛、略显忧郁的中年大叔！从Loewe到Dior的谢幕！#迪奥设计师 工作累丑#​",
+      "reposts": 68,
+      "comments": 32,
+      "likes": 440
+    },
+    {
+      "post_id": "detail-7102479870467749456",
+      "published_at": "2025-10-07T21:22:00+08:00",
+      "account_name": "鸭毛",
+      "content_text": "#迪奥设计师 工作累丑#打工人谁懂啊？迪奥设计师Jonathan Anderson把“工作累丑”演活了~一年要扛18个系列的工作量，包括迪奥的10个系列，以及他个人品牌JW Anderson的6个系列，还有优衣库合作推出2个系列，这密度谁看了不说句劳模本模。肉眼可见的累到颜值下滑，但架不住才华是焊在身上的啊，作 ​展开c",
+      "reposts": 43,
+      "comments": 18,
+      "likes": 317
+    },
+    {
+      "post_id": "detail-5774584927578048260",
+      "published_at": "2025-10-07T19:59:00+08:00",
+      "account_name": "IT互联网那点事",
+      "content_text": "#迪奥设计师 工作累丑#任何人都不能逃脱上班丑的魔咒。​",
+      "reposts": 75,
+      "comments": 42,
+      "likes": 1192
+    },
+    {
+      "post_id": "detail-5264402460231220371",
+      "published_at": "2025-10-07T22:43:00+08:00",
+      "account_name": "彻永一",
+      "content_text": "#迪奥设计师 工作累丑#一个迪奥的设计师天天穿优衣库不过没办法，工作使人憔悴，打工人只能多考虑舒适​",
+      "reposts": 48,
+      "comments": 70,
+      "likes": 1219
+    },
+    {
+      "post_id": "detail-9168616278542752354",
+      "published_at": "2025-10-07T21:09:00+08:00",
+      "account_name": "旧事書",
+      "content_text": "#迪奥设计师 工作累丑#事实证明越操劳越丑.....感觉就是老了，身材其实还挺好的，但是脸垮了….还有就是白男花期确实很短​",
+      "reposts": 19,
+      "comments": 27,
+      "likes": 397
+    },
+    {
+      "post_id": "detail-2200764211030625252",
+      "published_at": "2025-10-07T22:43:00+08:00",
+      "account_name": "召唤师Park",
+      "content_text": "接手迪奥两条主线的设计，还有自己的品牌，以及与优衣库的联名要管，Jonathan Anderson真是累麻了，压力大到眼神里充满了疲惫，没光了。刚开始看他和迪丽热巴同框，我甚至没认出来这是当年那个灵性十足的北爱尔兰天才少年。PS：他给迪丽热巴设计的衣服确实挺好看的#迪奥设计师 工作累丑#​展开c",
+      "reposts": 53,
+      "comments": 40,
+      "likes": 735
+    },
+    {
+      "post_id": "detail-6272431503978398318",
+      "published_at": "2025-10-07T22:28:00+08:00",
+      "account_name": "一枚搞机的原子弹",
+      "content_text": "#迪奥设计师 工作累丑#看来大家一样，都会被工作给累丑啊。人类还是不用工作的时候最帅最美了。你们说呢？ ​",
+      "reposts": 81,
+      "comments": 136,
+      "likes": 460
+    }
+  ]
+}

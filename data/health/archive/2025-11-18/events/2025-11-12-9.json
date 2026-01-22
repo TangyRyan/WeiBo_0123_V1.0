@@ -1,0 +1,138 @@
+{
+  "event_id": "2025-11-12-9",
+  "date": "2025-11-12",
+  "title": "睡眠超9小时也可能有害",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "河北",
+  "start_ts": 1762912800,
+  "end_ts": 1762916400,
+  "heat_peak": 208358.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1762912800,
+      "heat": 208358.0,
+      "rank": null
+    },
+    {
+      "ts": 1762916400,
+      "heat": 208358.0,
+      "rank": null
+    }
+  ],
+  "summary": "冬季心血管病高发，致病因素要当心。",
+  "tags": [
+    "丈夫结扎9个月后妻子又怀孕",
+    "医院回应丈夫结扎9个月妻子怀孕",
+    "今日份科普",
+    "热点观点",
+    "全网热点共创计划"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "丈夫结扎9个月后妻子又怀孕",
+        "label": "丈夫结扎9个月后妻子又怀孕",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "医院回应丈夫结扎9个月妻子怀孕",
+        "label": "医院回应丈夫结扎9个月妻子怀孕",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "今日份科普",
+        "label": "今日份科普",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点",
+        "label": "热点观点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全网热点共创计划",
+        "label": "全网热点共创计划",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

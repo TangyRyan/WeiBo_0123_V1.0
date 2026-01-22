@@ -1,0 +1,140 @@
+{
+  "event_id": "2025-11-17-4",
+  "date": "2025-11-17",
+  "title": "三家医院4次体检查乙肝结果相悖",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "湖北",
+  "start_ts": 1763388000,
+  "end_ts": 1763388000,
+  "heat_peak": 266636.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763388000,
+      "heat": 266636.0,
+      "rank": null
+    }
+  ],
+  "summary": "湖北省中西医结合医院的两次检测结果显示，20岁小伙文青（化名）曾感染过乙肝病毒，而同样位于武汉的同济医院和协和医院的结果却显示，文清未感染过乙肝。",
+  "tags": [
+    "三家医院4次体检查乙肝结果相悖",
+    "卫健委回应3家医院体检出不同结果",
+    "健闻登顶计划",
+    "医院回应男子CT报告写子宫未见异常",
+    "男子曝CT报告写子宫未见异常",
+    "智搜分析"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "三家医院4次体检查乙肝结果相悖",
+        "label": "三家医院4次体检查乙肝结果相悖",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "卫健委回应3家医院体检出不同结果",
+        "label": "卫健委回应3家医院体检出不同结果",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "医院回应男子CT报告写子宫未见异常",
+        "label": "医院回应男子CT报告写子宫未见异常",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "男子曝CT报告写子宫未见异常",
+        "label": "男子曝CT报告写子宫未见异常",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "智搜分析",
+        "label": "智搜分析",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

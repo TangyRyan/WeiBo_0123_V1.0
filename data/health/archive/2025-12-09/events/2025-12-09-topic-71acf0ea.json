@@ -1,0 +1,140 @@
+{
+  "event_id": "2025-12-09-topic-71acf0ea",
+  "date": "2025-12-09",
+  "title": "网传小洛熙爸爸失业",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "重大医疗事故",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.7
+    },
+    {
+      "name": "气愤",
+      "value": 0.9
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1765267200,
+  "end_ts": 1765267200,
+  "heat_peak": 294182.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1765267200,
+      "heat": 294182.0,
+      "rank": null
+    }
+  ],
+  "summary": "网传小洛熙爸爸失业",
+  "tags": [
+    "网传小洛熙爸爸失业",
+    "5月龄女婴手术离世鉴定程序中止",
+    "小洛溪妈妈",
+    "涉事医院回应小洛熙离世",
+    "小洛熙妈妈",
+    "小洛熙爸爸"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "网传小洛熙爸爸失业",
+        "label": "网传小洛熙爸爸失业",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "5月龄女婴手术离世鉴定程序中止",
+        "label": "5月龄女婴手术离世鉴定程序中止",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛溪妈妈",
+        "label": "小洛溪妈妈",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "涉事医院回应小洛熙离世",
+        "label": "涉事医院回应小洛熙离世",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙妈妈",
+        "label": "小洛熙妈妈",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙爸爸",
+        "label": "小洛熙爸爸",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.7
+    },
+    {
+      "name": "气愤",
+      "value": 0.9
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

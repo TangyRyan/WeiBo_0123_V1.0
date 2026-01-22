@@ -1,0 +1,451 @@
+{
+  "updated_at": "2026-01-23T05:41:34.717799+08:00",
+  "summary": {
+    "total_events": 24,
+    "by_major": {
+      "传染病与公共卫生应急": 1,
+      "健康政策与公共服务": 4,
+      "健康管理与养生": 5,
+      "健康观念与社会现象": 5,
+      "医疗服务与医患矛盾": 3,
+      "医疗行业与技术动态": 1,
+      "特殊场景与群体健康": 2,
+      "食品药品安全": 3
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-26-topic-73aad65d",
+      "title": "女孩失联一周竟是躲房间玩手机",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761462000,
+      "end_ts": 1761469200,
+      "heat_peak": 287438.0,
+      "sentiment": -0.4,
+      "region": "安徽",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1761469200,
+          "heat": 287438.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-topic-e29a5186",
+      "title": "香港男大看色情内容窒息死亡",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1761465600,
+      "end_ts": 1761490800,
+      "heat_peak": 239303.0,
+      "sentiment": -0.7,
+      "region": "香港",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 239303.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-topic-46dec6a3",
+      "title": "孕检低风险却生下唐氏儿保险拒赔",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1761472800,
+      "end_ts": 1761490800,
+      "heat_peak": 231144.0,
+      "sentiment": -0.65,
+      "region": "山西",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 231144.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-3-3000",
+      "title": "我国3岁以下婴幼儿约3000万",
+      "category": "健康政策与公共服务",
+      "start_ts": 1761480000,
+      "end_ts": 1761490800,
+      "heat_peak": 242009.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 242009.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-topic-e78ee421",
+      "title": "原来不内耗的人脑子里是这么想的",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761487200,
+      "end_ts": 1761490800,
+      "heat_peak": 237702.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 237702.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-28-11-10",
+      "title": "11岁孩子为锻炼舌头吞下10克金豆",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1761631200,
+      "end_ts": 1761634800,
+      "heat_peak": 224216.0,
+      "sentiment": -0.65,
+      "region": "江苏",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1761634800,
+          "heat": 224216.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-29-topic-6addab15",
+      "title": "被蛇咬后失联的网红已找到",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1761692400,
+      "end_ts": 1761703200,
+      "heat_peak": 231986.0,
+      "sentiment": -0.4,
+      "region": "湖南",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761703200,
+          "heat": 231986.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-29-topic-edb940e3",
+      "title": "重阳节",
+      "category": "健康政策与公共服务",
+      "start_ts": 1761692400,
+      "end_ts": 1761703200,
+      "heat_peak": 456605.0,
+      "sentiment": 0.8,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761703200,
+          "heat": 456605.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-29-topic-8e8dbf79",
+      "title": "伟哥市场乱象调查",
+      "category": "食品药品安全",
+      "start_ts": 1761710400,
+      "end_ts": 1761710400,
+      "heat_peak": 270768.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1761710400,
+          "heat": 270768.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-29-topic-434985b5",
+      "title": "皮肤病是纯搞人心态来的吧",
+      "category": "健康管理与养生",
+      "start_ts": 1761728400,
+      "end_ts": 1761728400,
+      "heat_peak": 256473.0,
+      "sentiment": -0.4,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1761728400,
+          "heat": 256473.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-29-h3n2",
+      "title": "新毒株甲型H3N2来袭",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1761742800,
+      "end_ts": 1761750000,
+      "heat_peak": 464275.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1761750000,
+          "heat": 464275.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-30-topic-07992c44",
+      "title": "满头白发亲病逝宝宝墓碑妈妈发声",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761778800,
+      "end_ts": 1761789600,
+      "heat_peak": 217498.0,
+      "sentiment": -0.8,
+      "region": "河南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1761789600,
+          "heat": 217498.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-30-topic-1eef8720",
+      "title": "胡歌直言无法走出母亲去世阴影",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761789600,
+      "end_ts": 1761796800,
+      "heat_peak": 225154.0,
+      "sentiment": -0.7,
+      "region": "西藏",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1761796800,
+          "heat": 225154.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-30-topic-8d1347c7",
+      "title": "解锁百岁老人长寿配方",
+      "category": "健康管理与养生",
+      "start_ts": 1761793200,
+      "end_ts": 1761796800,
+      "heat_peak": 224687.0,
+      "sentiment": 0.65,
+      "region": "广西",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1761796800,
+          "heat": 224687.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-30-13-hpv",
+      "title": "满13岁女生免费接种HPV疫苗",
+      "category": "健康政策与公共服务",
+      "start_ts": 1761818400,
+      "end_ts": 1761836400,
+      "heat_peak": 258883.0,
+      "sentiment": 0.5,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1761836400,
+          "heat": 258883.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-30-topic-e9e06522",
+      "title": "刘谦抗癌成功后近况",
+      "category": "健康管理与养生",
+      "start_ts": 1761825600,
+      "end_ts": 1761836400,
+      "heat_peak": 245293.0,
+      "sentiment": 0.7,
+      "region": "上海",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761836400,
+          "heat": 245293.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-31-60",
+      "title": "女子生育后才领结婚证津贴少60天",
+      "category": "健康政策与公共服务",
+      "start_ts": 1761843600,
+      "end_ts": 1761843600,
+      "heat_peak": 344412.0,
+      "sentiment": -0.35,
+      "region": "江西",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1761843600,
+          "heat": 344412.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-31-topic-1cea379a",
+      "title": "加湿器加精油可能致肺炎",
+      "category": "健康管理与养生",
+      "start_ts": 1761876000,
+      "end_ts": 1761883200,
+      "heat_peak": 224163.0,
+      "sentiment": -0.5,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1761883200,
+          "heat": 224163.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-31-topic-32df2742",
+      "title": "新生儿转运时从推车坠落",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1761876000,
+      "end_ts": 1761890400,
+      "heat_peak": 299659.0,
+      "sentiment": -0.8,
+      "region": "福建",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761890400,
+          "heat": 299659.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-01-topic-a1834803",
+      "title": "为救儿子盗窃入狱的男子仍待业",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761976800,
+      "end_ts": 1761976800,
+      "heat_peak": 225593.0,
+      "sentiment": -0.65,
+      "region": "吉林",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1761976800,
+          "heat": 225593.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-01-topic-12862902",
+      "title": "老人感冒医生多看一眼片子救了一命",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1762005600,
+      "end_ts": 1762005600,
+      "heat_peak": 255330.0,
+      "sentiment": 0.7,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762005600,
+          "heat": 255330.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-02-39",
+      "title": "39岁牙周病无牙戴假牙生活",
+      "category": "健康管理与养生",
+      "start_ts": 1762012800,
+      "end_ts": 1762016400,
+      "heat_peak": 259747.0,
+      "sentiment": -0.3,
+      "region": "吉林",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762016400,
+          "heat": 259747.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-02-7",
+      "title": "中国人有7张太空全家福了",
+      "category": "食品药品安全",
+      "start_ts": 1762012800,
+      "end_ts": 1762048800,
+      "heat_peak": 369753.0,
+      "sentiment": -0.7,
+      "region": "河南",
+      "point_count": 11,
+      "points": [
+        {
+          "ts": 1762048800,
+          "heat": 369753.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-02-topic-34b7ada0",
+      "title": "药中茅台片仔癀跌破官方指导价",
+      "category": "食品药品安全",
+      "start_ts": 1762070400,
+      "end_ts": 1762077600,
+      "heat_peak": 255202.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1762077600,
+          "heat": 255202.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-11-02"
+}

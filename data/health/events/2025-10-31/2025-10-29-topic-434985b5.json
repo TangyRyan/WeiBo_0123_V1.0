@@ -1,0 +1,147 @@
+{
+  "event_id": "2025-10-29-topic-434985b5",
+  "date": "2025-10-29",
+  "title": "皮肤病是纯搞人心态来的吧",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1761728400,
+  "end_ts": 1761728400,
+  "heat_peak": 256473.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1761728400,
+      "heat": 256473.0,
+      "rank": null
+    }
+  ],
+  "summary": "皮肤病是纯搞人心态来的吧",
+  "tags": [
+    "皮肤是情绪的靶向器官",
+    "心理问题躯体化的真实表现",
+    "皮肤病是纯搞人心态来的吧",
+    "秋冬换季又被银屑病整破防了",
+    "卡泊三醇倍他米松",
+    "百年利奥制药守护皮肤健康",
+    "卡泊三醇倍他米松凝胶"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "皮肤是情绪的靶向器官",
+        "label": "皮肤是情绪的靶向器官",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "心理问题躯体化的真实表现",
+        "label": "心理问题躯体化的真实表现",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "皮肤病是纯搞人心态来的吧",
+        "label": "皮肤病是纯搞人心态来的吧",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秋冬换季又被银屑病整破防了",
+        "label": "秋冬换季又被银屑病整破防了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "卡泊三醇倍他米松",
+        "label": "卡泊三醇倍他米松",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "百年利奥制药守护皮肤健康",
+        "label": "百年利奥制药守护皮肤健康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "卡泊三醇倍他米松凝胶",
+        "label": "卡泊三醇倍他米松凝胶",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

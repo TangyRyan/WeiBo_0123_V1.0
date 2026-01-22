@@ -1,0 +1,136 @@
+{
+  "event_id": "2025-12-02-3",
+  "date": "2025-12-02",
+  "title": "疯狂动物城3 飞禽",
+  "category": "特殊场景与群体健康",
+  "health_minor": "特殊群体健康危机",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1764604800,
+  "end_ts": 1764622800,
+  "heat_peak": 36120.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1764604800,
+      "heat": 36120.0,
+      "rank": null
+    },
+    {
+      "ts": 1764615600,
+      "heat": 36120.0,
+      "rank": null
+    },
+    {
+      "ts": 1764622800,
+      "heat": 36120.0,
+      "rank": null
+    }
+  ],
+  "summary": "疯狂动物城3 飞禽",
+  "tags": [
+    "大三男生网络交友3个月感染艾滋病",
+    "她说世界",
+    "健闻登顶计划",
+    "阳光长城慢病防治"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "大三男生网络交友3个月感染艾滋病",
+        "label": "大三男生网络交友3个月感染艾滋病",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "她说世界",
+        "label": "她说世界",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "阳光长城慢病防治",
+        "label": "阳光长城慢病防治",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

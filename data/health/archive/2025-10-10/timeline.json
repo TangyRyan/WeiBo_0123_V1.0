@@ -1,0 +1,269 @@
+{
+  "updated_at": "2025-12-05T20:45:58.314592+08:00",
+  "summary": {
+    "total_events": 14,
+    "by_major": {
+      "健康政策与公共服务": 1,
+      "健康管理与养生": 6,
+      "健康观念与社会现象": 2,
+      "特殊场景与群体健康": 3,
+      "环境与灾害关联健康问题": 1,
+      "食品药品安全": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-08-topic-41a60492",
+      "title": "杨澜呼吁大众警惕带状疱疹风险",
+      "category": "健康政策与公共服务",
+      "start_ts": 1759906800,
+      "end_ts": 1759906800,
+      "heat_peak": 221468.0,
+      "sentiment": 0.4,
+      "region": "上海",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1759906800,
+          "heat": 221468.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-16",
+      "title": "女子久坐16小时火车旅游心脏骤停",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1759917600,
+      "end_ts": 1759921200,
+      "heat_peak": 187013.0,
+      "sentiment": -0.4,
+      "region": "浙江",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759921200,
+          "heat": 187013.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-29-211",
+      "title": "29岁失联男子毕业于211院校",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759928400,
+      "end_ts": 1759935600,
+      "heat_peak": 265422.0,
+      "sentiment": -0.4,
+      "region": "山东",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759935600,
+          "heat": 265422.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-9",
+      "title": "鸡排哥商标已被别人持有9年",
+      "category": "健康管理与养生",
+      "start_ts": 1759932000,
+      "end_ts": 1759935600,
+      "heat_peak": 321708.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759935600,
+          "heat": 321708.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-09-topic-6025b811",
+      "title": "四大伤肝元凶",
+      "category": "健康管理与养生",
+      "start_ts": 1759971600,
+      "end_ts": 1759982400,
+      "heat_peak": 213364.0,
+      "sentiment": -0.1,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759982400,
+          "heat": 213364.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-09-topic-76673f69",
+      "title": "范世琦成都站演唱会取消",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759982400,
+      "end_ts": 1759986000,
+      "heat_peak": 341967.0,
+      "sentiment": -0.3,
+      "region": "四川",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759986000,
+          "heat": 341967.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-09-topic-f9156af3",
+      "title": "樊振东法国康如溯源",
+      "category": "健康管理与养生",
+      "start_ts": 1759989600,
+      "end_ts": 1759993200,
+      "heat_peak": 254751.0,
+      "sentiment": 0.75,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759993200,
+          "heat": 254751.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-09-topic-877f0e9c",
+      "title": "新加坡双尸案女儿是剑桥博士疑饿死",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760018400,
+      "end_ts": 1760022000,
+      "heat_peak": 896177.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760022000,
+          "heat": 896177.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-5133fdd8",
+      "title": "旧金山街头像丧尸大片",
+      "category": "食品药品安全",
+      "start_ts": 1760025600,
+      "end_ts": 1760058000,
+      "heat_peak": 238339.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1760058000,
+          "heat": 238339.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-85cc6db4",
+      "title": "母亲回应网传女儿高反被搭子抛弃",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1760025600,
+      "end_ts": 1760065200,
+      "heat_peak": 258572.0,
+      "sentiment": -0.7,
+      "region": "四川",
+      "point_count": 10,
+      "points": [
+        {
+          "ts": 1760065200,
+          "heat": 258572.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-877f0e9c",
+      "title": "新加坡双尸案女儿是剑桥博士疑饿死",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760025600,
+      "end_ts": 1760050800,
+      "heat_peak": 931120.0,
+      "sentiment": -0.8,
+      "region": "国外",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1760050800,
+          "heat": 931120.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-712ad744",
+      "title": "唇部敏感问题不能被忽视",
+      "category": "健康管理与养生",
+      "start_ts": 1760083200,
+      "end_ts": 1760086800,
+      "heat_peak": 230381.0,
+      "sentiment": 0.65,
+      "region": "四川",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760086800,
+          "heat": 230381.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-a6fff2b3",
+      "title": "人唯一不会长大的器官",
+      "category": "健康管理与养生",
+      "start_ts": 1760090400,
+      "end_ts": 1760108400,
+      "heat_peak": 314586.0,
+      "sentiment": 0.18,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1760108400,
+          "heat": 314586.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-4a73f2bf",
+      "title": "白鹿说自己得了疑难杂症",
+      "category": "健康管理与养生",
+      "start_ts": 1760097600,
+      "end_ts": 1760108400,
+      "heat_peak": 226361.0,
+      "sentiment": 0.4,
+      "region": "浙江",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1760108400,
+          "heat": 226361.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-10"
+}

@@ -1,0 +1,168 @@
+{
+  "event_id": "2025-11-12-topic-3a7f78fe",
+  "date": "2025-11-12",
+  "title": "余华你知道你这句话救了多少人吗",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": 0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.35
+    },
+    {
+      "name": "信任",
+      "value": 0.45
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.15
+    },
+    {
+      "name": "伤心",
+      "value": 0.02
+    },
+    {
+      "name": "讨厌",
+      "value": 0.03
+    },
+    {
+      "name": "气愤",
+      "value": 0.02
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762876800,
+  "end_ts": 1762902000,
+  "heat_peak": 55590.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1762876800,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762880400,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762884000,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762887600,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762891200,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762894800,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762898400,
+      "heat": 55590.0,
+      "rank": null
+    },
+    {
+      "ts": 1762902000,
+      "heat": 55590.0,
+      "rank": null
+    }
+  ],
+  "summary": "余华你知道你这句话救了多少人吗",
+  "tags": [
+    "余华你知道你这句话救了多少人吗",
+    "微博中长视频扶持计划",
+    "热点解读",
+    "睡眠超9小时也可能有害",
+    "经济学家不建议大家提前还贷"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "余华你知道你这句话救了多少人吗",
+        "label": "余华你知道你这句话救了多少人吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博中长视频扶持计划",
+        "label": "微博中长视频扶持计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点解读",
+        "label": "热点解读",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "睡眠超9小时也可能有害",
+        "label": "睡眠超9小时也可能有害",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "经济学家不建议大家提前还贷",
+        "label": "经济学家不建议大家提前还贷",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.35
+    },
+    {
+      "name": "信任",
+      "value": 0.45
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.15
+    },
+    {
+      "name": "伤心",
+      "value": 0.02
+    },
+    {
+      "name": "讨厌",
+      "value": 0.03
+    },
+    {
+      "name": "气愤",
+      "value": 0.02
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "sample_posts": []
+}

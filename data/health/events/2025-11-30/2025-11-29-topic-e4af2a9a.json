@@ -1,0 +1,236 @@
+{
+  "event_id": "2025-11-29-topic-e4af2a9a",
+  "date": "2025-11-29",
+  "title": "南北方同步开启干冷模式",
+  "category": "健康政策与公共服务",
+  "health_minor": "公共健康服务",
+  "sentiment": 0.1,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.2
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764424800,
+  "end_ts": 1764428400,
+  "heat_peak": 312350.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764424800,
+      "heat": 312350.0,
+      "rank": null
+    },
+    {
+      "ts": 1764428400,
+      "heat": 312350.0,
+      "rank": null
+    }
+  ],
+  "summary": "最近，我国大部地区晴朗干燥，昨天午后不少地方空气相对湿度不足30%，就连一贯湿润的江南多地湿度都不足20%；北方多地甚至不足10%，干燥程度同期少见。",
+  "tags": [
+    "冷空气一波接一波",
+    "南北方同步开启干冷模式",
+    "冬季这样应对电动自行车电池焦虑",
+    "魅力核能美丽中国",
+    "把发展蓝图变为美好现实",
+    "温暖的食光",
+    "组个冬日养生局",
+    "冬日暖胃必备搭子",
+    "生活就要这样浪",
+    "约会博物馆",
+    "张云雷版西楼别序",
+    "张云雷 我们爱你",
+    "随手拍",
+    "微博影像年",
+    "微博兴趣创作计划",
+    "刘宇宁地球超新鲜",
+    "天涯问早",
+    "早安",
+    "2026年国考今日开考"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "冷空气一波接一波",
+        "label": "冷空气一波接一波",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "南北方同步开启干冷模式",
+        "label": "南北方同步开启干冷模式",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬季这样应对电动自行车电池焦虑",
+        "label": "冬季这样应对电动自行车电池焦虑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "魅力核能美丽中国",
+        "label": "魅力核能美丽中国",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "把发展蓝图变为美好现实",
+        "label": "把发展蓝图变为美好现实",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "温暖的食光",
+        "label": "温暖的食光",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "组个冬日养生局",
+        "label": "组个冬日养生局",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬日暖胃必备搭子",
+        "label": "冬日暖胃必备搭子",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "生活就要这样浪",
+        "label": "生活就要这样浪",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "约会博物馆",
+        "label": "约会博物馆",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "张云雷版西楼别序",
+        "label": "张云雷版西楼别序",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "张云雷 我们爱你",
+        "label": "张云雷 我们爱你",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "随手拍",
+        "label": "随手拍",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博影像年",
+        "label": "微博影像年",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "刘宇宁地球超新鲜",
+        "label": "刘宇宁地球超新鲜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "天涯问早",
+        "label": "天涯问早",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "早安",
+        "label": "早安",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2026年国考今日开考",
+        "label": "2026年国考今日开考",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.2
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

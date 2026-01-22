@@ -1,0 +1,197 @@
+{
+  "event_id": "2025-11-23-c",
+  "date": "2025-11-23",
+  "title": "C罗可能做过多次整容手术",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.1,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.0
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.15
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "region": "国外",
+  "start_ts": 1763902800,
+  "end_ts": 1763910000,
+  "heat_peak": 227317.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1763899200,
+      "heat": 227317.0,
+      "rank": null
+    },
+    {
+      "ts": 1763902800,
+      "heat": 227317.0,
+      "rank": null
+    },
+    {
+      "ts": 1763906400,
+      "heat": 227317.0,
+      "rank": null
+    },
+    {
+      "ts": 1763910000,
+      "heat": 227317.0,
+      "rank": null
+    }
+  ],
+  "summary": "纽约整形主任：C罗可能花25万整容，包括整牙、隆鼻、植发等",
+  "tags": [
+    "c罗不会缺席世界杯首战",
+    "c罗可能做过多次整容手术",
+    "C罗可能做过多次整容手术",
+    "C罗整容花费或高达25万美元",
+    "C罗倒钩破门",
+    "Kanavi曾七夺LPL冠军",
+    "微博跨域计划",
+    "C罗现在的外貌可能经过多次整容",
+    "c罗",
+    "美容医生曾起诉C罗拖欠4万英镑",
+    "利雅得胜利4比1赛哈特海湾",
+    "C罗回应倒钩破门"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "c罗不会缺席世界杯首战",
+        "label": "c罗不会缺席世界杯首战",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "c罗可能做过多次整容手术",
+        "label": "c罗可能做过多次整容手术",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "C罗可能做过多次整容手术",
+        "label": "C罗可能做过多次整容手术",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "C罗整容花费或高达25万美元",
+        "label": "C罗整容花费或高达25万美元",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "C罗倒钩破门",
+        "label": "C罗倒钩破门",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "Kanavi曾七夺LPL冠军",
+        "label": "Kanavi曾七夺LPL冠军",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博跨域计划",
+        "label": "微博跨域计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "C罗现在的外貌可能经过多次整容",
+        "label": "C罗现在的外貌可能经过多次整容",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "c罗",
+        "label": "c罗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "美容医生曾起诉C罗拖欠4万英镑",
+        "label": "美容医生曾起诉C罗拖欠4万英镑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "利雅得胜利4比1赛哈特海湾",
+        "label": "利雅得胜利4比1赛哈特海湾",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "C罗回应倒钩破门",
+        "label": "C罗回应倒钩破门",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.0
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.15
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "sample_posts": []
+}

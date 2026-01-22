@@ -1,0 +1,173 @@
+{
+  "event_id": "2025-11-26-topic-a057d838",
+  "date": "2025-11-26",
+  "title": "女婴心脏手术离世已完成尸检",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "重大医疗事故",
+  "sentiment": -0.8,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1764165600,
+  "end_ts": 1764169200,
+  "heat_peak": 854350.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764165600,
+      "heat": 854350.0,
+      "rank": null
+    },
+    {
+      "ts": 1764169200,
+      "heat": 854350.0,
+      "rank": null
+    }
+  ],
+  "summary": "近日，一名5月龄宝宝在宁波大学附属妇女儿童医院进行心脏手术时离世引发关注。",
+  "tags": [
+    "女婴心脏手术离世已完成尸检",
+    "我为小洛熙发声",
+    "宁波妇幼",
+    "小洛熙妈妈",
+    "小洛熙爸爸",
+    "知名法医刘良将亲自为小洛熙尸检",
+    "宁波妇幼小洛熙",
+    "宁波女婴家属提异地尸检",
+    "清澈的爱只为中国",
+    "法医刘良全程参与手术离世女婴尸检"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "女婴心脏手术离世已完成尸检",
+        "label": "女婴心脏手术离世已完成尸检",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我为小洛熙发声",
+        "label": "我为小洛熙发声",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "宁波妇幼",
+        "label": "宁波妇幼",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙妈妈",
+        "label": "小洛熙妈妈",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙爸爸",
+        "label": "小洛熙爸爸",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "知名法医刘良将亲自为小洛熙尸检",
+        "label": "知名法医刘良将亲自为小洛熙尸检",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "宁波妇幼小洛熙",
+        "label": "宁波妇幼小洛熙",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "宁波女婴家属提异地尸检",
+        "label": "宁波女婴家属提异地尸检",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "清澈的爱只为中国",
+        "label": "清澈的爱只为中国",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "法医刘良全程参与手术离世女婴尸检",
+        "label": "法医刘良全程参与手术离世女婴尸检",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

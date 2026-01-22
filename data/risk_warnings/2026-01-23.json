@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-01-23T06:07:33.139698+08:00",
+  "events": [
+    {
+      "name": "携程接机 信息泄露",
+      "date": "2026-01-22",
+      "risk_score": 80.36843905376244,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 80.36843905376244,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.8,
+        "region": "国外",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.8,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.7,
+          "气愤": 0.9,
+          "期盼": 0.4
+        }
+      },
+      "risk_dims": {
+        "negativity": 90.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 96.8421952688122
+      },
+      "sort_key": 75.36843905376244
+    },
+    {
+      "name": "9岁男童托管期间坠入排污井身亡",
+      "date": "2026-01-22",
+      "risk_score": 79.87666197635686,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.87666197635686,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.8,
+        "region": "福建",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.6,
+          "惊喜": 0.0,
+          "伤心": 0.7,
+          "讨厌": 0.5,
+          "气愤": 0.8,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 90.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 94.38330988178427
+      },
+      "sort_key": 74.87666197635686
+    },
+    {
+      "name": "女子牵绳遛狗遭殴打警方已介入",
+      "date": "2026-01-22",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "上海",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.1,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.3,
+          "气愤": 0.6,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 74.25
+    },
+    {
+      "name": "黑白颠周媛付费课收入已超2400万",
+      "date": "2026-01-22",
+      "risk_score": 78.36419596963806,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.36419596963806,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.65,
+        "region": "未知",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.1,
+          "信任": 0.1,
+          "恐惧": 0.0,
+          "惊喜": 0.2,
+          "伤心": 0.3,
+          "讨厌": 0.7,
+          "气愤": 0.6,
+          "期盼": 0.0
+        }
+      },
+      "risk_dims": {
+        "negativity": 82.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 99.94597984819028
+      },
+      "sort_key": 73.36419596963806
+    },
+    {
+      "name": "美国现在连尸体脂肪都不放过",
+      "date": "2026-01-22",
+      "risk_score": 74.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 74.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "国外",
+        "topic_type": "健康",
+        "source": "llm",
+        "health_major": "健康观念与社会现象",
+        "health_minor": "健康相关社会争议",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.2,
+          "恐惧": 0.3,
+          "惊喜": 0.1,
+          "伤心": 0.1,
+          "讨厌": 0.4,
+          "气愤": 0.5,
+          "期盼": 0.0
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 60.0,
+        "crowd": 100.0
+      },
+      "sort_key": 69.25
+    }
+  ],
+  "date": "2026-01-23"
+}

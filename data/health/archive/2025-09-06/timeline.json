@@ -1,0 +1,30 @@
+{
+  "updated_at": "2025-12-05T20:31:28.108322+08:00",
+  "summary": {
+    "total_events": 1,
+    "by_major": {
+      "健康管理与养生": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-09-04-topic-13fb61e3",
+      "title": "一个人的命怎么能好成这样啊",
+      "category": "健康管理与养生",
+      "start_ts": 1756947600,
+      "end_ts": 1756947600,
+      "heat_peak": 337417.0,
+      "sentiment": 0.4,
+      "region": "上海",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1756947600,
+          "heat": 337417.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-09-06"
+}

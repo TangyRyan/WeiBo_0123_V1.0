@@ -1,0 +1,71 @@
+{
+  "generated_at": "2025-12-05T09:35:03.518748+08:00",
+  "events": [
+    {
+      "name": "李刚受贿1.02亿余元",
+      "date": "2025-12-04",
+      "risk_score": 0.0,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 0.0,
+      "risk_level": "low",
+      "risk_level_label": "低风险",
+      "llm": {},
+      "risk_dims": {},
+      "sort_key": -5.0
+    },
+    {
+      "name": "工行存100万存20万利率相同",
+      "date": "2025-12-04",
+      "risk_score": 0.0,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 0.0,
+      "risk_level": "low",
+      "risk_level_label": "低风险",
+      "llm": {},
+      "risk_dims": {},
+      "sort_key": -5.0
+    },
+    {
+      "name": "冻伤要到烧伤科就诊",
+      "date": "2025-12-04",
+      "risk_score": 0.0,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 0.0,
+      "risk_level": "low",
+      "risk_level_label": "低风险",
+      "llm": {},
+      "risk_dims": {},
+      "sort_key": -5.0
+    },
+    {
+      "name": "双轨",
+      "date": "2025-12-04",
+      "risk_score": 0.0,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 0.0,
+      "risk_level": "low",
+      "risk_level_label": "低风险",
+      "llm": {},
+      "risk_dims": {},
+      "sort_key": -5.0
+    },
+    {
+      "name": "洛克王国",
+      "date": "2025-12-04",
+      "risk_score": 0.0,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 0.0,
+      "risk_level": "low",
+      "risk_level_label": "低风险",
+      "llm": {},
+      "risk_dims": {},
+      "sort_key": -5.0
+    }
+  ],
+  "date": "2025-10-20"
+}

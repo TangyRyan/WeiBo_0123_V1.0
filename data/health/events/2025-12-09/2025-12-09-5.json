@@ -1,0 +1,131 @@
+{
+  "event_id": "2025-12-09-5",
+  "date": "2025-12-09",
+  "title": "怀孕或使女性衰老超5岁",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1765281600,
+  "end_ts": 1765292400,
+  "heat_peak": 378308.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1765281600,
+      "heat": 378308.0,
+      "rank": null
+    },
+    {
+      "ts": 1765292400,
+      "heat": 378308.0,
+      "rank": null
+    }
+  ],
+  "summary": "怀孕或使女性衰老超5岁",
+  "tags": [
+    "怀孕或使女性衰老超5岁",
+    "女性怀孕次数越多衰老越明显",
+    "一分钟视频创作季",
+    "微博新知"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "怀孕或使女性衰老超5岁",
+        "label": "怀孕或使女性衰老超5岁",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女性怀孕次数越多衰老越明显",
+        "label": "女性怀孕次数越多衰老越明显",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博新知",
+        "label": "微博新知",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

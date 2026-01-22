@@ -1,0 +1,621 @@
+{
+  "event_id": "2025-11-13-7",
+  "date": "2025-11-13",
+  "title": "章泽天尽量每天7点起床",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.22,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "上海",
+  "start_ts": 1762963200,
+  "end_ts": 1762963200,
+  "heat_peak": 126476.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762963200,
+      "heat": 126476.0,
+      "rank": null
+    }
+  ],
+  "summary": "11月12日，@VUGUE服饰与美容 官宣 @章泽天 VOGUEArt新封面。在编辑部开会的章泽天问编辑们有没有Rocco的八卦，还问大家有没有小群。章泽天还分享了自己日常的安排，透露自己尽量每天7点起床。",
+  "tags": [
+    "章泽天尽量每天7点起床",
+    "章泽天问编辑有没有刘冲的八卦",
+    "章泽天出席艺术晚宴",
+    "章泽天朱珠同框",
+    "能有一个好身体就是这个时代最大的福",
+    "微博超级马拉松季",
+    "即刻开跑",
+    "冬日暖胃必备搭子",
+    "微博尝鲜计划"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "章泽天尽量每天7点起床",
+        "label": "章泽天尽量每天7点起床",
+        "weight": 16.0,
+        "community": 0
+      },
+      {
+        "id": "章泽天问编辑有没有刘冲的八卦",
+        "label": "章泽天问编辑有没有刘冲的八卦",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "章泽天出席艺术晚宴",
+        "label": "章泽天出席艺术晚宴",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "章泽天朱珠同框",
+        "label": "章泽天朱珠同框",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "能有一个好身体就是这个时代最大的福",
+        "label": "能有一个好身体就是这个时代最大的福",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "微博超级马拉松季",
+        "label": "微博超级马拉松季",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "即刻开跑",
+        "label": "即刻开跑",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "冬日暖胃必备搭子",
+        "label": "冬日暖胃必备搭子",
+        "weight": 2.0,
+        "community": 2
+      },
+      {
+        "id": "微博尝鲜计划",
+        "label": "微博尝鲜计划",
+        "weight": 2.0,
+        "community": 2
+      }
+    ],
+    "edges": [
+      {
+        "source": "章泽天尽量每天7点起床",
+        "target": "章泽天问编辑有没有刘冲的八卦",
+        "weight": 1.0
+      },
+      {
+        "source": "章泽天出席艺术晚宴",
+        "target": "章泽天尽量每天7点起床",
+        "weight": 1.0
+      },
+      {
+        "source": "章泽天出席艺术晚宴",
+        "target": "章泽天朱珠同框",
+        "weight": 1.0
+      },
+      {
+        "source": "章泽天尽量每天7点起床",
+        "target": "章泽天朱珠同框",
+        "weight": 1.0
+      },
+      {
+        "source": "即刻开跑",
+        "target": "微博超级马拉松季",
+        "weight": 1.0
+      },
+      {
+        "source": "即刻开跑",
+        "target": "章泽天尽量每天7点起床",
+        "weight": 1.0
+      },
+      {
+        "source": "即刻开跑",
+        "target": "能有一个好身体就是这个时代最大的福",
+        "weight": 1.0
+      },
+      {
+        "source": "微博超级马拉松季",
+        "target": "章泽天尽量每天7点起床",
+        "weight": 1.0
+      },
+      {
+        "source": "微博超级马拉松季",
+        "target": "能有一个好身体就是这个时代最大的福",
+        "weight": 1.0
+      },
+      {
+        "source": "章泽天尽量每天7点起床",
+        "target": "能有一个好身体就是这个时代最大的福",
+        "weight": 1.0
+      },
+      {
+        "source": "冬日暖胃必备搭子",
+        "target": "微博尝鲜计划",
+        "weight": 1.0
+      },
+      {
+        "source": "冬日暖胃必备搭子",
+        "target": "章泽天尽量每天7点起床",
+        "weight": 1.0
+      },
+      {
+        "source": "微博尝鲜计划",
+        "target": "章泽天尽量每天7点起床",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "章泽天",
+      "weight": 34.0
+    },
+    {
+      "text": "起床",
+      "weight": 29.0
+    },
+    {
+      "text": "每天",
+      "weight": 25.0
+    },
+    {
+      "text": "尽量",
+      "weight": 24.0
+    },
+    {
+      "text": "自律",
+      "weight": 8.0
+    },
+    {
+      "text": "刘强",
+      "weight": 6.0
+    },
+    {
+      "text": "时间",
+      "weight": 6.0
+    },
+    {
+      "text": "展开",
+      "weight": 5.0
+    },
+    {
+      "text": "有没有",
+      "weight": 4.0
+    },
+    {
+      "text": "微博",
+      "weight": 4.0
+    },
+    {
+      "text": "视频",
+      "weight": 4.0
+    },
+    {
+      "text": "真的",
+      "weight": 4.0
+    },
+    {
+      "text": "早餐",
+      "weight": 4.0
+    },
+    {
+      "text": "服饰",
+      "weight": 3.0
+    },
+    {
+      "text": "美容",
+      "weight": 3.0
+    },
+    {
+      "text": "VOGUEArt",
+      "weight": 3.0
+    },
+    {
+      "text": "封面",
+      "weight": 3.0
+    },
+    {
+      "text": "分享",
+      "weight": 3.0
+    },
+    {
+      "text": "日常",
+      "weight": 3.0
+    },
+    {
+      "text": "透露",
+      "weight": 3.0
+    },
+    {
+      "text": "优雅",
+      "weight": 3.0
+    },
+    {
+      "text": "##",
+      "weight": 3.0
+    },
+    {
+      "text": "出门",
+      "weight": 3.0
+    },
+    {
+      "text": "非常",
+      "weight": 3.0
+    },
+    {
+      "text": "VOGUE",
+      "weight": 3.0
+    },
+    {
+      "text": "新闻",
+      "weight": 3.0
+    },
+    {
+      "text": "规律",
+      "weight": 3.0
+    },
+    {
+      "text": "运动",
+      "weight": 3.0
+    },
+    {
+      "text": "生活",
+      "weight": 3.0
+    },
+    {
+      "text": "这份",
+      "weight": 3.0
+    },
+    {
+      "text": "状态",
+      "weight": 3.0
+    },
+    {
+      "text": "声音",
+      "weight": 3.0
+    },
+    {
+      "text": "习惯",
+      "weight": 3.0
+    },
+    {
+      "text": "早起",
+      "weight": 3.0
+    },
+    {
+      "text": "章泽",
+      "weight": 2.0
+    },
+    {
+      "text": "天问",
+      "weight": 2.0
+    },
+    {
+      "text": "编辑",
+      "weight": 2.0
+    },
+    {
+      "text": "八卦",
+      "weight": 2.0
+    },
+    {
+      "text": "安排",
+      "weight": 2.0
+    },
+    {
+      "text": "出席",
+      "weight": 2.0
+    },
+    {
+      "text": "艺术",
+      "weight": 2.0
+    },
+    {
+      "text": "晚宴",
+      "weight": 2.0
+    },
+    {
+      "text": "迷人",
+      "weight": 2.0
+    },
+    {
+      "text": "采访",
+      "weight": 2.0
+    },
+    {
+      "text": "表示",
+      "weight": 2.0
+    },
+    {
+      "text": "负责",
+      "weight": 2.0
+    },
+    {
+      "text": "孩子",
+      "weight": 2.0
+    },
+    {
+      "text": "零花钱",
+      "weight": 2.0
+    },
+    {
+      "text": "登上",
+      "weight": 2.0
+    },
+    {
+      "text": "最新",
+      "weight": 2.0
+    },
+    {
+      "text": "担任",
+      "weight": 2.0
+    },
+    {
+      "text": "客座",
+      "weight": 2.0
+    },
+    {
+      "text": "总监",
+      "weight": 2.0
+    },
+    {
+      "text": "看到",
+      "weight": 2.0
+    },
+    {
+      "text": "这种",
+      "weight": 2.0
+    },
+    {
+      "text": "七点",
+      "weight": 2.0
+    },
+    {
+      "text": "最好",
+      "weight": 2.0
+    },
+    {
+      "text": "时光",
+      "weight": 2.0
+    },
+    {
+      "text": "始终保持",
+      "weight": 2.0
+    },
+    {
+      "text": "电梯",
+      "weight": 2.0
+    },
+    {
+      "text": "知道",
+      "weight": 2.0
+    },
+    {
+      "text": "耳塞",
+      "weight": 2.0
+    },
+    {
+      "text": "精准",
+      "weight": 2.0
+    },
+    {
+      "text": "清纯",
+      "weight": 2.0
+    },
+    {
+      "text": "智商",
+      "weight": 2.0
+    },
+    {
+      "text": "情商",
+      "weight": 2.0
+    },
+    {
+      "text": "在线",
+      "weight": 2.0
+    },
+    {
+      "text": "从容",
+      "weight": 2.0
+    },
+    {
+      "text": "分钟",
+      "weight": 2.0
+    },
+    {
+      "text": "事业",
+      "weight": 2.0
+    },
+    {
+      "text": "琐事",
+      "weight": 2.0
+    },
+    {
+      "text": "开启",
+      "weight": 2.0
+    },
+    {
+      "text": "一天",
+      "weight": 2.0
+    },
+    {
+      "text": "酒店",
+      "weight": 2.0
+    },
+    {
+      "text": "一定",
+      "weight": 2.0
+    },
+    {
+      "text": "嫁给",
+      "weight": 2.0
+    },
+    {
+      "text": "刘冲",
+      "weight": 1.0
+    },
+    {
+      "text": "VUGUE",
+      "weight": 1.0
+    },
+    {
+      "text": "官宣",
+      "weight": 1.0
+    },
+    {
+      "text": "编辑部",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-3202771289974244534",
+      "published_at": "2025-11-12T14:56:00+08:00",
+      "account_name": "梨视频",
+      "content_text": "【#章泽天尽量每天7点起床#】#章泽天问编辑有没有刘冲的八卦#11月12日，@VUGUE服饰与美容官宣@章泽天VOGUEArt新封面。在编辑部开会的章泽天问编辑们有没有Rocco的八卦，还问大家有没有小群。章泽天还分享了自己日常的安排，透露自己尽量每天7点起床。LVOGUE服饰与美容的微博视频​​​​",
+      "reposts": 400,
+      "comments": 408,
+      "likes": 6404
+    },
+    {
+      "post_id": "detail-7538215601718365950",
+      "published_at": "2025-11-12T22:00:00+08:00",
+      "account_name": "电商派",
+      "content_text": "#章泽天出席艺术晚宴#章泽天现身上海，出席艺术晚宴，优雅又迷人。#章泽天朱珠同框##章泽天尽量每天7点起床#​",
+      "reposts": 44,
+      "comments": 30,
+      "likes": 178
+    },
+    {
+      "post_id": "detail-4838509614531036910",
+      "published_at": "2025-11-13T07:02:00+08:00",
+      "account_name": "零下二度阳光",
+      "content_text": "章泽天:我出门像小迷妹，希望跟着他！​章泽天在采访中表示，自己和刘强东分工非常明确，她负责孩子和公益，刘强东负责京东业务。​谈及零花钱时，章泽天表示自己从来没有限制过零花钱。刘强东也不担心，说这都是他赚的钱。​章天还夸赞刘强东说：“我老公真的是一个非常有魅力，非常有智慧的男人。 ​展开c",
+      "reposts": 3,
+      "comments": 31,
+      "likes": 48
+    },
+    {
+      "post_id": "detail-4570960489517733970",
+      "published_at": "2025-11-13T08:47:00+08:00",
+      "account_name": "科技疯汇",
+      "content_text": "#章泽天尽量每天7点起床#刘强东这是要老婆正式上台面了！！！有一说一，看奶茶妹妹比看刘强东更吸流量！​",
+      "reposts": 14,
+      "comments": 46,
+      "likes": 75
+    },
+    {
+      "post_id": "detail-2571593346340427482",
+      "published_at": "2025-11-12T15:32:00+08:00",
+      "account_name": "快科技官方",
+      "content_text": "【章泽天登上VOGUEArt最新封面 担任VOGUE客座总监】今日，“VOGUE服饰与美容”发布消息称，章泽天登上最新一期VOGUEArt封面，并担任VOGUE客座总监。采访视频中，章泽天分享了自己日常的安排，透露自己尽量每天7点起床，看一看前一天的新闻，处理一下邮件，有时候会出门见一见朋友、合作伙伴。 ​",
+      "reposts": 7,
+      "comments": 13,
+      "likes": 62
+    },
+    {
+      "post_id": "detail-5009401883152585596",
+      "published_at": "2025-11-12T22:48:00+08:00",
+      "account_name": "Paulina宝姐说",
+      "content_text": "#章泽天尽量每天7点起床#每次看到这种老板娘开始努力工作的新闻，我都对他家的股票有一点担忧😔。 但愿我不是杞人忧天! ​",
+      "reposts": 3,
+      "comments": 15,
+      "likes": 78
+    },
+    {
+      "post_id": "detail-5830049556822577746",
+      "published_at": "2025-11-12T23:14:00+08:00",
+      "account_name": "苏一白S",
+      "content_text": "章泽天为VogueArt拍摄的大片👇（在视频里她提到自己尽量每天7点起床#章泽天尽量每天7点起床#） ​",
+      "reposts": 18,
+      "comments": 34,
+      "likes": 228
+    },
+    {
+      "post_id": "detail-1962547743424343251",
+      "published_at": "2025-11-13T08:07:00+08:00",
+      "account_name": "医学手札",
+      "content_text": "#章泽天尽量每天7点起床#哇，这个热搜让我感动的泪流满面：她好自律呀，不像我，每天五点半起床遛狗做早饭，七点已经出门上班了，和她一比，相形见绌​",
+      "reposts": 1,
+      "comments": 40,
+      "likes": 155
+    }
+  ]
+}

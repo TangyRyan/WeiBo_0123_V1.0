@@ -1,0 +1,157 @@
+{
+  "event_id": "2025-11-12-topic-61486ba5",
+  "date": "2025-11-12",
+  "title": "减肥 和家族基因做对抗",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.25
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.05
+    },
+    {
+      "name": "讨厌",
+      "value": 0.05
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "region": "广东",
+  "start_ts": 1762894800,
+  "end_ts": 1762902000,
+  "heat_peak": 44638.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1762894800,
+      "heat": 44638.0,
+      "rank": null
+    },
+    {
+      "ts": 1762898400,
+      "heat": 44638.0,
+      "rank": null
+    },
+    {
+      "ts": 1762902000,
+      "heat": 44638.0,
+      "rank": null
+    }
+  ],
+  "summary": "减肥 和家族基因做对抗",
+  "tags": [
+    "减肥 和家族基因做对抗",
+    "三分钟视频助燃计划",
+    "三分钟热度人生",
+    "金牌剪刀手",
+    "一分钟视频创作季",
+    "打羽毛球 瘦30斤",
+    "喝了这么多年牛奶你喝懂了吗"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "减肥 和家族基因做对抗",
+        "label": "减肥 和家族基因做对抗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三分钟视频助燃计划",
+        "label": "三分钟视频助燃计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三分钟热度人生",
+        "label": "三分钟热度人生",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "金牌剪刀手",
+        "label": "金牌剪刀手",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "打羽毛球 瘦30斤",
+        "label": "打羽毛球 瘦30斤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "喝了这么多年牛奶你喝懂了吗",
+        "label": "喝了这么多年牛奶你喝懂了吗",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.25
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.05
+    },
+    {
+      "name": "讨厌",
+      "value": 0.05
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "sample_posts": []
+}

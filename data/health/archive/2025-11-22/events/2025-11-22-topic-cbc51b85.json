@@ -1,0 +1,157 @@
+{
+  "event_id": "2025-11-22-topic-cbc51b85",
+  "date": "2025-11-22",
+  "title": "王源长智齿",
+  "category": "健康观念与社会现象",
+  "health_minor": "9.2 健康相关社会争议",
+  "sentiment": 0.6,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763805600,
+  "end_ts": 1763812800,
+  "heat_peak": 259726.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1763805600,
+      "heat": 259726.0,
+      "rank": null
+    },
+    {
+      "ts": 1763809200,
+      "heat": 259726.0,
+      "rank": null
+    },
+    {
+      "ts": 1763812800,
+      "heat": 259726.0,
+      "rank": null
+    }
+  ],
+  "summary": "王源长智齿",
+  "tags": [
+    "王源长智齿",
+    "王源宇宙超级无敌大狂欢巡演",
+    "偶遇王源看牙",
+    "王源看牙被偶遇",
+    "王源说智齿使我面目全非",
+    "王源cos蜜蜂小狗",
+    "王源"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "王源长智齿",
+        "label": "王源长智齿",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王源宇宙超级无敌大狂欢巡演",
+        "label": "王源宇宙超级无敌大狂欢巡演",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "偶遇王源看牙",
+        "label": "偶遇王源看牙",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王源看牙被偶遇",
+        "label": "王源看牙被偶遇",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王源说智齿使我面目全非",
+        "label": "王源说智齿使我面目全非",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王源cos蜜蜂小狗",
+        "label": "王源cos蜜蜂小狗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "王源",
+        "label": "王源",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

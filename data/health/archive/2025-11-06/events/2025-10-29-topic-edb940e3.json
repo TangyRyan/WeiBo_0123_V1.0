@@ -1,0 +1,274 @@
+{
+  "event_id": "2025-10-29-topic-edb940e3",
+  "date": "2025-10-29",
+  "title": "重阳节",
+  "category": "健康政策与公共服务",
+  "health_minor": "公共健康服务",
+  "sentiment": 0.8,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.8
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1761692400,
+  "end_ts": 1761703200,
+  "heat_peak": 456605.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1761692400,
+      "heat": 456605.0,
+      "rank": null
+    },
+    {
+      "ts": 1761696000,
+      "heat": 456605.0,
+      "rank": null
+    },
+    {
+      "ts": 1761699600,
+      "heat": 456605.0,
+      "rank": null
+    },
+    {
+      "ts": 1761703200,
+      "heat": 456605.0,
+      "rank": null
+    }
+  ],
+  "summary": "重阳节宜敬老爱老，登高赏秋。带话题#重阳节# #一条微博记录重阳# 发博就有机会得现金红包和惊喜周边！",
+  "tags": [
+    "今日重阳愿你幸福安康",
+    "重阳是秋意最浓的一封家书",
+    "重阳节",
+    "九九重阳久久情长岁岁安康",
+    "重阳久久安康",
+    "他们走过大半生给出的人生建议",
+    "这条视频请转发到幸福一家人",
+    "别让爱输给一道门槛一块滑砖",
+    "第五人格",
+    "重阳节听弦歌不辍看月明人间",
+    "重阳节别忘了给长辈们送祝福",
+    "一人一句祝所有长辈重阳安康",
+    "海尔外骨骼机器人",
+    "重阳登高",
+    "九九重阳愿久久安康",
+    "今天别忘了跟父母长辈道声问候",
+    "芳菲的文明之旅",
+    "传统文化",
+    "传统节日",
+    "早安",
+    "当传统弦歌遇见重阳节",
+    "老龄健康",
+    "一起来关注"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "今日重阳愿你幸福安康",
+        "label": "今日重阳愿你幸福安康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "重阳是秋意最浓的一封家书",
+        "label": "重阳是秋意最浓的一封家书",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "重阳节",
+        "label": "重阳节",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "九九重阳久久情长岁岁安康",
+        "label": "九九重阳久久情长岁岁安康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "重阳久久安康",
+        "label": "重阳久久安康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "他们走过大半生给出的人生建议",
+        "label": "他们走过大半生给出的人生建议",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "这条视频请转发到幸福一家人",
+        "label": "这条视频请转发到幸福一家人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "别让爱输给一道门槛一块滑砖",
+        "label": "别让爱输给一道门槛一块滑砖",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "第五人格",
+        "label": "第五人格",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "重阳节听弦歌不辍看月明人间",
+        "label": "重阳节听弦歌不辍看月明人间",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "重阳节别忘了给长辈们送祝福",
+        "label": "重阳节别忘了给长辈们送祝福",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一人一句祝所有长辈重阳安康",
+        "label": "一人一句祝所有长辈重阳安康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "海尔外骨骼机器人",
+        "label": "海尔外骨骼机器人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "重阳登高",
+        "label": "重阳登高",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "九九重阳愿久久安康",
+        "label": "九九重阳愿久久安康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "今天别忘了跟父母长辈道声问候",
+        "label": "今天别忘了跟父母长辈道声问候",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "芳菲的文明之旅",
+        "label": "芳菲的文明之旅",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "传统文化",
+        "label": "传统文化",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "传统节日",
+        "label": "传统节日",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "早安",
+        "label": "早安",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "当传统弦歌遇见重阳节",
+        "label": "当传统弦歌遇见重阳节",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "老龄健康",
+        "label": "老龄健康",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一起来关注",
+        "label": "一起来关注",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.8
+    }
+  ],
+  "sample_posts": []
+}

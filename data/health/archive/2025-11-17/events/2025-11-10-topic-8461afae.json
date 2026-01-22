@@ -1,0 +1,161 @@
+{
+  "event_id": "2025-11-10-topic-8461afae",
+  "date": "2025-11-10",
+  "title": "中国首例冷冻人丈夫回应再找女友",
+  "category": "医疗行业与技术动态",
+  "health_minor": "医疗技术创新",
+  "sentiment": -0.15,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762761600,
+  "end_ts": 1762761600,
+  "heat_peak": 206073.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762761600,
+      "heat": 206073.0,
+      "rank": null
+    }
+  ],
+  "summary": "“你不用担心我，我既然接受采访就有心理准备，问心无愧何来惧？”",
+  "tags": [
+    "中国首例冷冻人丈夫回应再找女友",
+    "热点观点",
+    "秒懂热点就用智搜",
+    "热点解读",
+    "榴莲能开明盒了",
+    "江浙沪父母真的太会托举孩子了",
+    "女儿养了3个月出院记录显示是男婴",
+    "沈腾把没扶杨幂的都补给了出发团",
+    "外国人测评中国零食"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "中国首例冷冻人丈夫回应再找女友",
+        "label": "中国首例冷冻人丈夫回应再找女友",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点",
+        "label": "热点观点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秒懂热点就用智搜",
+        "label": "秒懂热点就用智搜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点解读",
+        "label": "热点解读",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "榴莲能开明盒了",
+        "label": "榴莲能开明盒了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "江浙沪父母真的太会托举孩子了",
+        "label": "江浙沪父母真的太会托举孩子了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女儿养了3个月出院记录显示是男婴",
+        "label": "女儿养了3个月出院记录显示是男婴",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "沈腾把没扶杨幂的都补给了出发团",
+        "label": "沈腾把没扶杨幂的都补给了出发团",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "外国人测评中国零食",
+        "label": "外国人测评中国零食",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

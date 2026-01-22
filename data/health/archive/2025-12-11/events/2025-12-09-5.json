@@ -1,0 +1,546 @@
+{
+  "event_id": "2025-12-09-5",
+  "date": "2025-12-09",
+  "title": "怀孕或使女性衰老超5岁",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1765281600,
+  "end_ts": 1765292400,
+  "heat_peak": 378308.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1765281600,
+      "heat": 378308.0,
+      "rank": null
+    },
+    {
+      "ts": 1765292400,
+      "heat": 378308.0,
+      "rank": null
+    }
+  ],
+  "summary": "怀孕或使女性衰老超5岁",
+  "tags": [
+    "怀孕或使女性衰老超5岁",
+    "女性怀孕次数越多衰老越明显",
+    "一分钟视频创作季",
+    "微博新知"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "怀孕或使女性衰老超5岁",
+        "label": "怀孕或使女性衰老超5岁",
+        "weight": 21.0,
+        "community": 0
+      },
+      {
+        "id": "女性怀孕次数越多衰老越明显",
+        "label": "女性怀孕次数越多衰老越明显",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "微博新知",
+        "label": "微博新知",
+        "weight": 2.0,
+        "community": 1
+      }
+    ],
+    "edges": [
+      {
+        "source": "女性怀孕次数越多衰老越明显",
+        "target": "怀孕或使女性衰老超5岁",
+        "weight": 1.0
+      },
+      {
+        "source": "一分钟视频创作季",
+        "target": "微博新知",
+        "weight": 1.0
+      },
+      {
+        "source": "一分钟视频创作季",
+        "target": "怀孕或使女性衰老超5岁",
+        "weight": 1.0
+      },
+      {
+        "source": "微博新知",
+        "target": "怀孕或使女性衰老超5岁",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "怀孕",
+      "weight": 35.0
+    },
+    {
+      "text": "女性",
+      "weight": 34.0
+    },
+    {
+      "text": "衰老",
+      "weight": 33.0
+    },
+    {
+      "text": "孩子",
+      "weight": 10.0
+    },
+    {
+      "text": "生育",
+      "weight": 8.0
+    },
+    {
+      "text": "加速",
+      "weight": 6.0
+    },
+    {
+      "text": "研究",
+      "weight": 6.0
+    },
+    {
+      "text": "视频",
+      "weight": 6.0
+    },
+    {
+      "text": "斯坦福大学",
+      "weight": 5.0
+    },
+    {
+      "text": "微博",
+      "weight": 5.0
+    },
+    {
+      "text": "生完",
+      "weight": 4.0
+    },
+    {
+      "text": "产后",
+      "weight": 4.0
+    },
+    {
+      "text": "感觉",
+      "weight": 4.0
+    },
+    {
+      "text": "次数",
+      "weight": 3.0
+    },
+    {
+      "text": "明显",
+      "weight": 3.0
+    },
+    {
+      "text": "发现",
+      "weight": 3.0
+    },
+    {
+      "text": "表观",
+      "weight": 3.0
+    },
+    {
+      "text": "遗传",
+      "weight": 3.0
+    },
+    {
+      "text": "团队",
+      "weight": 3.0
+    },
+    {
+      "text": "其实",
+      "weight": 3.0
+    },
+    {
+      "text": "孕期",
+      "weight": 3.0
+    },
+    {
+      "text": "原因",
+      "weight": 3.0
+    },
+    {
+      "text": "伟大",
+      "weight": 3.0
+    },
+    {
+      "text": "母亲",
+      "weight": 3.0
+    },
+    {
+      "text": "妈妈",
+      "weight": 3.0
+    },
+    {
+      "text": "真的",
+      "weight": 3.0
+    },
+    {
+      "text": "妊娠",
+      "weight": 2.0
+    },
+    {
+      "text": "报道",
+      "weight": 2.0
+    },
+    {
+      "text": "孕妇",
+      "weight": 2.0
+    },
+    {
+      "text": "展开",
+      "weight": 2.0
+    },
+    {
+      "text": "有人",
+      "weight": 2.0
+    },
+    {
+      "text": "三胎",
+      "weight": 2.0
+    },
+    {
+      "text": "一胎",
+      "weight": 2.0
+    },
+    {
+      "text": "状态",
+      "weight": 2.0
+    },
+    {
+      "text": "没生",
+      "weight": 2.0
+    },
+    {
+      "text": "女人",
+      "weight": 2.0
+    },
+    {
+      "text": "科学",
+      "weight": 2.0
+    },
+    {
+      "text": "年龄",
+      "weight": 2.0
+    },
+    {
+      "text": "5.3",
+      "weight": 2.0
+    },
+    {
+      "text": "激素",
+      "weight": 2.0
+    },
+    {
+      "text": "而是",
+      "weight": 2.0
+    },
+    {
+      "text": "代价",
+      "weight": 2.0
+    },
+    {
+      "text": "付出",
+      "weight": 2.0
+    },
+    {
+      "text": "所有人",
+      "weight": 2.0
+    },
+    {
+      "text": "过程",
+      "weight": 2.0
+    },
+    {
+      "text": "母乳",
+      "weight": 2.0
+    },
+    {
+      "text": "以前",
+      "weight": 2.0
+    },
+    {
+      "text": "照样",
+      "weight": 2.0
+    },
+    {
+      "text": "超人",
+      "weight": 2.0
+    },
+    {
+      "text": "体内",
+      "weight": 2.0
+    },
+    {
+      "text": "除此之外",
+      "weight": 2.0
+    },
+    {
+      "text": "女生",
+      "weight": 2.0
+    },
+    {
+      "text": "为什么",
+      "weight": 2.0
+    },
+    {
+      "text": "变老",
+      "weight": 2.0
+    },
+    {
+      "text": "端粒",
+      "weight": 2.0
+    },
+    {
+      "text": "缩短",
+      "weight": 2.0
+    },
+    {
+      "text": "一些",
+      "weight": 2.0
+    },
+    {
+      "text": "整夜",
+      "weight": 2.0
+    },
+    {
+      "text": "看着",
+      "weight": 2.0
+    },
+    {
+      "text": "个体",
+      "weight": 1.0
+    },
+    {
+      "text": "来自",
+      "weight": 1.0
+    },
+    {
+      "text": "近日",
+      "weight": 1.0
+    },
+    {
+      "text": "Obstetrics",
+      "weight": 1.0
+    },
+    {
+      "text": "Gynecology",
+      "weight": 1.0
+    },
+    {
+      "text": "杂志",
+      "weight": 1.0
+    },
+    {
+      "text": "发表文章",
+      "weight": 1.0
+    },
+    {
+      "text": "与非",
+      "weight": 1.0
+    },
+    {
+      "text": "相比",
+      "weight": 1.0
+    },
+    {
+      "text": "六种",
+      "weight": 1.0
+    },
+    {
+      "text": "生物钟",
+      "weight": 1.0
+    },
+    {
+      "text": "Hannum",
+      "weight": 1.0
+    },
+    {
+      "text": "PhenoAge",
+      "weight": 1.0
+    },
+    {
+      "text": "GrimAge",
+      "weight": 1.0
+    },
+    {
+      "text": "GrimAge2",
+      "weight": 1.0
+    },
+    {
+      "text": "Stem",
+      "weight": 1.0
+    },
+    {
+      "text": "Cell",
+      "weight": 1.0
+    },
+    {
+      "text": "Div",
+      "weight": 1.0
+    },
+    {
+      "text": "应该",
+      "weight": 1.0
+    },
+    {
+      "text": "个人",
+      "weight": 1.0
+    },
+    {
+      "text": "情况",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-2084713156199124935",
+      "published_at": "2025-12-09T13:06:00+08:00",
+      "account_name": "潇湘晨报",
+      "content_text": "【#怀孕或使女性衰老超5岁#，#女性怀孕次数越多衰老越明显#，斯坦福大学发现妊娠会加速个体表观遗传衰老】12月9日（报道），来自斯坦福大学的研究团队，近日在 Obstetrics & Gynecology杂志发表文章，该研究发现，与非妊娠相比，孕妇在六种生物钟（Hannum、PhenoAge、GrimAge、GrimAge2、Stem Cell Div ​展开c",
+      "reposts": 636,
+      "comments": 764,
+      "likes": 10179
+    },
+    {
+      "post_id": "detail-8579165419499543543",
+      "published_at": "2025-12-09T22:02:00+08:00",
+      "account_name": "一隅心光",
+      "content_text": "#怀孕或使女性衰老超5岁#这个应该看个人情况吧，身边有人三胎，一胎比一胎状态好，生完三胎出去像没生过一样。完全没有衰老的状态！ ​",
+      "reposts": 3,
+      "comments": 59,
+      "likes": 623
+    },
+    {
+      "post_id": "detail-2210629977352489221",
+      "published_at": "2025-12-09T23:13:00+08:00",
+      "account_name": "檀爱一生JC-T",
+      "content_text": "#怀孕或使女性衰老超5岁#其实生育可以让女性年轻，因为女人一生卵子数量是有限的，你怀孕就可以停止排卵。可以晚几年衰老。真正使人衰老的是养孩子和教育孩子​",
+      "reposts": 15,
+      "comments": 40,
+      "likes": 455
+    },
+    {
+      "post_id": "detail-5607841642005131979",
+      "published_at": "2025-12-09T23:02:00+08:00",
+      "account_name": "白夜菌Dream",
+      "content_text": "#怀孕或使女性衰老超5岁#🔻建议北京大学团队和斯坦福大学团队公开辩论，谁赢我信谁的。 ​",
+      "reposts": 3,
+      "comments": 9,
+      "likes": 70
+    },
+    {
+      "post_id": "detail-1442493773380637338",
+      "published_at": "2025-12-09T23:45:00+08:00",
+      "account_name": "阿笨汽车观察",
+      "content_text": "#怀孕或使女性衰老超5岁#【怀孕加速衰老？科学与关怀缺一不可】斯坦福大学研究显示，孕期200天女性表观遗传年龄或加速5.3年，生育次数越多越明显，激素波动、营养消耗是主要原因。但耶鲁研究也发现产后或可部分逆转，个体差异显著。这项研究不是生育劝退，而是提醒正视女性孕育的生理代价。产后 ​展开c",
+      "reposts": 4,
+      "comments": 7,
+      "likes": 27
+    },
+    {
+      "post_id": "detail-8823971347175626794",
+      "published_at": "2025-12-10T00:14:00+08:00",
+      "account_name": "肉嘟嘟_li",
+      "content_text": "#怀孕或使女性衰老超5岁#终于有人能说出大实话了🥺 我们女性怀孕 生个孩子会付出多大的代价 而不是你说要生两个三个 就这么生出来了？伟大的母亲值得所有人的尊敬！！ ​",
+      "reposts": 0,
+      "comments": 17,
+      "likes": 40
+    },
+    {
+      "post_id": "detail-5850152364705370098",
+      "published_at": "2025-12-09T23:34:00+08:00",
+      "account_name": "鹭栖花园",
+      "content_text": "#怀孕或使女性衰老超5岁#一天到晚就听那些砖家扯王八蛋。不仅仅只是怀孕使女性衰老，而是女性怀孕生育和养育的过程，会令女性急速衰老。但是漫长的抵抗过程中，也使女性更抗打韧性更强，所以女性的平均寿命比男性高这么多。这也是造物主给女性的奇妙补偿。 ​",
+      "reposts": 0,
+      "comments": 1,
+      "likes": 30
+    },
+    {
+      "post_id": "detail-7792756592367318415",
+      "published_at": "2025-12-09T23:06:00+08:00",
+      "account_name": "我不吃鲈鱼",
+      "content_text": "不是怀孕催人老，是生完以后的母乳，带睡，抱娃，哄娃，心力交瘁，母乳会让你疯狂掉头发，而激素会让你非常护崽，时不时想抱一抱，就算请了月嫂或者住月子中心，孩子一岁以前还是妈妈带得多，不老才怪而男人呵呵，照样工作，照样翘着脚玩游戏#怀孕或使女性衰老超5岁#​",
+      "reposts": 1,
+      "comments": 11,
+      "likes": 27
+    }
+  ]
+}

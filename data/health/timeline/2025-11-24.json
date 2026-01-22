@@ -1,0 +1,810 @@
+{
+  "updated_at": "2026-01-23T05:41:36.717811+08:00",
+  "summary": {
+    "total_events": 44,
+    "by_major": {
+      "健康管理与养生": 14,
+      "健康观念与社会现象": 8,
+      "医疗服务与医患矛盾": 7,
+      "医疗行业与技术动态": 4,
+      "特殊场景与群体健康": 3,
+      "环境与灾害关联健康问题": 1,
+      "食品药品安全": 7
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-11-15-topic-bd21d899",
+      "title": "浙江公厕被打女孩确诊白血病",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1763211600,
+      "end_ts": 1763218800,
+      "heat_peak": 443766.0,
+      "sentiment": -0.7,
+      "region": "浙江",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763218800,
+          "heat": 443766.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-16-topic-33abed98",
+      "title": "二手奶茶袋已卖到几十元",
+      "category": "健康管理与养生",
+      "start_ts": 1763272800,
+      "end_ts": 1763290800,
+      "heat_peak": 257606.0,
+      "sentiment": -0.65,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1763290800,
+          "heat": 257606.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-16-6666",
+      "title": "央视曝光6666元包教包会养伤人蜂",
+      "category": "食品药品安全",
+      "start_ts": 1763305200,
+      "end_ts": 1763305200,
+      "heat_peak": 251608.0,
+      "sentiment": -0.7,
+      "region": "云南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763305200,
+          "heat": 251608.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-17-topic-43e33373",
+      "title": "众星送别悼念甄志强",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1763348400,
+      "end_ts": 1763352000,
+      "heat_peak": 266394.0,
+      "sentiment": -0.4,
+      "region": "香港",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1763352000,
+          "heat": 266394.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-17-topic-69f107ee",
+      "title": "石宇奇坐轮椅离场",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1763370000,
+      "end_ts": 1763370000,
+      "heat_peak": 267463.0,
+      "sentiment": -0.1,
+      "region": "江苏",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763370000,
+          "heat": 267463.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-17-15",
+      "title": "湖南一婴儿一出生就15岁",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1763377200,
+      "end_ts": 1763391600,
+      "heat_peak": 292502.0,
+      "sentiment": 0.35,
+      "region": "湖南",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1763391600,
+          "heat": 292502.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-17-topic-308187d2",
+      "title": "中国团队研究基孔肯雅病毒获新进展",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1763377200,
+      "end_ts": 1763377200,
+      "heat_peak": 840123.0,
+      "sentiment": 0.5,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763377200,
+          "heat": 840123.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-17-4",
+      "title": "三家医院4次体检查乙肝结果相悖",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763388000,
+      "end_ts": 1763388000,
+      "heat_peak": 266636.0,
+      "sentiment": -0.4,
+      "region": "湖北",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763388000,
+          "heat": 266636.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-18-60",
+      "title": "60岁孕妇剖腹产生下男婴",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763434800,
+      "end_ts": 1763445600,
+      "heat_peak": 118721.0,
+      "sentiment": -0.1,
+      "region": "江苏",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1763445600,
+          "heat": 118721.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-18-vs",
+      "title": "樊振东vs徐瑛彬",
+      "category": "健康管理与养生",
+      "start_ts": 1763463600,
+      "end_ts": 1763463600,
+      "heat_peak": 307794.0,
+      "sentiment": 0.1,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763463600,
+          "heat": 307794.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-18-topic-d7490dd6",
+      "title": "近视手术五年后的真实感受",
+      "category": "健康管理与养生",
+      "start_ts": 1763470800,
+      "end_ts": 1763478000,
+      "heat_peak": 240828.0,
+      "sentiment": 0.18,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763478000,
+          "heat": 240828.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-19-topic-16d5ee6f",
+      "title": "中方向日方通报暂停进口日本水产品",
+      "category": "食品药品安全",
+      "start_ts": 1763532000,
+      "end_ts": 1763542800,
+      "heat_peak": 256045.0,
+      "sentiment": 0.25,
+      "region": "台湾",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1763542800,
+          "heat": 256045.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-19-topic-54ec5c0a",
+      "title": "女子产后大出血遇救护人员态度散漫",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763550000,
+      "end_ts": 1763553600,
+      "heat_peak": 343982.0,
+      "sentiment": -0.7,
+      "region": "广东",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1763553600,
+          "heat": 343982.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-19-vs",
+      "title": "乒乓球女团决赛河北vs山东",
+      "category": "健康管理与养生",
+      "start_ts": 1763550000,
+      "end_ts": 1763557200,
+      "heat_peak": 742946.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763557200,
+          "heat": 742946.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-6f5c2406",
+      "title": "罗志祥立遗嘱",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763571600,
+      "end_ts": 1763589600,
+      "heat_peak": 32369.0,
+      "sentiment": -0.35,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1763589600,
+          "heat": 32369.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-e1857412",
+      "title": "洗澡前和洗澡后完全是两个人",
+      "category": "健康管理与养生",
+      "start_ts": 1763571600,
+      "end_ts": 1763571600,
+      "heat_peak": 91882.0,
+      "sentiment": 0.3,
+      "region": "河北",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1763571600,
+          "heat": 91882.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-b0fe7633",
+      "title": "张佳宁拯救职场不开心",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763611200,
+      "end_ts": 1763611200,
+      "heat_peak": 280272.0,
+      "sentiment": 0.45,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763611200,
+          "heat": 280272.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-20",
+      "title": "20岁用一个月确诊了糖尿病",
+      "category": "健康管理与养生",
+      "start_ts": 1763629200,
+      "end_ts": 1763629200,
+      "heat_peak": 101536.0,
+      "sentiment": -0.3,
+      "region": "湖北",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763629200,
+          "heat": 101536.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-ec775927",
+      "title": "郑大一附院西院区今起停诊",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763629200,
+      "end_ts": 1763629200,
+      "heat_peak": 112991.0,
+      "sentiment": -0.4,
+      "region": "河南",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1763629200,
+          "heat": 112991.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-99359560",
+      "title": "肺科医院楼道四处是烟头",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763629200,
+      "end_ts": 1763629200,
+      "heat_peak": 113755.0,
+      "sentiment": -0.65,
+      "region": "上海",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763629200,
+          "heat": 113755.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-44-1",
+      "title": "44岁博主确诊胆囊癌仅1个月去世",
+      "category": "健康管理与养生",
+      "start_ts": 1763629200,
+      "end_ts": 1763632800,
+      "heat_peak": 122231.0,
+      "sentiment": -0.65,
+      "region": "湖北",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1763632800,
+          "heat": 122231.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-0b639dac",
+      "title": "小黄豆整容",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763629200,
+      "end_ts": 1763629200,
+      "heat_peak": 127979.0,
+      "sentiment": 0.18,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1763629200,
+          "heat": 127979.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-20-topic-cc9d14ae",
+      "title": "鲁豫发问千问",
+      "category": "健康管理与养生",
+      "start_ts": 1763640000,
+      "end_ts": 1763640000,
+      "heat_peak": 305576.0,
+      "sentiment": 0.75,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763640000,
+          "heat": 305576.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-21-topic-5e448cdb",
+      "title": "每一个近视眼都该控糖了",
+      "category": "健康管理与养生",
+      "start_ts": 1763658000,
+      "end_ts": 1763694000,
+      "heat_peak": 268666.0,
+      "sentiment": -0.1,
+      "region": "北京",
+      "point_count": 10,
+      "points": [
+        {
+          "ts": 1763694000,
+          "heat": 268666.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-21-topic-4c260115",
+      "title": "致中方人员在德食物中毒餐馆致歉",
+      "category": "食品药品安全",
+      "start_ts": 1763697600,
+      "end_ts": 1763701200,
+      "heat_peak": 235305.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1763701200,
+          "heat": 235305.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-21-30",
+      "title": "便宜30%的印度水产你敢吃吗",
+      "category": "食品药品安全",
+      "start_ts": 1763697600,
+      "end_ts": 1763719200,
+      "heat_peak": 522242.0,
+      "sentiment": -0.8,
+      "region": "国外",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1763719200,
+          "heat": 522242.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-21-topic-98b2ba97",
+      "title": "投诉爱康国宾女子再发声",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763708400,
+      "end_ts": 1763708400,
+      "heat_peak": 236553.0,
+      "sentiment": -0.65,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763708400,
+          "heat": 236553.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-21-topic-dd093322",
+      "title": "在德中毒华人以为食物发酸是当地特色",
+      "category": "食品药品安全",
+      "start_ts": 1763712000,
+      "end_ts": 1763712000,
+      "heat_peak": 349944.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763712000,
+          "heat": 349944.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-22-topic-bfb605c9",
+      "title": "台当局宣布全面解禁日本核食",
+      "category": "食品药品安全",
+      "start_ts": 1763791200,
+      "end_ts": 1763816400,
+      "heat_peak": 428175.0,
+      "sentiment": -0.9,
+      "region": "台湾",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1763816400,
+          "heat": 428175.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-22-topic-6e1cff7a",
+      "title": "阚清子挺孕肚产检疑临盆在即",
+      "category": "健康管理与养生",
+      "start_ts": 1763805600,
+      "end_ts": 1763812800,
+      "heat_peak": 259543.0,
+      "sentiment": 0.75,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763812800,
+          "heat": 259543.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-22-topic-cbc51b85",
+      "title": "王源长智齿",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763805600,
+      "end_ts": 1763812800,
+      "heat_peak": 259726.0,
+      "sentiment": 0.6,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763812800,
+          "heat": 259726.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-22-topic-f66c7442",
+      "title": "全球首例无线植入式中文脑机接口",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1763805600,
+      "end_ts": 1763805600,
+      "heat_peak": 528928.0,
+      "sentiment": 0.75,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763805600,
+          "heat": 528928.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-topic-3df791e2",
+      "title": "身体有异味可能是疾病征兆",
+      "category": "健康管理与养生",
+      "start_ts": 1763852400,
+      "end_ts": 1763863200,
+      "heat_peak": 236870.0,
+      "sentiment": -0.1,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1763863200,
+          "heat": 236870.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-topic-af84a7ee",
+      "title": "云南一山谷惊现百米露天垃圾池",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1763874000,
+      "end_ts": 1763874000,
+      "heat_peak": 286997.0,
+      "sentiment": -0.7,
+      "region": "云南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1763874000,
+          "heat": 286997.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-topic-b561c540",
+      "title": "推荐怕冷的人试试三层穿衣法",
+      "category": "健康管理与养生",
+      "start_ts": 1763895600,
+      "end_ts": 1763899200,
+      "heat_peak": 946869.0,
+      "sentiment": 0.2,
+      "region": "北京",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763899200,
+          "heat": 946869.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-topic-53bd00ec",
+      "title": "中国科学家揭示脂质代谢调控新机制",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1763895600,
+      "end_ts": 1763895600,
+      "heat_peak": 954663.0,
+      "sentiment": 0.45,
+      "region": "上海",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763895600,
+          "heat": 954663.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-c",
+      "title": "C罗可能做过多次整容手术",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763902800,
+      "end_ts": 1763910000,
+      "heat_peak": 227317.0,
+      "sentiment": -0.1,
+      "region": "国外",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1763910000,
+          "heat": 227317.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-9000",
+      "title": "廉价首饰 致癌物超标9000多倍",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763902800,
+      "end_ts": 1763910000,
+      "heat_peak": 1111262.0,
+      "sentiment": -0.7,
+      "region": "北京",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1763910000,
+          "heat": 1111262.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-topic-a475126e",
+      "title": "儿童吃奥司他韦警惕出现严重副作用",
+      "category": "食品药品安全",
+      "start_ts": 1763910000,
+      "end_ts": 1763910000,
+      "heat_peak": 225239.0,
+      "sentiment": -0.65,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1763910000,
+          "heat": 225239.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-23-20-10",
+      "title": "20岁男生肺被啃出10多个空洞",
+      "category": "健康管理与养生",
+      "start_ts": 1763910000,
+      "end_ts": 1763910000,
+      "heat_peak": 225729.0,
+      "sentiment": -0.7,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1763910000,
+          "heat": 225729.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-24-9000",
+      "title": "廉价首饰 致癌物超标9000多倍",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763920800,
+      "end_ts": 1763949600,
+      "heat_peak": 230595.0,
+      "sentiment": -0.8,
+      "region": "北京",
+      "point_count": 11,
+      "points": [
+        {
+          "ts": 1763949600,
+          "heat": 230595.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-24-topic-58e5ecf5",
+      "title": "做妇科检查女生被医生骂哭了",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1763942400,
+      "end_ts": 1763964000,
+      "heat_peak": 124186.0,
+      "sentiment": -0.65,
+      "region": "未知",
+      "point_count": 7,
+      "points": [
+        {
+          "ts": 1763964000,
+          "heat": 124186.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-24-topic-ec170858",
+      "title": "剪毁刘海意外成了人生发型",
+      "category": "健康管理与养生",
+      "start_ts": 1763946000,
+      "end_ts": 1763949600,
+      "heat_peak": 160389.0,
+      "sentiment": 0.25,
+      "region": "北京",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763956800,
+          "heat": 160389.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-24-5",
+      "title": "救命药滞留前台5小时致男子身亡",
+      "category": "健康观念与社会现象",
+      "start_ts": 1763989200,
+      "end_ts": 1763996400,
+      "heat_peak": 383790.0,
+      "sentiment": -0.75,
+      "region": "湖北",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1763996400,
+          "heat": 383790.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-11-24"
+}

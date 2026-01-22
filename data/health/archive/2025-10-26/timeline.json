@@ -1,0 +1,105 @@
+{
+  "updated_at": "2026-01-23T05:41:34.610221+08:00",
+  "summary": {
+    "total_events": 5,
+    "by_major": {
+      "健康政策与公共服务": 1,
+      "健康观念与社会现象": 2,
+      "医疗服务与医患矛盾": 1,
+      "特殊场景与群体健康": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-26-topic-73aad65d",
+      "title": "女孩失联一周竟是躲房间玩手机",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761462000,
+      "end_ts": 1761469200,
+      "heat_peak": 287438.0,
+      "sentiment": -0.4,
+      "region": "安徽",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1761469200,
+          "heat": 287438.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-topic-e29a5186",
+      "title": "香港男大看色情内容窒息死亡",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1761465600,
+      "end_ts": 1761490800,
+      "heat_peak": 239303.0,
+      "sentiment": -0.7,
+      "region": "香港",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 239303.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-topic-46dec6a3",
+      "title": "孕检低风险却生下唐氏儿保险拒赔",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1761472800,
+      "end_ts": 1761490800,
+      "heat_peak": 231144.0,
+      "sentiment": -0.65,
+      "region": "山西",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 231144.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-3-3000",
+      "title": "我国3岁以下婴幼儿约3000万",
+      "category": "健康政策与公共服务",
+      "start_ts": 1761480000,
+      "end_ts": 1761490800,
+      "heat_peak": 242009.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 242009.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-26-topic-e78ee421",
+      "title": "原来不内耗的人脑子里是这么想的",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761487200,
+      "end_ts": 1761490800,
+      "heat_peak": 237702.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1761490800,
+          "heat": 237702.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-26"
+}

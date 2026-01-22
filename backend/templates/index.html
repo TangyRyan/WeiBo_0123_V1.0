@@ -1,0 +1,134 @@
+﻿<!doctype html><html lang="zh-CN">
+  <head>
+    <meta charset="utf-8"/><title>微博舆情监测系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/d3-milestones@1.5.0/build/d3-milestones.css"/>
+  </head>
+  <body>
+    <header><h1>微博舆情监测系统</h1><div id="now"></div></header>
+    
+    <div class="container">
+      <!-- 热点和风险预警 -->
+      <section class="panel">
+        <h2>当前热榜</h2><div id="hotlist"></div>
+        <h2 style="margin-top:12px;">风险预警</h2><div id="risk"></div>
+        <h2 style="margin-top:12px;">最近30天热度/风险</h2><ul id="daily30"></ul>
+      </section>
+
+      <!-- 下拉框 -->
+      <section class="panel">
+        <div class="controls">
+            <label>分布：</label>
+            <select id="central-attribute"></select>
+            
+            <label>颜色：</label>
+            <select id="central-colorby"></select>
+
+            <div class="time-filter" style="margin-left: auto;">
+                <label>时间段：</label>
+                <button data-range="week" class="active">最近一周</button>
+                <button data-range="month">最近一月</button>
+                <button data-range="three_months">最近三个月</button>
+            </div>
+            <button id="health-hot-btn"  class="health-button"  style="margin-left:8px;">健康医疗相关热搜</button>
+        </div>
+        <!-- 中间可视化部分 -->
+        <div id="central-vis">
+          <div id="event-sidebar">
+            <div class="sidebar-header">
+                <h3 id="sidebar-title">事件列表</h3>
+                <button id="close-sidebar-btn">×</button>
+            </div>
+            <ul id="event-list"></ul>
+          </div>
+
+          <div id="event-details" style="visibility: hidden;">
+            <h4>事件总结</h4>
+            <p id="details-summary">点击右侧列表中的事件以查看详情。</p>
+            <h4>热门贴文</h4>
+            <p id="details-posts">(热门贴文内容)</p>
+          </div>
+        </div>
+        <div id="health-panel" style="display:none; position:absolute; left:0; right:0; top:70px; bottom:0; padding:16px; box-sizing:border-box; z-index:5;">
+          <div id="health-timeline">
+              <div class="health-timeline-header">
+                <div id="health-legend"></div>
+                <div id="health-count"></div>
+              </div>
+
+              <div id="health-timeline-scroller">
+                  <div id="health-timeline-list"></div>
+                  
+                  <div class="health-timeline-chart-wrapper">
+                      <div id="health-timeline-chart"></div>
+                  </div>
+              </div>
+          </div>
+
+          <div id="health-details" style="height:48%; margin-top:12px; display:flex; gap:12px;">
+              <div class="detail-col" id="health-detail" style="flex:1; border-radius:8px; background:#fff; padding:12px; box-sizing:border-box;">
+                  <div class="health-detail-header">
+                      <div>
+                          <h4 id="health-detail-title">点击时间线节点查看详情</h4>
+                      </div>
+                      <div id="health-detail-region" class="health-detail-meta">-</div>
+                  </div>
+                  <!-- <p id="health-detail-summary" class="health-detail-summary">医疗健康热点的摘要将展示在这里。</p> -->
+                  <div id="health-tags-graph" class="health-detail-chart"></div>
+              </div>
+              <div class="detail-col" id="health-wordcloud" style="flex:1; border-radius:8px; background:#fff; padding:12px; box-sizing:border-box;">
+                  <div class="health-detail-header">
+                      <div>
+                          <h4>词云</h4>
+                      </div>
+                      <div id="health-wordcloud-meta" class="health-detail-meta">-</div>
+                  </div>
+                  <div id="health-wordcloud-chart" class="health-detail-chart"></div>
+              </div>
+              <div class="detail-col" id="health-emotions" style="flex:1; border-radius:8px; background:#fff; padding:12px; box-sizing:border-box;">
+                  <div class="health-detail-header">
+                      <div>
+                          <h4>Plutchik 情绪花瓣</h4>
+                      </div>
+                      <div id="health-emotion-meta" class="health-detail-meta">-</div>
+                  </div>
+                  <div id="health-emotions-chart" class="health-detail-chart"></div>
+              </div>
+              <div class="detail-col" id="health-posts-col" style="flex:1; border-radius:8px; background:#fff; padding:12px; box-sizing:border-box;">
+                  <div class="health-detail-header">
+                      <div>
+                          <h4>热帖列表</h4>
+                      </div>
+                      <div id="health-posts-meta" class="health-detail-meta">-</div>
+                  </div>
+                  <div id="health-posts" class="health-posts"></div>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="panel">
+        <h2>事件概览 | 具体贴文</h2>
+        <div class="badge" id="event-title">（点击左侧事件）</div>
+        <div id="event-dims"></div>
+        <div id="event-overview"></div>
+        <div id="event-posts"></div>
+      </section> -->
+
+    </div>
+
+
+    <script src="/static/js/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-milestones@1.5.0/build/d3-milestones.min.js"></script>
+    <script src="/static/js/d3.layout.cloud.js"></script>
+    <script src="/static/js/cyt.js"></script>
+    <script src="/static/js/qxlp.js"></script>
+    <script src="/static/js/authors_force_my.js"></script>
+    <script src="/static/js/timeline.js?v=2"></script>
+    <script src="/static/js/client.js"></script>
+    <script src="/static/js/xpack.js"></script>
+    <script src="/static/js/central_vis.js"></script>
+  </body>
+</html>

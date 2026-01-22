@@ -1,0 +1,133 @@
+{
+  "event_id": "2025-11-18-vs",
+  "date": "2025-11-18",
+  "title": "樊振东vs徐瑛彬",
+  "category": "健康管理与养生",
+  "health_minor": "6.3 健康生活方式",
+  "sentiment": 0.1,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763463600,
+  "end_ts": 1763463600,
+  "heat_peak": 307794.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763463600,
+      "heat": 307794.0,
+      "rank": null
+    }
+  ],
+  "summary": "樊振东vs徐瑛彬",
+  "tags": [
+    "身体发出的初老信号",
+    "穿秋裤的人vs不穿秋裤的人",
+    "健闻登顶计划",
+    "女性健康必修课",
+    "健康生活"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "身体发出的初老信号",
+        "label": "身体发出的初老信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "穿秋裤的人vs不穿秋裤的人",
+        "label": "穿秋裤的人vs不穿秋裤的人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女性健康必修课",
+        "label": "女性健康必修课",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健康生活",
+        "label": "健康生活",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

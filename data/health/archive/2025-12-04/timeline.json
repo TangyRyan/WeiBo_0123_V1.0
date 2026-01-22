@@ -1,0 +1,739 @@
+{
+  "updated_at": "2026-01-23T05:41:37.130982+08:00",
+  "summary": {
+    "total_events": 40,
+    "by_major": {
+      "传染病与公共卫生应急": 7,
+      "健康政策与公共服务": 6,
+      "健康管理与养生": 8,
+      "健康观念与社会现象": 6,
+      "医疗服务与医患矛盾": 4,
+      "医疗行业与技术动态": 1,
+      "特殊场景与群体健康": 6,
+      "食品药品安全": 2
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-11-25-topic-d1fba467",
+      "title": "北大医药直线涨停",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764054000,
+      "end_ts": 1764057600,
+      "heat_peak": 445368.0,
+      "sentiment": 0.3,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764057600,
+          "heat": 445368.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-25-topic-8ec931c0",
+      "title": "今日辟谣",
+      "category": "健康管理与养生",
+      "start_ts": 1764061200,
+      "end_ts": 1764061200,
+      "heat_peak": 319957.0,
+      "sentiment": 0.2,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764061200,
+          "heat": 319957.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-25-topic-edbb889e",
+      "title": "流感高发季防护指南来了",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764061200,
+      "end_ts": 1764075600,
+      "heat_peak": 579694.0,
+      "sentiment": 0.2,
+      "region": "北京",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1764075600,
+          "heat": 579694.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-25-8-12",
+      "title": "北方降温可达8至12摄氏度",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1764079200,
+      "end_ts": 1764082800,
+      "heat_peak": 391683.0,
+      "sentiment": -0.1,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764082800,
+          "heat": 391683.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-26-5",
+      "title": "妈妈生二胎期间5岁儿子在家发烧离世",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1764154800,
+      "end_ts": 1764154800,
+      "heat_peak": 421700.0,
+      "sentiment": -0.75,
+      "region": "河南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764154800,
+          "heat": 421700.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-26-topic-a057d838",
+      "title": "女婴心脏手术离世已完成尸检",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1764165600,
+      "end_ts": 1764169200,
+      "heat_peak": 854350.0,
+      "sentiment": -0.8,
+      "region": "浙江",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764169200,
+          "heat": 854350.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-27-topic-f96aeb3a",
+      "title": "已婚后上班是休息",
+      "category": "健康观念与社会现象",
+      "start_ts": 1764212400,
+      "end_ts": 1764219600,
+      "heat_peak": 1848961.0,
+      "sentiment": -0.4,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764219600,
+          "heat": 1848961.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-27-35",
+      "title": "35岁男子熬夜打游戏瞬间失明",
+      "category": "健康管理与养生",
+      "start_ts": 1764212400,
+      "end_ts": 1764219600,
+      "heat_peak": 1879576.0,
+      "sentiment": -0.45,
+      "region": "浙江",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764219600,
+          "heat": 1879576.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-28-topic-8050b6f7",
+      "title": "女子为出片生理期潜水被鲨鱼咬伤",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1764313200,
+      "end_ts": 1764342000,
+      "heat_peak": 2411813.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 10,
+      "points": [
+        {
+          "ts": 1764342000,
+          "heat": 2411813.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-28-28",
+      "title": "28岁确诊结肠癌晚期的真实感受",
+      "category": "健康管理与养生",
+      "start_ts": 1764338400,
+      "end_ts": 1764342000,
+      "heat_peak": 2356807.0,
+      "sentiment": -0.4,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764342000,
+          "heat": 2356807.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-29-5",
+      "title": "英国女警卧底5年爱上监控对象闪婚",
+      "category": "健康管理与养生",
+      "start_ts": 1764403200,
+      "end_ts": 1764417600,
+      "heat_peak": 325936.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1764417600,
+          "heat": 325936.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-29-topic-38c3e52f",
+      "title": "流感",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764417600,
+      "end_ts": 1764428400,
+      "heat_peak": 302113.0,
+      "sentiment": -0.1,
+      "region": "上海",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1764428400,
+          "heat": 302113.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-29-topic-e4af2a9a",
+      "title": "南北方同步开启干冷模式",
+      "category": "健康政策与公共服务",
+      "start_ts": 1764424800,
+      "end_ts": 1764428400,
+      "heat_peak": 312350.0,
+      "sentiment": 0.1,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764428400,
+          "heat": 312350.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-29-topic-ce1fceb5",
+      "title": "假奶粉 奶精加淀粉",
+      "category": "食品药品安全",
+      "start_ts": 1764424800,
+      "end_ts": 1764428400,
+      "heat_peak": 1144239.0,
+      "sentiment": -0.8,
+      "region": "河南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764428400,
+          "heat": 1144239.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-30-topic-5a049344",
+      "title": "秋冬如何预防呼吸道感染",
+      "category": "健康政策与公共服务",
+      "start_ts": 1764478800,
+      "end_ts": 1764489600,
+      "heat_peak": 440407.0,
+      "sentiment": 0.35,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1764489600,
+          "heat": 440407.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-30-topic-55b31d35",
+      "title": "幼师等招聘可依法查询吸毒记录",
+      "category": "健康政策与公共服务",
+      "start_ts": 1764511200,
+      "end_ts": 1764514800,
+      "heat_peak": 282785.0,
+      "sentiment": -0.4,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764514800,
+          "heat": 282785.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-30-topic-da43049b",
+      "title": "凯特王妃瘦成纸片人",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1764514800,
+      "end_ts": 1764514800,
+      "heat_peak": 1186214.0,
+      "sentiment": -0.4,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764514800,
+          "heat": 1186214.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-01-topic-da43049b",
+      "title": "凯特王妃瘦成纸片人",
+      "category": "健康观念与社会现象",
+      "start_ts": 1764518400,
+      "end_ts": 1764518400,
+      "heat_peak": 146115.0,
+      "sentiment": -0.4,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764518400,
+          "heat": 146115.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-01-topic-78eb334b",
+      "title": "明年起避孕药品和用具征收增值税",
+      "category": "健康政策与公共服务",
+      "start_ts": 1764579600,
+      "end_ts": 1764579600,
+      "heat_peak": 302093.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764579600,
+          "heat": 302093.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-01-topic-3ef4c87f",
+      "title": "预防流感八问八答",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764583200,
+      "end_ts": 1764586800,
+      "heat_peak": 551730.0,
+      "sentiment": 0.18,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764586800,
+          "heat": 551730.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-01-10",
+      "title": "治沙人种下的10万株玫瑰长大了",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1764594000,
+      "end_ts": 1764601200,
+      "heat_peak": 263001.0,
+      "sentiment": -0.4,
+      "region": "天津",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764601200,
+          "heat": 263001.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-01-3",
+      "title": "大三男生网络交友3个月感染艾滋病",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764597600,
+      "end_ts": 1764601200,
+      "heat_peak": 233637.0,
+      "sentiment": -0.7,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764601200,
+          "heat": 233637.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-01-topic-25f38fd9",
+      "title": "名校硕士沦为患艾吸毒者",
+      "category": "健康观念与社会现象",
+      "start_ts": 1764597600,
+      "end_ts": 1764601200,
+      "heat_peak": 236903.0,
+      "sentiment": -0.8,
+      "region": "四川",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764601200,
+          "heat": 236903.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-02-3",
+      "title": "疯狂动物城3 飞禽",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1764604800,
+      "end_ts": 1764622800,
+      "heat_peak": 36120.0,
+      "sentiment": -0.7,
+      "region": "北京",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764622800,
+          "heat": 36120.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-02-topic-eaf50dcb",
+      "title": "倒头就睡可能是身体求救信号",
+      "category": "健康管理与养生",
+      "start_ts": 1764604800,
+      "end_ts": 1764622800,
+      "heat_peak": 36173.0,
+      "sentiment": -0.35,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764622800,
+          "heat": 36173.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-02-topic-b6026057",
+      "title": "为什么避孕药品和用具要收税了",
+      "category": "健康政策与公共服务",
+      "start_ts": 1764604800,
+      "end_ts": 1764622800,
+      "heat_peak": 93096.0,
+      "sentiment": -0.65,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764622800,
+          "heat": 93096.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-02-topic-25f38fd9",
+      "title": "名校硕士沦为患艾吸毒者",
+      "category": "健康观念与社会现象",
+      "start_ts": 1764604800,
+      "end_ts": 1764604800,
+      "heat_peak": 94511.0,
+      "sentiment": -0.7,
+      "region": "四川",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764604800,
+          "heat": 94511.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-03-topic-a75ceb07",
+      "title": "今年甲流常见问题看这里",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764698400,
+      "end_ts": 1764730800,
+      "heat_peak": 277841.0,
+      "sentiment": -0.1,
+      "region": "未知",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1764730800,
+          "heat": 277841.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-03-topic-772230e3",
+      "title": "华裔女子痔疮手术后不堪剧痛自杀",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1764698400,
+      "end_ts": 1764727200,
+      "heat_peak": 343973.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1764727200,
+          "heat": 343973.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-03-topic-f87455af",
+      "title": "易烊千玺因身体原因终止原定进组安排",
+      "category": "健康观念与社会现象",
+      "start_ts": 1764752400,
+      "end_ts": 1764774000,
+      "heat_peak": 260647.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1764774000,
+          "heat": 260647.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-03-topic-58134ff7",
+      "title": "冻伤要到烧伤科就诊",
+      "category": "健康管理与养生",
+      "start_ts": 1764759600,
+      "end_ts": 1764774000,
+      "heat_peak": 598164.0,
+      "sentiment": 0.15,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1764774000,
+          "heat": 598164.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-03-topic-d5a68a44",
+      "title": "蔡磊已准备好尝试脑机接口",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1764766800,
+      "end_ts": 1764774000,
+      "heat_peak": 355966.0,
+      "sentiment": 0.5,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1764774000,
+          "heat": 355966.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-topic-58134ff7",
+      "title": "冻伤要到烧伤科就诊",
+      "category": "健康管理与养生",
+      "start_ts": 1764777600,
+      "end_ts": 1764813600,
+      "heat_peak": 415531.0,
+      "sentiment": 0.18,
+      "region": "未知",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1764813600,
+          "heat": 415531.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-topic-ed428e18",
+      "title": "宁波卫健委再回应女婴手术离世",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1764817200,
+      "end_ts": 1764817200,
+      "heat_peak": 248264.0,
+      "sentiment": -0.65,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764817200,
+          "heat": 248264.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-topic-291f239f",
+      "title": "丈夫被精神病人杀害妻子一夜白头",
+      "category": "健康观念与社会现象",
+      "start_ts": 1764817200,
+      "end_ts": 1764820800,
+      "heat_peak": 256564.0,
+      "sentiment": -0.65,
+      "region": "湖北",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764820800,
+          "heat": 256564.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-topic-fd5d0f55",
+      "title": "取完餐外卖员差点吐了",
+      "category": "食品药品安全",
+      "start_ts": 1764817200,
+      "end_ts": 1764831600,
+      "heat_peak": 314248.0,
+      "sentiment": -0.7,
+      "region": "山东",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1764835200,
+          "heat": 314248.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-24-220",
+      "title": "24人骗取生育津贴超220万",
+      "category": "健康政策与公共服务",
+      "start_ts": 1764817200,
+      "end_ts": 1764824400,
+      "heat_peak": 1064109.0,
+      "sentiment": -0.7,
+      "region": "云南",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1764828000,
+          "heat": 1064109.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-24",
+      "title": "24岁女生咳嗽不止查出肺癌",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1764835200,
+      "end_ts": 1764860400,
+      "heat_peak": 241128.0,
+      "sentiment": -0.5,
+      "region": "河南",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1764860400,
+          "heat": 241128.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-topic-a64c9523",
+      "title": "冻伤后切忌直接热水浸泡",
+      "category": "健康管理与养生",
+      "start_ts": 1764846000,
+      "end_ts": 1764846000,
+      "heat_peak": 250955.0,
+      "sentiment": 0.15,
+      "region": "四川",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1764846000,
+          "heat": 250955.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-04-topic-f89dd438",
+      "title": "研究称烧秸秆能控制超级细菌传播",
+      "category": "传染病与公共卫生应急",
+      "start_ts": 1764856800,
+      "end_ts": 1764860400,
+      "heat_peak": 266489.0,
+      "sentiment": 0.18,
+      "region": "北京",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1764860400,
+          "heat": 266489.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-12-04"
+}

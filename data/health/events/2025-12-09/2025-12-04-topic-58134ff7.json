@@ -1,0 +1,217 @@
+{
+  "event_id": "2025-12-04-topic-58134ff7",
+  "date": "2025-12-04",
+  "title": "冻伤要到烧伤科就诊",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764777600,
+  "end_ts": 1764813600,
+  "heat_peak": 415531.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1764777600,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764781200,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764784800,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764788400,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764792000,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764799200,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764802800,
+      "heat": 415531.0,
+      "rank": null
+    },
+    {
+      "ts": 1764813600,
+      "heat": 415531.0,
+      "rank": null
+    }
+  ],
+  "summary": "皮肤出现苍白、麻木、僵硬、红肿或刺痛感，是冻伤的初期信号，应立即返回温暖环境，用接近体温的温水缓慢复温。切忌直接用热水浸泡、火烤或雪搓。",
+  "tags": [
+    "冻伤要到烧伤科就诊",
+    "手冻僵千万别直接用热水泡",
+    "秒懂热点就用智搜",
+    "冻成什么样子才算冻伤",
+    "小卫的健康提示",
+    "听医者说",
+    "关注全生命周期",
+    "防止冻伤护好身体这4个部位",
+    "冻伤的5个初期信号",
+    "早安",
+    "豫人为善平添温暖",
+    "降温后用这波装备体面过冬"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "冻伤要到烧伤科就诊",
+        "label": "冻伤要到烧伤科就诊",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "手冻僵千万别直接用热水泡",
+        "label": "手冻僵千万别直接用热水泡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秒懂热点就用智搜",
+        "label": "秒懂热点就用智搜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冻成什么样子才算冻伤",
+        "label": "冻成什么样子才算冻伤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小卫的健康提示",
+        "label": "小卫的健康提示",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "听医者说",
+        "label": "听医者说",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "关注全生命周期",
+        "label": "关注全生命周期",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "防止冻伤护好身体这4个部位",
+        "label": "防止冻伤护好身体这4个部位",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冻伤的5个初期信号",
+        "label": "冻伤的5个初期信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "早安",
+        "label": "早安",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "豫人为善平添温暖",
+        "label": "豫人为善平添温暖",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "降温后用这波装备体面过冬",
+        "label": "降温后用这波装备体面过冬",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

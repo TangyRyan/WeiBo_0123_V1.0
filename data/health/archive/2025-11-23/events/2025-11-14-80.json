@@ -1,0 +1,196 @@
+{
+  "event_id": "2025-11-14-80",
+  "date": "2025-11-14",
+  "title": "控糖到了80多岁的皮肤状态",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.35,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "广东",
+  "start_ts": 1763053200,
+  "end_ts": 1763074800,
+  "heat_peak": 79810.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1763049600,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763053200,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763056800,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763060400,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763064000,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763067600,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763071200,
+      "heat": 79810.0,
+      "rank": null
+    },
+    {
+      "ts": 1763074800,
+      "heat": 79810.0,
+      "rank": null
+    }
+  ],
+  "summary": "控糖到了80多岁的皮肤状态",
+  "tags": [
+    "控糖到了80多岁的皮肤状态",
+    "男模",
+    "健身模特",
+    "早安天气",
+    "18岁张展硕狂揽自由泳三金体验卡",
+    "戒糖10天后身体就有改变",
+    "别再关灯侧躺玩手机了",
+    "运动打卡",
+    "一分钟视频创作季"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "控糖到了80多岁的皮肤状态",
+        "label": "控糖到了80多岁的皮肤状态",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "男模",
+        "label": "男模",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健身模特",
+        "label": "健身模特",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "早安天气",
+        "label": "早安天气",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "18岁张展硕狂揽自由泳三金体验卡",
+        "label": "18岁张展硕狂揽自由泳三金体验卡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "戒糖10天后身体就有改变",
+        "label": "戒糖10天后身体就有改变",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "别再关灯侧躺玩手机了",
+        "label": "别再关灯侧躺玩手机了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "运动打卡",
+        "label": "运动打卡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

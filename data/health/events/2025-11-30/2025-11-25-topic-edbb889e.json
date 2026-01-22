@@ -1,0 +1,209 @@
+{
+  "event_id": "2025-11-25-topic-edbb889e",
+  "date": "2025-11-25",
+  "title": "流感高发季防护指南来了",
+  "category": "传染病与公共卫生应急",
+  "health_minor": "1.3 疫苗与防疫政策",
+  "sentiment": 0.2,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1764061200,
+  "end_ts": 1764075600,
+  "heat_peak": 579694.0,
+  "point_count": 5,
+  "points": [
+    {
+      "ts": 1764057600,
+      "heat": 579694.0,
+      "rank": null
+    },
+    {
+      "ts": 1764061200,
+      "heat": 579694.0,
+      "rank": null
+    },
+    {
+      "ts": 1764064800,
+      "heat": 579694.0,
+      "rank": null
+    },
+    {
+      "ts": 1764068400,
+      "heat": 579694.0,
+      "rank": null
+    },
+    {
+      "ts": 1764075600,
+      "heat": 579694.0,
+      "rank": null
+    }
+  ],
+  "summary": "流感高发季防护指南来了",
+  "tags": [
+    "流感高发季防护指南来了",
+    "流感病毒变异了吗",
+    "嗓子不舒服试试空气炸锅烤梨",
+    "冬季干燥烤个梨吃吃吧",
+    "秒懂热点就用智搜",
+    "甲流发病7天内的典型症状",
+    "感染流感病毒最好48小时内用药",
+    "感冒不是被冻出来的",
+    "为什么天一冷就容易感冒",
+    "感冒后出现4个迹象警惕肺炎",
+    "医生提醒肺炎的4个信号",
+    "补充维生素C能预防流感",
+    "日常小科普"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "流感高发季防护指南来了",
+        "label": "流感高发季防护指南来了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感病毒变异了吗",
+        "label": "流感病毒变异了吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "嗓子不舒服试试空气炸锅烤梨",
+        "label": "嗓子不舒服试试空气炸锅烤梨",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬季干燥烤个梨吃吃吧",
+        "label": "冬季干燥烤个梨吃吃吧",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秒懂热点就用智搜",
+        "label": "秒懂热点就用智搜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "甲流发病7天内的典型症状",
+        "label": "甲流发病7天内的典型症状",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "感染流感病毒最好48小时内用药",
+        "label": "感染流感病毒最好48小时内用药",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "感冒不是被冻出来的",
+        "label": "感冒不是被冻出来的",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么天一冷就容易感冒",
+        "label": "为什么天一冷就容易感冒",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "感冒后出现4个迹象警惕肺炎",
+        "label": "感冒后出现4个迹象警惕肺炎",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "医生提醒肺炎的4个信号",
+        "label": "医生提醒肺炎的4个信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "补充维生素C能预防流感",
+        "label": "补充维生素C能预防流感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "日常小科普",
+        "label": "日常小科普",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": []
+}

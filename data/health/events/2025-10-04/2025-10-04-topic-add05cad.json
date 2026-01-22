@@ -1,0 +1,602 @@
+{
+  "event_id": "2025-10-04-topic-add05cad",
+  "date": "2025-10-04",
+  "title": "浴室五杀",
+  "category": "特殊场景与群体健康",
+  "health_minor": "特殊群体健康危机",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1759557600,
+  "end_ts": 1759564800,
+  "heat_peak": 194856.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1759557600,
+      "heat": 194856.0,
+      "rank": null
+    },
+    {
+      "ts": 1759561200,
+      "heat": 194856.0,
+      "rank": null
+    },
+    {
+      "ts": 1759564800,
+      "heat": 194856.0,
+      "rank": null
+    }
+  ],
+  "summary": "浴室五杀",
+  "tags": [
+    "Ning浴室摔伤",
+    "浴室五杀",
+    "ning浴室摔伤",
+    "胖虎陪你看s15",
+    "王者荣耀",
+    "KPL",
+    "ivl"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "Ning浴室摔伤",
+        "label": "Ning浴室摔伤",
+        "weight": 11.0,
+        "community": 0
+      },
+      {
+        "id": "浴室五杀",
+        "label": "浴室五杀",
+        "weight": 20.0,
+        "community": 0
+      },
+      {
+        "id": "ning浴室摔伤",
+        "label": "ning浴室摔伤",
+        "weight": 2.0,
+        "community": 2
+      },
+      {
+        "id": "胖虎陪你看s15",
+        "label": "胖虎陪你看s15",
+        "weight": 2.0,
+        "community": 2
+      },
+      {
+        "id": "王者荣耀",
+        "label": "王者荣耀",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "KPL",
+        "label": "KPL",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "ivl",
+        "label": "ivl",
+        "weight": 2.0,
+        "community": 1
+      }
+    ],
+    "edges": [
+      {
+        "source": "Ning浴室摔伤",
+        "target": "浴室五杀",
+        "weight": 10.0
+      },
+      {
+        "source": "ning浴室摔伤",
+        "target": "浴室五杀",
+        "weight": 1.0
+      },
+      {
+        "source": "ning浴室摔伤",
+        "target": "胖虎陪你看s15",
+        "weight": 1.0
+      },
+      {
+        "source": "浴室五杀",
+        "target": "胖虎陪你看s15",
+        "weight": 1.0
+      },
+      {
+        "source": "KPL",
+        "target": "ivl",
+        "weight": 1.0
+      },
+      {
+        "source": "KPL",
+        "target": "浴室五杀",
+        "weight": 1.0
+      },
+      {
+        "source": "KPL",
+        "target": "王者荣耀",
+        "weight": 1.0
+      },
+      {
+        "source": "ivl",
+        "target": "浴室五杀",
+        "weight": 1.0
+      },
+      {
+        "source": "ivl",
+        "target": "王者荣耀",
+        "weight": 1.0
+      },
+      {
+        "source": "浴室五杀",
+        "target": "王者荣耀",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "浴室",
+      "weight": 60.0
+    },
+    {
+      "text": "五杀",
+      "weight": 29.0
+    },
+    {
+      "text": "摔伤",
+      "weight": 16.0
+    },
+    {
+      "text": "Ning",
+      "weight": 14.0
+    },
+    {
+      "text": "##",
+      "weight": 10.0
+    },
+    {
+      "text": "选手",
+      "weight": 9.0
+    },
+    {
+      "text": "防滑垫",
+      "weight": 7.0
+    },
+    {
+      "text": "防滑",
+      "weight": 7.0
+    },
+    {
+      "text": "摔倒",
+      "weight": 5.0
+    },
+    {
+      "text": "竞选",
+      "weight": 5.0
+    },
+    {
+      "text": "Jiejie",
+      "weight": 5.0
+    },
+    {
+      "text": "洗澡",
+      "weight": 5.0
+    },
+    {
+      "text": "大家",
+      "weight": 4.0
+    },
+    {
+      "text": "轩染",
+      "weight": 4.0
+    },
+    {
+      "text": "滑倒",
+      "weight": 4.0
+    },
+    {
+      "text": "时候",
+      "weight": 3.0
+    },
+    {
+      "text": "注意",
+      "weight": 3.0
+    },
+    {
+      "text": "一点",
+      "weight": 3.0
+    },
+    {
+      "text": "AG",
+      "weight": 3.0
+    },
+    {
+      "text": "骨折",
+      "weight": 3.0
+    },
+    {
+      "text": "脑震荡",
+      "weight": 3.0
+    },
+    {
+      "text": "拖鞋",
+      "weight": 3.0
+    },
+    {
+      "text": "展开",
+      "weight": 3.0
+    },
+    {
+      "text": "竞圈",
+      "weight": 3.0
+    },
+    {
+      "text": "电竞",
+      "weight": 2.0
+    },
+    {
+      "text": "第五",
+      "weight": 2.0
+    },
+    {
+      "text": "酒店",
+      "weight": 2.0
+    },
+    {
+      "text": "或者",
+      "weight": 2.0
+    },
+    {
+      "text": "一定",
+      "weight": 2.0
+    },
+    {
+      "text": "小心",
+      "weight": 2.0
+    },
+    {
+      "text": "注意安全",
+      "weight": 2.0
+    },
+    {
+      "text": "不行",
+      "weight": 2.0
+    },
+    {
+      "text": "哈哈哈",
+      "weight": 2.0
+    },
+    {
+      "text": "五位",
+      "weight": 2.0
+    },
+    {
+      "text": "TTG",
+      "weight": 2.0
+    },
+    {
+      "text": "佳心",
+      "weight": 2.0
+    },
+    {
+      "text": "WBG",
+      "weight": 2.0
+    },
+    {
+      "text": "Huan",
+      "weight": 2.0
+    },
+    {
+      "text": "穿个",
+      "weight": 2.0
+    },
+    {
+      "text": "安全",
+      "weight": 2.0
+    },
+    {
+      "text": "受伤",
+      "weight": 2.0
+    },
+    {
+      "text": "EDG",
+      "weight": 2.0
+    },
+    {
+      "text": "新闻",
+      "weight": 2.0
+    },
+    {
+      "text": "体面",
+      "weight": 2.0
+    },
+    {
+      "text": "方式",
+      "weight": 2.0
+    },
+    {
+      "text": "完成",
+      "weight": 2.0
+    },
+    {
+      "text": "赶紧",
+      "weight": 2.0
+    },
+    {
+      "text": "ban",
+      "weight": 2.0
+    },
+    {
+      "text": "难道",
+      "weight": 2.0
+    },
+    {
+      "text": "打赤脚",
+      "weight": 2.0
+    },
+    {
+      "text": "这样",
+      "weight": 2.0
+    },
+    {
+      "text": "甚至",
+      "weight": 2.0
+    },
+    {
+      "text": "宁王",
+      "weight": 2.0
+    },
+    {
+      "text": "记得",
+      "weight": 1.0
+    },
+    {
+      "text": "我住",
+      "weight": 1.0
+    },
+    {
+      "text": "标识",
+      "weight": 1.0
+    },
+    {
+      "text": "铺设",
+      "weight": 1.0
+    },
+    {
+      "text": "地巾",
+      "weight": 1.0
+    },
+    {
+      "text": "一般",
+      "weight": 1.0
+    },
+    {
+      "text": "多余",
+      "weight": 1.0
+    },
+    {
+      "text": "毛巾",
+      "weight": 1.0
+    },
+    {
+      "text": "地上",
+      "weight": 1.0
+    },
+    {
+      "text": "多多",
+      "weight": 1.0
+    },
+    {
+      "text": "一下",
+      "weight": 1.0
+    },
+    {
+      "text": "达成",
+      "weight": 1.0
+    },
+    {
+      "text": "没想到",
+      "weight": 1.0
+    },
+    {
+      "text": "单杀",
+      "weight": 1.0
+    },
+    {
+      "text": "竞男",
+      "weight": 1.0
+    },
+    {
+      "text": "事演",
+      "weight": 1.0
+    },
+    {
+      "text": "多集",
+      "weight": 1.0
+    },
+    {
+      "text": "安装",
+      "weight": 1.0
+    },
+    {
+      "text": "看到",
+      "weight": 1.0
+    },
+    {
+      "text": "好几个",
+      "weight": 1.0
+    },
+    {
+      "text": "容易",
+      "weight": 1.0
+    },
+    {
+      "text": "之后",
+      "weight": 1.0
+    },
+    {
+      "text": "澡堂",
+      "weight": 1.0
+    },
+    {
+      "text": "最起码",
+      "weight": 1.0
+    },
+    {
+      "text": "有人",
+      "weight": 1.0
+    },
+    {
+      "text": "不用",
+      "weight": 1.0
+    },
+    {
+      "text": "免得",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-7522587787994433079",
+      "published_at": "2025-10-04T14:26:00+08:00",
+      "account_name": "是阿阿阿阿阿水",
+      "content_text": "#Ning浴室摔伤#浴室摔伤电竞第五例#浴室五杀#我记得我住酒店的时候有标识的铺设地巾或者防滑垫话说一般酒店有多余的毛巾吧，可以垫地上的大家还是多多注意一下，注意防滑 ​",
+      "reposts": 4,
+      "comments": 115,
+      "likes": 228
+    },
+    {
+      "post_id": "detail-1058282681114643486",
+      "published_at": "2025-10-04T11:18:00+08:00",
+      "account_name": "狂很子老",
+      "content_text": "？又来一个浴室摔倒的#Ning浴室摔伤#​​​​#浴室五杀#​",
+      "reposts": 17,
+      "comments": 87,
+      "likes": 1281
+    },
+    {
+      "post_id": "detail-3636871558247452202",
+      "published_at": "2025-10-04T13:59:00+08:00",
+      "account_name": "当千金好难",
+      "content_text": "#Ning浴室摔伤#浴室五杀达成。没想到浴室单杀竞男这个事演了这么多集，安装个防滑垫好吗好的#浴室五杀#​",
+      "reposts": 5,
+      "comments": 6,
+      "likes": 94
+    },
+    {
+      "post_id": "detail-6429273781844926465",
+      "published_at": "2025-10-04T14:18:00+08:00",
+      "account_name": "小怡说车",
+      "content_text": "#浴室五杀##Ning浴室摔伤#我的天，已经看到好几个在浴室摔倒了，浴室这么容易摔倒吗，一定要小心一点，注意安全 ​",
+      "reposts": 2,
+      "comments": 37,
+      "likes": 119
+    },
+    {
+      "post_id": "detail-1453692593915592704",
+      "published_at": "2025-10-04T16:25:00+08:00",
+      "account_name": "墟上冕",
+      "content_text": "#浴室五杀#我笑不行了之后让他们去大澡堂里洗吧，最起码有人搓背，可以不用自己整。免得再被单杀。不是，五杀。哈哈哈哈哈哈哈哈哈哈浴室其实是其他队伍的秘密武器吧 ​",
+      "reposts": 0,
+      "comments": 25,
+      "likes": 177
+    },
+    {
+      "post_id": "detail-9182533080074911303",
+      "published_at": "2025-10-04T14:24:00+08:00",
+      "account_name": "热剧不要停",
+      "content_text": "电竞选手“脚滑”第一生中国电竞被浴室做局了🛀#浴室五杀##Ning浴室摔伤#​",
+      "reposts": 9,
+      "comments": 2,
+      "likes": 122
+    },
+    {
+      "post_id": "detail-7393160838420460827",
+      "published_at": "2025-10-04T14:01:00+08:00",
+      "account_name": "游戏欧皇陈本伟",
+      "content_text": "#浴室五杀#好好好！浴室五杀都来了！ ​",
+      "reposts": 4,
+      "comments": 14,
+      "likes": 78
+    },
+    {
+      "post_id": "detail-117362193308385243",
+      "published_at": "2025-10-04T14:45:00+08:00",
+      "account_name": "召唤师Park",
+      "content_text": "宁大哥浴室摔伤后，浴室五杀也空降热搜了，这五位选手包括Jiejie、TTG佳心、AG轩染、WBG第五人格Huan、Ning。有的选手骨折，有的选手肘关节错位，还有的选手脑震荡，我感觉都挺严重的，所以大家一定要以此为戒，洗澡的时候注意防滑，垫个防滑垫或者穿个防滑的拖鞋。也祝Ning早点康复吧。​展开c",
+      "reposts": 27,
+      "comments": 49,
+      "likes": 445
+    }
+  ]
+}

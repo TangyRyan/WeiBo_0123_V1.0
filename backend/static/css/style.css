@@ -1,0 +1,587 @@
+/* --- 1. 基础和全屏布局 --- */
+html, body {
+    height: 100%; /* 关键：让页面占满整个视口 */
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #1a202c; /* 深色背景 */
+    color: #cbd5e0;
+    overflow: hidden; /* 关键：防止顶层出现滚动条 */
+}
+
+header {
+    flex-shrink: 0; /* (如果你有 header 的话) */
+    padding: 12px 20px;
+    background-color: #1f2937;
+    border-bottom: 1px solid #2d3748;
+    color: #e2e8f0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h1, h2, h3 {
+    color: #e2e8f0;
+    border-bottom: 1px solid #2d3748;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+/* --- 2. 三栏 Flexbox 布局 --- */
+.container {
+    display: flex; /* 关键：启用 Flexbox 布局 */
+    height: calc(100% - 50px); /* 占据剩余的所有高度 (假设 header 高 50px) */
+    /* 如果你没有 <header>，请将 height 设置为 100% */
+    /* height: 100%; */
+    width: 100%;
+}
+
+.panel {
+    padding: 15px;
+    background-color: #0c2546;
+    border-right: 1px solid #2d3748;
+    box-sizing: border-box; /* 确保 padding 不会撑破宽度 */
+}
+
+/* --- 3. 定义三栏各自的样式 --- */
+
+/* 左侧面板 (热榜) */
+.panel:nth-child(1) {
+    flex-shrink: 0; /* 不缩小 */
+    width: 300px;
+    overflow-y: auto; /* 内容溢出时滚动 */
+}
+
+/* 中间面板 (可视化) */
+.panel:nth-child(2) {
+    flex-grow: 1; /* 关键：占据所有剩余的宽度 */
+    background-color: #eff0f3; /* 中间用更深的背景色 */
+    padding: 0; /* 中间面板不需要内边距 */
+    border-right: 1px solid #2d3748;
+    
+    /* 关键：启用垂直 Flexbox 布局，并作为侧边栏的定位容器 */
+    display: flex;
+    flex-direction: column;
+    position: relative; /* 新增：作为侧边栏的定位父容器 */
+}
+
+/* 右侧面板 (事件概览) */
+.panel:nth-child(3) {
+    flex-shrink: 0; /* 不缩小 */
+    width: 350px;
+    overflow-y: auto; /* 内容溢出时滚动 */
+    border-right: none; /* 最后一栏不需要右边框 */
+}
+
+/* --- 4. 中间面板的内部布局 --- */
+.controls {
+    flex-shrink: 0; /* 关键：控制区域高度固定，不缩小 */
+    padding: 10px 15px;
+    background-color: #ebedef; /* 控制区背景色 */
+    border-bottom: 1px solid #2d3748;
+    display: flex;
+    align-items: center;
+    gap: 15px; /* 元素间距 */
+    flex-wrap: wrap; /* 空间不足时换行 */
+}
+
+#central-vis {
+    flex-grow: 1; /* 关键：可视化区域占据所有剩余的垂直空间 */
+    overflow: hidden; /* 确保 SVG 不会溢出 */
+    position: relative; /* 用于 SVG 定位 */
+}
+
+/* 确保 SVG 填满 #central-vis 容器 */
+#central-vis svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #d8dbe0; /* SVG 背景色 */
+}
+
+
+/* --- 5. 控件和列表样式 --- */
+label {
+    font-size: 0.9rem;
+    color: #a0aec0;
+}
+
+select, button {
+    background-color: #2d3748;
+    color: #e2e8f0;
+    border: 1px solid #4a5568;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+select:hover, button:hover {
+    background-color: #4a5568;
+}
+
+.time-filter {
+    margin-left: auto; /* 把时间按钮推到最右边 */
+}
+
+button.active {
+    background-color: #3b82f6; /* 活跃按钮的颜色 */
+    border-color: #3b82f6;
+    color: white;
+}
+
+/* 列表样式 (热榜, 风险) */
+#hotlist, #risk {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hot-item, .risk-item {
+    padding: 8px 5px;
+    border-bottom: 1px solid #2d3748;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+.hot-item:hover, .risk-item:hover {
+    background-color: #2d3748;
+}
+.rank {
+    color: #a0aec0;
+    width: 20px;
+    text-align: right;
+}
+.name {
+    flex-grow: 1;
+}
+.hot, .score {
+    color: #f56565; /* 红色用于热度和风险 */
+    flex-shrink: 0;
+}
+
+/* 30天热度列表 */
+#daily30 {
+    padding-left: 20px;
+    font-size: 0.85rem;
+    color: #a0aec0;
+}
+
+/* 事件详情 */
+#event-title {
+    background-color: #3b82f6;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#event-dims {
+    font-size: 0.85rem;
+    color: #a0aec0;
+    margin-bottom: 15px;
+}
+#event-overview {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    background-color: #2d3748;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.post {
+    border-bottom: 1px solid #2d3748;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.post:last-child {
+    border-bottom: none;
+}
+.post .meta {
+    font-size: 0.8rem;
+    color: #a0aec0;
+    margin-bottom: 5px;
+}
+.post .text {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+.post .stats {
+    font-size: 0.8rem;
+    color: #718096;
+}
+
+/* D3 Tooltip 提示框 */
+.tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: #141a23;
+    border: 1px solid #1f2835;
+    padding: 6px 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    color: #e8e8e8;
+    visibility: hidden;
+}
+
+
+
+#event-sidebar {
+    position: absolute; /* 改为相对于中间面板定位 */
+    right: 0; /* 紧贴中间画布右侧 */
+    top: 0;
+    width: 300px; /* 侧边栏宽度 */
+    height: 100%; /* 高度与中间面板一致 */
+    background: #141a23; /* 和控制栏一样的深色背景 */
+    border-left: 1px solid #1f2835;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+    
+    /* 核心：默认隐藏在中间画布右侧外部 */
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    
+    z-index: 100; /* 确保在中间面板内容上方 */
+    display: flex;
+    flex-direction: column;
+}
+
+/* 当侧边栏激活时，滑入中间画布 */
+#event-sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #1f2835;
+}
+.sidebar-header h3 {
+    margin: 0;
+    color: #e8e8e8;
+}
+
+#close-sidebar-btn {
+    background: none;
+    border: none;
+    color: #a8b3cf;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 5px;
+}
+#close-sidebar-btn:hover {
+    color: #6886ff;
+    background: none; /* 覆盖基础按钮样式 */
+}
+
+/* 列表样式 */
+#event-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto; /* 如果列表太长，允许滚动 */
+    flex-grow: 1;
+}
+#event-list li {
+    padding: 12px 15px;
+    color: #a8b3cf;
+    border-bottom: 1px solid #1f2835;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#event-list li:hover {
+    background: #1b2440; /* 悬停高亮 */
+    color: #e8e8e8;
+}
+
+
+/* ==================== 7. 【新增】左下角详情框 ==================== */
+#event-details {
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+    width: 250px;
+    background: #141a23;
+    border: 1px solid #1f2835;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    z-index: 1999; /* 在侧边栏下面，但在图表上面 */
+    color: #a8b3cf;
+    font-size: 13px;
+}
+#event-details h4 {
+    color: #6886ff;
+    margin-top: 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #2a3851;
+    padding-bottom: 4px;
+}
+#event-details p {
+    margin: 0 0 10px 0;
+    color: #e8e8e8;
+}
+/* === HEALTH PANEL 样式补充 === */
+#health-panel {
+  background: linear-gradient(180deg,#f7f9fc,#ffffff);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  color: #222;
+}
+
+#health-timeline {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #e6e9ef;
+  border-radius: 8px;
+}
+
+/* 下半详情区 */
+#health-details .detail-col h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #0b63d6;
+}
+#health-details .detail-col {
+  overflow:auto;
+}
+
+/* === HEALTH TIMELINE 布局增强（覆盖上方基础样式） === */
+#health-timeline {
+  --health-axis-height: 40px;
+  --health-axis-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 12px 8px;
+  min-height: 400px;
+  border-radius: 10px;
+  border: 1px solid #e6e9ef;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.06);
+  overflow: hidden;
+}
+
+.health-timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  padding: 0 4px;
+}
+
+#health-timeline-scroller {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 10px 0 0;
+  min-height: 425px;
+}
+
+#health-timeline-list {
+  flex: 1 1 auto;
+  position: relative;
+  display: block;
+  padding: 8px 0 calc(var(--health-axis-height) + var(--health-axis-gap));
+  margin: 0;
+  width: 100%;
+  min-height: 350px;
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: visible;
+}
+
+.timeline-day-column {
+  position: absolute;
+  left: 0;
+  bottom: calc(var(--health-axis-height) + var(--health-axis-gap));
+  transform: translateX(-50%);
+  width: 300px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  background: #f2f2ff;
+  border-radius: 16px;
+  padding: 10px 16px;
+  box-shadow: inset 0 0 0 1px rgba(74, 85, 104, 0.08);
+  overflow: visible;
+  z-index: 3;
+  --connector-height: 0px;
+}
+
+.timeline-day-column::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(-1 * var(--connector-height, 0px));
+  width: 2px;
+  height: var(--connector-height, 0px);
+  background: linear-gradient(180deg, rgba(63, 91, 255, 0.5), rgba(15, 23, 42, 0.25));
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+.timeline-day-events {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.timeline-list-item {
+  display: flex;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #f6f7fb;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.timeline-list-item.is-selected {
+  border-color: #3f5bff;
+  background: #eef1ff;
+}
+
+.timeline-list-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 2px solid transparent;
+}
+
+.timeline-list-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.timeline-list-title {
+  font-weight: 600;
+  color: #111;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.health-timeline-chart-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--health-axis-height);
+  pointer-events: none;
+  z-index: 1;
+}
+
+#health-timeline-chart {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 32px;
+  padding: 0;
+  box-sizing: border-box;
+  pointer-events: auto;
+}
+
+#health-timeline-chart .health-date-axis {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  pointer-events: none;
+}
+
+.health-date-tick {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.health-date-line {
+  width: 2px;
+  height: 12px;
+  margin: 0 auto;
+  background: #0f172a;
+  border-radius: 2px;
+  opacity: 0.9;
+}
+
+.health-date-label {
+  font-size: 12px;
+  color: #0f172a;
+  white-space: nowrap;
+  line-height: 1.2;
+}
+
+#health-timeline-chart svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#health-timeline-chart .milestones__category_label {
+  display: none;
+}
+
+#health-timeline-chart .milestones__horizontal_line {
+  background-color: #000410;
+  height: 3px;
+  margin: 0;
+  bottom: 12px;
+}
+
+#health-timeline-chart .milestones__vertical_line {
+  bottom: 12px;
+}
+
+#health-timeline-chart .milestones__group {
+  font-size: 0;
+}
+
+#health-timeline-chart .milestones__group__bullet {
+  position: relative;
+  z-index: 4;
+  opacity: 1;
+  box-shadow: 0 0 0 4px rgba(63, 91, 255, 0.14);
+  transition: box-shadow 0.2s ease, border-width 0.2s ease;
+}
+
+#health-timeline-chart .milestones__group__label {
+  display: block !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#health-timeline-chart .milestones__group__label-vertical text {
+  font-weight: 700;
+  font-size: 14px;
+  fill: #333;
+}

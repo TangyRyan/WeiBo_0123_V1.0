@@ -1,0 +1,449 @@
+{
+  "updated_at": "2026-01-23T21:16:08.202230+08:00",
+  "summary": {
+    "total_events": 24,
+    "by_major": {
+      "健康政策与公共服务": 4,
+      "健康管理与养生": 9,
+      "健康观念与社会现象": 7,
+      "医疗服务与医患矛盾": 1,
+      "特殊场景与群体健康": 2,
+      "食品药品安全": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2026-01-18-topic-f4ad7836",
+      "title": "嫣然医院 唇腭裂治疗",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1768708800,
+      "end_ts": 1768708800,
+      "heat_peak": 112365.0,
+      "sentiment": 0.65,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768708800,
+          "heat": 112365.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-ddd4e4d6",
+      "title": "为什么酒店床上要放四个枕头",
+      "category": "健康管理与养生",
+      "start_ts": 1768708800,
+      "end_ts": 1768708800,
+      "heat_peak": 113320.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768708800,
+          "heat": 113320.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-e0bf95eb",
+      "title": "周末在家煮碗苹果水",
+      "category": "健康管理与养生",
+      "start_ts": 1768708800,
+      "end_ts": 1768708800,
+      "heat_peak": 113408.0,
+      "sentiment": 0.75,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768708800,
+          "heat": 113408.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-9b4d63d2",
+      "title": "向出轨丈夫道歉女子称自己多次住院",
+      "category": "健康观念与社会现象",
+      "start_ts": 1768708800,
+      "end_ts": 1768708800,
+      "heat_peak": 138344.0,
+      "sentiment": -0.7,
+      "region": "河南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768708800,
+          "heat": 138344.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-d4de3efd",
+      "title": "男患者腰痛病历现否认怀孕字样",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1768748400,
+      "end_ts": 1768748400,
+      "heat_peak": 212508.0,
+      "sentiment": -0.5,
+      "region": "江苏",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768748400,
+          "heat": 212508.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-ed4c6a68",
+      "title": "糖尿病前期发出的身体信号",
+      "category": "健康管理与养生",
+      "start_ts": 1768748400,
+      "end_ts": 1768748400,
+      "heat_peak": 214578.0,
+      "sentiment": 0.0,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768748400,
+          "heat": 214578.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-5c71d470",
+      "title": "曝杨紫每天都在很痛苦地减肥",
+      "category": "健康管理与养生",
+      "start_ts": 1768748400,
+      "end_ts": 1768748400,
+      "heat_peak": 216859.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768748400,
+          "heat": 216859.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-topic-1dd99d73",
+      "title": "改善骨盆前倾 卧英雄式",
+      "category": "健康管理与养生",
+      "start_ts": 1768748400,
+      "end_ts": 1768748400,
+      "heat_peak": 229960.0,
+      "sentiment": 0.8,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768748400,
+          "heat": 229960.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-18-26-30",
+      "title": "26岁女子两月暴瘦30斤成糖尿病前期",
+      "category": "健康管理与养生",
+      "start_ts": 1768748400,
+      "end_ts": 1768748400,
+      "heat_peak": 441945.0,
+      "sentiment": -0.4,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768748400,
+          "heat": 441945.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-19-topic-43a53431",
+      "title": "短剧演员回应为何不给婴儿打伞",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1768752000,
+      "end_ts": 1768777200,
+      "heat_peak": 79339.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1768777200,
+          "heat": 79339.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-19-26-30",
+      "title": "26岁女子两月暴瘦30斤成糖尿病前期",
+      "category": "健康管理与养生",
+      "start_ts": 1768752000,
+      "end_ts": 1768777200,
+      "heat_peak": 285430.0,
+      "sentiment": -0.3,
+      "region": "浙江",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1768777200,
+          "heat": 285430.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-19-64",
+      "title": "64岁没老公不带孙子的真实生活",
+      "category": "健康观念与社会现象",
+      "start_ts": 1768795200,
+      "end_ts": 1768795200,
+      "heat_peak": 180201.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768795200,
+          "heat": 180201.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-19-topic-7381fdd9",
+      "title": "政府背书的惠民保为啥卖不动了",
+      "category": "健康政策与公共服务",
+      "start_ts": 1768795200,
+      "end_ts": 1768795200,
+      "heat_peak": 191869.0,
+      "sentiment": -0.4,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768795200,
+          "heat": 191869.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-19-5",
+      "title": "睡觉出现5种症状说明血糖高了",
+      "category": "健康管理与养生",
+      "start_ts": 1768795200,
+      "end_ts": 1768795200,
+      "heat_peak": 191921.0,
+      "sentiment": -0.1,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768795200,
+          "heat": 191921.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-20-topic-c3407a43",
+      "title": "嫣然儿医医护人员发声",
+      "category": "健康政策与公共服务",
+      "start_ts": 1768838400,
+      "end_ts": 1768838400,
+      "heat_peak": 115077.0,
+      "sentiment": 0.4,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768838400,
+          "heat": 115077.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-20-a",
+      "title": "美国主播力挺牢A",
+      "category": "健康观念与社会现象",
+      "start_ts": 1768838400,
+      "end_ts": 1768838400,
+      "heat_peak": 118276.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768838400,
+          "heat": 118276.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-20-topic-64db7992",
+      "title": "李亚鹏",
+      "category": "健康政策与公共服务",
+      "start_ts": 1768838400,
+      "end_ts": 1768838400,
+      "heat_peak": 141332.0,
+      "sentiment": 0.4,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768838400,
+          "heat": 141332.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-20-topic-de110ac3",
+      "title": "很爱吃但巨发胖的东西",
+      "category": "健康管理与养生",
+      "start_ts": 1768838400,
+      "end_ts": 1768838400,
+      "heat_peak": 142160.0,
+      "sentiment": -0.2,
+      "region": "四川",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768838400,
+          "heat": 142160.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-20-7",
+      "title": "美国近7成流浪汉曾是中产",
+      "category": "健康观念与社会现象",
+      "start_ts": 1768838400,
+      "end_ts": 1768838400,
+      "heat_peak": 387681.0,
+      "sentiment": 0.8,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768838400,
+          "heat": 387681.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-20-topic-434898ac",
+      "title": "老赖李亚鹏为何触动了网友",
+      "category": "健康政策与公共服务",
+      "start_ts": 1768838400,
+      "end_ts": 1768838400,
+      "heat_peak": 405570.0,
+      "sentiment": 0.55,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1768838400,
+          "heat": 405570.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-22-32",
+      "title": "32岁程序员周末晕倒后猝死",
+      "category": "健康观念与社会现象",
+      "start_ts": 1769014800,
+      "end_ts": 1769032800,
+      "heat_peak": 33860.0,
+      "sentiment": -0.7,
+      "region": "广东",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1769032800,
+          "heat": 33860.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-22-topic-76aa89c0",
+      "title": "程序员猝死抢救时曾被拉工作群",
+      "category": "健康观念与社会现象",
+      "start_ts": 1769014800,
+      "end_ts": 1769032800,
+      "heat_peak": 34012.0,
+      "sentiment": -0.7,
+      "region": "广东",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1769032800,
+          "heat": 34012.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-22-topic-e4ff934c",
+      "title": "美国现在连尸体脂肪都不放过",
+      "category": "健康观念与社会现象",
+      "start_ts": 1769014800,
+      "end_ts": 1769032800,
+      "heat_peak": 34025.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1769032800,
+          "heat": 34025.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2026-01-22-topic-7b6f6600",
+      "title": "爱吃鸭头的人天塌了",
+      "category": "食品药品安全",
+      "start_ts": 1769014800,
+      "end_ts": 1769032800,
+      "heat_peak": 40406.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1769032800,
+          "heat": 40406.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2026-01-23"
+}

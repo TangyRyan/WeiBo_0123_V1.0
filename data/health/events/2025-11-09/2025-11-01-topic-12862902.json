@@ -1,0 +1,119 @@
+{
+  "event_id": "2025-11-01-topic-12862902",
+  "date": "2025-11-01",
+  "title": "老人感冒医生多看一眼片子救了一命",
+  "category": "医疗行业与技术动态",
+  "health_minor": "医疗行业热点",
+  "sentiment": 0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.8
+    },
+    {
+      "name": "信任",
+      "value": 0.9
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.7
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1762005600,
+  "end_ts": 1762005600,
+  "heat_peak": 255330.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762005600,
+      "heat": 255330.0,
+      "rank": null
+    }
+  ],
+  "summary": "浙江一老人前来就诊，当时老人觉得自己感冒了，并且伴有脖子疼痛，于是来到医院呼吸内科。医生一眼看出不对劲……",
+  "tags": [
+    "老人感冒医生多看一眼片子救了一命",
+    "鞠婧祎",
+    "80后女子自述老公心梗前征兆"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "老人感冒医生多看一眼片子救了一命",
+        "label": "老人感冒医生多看一眼片子救了一命",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "鞠婧祎",
+        "label": "鞠婧祎",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "80后女子自述老公心梗前征兆",
+        "label": "80后女子自述老公心梗前征兆",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.8
+    },
+    {
+      "name": "信任",
+      "value": 0.9
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.7
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "sample_posts": []
+}

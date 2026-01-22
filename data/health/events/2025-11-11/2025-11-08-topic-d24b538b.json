@@ -1,0 +1,105 @@
+{
+  "event_id": "2025-11-08-topic-d24b538b",
+  "date": "2025-11-08",
+  "title": "好气血才能有好声音",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "云南",
+  "start_ts": 1762610400,
+  "end_ts": 1762610400,
+  "heat_peak": 449925.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762610400,
+      "heat": 449925.0,
+      "rank": null
+    }
+  ],
+  "summary": "好气血才能有好声音",
+  "tags": [
+    "好气血才能有好声音"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "好气血才能有好声音",
+        "label": "好气血才能有好声音",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

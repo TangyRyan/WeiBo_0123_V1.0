@@ -1,0 +1,150 @@
+{
+  "event_id": "2025-11-18-topic-d7490dd6",
+  "date": "2025-11-18",
+  "title": "近视手术五年后的真实感受",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763470800,
+  "end_ts": 1763478000,
+  "heat_peak": 240828.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1763470800,
+      "heat": 240828.0,
+      "rank": null
+    },
+    {
+      "ts": 1763474400,
+      "heat": 240828.0,
+      "rank": null
+    },
+    {
+      "ts": 1763478000,
+      "heat": 240828.0,
+      "rank": null
+    }
+  ],
+  "summary": "近视手术五年后的真实感受",
+  "tags": [
+    "近视手术五年后的真实感受",
+    "微博兴趣创作计划",
+    "治愈不开心",
+    "健闻登顶计划",
+    "民民小调查",
+    "近视手术并不是治好了近视眼"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "近视手术五年后的真实感受",
+        "label": "近视手术五年后的真实感受",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "治愈不开心",
+        "label": "治愈不开心",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "民民小调查",
+        "label": "民民小调查",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "近视手术并不是治好了近视眼",
+        "label": "近视手术并不是治好了近视眼",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

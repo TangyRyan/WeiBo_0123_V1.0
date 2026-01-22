@@ -1,0 +1,119 @@
+{
+  "event_id": "2025-11-22-topic-f66c7442",
+  "date": "2025-11-22",
+  "title": "全球首例无线植入式中文脑机接口",
+  "category": "医疗行业与技术动态",
+  "health_minor": "医疗技术创新",
+  "sentiment": 0.75,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.8
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.9
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.8
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1763805600,
+  "end_ts": 1763805600,
+  "heat_peak": 528928.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763805600,
+      "heat": 528928.0,
+      "rank": null
+    }
+  ],
+  "summary": "全球首例无线植入式中文脑机接口",
+  "tags": [
+    "全球首例无线植入式中文脑机接口",
+    "科技向善",
+    "热点科普"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "全球首例无线植入式中文脑机接口",
+        "label": "全球首例无线植入式中文脑机接口",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "科技向善",
+        "label": "科技向善",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点科普",
+        "label": "热点科普",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.8
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.9
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.8
+    }
+  ],
+  "sample_posts": []
+}

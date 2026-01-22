@@ -1,0 +1,217 @@
+{
+  "event_id": "2025-11-14-topic-a76f57fa",
+  "date": "2025-11-14",
+  "title": "世界糖尿病日",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763082000,
+  "end_ts": 1763082000,
+  "heat_peak": 404789.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763082000,
+      "heat": 404789.0,
+      "rank": null
+    }
+  ],
+  "summary": "2025年11月14日是第19个“联合国糖尿病日”,今年宣传主题是“糖尿病与幸福感”,宣传口号：“了解更多，行动更多，关注职场糖尿病” !",
+  "tags": [
+    "世界糖尿病日",
+    "糖尿病足疼起来有多狠",
+    "疼痛管理公开课",
+    "年轻人你离糖尿病有多远",
+    "营养素养up",
+    "8个习惯让人不知不觉患上糖尿病",
+    "每3人就有1个糖尿病前期",
+    "糖尿病真的能逆转吗",
+    "血糖控制不好有多可怕",
+    "70%的糖尿病前期早干预可逆转",
+    "久坐不动可能诱发糖尿病",
+    "糖尿病",
+    "健闻登顶计划",
+    "少吃甜食就不会得糖尿病吗",
+    "转发赠书",
+    "全民营养提升计划",
+    "职场人如何预防糖尿病"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "世界糖尿病日",
+        "label": "世界糖尿病日",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "糖尿病足疼起来有多狠",
+        "label": "糖尿病足疼起来有多狠",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "疼痛管理公开课",
+        "label": "疼痛管理公开课",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "年轻人你离糖尿病有多远",
+        "label": "年轻人你离糖尿病有多远",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "营养素养up",
+        "label": "营养素养up",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "8个习惯让人不知不觉患上糖尿病",
+        "label": "8个习惯让人不知不觉患上糖尿病",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "每3人就有1个糖尿病前期",
+        "label": "每3人就有1个糖尿病前期",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "糖尿病真的能逆转吗",
+        "label": "糖尿病真的能逆转吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "血糖控制不好有多可怕",
+        "label": "血糖控制不好有多可怕",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "70%的糖尿病前期早干预可逆转",
+        "label": "70%的糖尿病前期早干预可逆转",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "久坐不动可能诱发糖尿病",
+        "label": "久坐不动可能诱发糖尿病",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "糖尿病",
+        "label": "糖尿病",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "少吃甜食就不会得糖尿病吗",
+        "label": "少吃甜食就不会得糖尿病吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "转发赠书",
+        "label": "转发赠书",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全民营养提升计划",
+        "label": "全民营养提升计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "职场人如何预防糖尿病",
+        "label": "职场人如何预防糖尿病",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": []
+}

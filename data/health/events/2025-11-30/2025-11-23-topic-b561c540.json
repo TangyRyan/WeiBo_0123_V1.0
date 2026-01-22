@@ -1,0 +1,150 @@
+{
+  "event_id": "2025-11-23-topic-b561c540",
+  "date": "2025-11-23",
+  "title": "推荐怕冷的人试试三层穿衣法",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.2,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1763895600,
+  "end_ts": 1763899200,
+  "heat_peak": 946869.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1763892000,
+      "heat": 946869.0,
+      "rank": null
+    },
+    {
+      "ts": 1763895600,
+      "heat": 946869.0,
+      "rank": null
+    },
+    {
+      "ts": 1763899200,
+      "heat": 946869.0,
+      "rank": null
+    }
+  ],
+  "summary": "在寒冷和潮湿的环境中，推荐三层穿衣法则：最内层注意排汗，中间层维持一定的空气含量，外层注意挡风。",
+  "tags": [
+    "推荐怕冷的人试试三层穿衣法",
+    "冻伤千万别立刻用热水泡",
+    "40岁后体检增加2项检查",
+    "地理君带你看中国",
+    "你的羽绒服穿上了吗",
+    "生活手记"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "推荐怕冷的人试试三层穿衣法",
+        "label": "推荐怕冷的人试试三层穿衣法",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冻伤千万别立刻用热水泡",
+        "label": "冻伤千万别立刻用热水泡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "40岁后体检增加2项检查",
+        "label": "40岁后体检增加2项检查",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "地理君带你看中国",
+        "label": "地理君带你看中国",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "你的羽绒服穿上了吗",
+        "label": "你的羽绒服穿上了吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "生活手记",
+        "label": "生活手记",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

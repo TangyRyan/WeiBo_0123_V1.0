@@ -1,0 +1,196 @@
+{
+  "updated_at": "2025-12-05T20:37:49.731293+08:00",
+  "summary": {
+    "total_events": 10,
+    "by_major": {
+      "健康管理与养生": 3,
+      "医疗服务与医患矛盾": 1,
+      "医疗行业与技术动态": 2,
+      "特殊场景与群体健康": 1,
+      "环境与灾害关联健康问题": 3
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-04-topic-27db8b89",
+      "title": "韩国营养针",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1759539600,
+      "end_ts": 1759539600,
+      "heat_peak": 242706.0,
+      "sentiment": -0.65,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1759539600,
+          "heat": 242706.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-04-topic-add05cad",
+      "title": "浴室五杀",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1759557600,
+      "end_ts": 1759564800,
+      "heat_peak": 194856.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759564800,
+          "heat": 194856.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-04-9",
+      "title": "9招教你十一假期美美出片",
+      "category": "健康管理与养生",
+      "start_ts": 1759568400,
+      "end_ts": 1759579200,
+      "heat_peak": 582329.0,
+      "sentiment": 0.5,
+      "region": "上海",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759579200,
+          "heat": 582329.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-5e2547c6",
+      "title": "珠峰东坡暴雪有人员已出现失温症状",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759658400,
+      "end_ts": 1759662000,
+      "heat_peak": 335645.0,
+      "sentiment": -0.4,
+      "region": "西藏",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759662000,
+          "heat": 335645.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-1cf1bf2f",
+      "title": "建议气血不足的人不要留长发",
+      "category": "健康管理与养生",
+      "start_ts": 1759672800,
+      "end_ts": 1759676400,
+      "heat_peak": 205664.0,
+      "sentiment": 0.0,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759676400,
+          "heat": 205664.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-a9063be9",
+      "title": "河南多地现行走的硫酸",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759672800,
+      "end_ts": 1759676400,
+      "heat_peak": 1128296.0,
+      "sentiment": -0.6,
+      "region": "河南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759676400,
+          "heat": 1128296.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-topic-f53afea7",
+      "title": "诺贝尔",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1759744800,
+      "end_ts": 1759748400,
+      "heat_peak": 298871.0,
+      "sentiment": 0.25,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759748400,
+          "heat": 298871.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-topic-a209d187",
+      "title": "多名中国公民在澳徒步登山身亡",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 240928.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 240928.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-vs",
+      "title": "最好的睡姿vs最差的睡姿",
+      "category": "健康管理与养生",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 247877.0,
+      "sentiment": 0.1,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 247877.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-124",
+      "title": "诺贝尔奖奖金124年没花完",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 251010.0,
+      "sentiment": 0.0,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 251010.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-06"
+}

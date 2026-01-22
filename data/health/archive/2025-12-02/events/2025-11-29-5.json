@@ -1,0 +1,160 @@
+{
+  "event_id": "2025-11-29-5",
+  "date": "2025-11-29",
+  "title": "英国女警卧底5年爱上监控对象闪婚",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764403200,
+  "end_ts": 1764417600,
+  "heat_peak": 325936.0,
+  "point_count": 5,
+  "points": [
+    {
+      "ts": 1764403200,
+      "heat": 325936.0,
+      "rank": null
+    },
+    {
+      "ts": 1764406800,
+      "heat": 325936.0,
+      "rank": null
+    },
+    {
+      "ts": 1764410400,
+      "heat": 325936.0,
+      "rank": null
+    },
+    {
+      "ts": 1764414000,
+      "heat": 325936.0,
+      "rank": null
+    },
+    {
+      "ts": 1764417600,
+      "heat": 325936.0,
+      "rank": null
+    }
+  ],
+  "summary": "英国女警卧底5年爱上监控对象闪婚",
+  "tags": [
+    "胃病向胃癌转变的5个危险信号",
+    "常吃4种食物的人胃癌风险低",
+    "很多胃癌是一口一口吃出来的",
+    "青春无毒秦韵长安",
+    "胃癌关爱日",
+    "内蒙古禁毒超话"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "胃病向胃癌转变的5个危险信号",
+        "label": "胃病向胃癌转变的5个危险信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "常吃4种食物的人胃癌风险低",
+        "label": "常吃4种食物的人胃癌风险低",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "很多胃癌是一口一口吃出来的",
+        "label": "很多胃癌是一口一口吃出来的",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "青春无毒秦韵长安",
+        "label": "青春无毒秦韵长安",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "胃癌关爱日",
+        "label": "胃癌关爱日",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "内蒙古禁毒超话",
+        "label": "内蒙古禁毒超话",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

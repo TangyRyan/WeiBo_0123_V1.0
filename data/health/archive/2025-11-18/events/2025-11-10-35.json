@@ -1,0 +1,185 @@
+{
+  "event_id": "2025-11-10-35",
+  "date": "2025-11-10",
+  "title": "35岁坚持面部刮痧一年的变化",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762779600,
+  "end_ts": 1762786800,
+  "heat_peak": 248386.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1762779600,
+      "heat": 248386.0,
+      "rank": null
+    },
+    {
+      "ts": 1762783200,
+      "heat": 248386.0,
+      "rank": null
+    },
+    {
+      "ts": 1762786800,
+      "heat": 248386.0,
+      "rank": null
+    }
+  ],
+  "summary": "35岁坚持面部刮痧一年的变化",
+  "tags": [
+    "我的生活好有意思",
+    "微博v影响力大会",
+    "35岁坚持面部刮痧一年的变化",
+    "面部刮痧真能瘦脸",
+    "面部刮痧",
+    "一分钟视频创作季",
+    "为什么刮痧要避开脖子两侧",
+    "微博超有用视频大赛",
+    "初入职场中医季",
+    "护肤仪式感",
+    "南通分享"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "我的生活好有意思",
+        "label": "我的生活好有意思",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博v影响力大会",
+        "label": "微博v影响力大会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "35岁坚持面部刮痧一年的变化",
+        "label": "35岁坚持面部刮痧一年的变化",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "面部刮痧真能瘦脸",
+        "label": "面部刮痧真能瘦脸",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "面部刮痧",
+        "label": "面部刮痧",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么刮痧要避开脖子两侧",
+        "label": "为什么刮痧要避开脖子两侧",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "初入职场中医季",
+        "label": "初入职场中医季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "护肤仪式感",
+        "label": "护肤仪式感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "南通分享",
+        "label": "南通分享",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,166 @@
+{
+  "event_id": "2025-11-05-topic-ee831609",
+  "date": "2025-11-05",
+  "title": "抗癌针",
+  "category": "医疗行业与技术动态",
+  "health_minor": "医疗行业热点",
+  "sentiment": -0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762326000,
+  "end_ts": 1762354800,
+  "heat_peak": 337074.0,
+  "point_count": 9,
+  "points": [
+    {
+      "ts": 1762326000,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762329600,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762333200,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762336800,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762340400,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762344000,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762347600,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762351200,
+      "heat": 337074.0,
+      "rank": null
+    },
+    {
+      "ts": 1762354800,
+      "heat": 337074.0,
+      "rank": null
+    }
+  ],
+  "summary": "抗癌针",
+  "tags": [
+    "抗癌针",
+    "什么是抗癌针",
+    "抗癌针能治什么肿瘤",
+    "微博热点优质创作计划"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "抗癌针",
+        "label": "抗癌针",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "什么是抗癌针",
+        "label": "什么是抗癌针",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "抗癌针能治什么肿瘤",
+        "label": "抗癌针能治什么肿瘤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博热点优质创作计划",
+        "label": "微博热点优质创作计划",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

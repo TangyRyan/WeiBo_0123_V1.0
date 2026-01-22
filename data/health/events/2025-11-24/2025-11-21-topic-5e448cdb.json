@@ -1,0 +1,262 @@
+{
+  "event_id": "2025-11-21-topic-5e448cdb",
+  "date": "2025-11-21",
+  "title": "每一个近视眼都该控糖了",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": -0.1,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1763658000,
+  "end_ts": 1763694000,
+  "heat_peak": 268666.0,
+  "point_count": 10,
+  "points": [
+    {
+      "ts": 1763654400,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763658000,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763661600,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763665200,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763668800,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763672400,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763676000,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763679600,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763690400,
+      "heat": 268666.0,
+      "rank": null
+    },
+    {
+      "ts": 1763694000,
+      "heat": 268666.0,
+      "rank": null
+    }
+  ],
+  "summary": "甜食会抢占你的正常食欲，导致含钙食物摄入不足，而钙质对维持眼球巩膜的牢固和弹性至关重要。长期缺钙，眼球巩膜会变脆弱，在内部压力下逐渐被拉长，最终导致或加重近视。",
+  "tags": [
+    "饭后出现4个表现当心是胃癌信号",
+    "每一个近视眼都该控糖了",
+    "微博声浪计划",
+    "听见微博",
+    "摄影",
+    "微博影像年",
+    "微博兴趣创作计划",
+    "民民小调查",
+    "为什么说近视的人要少吃甜食",
+    "甜食如何一步步瓦解视力",
+    "顺Yi加油站",
+    "乡约食光京超开打",
+    "京超开打了",
+    "脱粉",
+    "胡彦斌 法庭上带着你的破视频",
+    "5种营养素是护眼利器",
+    "近视眼都建议吃的5类食物"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "饭后出现4个表现当心是胃癌信号",
+        "label": "饭后出现4个表现当心是胃癌信号",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "每一个近视眼都该控糖了",
+        "label": "每一个近视眼都该控糖了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博声浪计划",
+        "label": "微博声浪计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "听见微博",
+        "label": "听见微博",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "摄影",
+        "label": "摄影",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博影像年",
+        "label": "微博影像年",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "民民小调查",
+        "label": "民民小调查",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么说近视的人要少吃甜食",
+        "label": "为什么说近视的人要少吃甜食",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "甜食如何一步步瓦解视力",
+        "label": "甜食如何一步步瓦解视力",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "顺Yi加油站",
+        "label": "顺Yi加油站",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "乡约食光京超开打",
+        "label": "乡约食光京超开打",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "京超开打了",
+        "label": "京超开打了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "脱粉",
+        "label": "脱粉",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "胡彦斌 法庭上带着你的破视频",
+        "label": "胡彦斌 法庭上带着你的破视频",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "5种营养素是护眼利器",
+        "label": "5种营养素是护眼利器",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "近视眼都建议吃的5类食物",
+        "label": "近视眼都建议吃的5类食物",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

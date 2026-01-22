@@ -1,0 +1,340 @@
+{
+  "updated_at": "2025-12-05T20:53:00.523897+08:00",
+  "summary": {
+    "total_events": 18,
+    "by_major": {
+      "健康管理与养生": 6,
+      "健康观念与社会现象": 5,
+      "特殊场景与群体健康": 3,
+      "环境与灾害关联健康问题": 2,
+      "食品药品安全": 2
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-10-topic-5133fdd8",
+      "title": "旧金山街头像丧尸大片",
+      "category": "食品药品安全",
+      "start_ts": 1760025600,
+      "end_ts": 1760058000,
+      "heat_peak": 238339.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1760058000,
+          "heat": 238339.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-85cc6db4",
+      "title": "母亲回应网传女儿高反被搭子抛弃",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1760025600,
+      "end_ts": 1760065200,
+      "heat_peak": 258572.0,
+      "sentiment": -0.7,
+      "region": "四川",
+      "point_count": 10,
+      "points": [
+        {
+          "ts": 1760065200,
+          "heat": 258572.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-877f0e9c",
+      "title": "新加坡双尸案女儿是剑桥博士疑饿死",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760025600,
+      "end_ts": 1760050800,
+      "heat_peak": 931120.0,
+      "sentiment": -0.8,
+      "region": "国外",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1760050800,
+          "heat": 931120.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-712ad744",
+      "title": "唇部敏感问题不能被忽视",
+      "category": "健康管理与养生",
+      "start_ts": 1760083200,
+      "end_ts": 1760086800,
+      "heat_peak": 230381.0,
+      "sentiment": 0.65,
+      "region": "四川",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760086800,
+          "heat": 230381.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-a6fff2b3",
+      "title": "人唯一不会长大的器官",
+      "category": "健康管理与养生",
+      "start_ts": 1760090400,
+      "end_ts": 1760108400,
+      "heat_peak": 314586.0,
+      "sentiment": 0.18,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1760108400,
+          "heat": 314586.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-10-topic-4a73f2bf",
+      "title": "白鹿说自己得了疑难杂症",
+      "category": "健康管理与养生",
+      "start_ts": 1760097600,
+      "end_ts": 1760108400,
+      "heat_peak": 226361.0,
+      "sentiment": 0.4,
+      "region": "浙江",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1760108400,
+          "heat": 226361.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-11-topic-4a73f2bf",
+      "title": "白鹿说自己得了疑难杂症",
+      "category": "健康管理与养生",
+      "start_ts": 1760112000,
+      "end_ts": 1760144400,
+      "heat_peak": 236304.0,
+      "sentiment": 0.35,
+      "region": "浙江",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1760144400,
+          "heat": 236304.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-11-topic-0de7e9f7",
+      "title": "南方高温下周或终结",
+      "category": "健康管理与养生",
+      "start_ts": 1760144400,
+      "end_ts": 1760169600,
+      "heat_peak": 407551.0,
+      "sentiment": 0.3,
+      "region": "广东",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760169600,
+          "heat": 407551.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-11-topic-e1294a63",
+      "title": "失温女生母亲要确认女儿是否被抛弃",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1760151600,
+      "end_ts": 1760166000,
+      "heat_peak": 212618.0,
+      "sentiment": -0.5,
+      "region": "四川",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1760166000,
+          "heat": 212618.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-11-topic-dc896993",
+      "title": "特朗普体检结果",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760169600,
+      "end_ts": 1760169600,
+      "heat_peak": 372153.0,
+      "sentiment": -0.3,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1760169600,
+          "heat": 372153.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-11-topic-11960f4c",
+      "title": "李杰灵谈对抗焦虑的工作模式",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760173200,
+      "end_ts": 1760173200,
+      "heat_peak": 225886.0,
+      "sentiment": 0.4,
+      "region": "广东",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1760173200,
+          "heat": 225886.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-11-topic-878f2f8c",
+      "title": "摊主女儿大口吃父母摊位剩食走红",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760187600,
+      "end_ts": 1760194800,
+      "heat_peak": 504710.0,
+      "sentiment": 0.7,
+      "region": "湖南",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760194800,
+          "heat": 504710.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-12-aa",
+      "title": "丈夫坚持AA制妻子无力支付要写欠条",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760198400,
+      "end_ts": 1760241600,
+      "heat_peak": 206817.0,
+      "sentiment": -0.7,
+      "region": "广东",
+      "point_count": 11,
+      "points": [
+        {
+          "ts": 1760241600,
+          "heat": 206817.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-12-41",
+      "title": "齐溪回应41岁生二胎",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760234400,
+      "end_ts": 1760238000,
+      "heat_peak": 204060.0,
+      "sentiment": 0.35,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760238000,
+          "heat": 204060.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-12-topic-1f11b30d",
+      "title": "真正的成熟从接纳孤独开始",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760245200,
+      "end_ts": 1760245200,
+      "heat_peak": 193847.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1760245200,
+          "heat": 193847.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-12-topic-9b005f75",
+      "title": "吃不吃麻辣烫的都沉默了",
+      "category": "食品药品安全",
+      "start_ts": 1760266800,
+      "end_ts": 1760281200,
+      "heat_peak": 256864.0,
+      "sentiment": -0.4,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1760281200,
+          "heat": 256864.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-12-topic-9ae4d094",
+      "title": "建议睡眠不好的都去吃",
+      "category": "健康管理与养生",
+      "start_ts": 1760270400,
+      "end_ts": 1760281200,
+      "heat_peak": 256388.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1760281200,
+          "heat": 256388.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-12-20",
+      "title": "周杰伦患强直性脊柱炎超20年",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760277600,
+      "end_ts": 1760281200,
+      "heat_peak": 256755.0,
+      "sentiment": -0.45,
+      "region": "台湾",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760281200,
+          "heat": 256755.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-12"
+}

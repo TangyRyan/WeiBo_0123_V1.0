@@ -1,0 +1,172 @@
+{
+  "event_id": "2025-10-26-topic-46dec6a3",
+  "date": "2025-10-26",
+  "title": "孕检低风险却生下唐氏儿保险拒赔",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "山西",
+  "start_ts": 1761472800,
+  "end_ts": 1761490800,
+  "heat_peak": 231144.0,
+  "point_count": 6,
+  "points": [
+    {
+      "ts": 1761472800,
+      "heat": 231144.0,
+      "rank": null
+    },
+    {
+      "ts": 1761476400,
+      "heat": 231144.0,
+      "rank": null
+    },
+    {
+      "ts": 1761480000,
+      "heat": 231144.0,
+      "rank": null
+    },
+    {
+      "ts": 1761483600,
+      "heat": 231144.0,
+      "rank": null
+    },
+    {
+      "ts": 1761487200,
+      "heat": 231144.0,
+      "rank": null
+    },
+    {
+      "ts": 1761490800,
+      "heat": 231144.0,
+      "rank": null
+    }
+  ],
+  "summary": "孕检低风险却生下唐氏儿保险拒赔",
+  "tags": [
+    "孕检低风险却生下唐氏儿保险拒赔",
+    "保险以非指定类型为由拒赔唐氏儿",
+    "啄木鸟消费者投诉平台",
+    "财经观察官",
+    "收2份唐氏诊断书仍说缺明确诊断拒赔",
+    "2次唐氏儿诊断分型不同40万保单打水漂",
+    "宝宝健康必修课"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "孕检低风险却生下唐氏儿保险拒赔",
+        "label": "孕检低风险却生下唐氏儿保险拒赔",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "保险以非指定类型为由拒赔唐氏儿",
+        "label": "保险以非指定类型为由拒赔唐氏儿",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "啄木鸟消费者投诉平台",
+        "label": "啄木鸟消费者投诉平台",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "财经观察官",
+        "label": "财经观察官",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "收2份唐氏诊断书仍说缺明确诊断拒赔",
+        "label": "收2份唐氏诊断书仍说缺明确诊断拒赔",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2次唐氏儿诊断分型不同40万保单打水漂",
+        "label": "2次唐氏儿诊断分型不同40万保单打水漂",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "宝宝健康必修课",
+        "label": "宝宝健康必修课",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,2 @@
+data/hot_topics/*.json filter=lfs diff=lfs merge=lfs -text
+data-backup-*.tgz filter=lfs diff=lfs merge=lfs -text

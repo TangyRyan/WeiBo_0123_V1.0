@@ -1,0 +1,147 @@
+{
+  "event_id": "2025-11-25-topic-8ec931c0",
+  "date": "2025-11-25",
+  "title": "今日辟谣",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": 0.2,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764061200,
+  "end_ts": 1764061200,
+  "heat_peak": 319957.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1764061200,
+      "heat": 319957.0,
+      "rank": null
+    }
+  ],
+  "summary": "为进一步打击网络谣言，营造清朗网络空间，自2月1日起，中央网信办举报中心通过中国互联网联合辟谣平台推出“今日辟谣”专栏。欢迎广大网友关注并积极提供谣言线索，共同阻断谣言传播链条，净化网络环境，营造文明和谐的网络家园。",
+  "tags": [
+    "联合辟谣",
+    "微博辟谣",
+    "今日辟谣",
+    "河南网络辟谣",
+    "清朗河南",
+    "向谣言说不",
+    "请停止对宋佳的围剿"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "联合辟谣",
+        "label": "联合辟谣",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博辟谣",
+        "label": "微博辟谣",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "今日辟谣",
+        "label": "今日辟谣",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "河南网络辟谣",
+        "label": "河南网络辟谣",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "清朗河南",
+        "label": "清朗河南",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向谣言说不",
+        "label": "向谣言说不",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "请停止对宋佳的围剿",
+        "label": "请停止对宋佳的围剿",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

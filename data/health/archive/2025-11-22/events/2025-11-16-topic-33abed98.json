@@ -1,0 +1,139 @@
+{
+  "event_id": "2025-11-16-topic-33abed98",
+  "date": "2025-11-16",
+  "title": "二手奶茶袋已卖到几十元",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763272800,
+  "end_ts": 1763290800,
+  "heat_peak": 257606.0,
+  "point_count": 5,
+  "points": [
+    {
+      "ts": 1763272800,
+      "heat": 257606.0,
+      "rank": null
+    },
+    {
+      "ts": 1763276400,
+      "heat": 257606.0,
+      "rank": null
+    },
+    {
+      "ts": 1763283600,
+      "heat": 257606.0,
+      "rank": null
+    },
+    {
+      "ts": 1763287200,
+      "heat": 257606.0,
+      "rank": null
+    },
+    {
+      "ts": 1763290800,
+      "heat": 257606.0,
+      "rank": null
+    }
+  ],
+  "summary": "二手奶茶袋已卖到几十元",
+  "tags": [
+    "经常喝奶茶会让血管长斑",
+    "血管天敌奶茶已被医生拉黑",
+    "二手奶茶袋已卖到几十元"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "经常喝奶茶会让血管长斑",
+        "label": "经常喝奶茶会让血管长斑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "血管天敌奶茶已被医生拉黑",
+        "label": "血管天敌奶茶已被医生拉黑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "二手奶茶袋已卖到几十元",
+        "label": "二手奶茶袋已卖到几十元",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

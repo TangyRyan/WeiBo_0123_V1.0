@@ -1,0 +1,210 @@
+{
+  "event_id": "2025-12-03-topic-772230e3",
+  "date": "2025-12-03",
+  "title": "华裔女子痔疮手术后不堪剧痛自杀",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "重大医疗事故",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "国外",
+  "start_ts": 1764698400,
+  "end_ts": 1764727200,
+  "heat_peak": 343973.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1764691200,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764694800,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764698400,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764702000,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764709200,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764712800,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764716400,
+      "heat": 343973.0,
+      "rank": null
+    },
+    {
+      "ts": 1764727200,
+      "heat": 343973.0,
+      "rank": null
+    }
+  ],
+  "summary": "华裔女子痔疮手术后不堪剧痛自杀",
+  "tags": [
+    "华裔女子痔疮手术后不堪剧痛自杀",
+    "女子痔疮手术后自杀医生涉多起官司",
+    "痔疮手术后24小时为疼痛高峰期",
+    "三甲医生回应女子痔疮手术后自杀",
+    "热点学法",
+    "ai创造营",
+    "ai创作热点",
+    "健康科普",
+    "月运",
+    "乙木",
+    "微博热点优质创作计划"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "华裔女子痔疮手术后不堪剧痛自杀",
+        "label": "华裔女子痔疮手术后不堪剧痛自杀",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女子痔疮手术后自杀医生涉多起官司",
+        "label": "女子痔疮手术后自杀医生涉多起官司",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "痔疮手术后24小时为疼痛高峰期",
+        "label": "痔疮手术后24小时为疼痛高峰期",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三甲医生回应女子痔疮手术后自杀",
+        "label": "三甲医生回应女子痔疮手术后自杀",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点学法",
+        "label": "热点学法",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "ai创造营",
+        "label": "ai创造营",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "ai创作热点",
+        "label": "ai创作热点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健康科普",
+        "label": "健康科普",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "月运",
+        "label": "月运",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "乙木",
+        "label": "乙木",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博热点优质创作计划",
+        "label": "微博热点优质创作计划",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

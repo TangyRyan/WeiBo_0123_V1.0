@@ -1,0 +1,117 @@
+{
+  "event_id": "2025-12-04-topic-f89dd438",
+  "date": "2025-12-04",
+  "title": "研究称烧秸秆能控制超级细菌传播",
+  "category": "传染病与公共卫生应急",
+  "health_minor": "1.3 疫苗与防疫政策",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1764856800,
+  "end_ts": 1764860400,
+  "heat_peak": 266489.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764856800,
+      "heat": 266489.0,
+      "rank": null
+    },
+    {
+      "ts": 1764860400,
+      "heat": 266489.0,
+      "rank": null
+    }
+  ],
+  "summary": "研究称烧秸秆能控制超级细菌传播",
+  "tags": [
+    "研究称烧秸秆能控制超级细菌传播",
+    "热点观点"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "研究称烧秸秆能控制超级细菌传播",
+        "label": "研究称烧秸秆能控制超级细菌传播",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点",
+        "label": "热点观点",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

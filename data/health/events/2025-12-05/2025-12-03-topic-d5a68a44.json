@@ -1,0 +1,136 @@
+{
+  "event_id": "2025-12-03-topic-d5a68a44",
+  "date": "2025-12-03",
+  "title": "蔡磊已准备好尝试脑机接口",
+  "category": "医疗行业与技术动态",
+  "health_minor": "医疗技术创新",
+  "sentiment": 0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764766800,
+  "end_ts": 1764774000,
+  "heat_peak": 355966.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1764766800,
+      "heat": 355966.0,
+      "rank": null
+    },
+    {
+      "ts": 1764770400,
+      "heat": 355966.0,
+      "rank": null
+    },
+    {
+      "ts": 1764774000,
+      "heat": 355966.0,
+      "rank": null
+    }
+  ],
+  "summary": "在通过眼控仪接受澎湃新闻专访时，渐冻症患者、京东前副总裁蔡磊表示，如果有一天眼控技术也难以满足工作需要，他已经准备好尝试脑机接口。",
+  "tags": [
+    "蔡磊回应身体近况",
+    "蔡磊已准备好尝试脑机接口",
+    "蔡磊想创造一个自己的具身智能分身",
+    "蔡磊一年半只出去过一次"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "蔡磊回应身体近况",
+        "label": "蔡磊回应身体近况",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "蔡磊已准备好尝试脑机接口",
+        "label": "蔡磊已准备好尝试脑机接口",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "蔡磊想创造一个自己的具身智能分身",
+        "label": "蔡磊想创造一个自己的具身智能分身",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "蔡磊一年半只出去过一次",
+        "label": "蔡磊一年半只出去过一次",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "sample_posts": []
+}

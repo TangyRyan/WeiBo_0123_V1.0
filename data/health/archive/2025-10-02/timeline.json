@@ -1,0 +1,159 @@
+{
+  "updated_at": "2025-12-05T20:37:31.091606+08:00",
+  "summary": {
+    "total_events": 8,
+    "by_major": {
+      "健康管理与养生": 3,
+      "健康观念与社会现象": 2,
+      "医疗服务与医患矛盾": 1,
+      "食品药品安全": 2
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-09-30-topic-39d860a5",
+      "title": "王菊怎么瘦成这样了",
+      "category": "健康管理与养生",
+      "start_ts": 1759233600,
+      "end_ts": 1759244400,
+      "heat_peak": 318162.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759244400,
+          "heat": 318162.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-09-30-topic-cdde414d",
+      "title": "女子过度医美面部馒化酷似面具人",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1759240800,
+      "end_ts": 1759244400,
+      "heat_peak": 421836.0,
+      "sentiment": -0.7,
+      "region": "湖北",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759244400,
+          "heat": 421836.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-01-topic-ee0543d9",
+      "title": "蜜雪冰城门店 老鼠横行",
+      "category": "食品药品安全",
+      "start_ts": 1759309200,
+      "end_ts": 1759316400,
+      "heat_peak": 295897.0,
+      "sentiment": -0.3,
+      "region": "河南",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759316400,
+          "heat": 295897.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-01-topic-d96c9a89",
+      "title": "习惯侧睡的人今晚换个姿势",
+      "category": "健康管理与养生",
+      "start_ts": 1759320000,
+      "end_ts": 1759330800,
+      "heat_peak": 192324.0,
+      "sentiment": 0.0,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759330800,
+          "heat": 192324.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-01-topic-b958a1a5",
+      "title": "网友为鸡排哥的用油吵翻了天",
+      "category": "食品药品安全",
+      "start_ts": 1759327200,
+      "end_ts": 1759330800,
+      "heat_peak": 1055990.0,
+      "sentiment": 0.4,
+      "region": "江西",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759330800,
+          "heat": 1055990.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-02-topic-f69fbdb5",
+      "title": "南非驻法大使跳楼前发诀别短信",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759334400,
+      "end_ts": 1759359600,
+      "heat_peak": 212467.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 8,
+      "points": [
+        {
+          "ts": 1759359600,
+          "heat": 212467.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-02-topic-d845f14a",
+      "title": "高度近视眼一定要防止视网膜脱落",
+      "category": "健康管理与养生",
+      "start_ts": 1759399200,
+      "end_ts": 1759413600,
+      "heat_peak": 221779.0,
+      "sentiment": -0.4,
+      "region": "北京",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759413600,
+          "heat": 221779.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-02-topic-4107e0ae",
+      "title": "智能马桶喷出开水女子被烫伤",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759410000,
+      "end_ts": 1759417200,
+      "heat_peak": 192778.0,
+      "sentiment": -0.7,
+      "region": "北京",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759417200,
+          "heat": 192778.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-02"
+}

@@ -1,0 +1,169 @@
+{
+  "event_id": "2025-11-23-9000",
+  "date": "2025-11-23",
+  "title": "廉价首饰 致癌物超标9000多倍",
+  "category": "健康观念与社会现象",
+  "health_minor": "9.2 健康相关社会争议",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.7
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1763902800,
+  "end_ts": 1763910000,
+  "heat_peak": 1111262.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1763899200,
+      "heat": 1111262.0,
+      "rank": null
+    },
+    {
+      "ts": 1763902800,
+      "heat": 1111262.0,
+      "rank": null
+    },
+    {
+      "ts": 1763906400,
+      "heat": 1111262.0,
+      "rank": null
+    },
+    {
+      "ts": 1763910000,
+      "heat": 1111262.0,
+      "rank": null
+    }
+  ],
+  "summary": "廉价首饰 致癌物超标9000多倍",
+  "tags": [
+    "廉价首饰 致癌物超标9000多倍",
+    "廉价合金首饰镉元素超标9000多倍",
+    "每周质量报告",
+    "社会热点",
+    "避雷4种常见的有毒首饰",
+    "建议扔掉这4类有毒饰品",
+    "饰品戴久了瘙痒红肿可能是重金属超标",
+    "热点观点"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "廉价首饰 致癌物超标9000多倍",
+        "label": "廉价首饰 致癌物超标9000多倍",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "廉价合金首饰镉元素超标9000多倍",
+        "label": "廉价合金首饰镉元素超标9000多倍",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "每周质量报告",
+        "label": "每周质量报告",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "社会热点",
+        "label": "社会热点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "避雷4种常见的有毒首饰",
+        "label": "避雷4种常见的有毒首饰",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "建议扔掉这4类有毒饰品",
+        "label": "建议扔掉这4类有毒饰品",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "饰品戴久了瘙痒红肿可能是重金属超标",
+        "label": "饰品戴久了瘙痒红肿可能是重金属超标",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点",
+        "label": "热点观点",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.7
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

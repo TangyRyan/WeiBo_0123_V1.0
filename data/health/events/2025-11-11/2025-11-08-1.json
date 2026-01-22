@@ -1,0 +1,124 @@
+{
+  "event_id": "2025-11-08-1",
+  "date": "2025-11-08",
+  "title": "男子喉咙痛1个月咽喉长满雪花",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": -0.6,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1762610400,
+  "end_ts": 1762614000,
+  "heat_peak": 230624.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1762610400,
+      "heat": 230624.0,
+      "rank": null
+    },
+    {
+      "ts": 1762614000,
+      "heat": 230624.0,
+      "rank": null
+    }
+  ],
+  "summary": "宁波男子喉咙痛一个月不见好，一看嗓子里长满“雪花”！",
+  "tags": [
+    "男子喉咙痛1个月咽喉长满雪花",
+    "热点科普",
+    "男子常吃抗生素嗓子长满雪花"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "男子喉咙痛1个月咽喉长满雪花",
+        "label": "男子喉咙痛1个月咽喉长满雪花",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点科普",
+        "label": "热点科普",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "男子常吃抗生素嗓子长满雪花",
+        "label": "男子常吃抗生素嗓子长满雪花",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

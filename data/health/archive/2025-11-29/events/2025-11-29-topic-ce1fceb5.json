@@ -1,0 +1,152 @@
+{
+  "event_id": "2025-11-29-topic-ce1fceb5",
+  "date": "2025-11-29",
+  "title": "假奶粉 奶精加淀粉",
+  "category": "食品药品安全",
+  "health_minor": "食品安全突发情况",
+  "sentiment": -0.8,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.8
+    },
+    {
+      "name": "气愤",
+      "value": 0.9
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "河南",
+  "start_ts": 1764424800,
+  "end_ts": 1764428400,
+  "heat_peak": 1144239.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764424800,
+      "heat": 1144239.0,
+      "rank": null
+    },
+    {
+      "ts": 1764428400,
+      "heat": 1144239.0,
+      "rank": null
+    }
+  ],
+  "summary": "假奶粉 奶精加淀粉",
+  "tags": [
+    "奶精加淀粉做成假奶粉销往全国",
+    "三人制假奶粉自产自销卖了数百万",
+    "奶精淀粉制假奶粉",
+    "假奶粉 奶精加淀粉",
+    "2026年国考371.8万人",
+    "遇见艺术",
+    "人民网评假奶粉板子别只打造假者"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "奶精加淀粉做成假奶粉销往全国",
+        "label": "奶精加淀粉做成假奶粉销往全国",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三人制假奶粉自产自销卖了数百万",
+        "label": "三人制假奶粉自产自销卖了数百万",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "奶精淀粉制假奶粉",
+        "label": "奶精淀粉制假奶粉",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "假奶粉 奶精加淀粉",
+        "label": "假奶粉 奶精加淀粉",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2026年国考371.8万人",
+        "label": "2026年国考371.8万人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "遇见艺术",
+        "label": "遇见艺术",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "人民网评假奶粉板子别只打造假者",
+        "label": "人民网评假奶粉板子别只打造假者",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.8
+    },
+    {
+      "name": "气愤",
+      "value": 0.9
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

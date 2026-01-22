@@ -1,0 +1,120 @@
+{
+  "event_id": "2025-11-12-ally",
+  "date": "2025-11-12",
+  "title": "ally因整容擤不出鼻涕",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.15
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.25
+    },
+    {
+      "name": "讨厌",
+      "value": 0.35
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762923600,
+  "end_ts": 1762934400,
+  "heat_peak": 126125.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1762923600,
+      "heat": 126125.0,
+      "rank": null
+    },
+    {
+      "ts": 1762927200,
+      "heat": 126125.0,
+      "rank": null
+    },
+    {
+      "ts": 1762930800,
+      "heat": 126125.0,
+      "rank": null
+    },
+    {
+      "ts": 1762934400,
+      "heat": 126125.0,
+      "rank": null
+    }
+  ],
+  "summary": "ally因整容擤不出鼻涕",
+  "tags": [
+    "ally因整容擤不出鼻涕"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "ally因整容擤不出鼻涕",
+        "label": "ally因整容擤不出鼻涕",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.15
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.25
+    },
+    {
+      "name": "讨厌",
+      "value": 0.35
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,143 @@
+{
+  "event_id": "2025-11-22-topic-6e1cff7a",
+  "date": "2025-11-22",
+  "title": "阚清子挺孕肚产检疑临盆在即",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.75,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763805600,
+  "end_ts": 1763812800,
+  "heat_peak": 259543.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1763805600,
+      "heat": 259543.0,
+      "rank": null
+    },
+    {
+      "ts": 1763809200,
+      "heat": 259543.0,
+      "rank": null
+    },
+    {
+      "ts": 1763812800,
+      "heat": 259543.0,
+      "rank": null
+    }
+  ],
+  "summary": "阚清子挺孕肚产检疑临盆在即",
+  "tags": [
+    "阚清子挺孕肚产检疑临盆在即",
+    "视频百亿流量扶持计划",
+    "兴趣吸引力计划",
+    "一分钟视频创作季",
+    "阚清子"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "阚清子挺孕肚产检疑临盆在即",
+        "label": "阚清子挺孕肚产检疑临盆在即",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "视频百亿流量扶持计划",
+        "label": "视频百亿流量扶持计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "兴趣吸引力计划",
+        "label": "兴趣吸引力计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "阚清子",
+        "label": "阚清子",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,168 @@
+{
+  "event_id": "2025-12-05-topic-7f96dde9",
+  "date": "2025-12-05",
+  "title": "生育津贴成唐僧肉暴露规则漏洞",
+  "category": "健康政策与公共服务",
+  "health_minor": "医疗保障政策",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.7
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "河北",
+  "start_ts": 1764867600,
+  "end_ts": 1764900000,
+  "heat_peak": 263464.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1764867600,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764871200,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764874800,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764878400,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764882000,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764885600,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764889200,
+      "heat": 263464.0,
+      "rank": null
+    },
+    {
+      "ts": 1764900000,
+      "heat": 263464.0,
+      "rank": null
+    }
+  ],
+  "summary": "当生育津贴沦为“提款机”，受伤的是千万个普通家庭的生育尊严。",
+  "tags": [
+    "生育津贴不是投机者的唐僧肉",
+    "生育津贴成唐僧肉暴露规则漏洞",
+    "楼市第一线",
+    "24人骗取生育津贴超220万",
+    "骗取生育津贴公司生育保险0人参保"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "生育津贴不是投机者的唐僧肉",
+        "label": "生育津贴不是投机者的唐僧肉",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "生育津贴成唐僧肉暴露规则漏洞",
+        "label": "生育津贴成唐僧肉暴露规则漏洞",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "楼市第一线",
+        "label": "楼市第一线",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "24人骗取生育津贴超220万",
+        "label": "24人骗取生育津贴超220万",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "骗取生育津贴公司生育保险0人参保",
+        "label": "骗取生育津贴公司生育保险0人参保",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.7
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

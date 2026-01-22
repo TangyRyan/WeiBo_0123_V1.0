@@ -1,0 +1,140 @@
+{
+  "event_id": "2025-12-04-topic-ed428e18",
+  "date": "2025-12-04",
+  "title": "宁波卫健委再回应女婴手术离世",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "重大医疗事故",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.5
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1764817200,
+  "end_ts": 1764817200,
+  "heat_peak": 248264.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1764817200,
+      "heat": 248264.0,
+      "rank": null
+    }
+  ],
+  "summary": "12月3日下午，现代快报记者拨通宁波市卫健委值班电话，一名工作人员表示，调查组前期已经启动了医疗事故技术鉴定，具体要等最后的尸检结果出来，最终会由调查组来公布调查结果。",
+  "tags": [
+    "宁波卫健委再回应女婴手术离世",
+    "小洛熙",
+    "宁波手术离世女婴家属再发声",
+    "小洛熙案卫健委调查组已启动医疗事故鉴定",
+    "小洛熙案迎来第一个分水岭",
+    "闲云杂谈"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "宁波卫健委再回应女婴手术离世",
+        "label": "宁波卫健委再回应女婴手术离世",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙",
+        "label": "小洛熙",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "宁波手术离世女婴家属再发声",
+        "label": "宁波手术离世女婴家属再发声",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙案卫健委调查组已启动医疗事故鉴定",
+        "label": "小洛熙案卫健委调查组已启动医疗事故鉴定",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小洛熙案迎来第一个分水岭",
+        "label": "小洛熙案迎来第一个分水岭",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "闲云杂谈",
+        "label": "闲云杂谈",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.5
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

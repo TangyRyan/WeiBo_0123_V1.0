@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-01-23T02:06:44.243976+08:00",
+  "events": [
+    {
+      "name": "美国童星疑闯红灯被拖行致死",
+      "date": "2026-01-19",
+      "risk_score": 81.0,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 81.0,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.8,
+        "region": "国外",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.7,
+          "惊喜": 0.0,
+          "伤心": 0.8,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 90.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 61.0
+    },
+    {
+      "name": "上海外滩女子占道直播跳舞引公愤",
+      "date": "2026-01-19",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "上海",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.0,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.7,
+          "气愤": 0.8,
+          "期盼": 0.4
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 59.25
+    },
+    {
+      "name": "伊朗总统称攻击最高领袖致全面战争",
+      "date": "2026-01-19",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "国外",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.6,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.5,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 59.25
+    },
+    {
+      "name": "人民日报记者探访煤改气后取暖贵",
+      "date": "2026-01-19",
+      "risk_score": 78.375,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.375,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.65,
+        "region": "山东",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.3,
+          "气愤": 0.4,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 82.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 58.375
+    },
+    {
+      "name": "德国军事人员突然秘密撤离格陵兰岛",
+      "date": "2026-01-19",
+      "risk_score": 75.75,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 75.75,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.5,
+        "region": "国外",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.1,
+          "信任": 0.0,
+          "恐惧": 0.1,
+          "惊喜": 0.3,
+          "伤心": 0.2,
+          "讨厌": 0.4,
+          "气愤": 0.5,
+          "期盼": 0.0
+        }
+      },
+      "risk_dims": {
+        "negativity": 75.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 55.75
+    }
+  ],
+  "date": "2026-01-16"
+}

@@ -1,0 +1,119 @@
+{
+  "event_id": "2025-10-29-topic-8e8dbf79",
+  "date": "2025-10-29",
+  "title": "伟哥市场乱象调查",
+  "category": "食品药品安全",
+  "health_minor": "药品安全突发情况",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1761710400,
+  "end_ts": 1761710400,
+  "heat_peak": 270768.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1761710400,
+      "heat": 270768.0,
+      "rank": null
+    }
+  ],
+  "summary": "你买的伟哥是伟哥吗？全网搜 “伟哥” 为何包装次次不同？价格差10倍！年销上亿片的ED药市场，由于商标的授权模式加剧了市场辨识的复杂性，消费者难辨真伪，维权还得跟三方扯皮，这药买得太闹心！",
+  "tags": [
+    "伟哥市场乱象调查",
+    "你买的伟哥是伟哥吗",
+    "行业公信力受损警示"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "伟哥市场乱象调查",
+        "label": "伟哥市场乱象调查",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "你买的伟哥是伟哥吗",
+        "label": "你买的伟哥是伟哥吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "行业公信力受损警示",
+        "label": "行业公信力受损警示",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.4
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,136 @@
+{
+  "event_id": "2025-12-01-10",
+  "date": "2025-12-01",
+  "title": "治沙人种下的10万株玫瑰长大了",
+  "category": "特殊场景与群体健康",
+  "health_minor": "公共场合聚集性健康问题",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.6
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "天津",
+  "start_ts": 1764594000,
+  "end_ts": 1764601200,
+  "heat_peak": 263001.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1764594000,
+      "heat": 263001.0,
+      "rank": null
+    },
+    {
+      "ts": 1764597600,
+      "heat": 263001.0,
+      "rank": null
+    },
+    {
+      "ts": 1764601200,
+      "heat": 263001.0,
+      "rank": null
+    }
+  ],
+  "summary": "治沙人种下的10万株玫瑰长大了",
+  "tags": [
+    "老人花10元剃头后满头血痂",
+    "女儿回应老人花10元剃头满头血痂",
+    "老人剃头被练手顶满头伤口回家",
+    "家人回应老人剃头被练手"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "老人花10元剃头后满头血痂",
+        "label": "老人花10元剃头后满头血痂",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女儿回应老人花10元剃头满头血痂",
+        "label": "女儿回应老人花10元剃头满头血痂",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "老人剃头被练手顶满头伤口回家",
+        "label": "老人剃头被练手顶满头伤口回家",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "家人回应老人剃头被练手",
+        "label": "家人回应老人剃头被练手",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.6
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

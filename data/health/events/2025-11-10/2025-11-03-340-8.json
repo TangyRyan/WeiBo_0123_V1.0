@@ -1,0 +1,196 @@
+{
+  "event_id": "2025-11-03-340-8",
+  "date": "2025-11-03",
+  "title": "340斤男生展示8块腹肌走红",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.6
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "辽宁",
+  "start_ts": 1762182000,
+  "end_ts": 1762182000,
+  "heat_peak": 224024.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762182000,
+      "heat": 224024.0,
+      "rank": null
+    }
+  ],
+  "summary": "340斤的小徐凭借8块腹肌走红网络，被称为当代许褚。小徐说，本来健身为了减肥，接触力量训练后，从250斤练到340斤，并打破多项举重记录。",
+  "tags": [
+    "340斤男生展示8块腹肌走红",
+    "00后小伙体重340斤有8块腹肌",
+    "欢度五一",
+    "每日健身",
+    "健身打卡",
+    "热点现场",
+    "生活碎碎念",
+    "健身技巧",
+    "居家健身",
+    "核心训练",
+    "热点观点",
+    "即刻开跑",
+    "1个卷腹动作锻炼腹肌",
+    "青春拥抱新时代"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "340斤男生展示8块腹肌走红",
+        "label": "340斤男生展示8块腹肌走红",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "00后小伙体重340斤有8块腹肌",
+        "label": "00后小伙体重340斤有8块腹肌",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "欢度五一",
+        "label": "欢度五一",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "每日健身",
+        "label": "每日健身",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健身打卡",
+        "label": "健身打卡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点现场",
+        "label": "热点现场",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "生活碎碎念",
+        "label": "生活碎碎念",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健身技巧",
+        "label": "健身技巧",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "居家健身",
+        "label": "居家健身",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "核心训练",
+        "label": "核心训练",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点",
+        "label": "热点观点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "即刻开跑",
+        "label": "即刻开跑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "1个卷腹动作锻炼腹肌",
+        "label": "1个卷腹动作锻炼腹肌",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "青春拥抱新时代",
+        "label": "青春拥抱新时代",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.6
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

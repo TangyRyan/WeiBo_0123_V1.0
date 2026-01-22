@@ -1,0 +1,173 @@
+{
+  "event_id": "2025-11-13-topic-5b8ae20e",
+  "date": "2025-11-13",
+  "title": "朱媛媛去世六个月辛柏青状态",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": -0.35,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "辽宁",
+  "start_ts": 1762963200,
+  "end_ts": 1762999200,
+  "heat_peak": 225226.0,
+  "point_count": 9,
+  "points": [
+    {
+      "ts": 1762963200,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762966800,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762970400,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762974000,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762977600,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762981200,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762984800,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762988400,
+      "heat": 225226.0,
+      "rank": null
+    },
+    {
+      "ts": 1762999200,
+      "heat": 225226.0,
+      "rank": null
+    }
+  ],
+  "summary": "有网友偶遇其称他肉眼可见比第一次有精神了，心情稍有好转。",
+  "tags": [
+    "朱媛媛去世六个月辛柏青状态",
+    "李乃文",
+    "一分钟视频创作季",
+    "刘谦回应抗癌成功的关键是早发现",
+    "我的幽默灵感片场"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "朱媛媛去世六个月辛柏青状态",
+        "label": "朱媛媛去世六个月辛柏青状态",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "李乃文",
+        "label": "李乃文",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "刘谦回应抗癌成功的关键是早发现",
+        "label": "刘谦回应抗癌成功的关键是早发现",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我的幽默灵感片场",
+        "label": "我的幽默灵感片场",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

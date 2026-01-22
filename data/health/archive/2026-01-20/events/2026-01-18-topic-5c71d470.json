@@ -1,0 +1,524 @@
+{
+  "event_id": "2026-01-18-topic-5c71d470",
+  "date": "2026-01-18",
+  "title": "曝杨紫每天都在很痛苦地减肥",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1768748400,
+  "end_ts": 1768748400,
+  "heat_peak": 216859.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1768748400,
+      "heat": 216859.0,
+      "rank": null
+    }
+  ],
+  "summary": "曝杨紫每天都在很痛苦地减肥",
+  "tags": [
+    "曝杨紫每天都在很痛苦地减肥",
+    "曝杨紫在剧组有专门的生活助理",
+    "每天这两个小时最容易变胖"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "曝杨紫每天都在很痛苦地减肥",
+        "label": "曝杨紫每天都在很痛苦地减肥",
+        "weight": 19.0,
+        "community": 0
+      },
+      {
+        "id": "曝杨紫在剧组有专门的生活助理",
+        "label": "曝杨紫在剧组有专门的生活助理",
+        "weight": 3.0,
+        "community": 0
+      },
+      {
+        "id": "每天这两个小时最容易变胖",
+        "label": "每天这两个小时最容易变胖",
+        "weight": 2.0,
+        "community": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "曝杨紫在剧组有专门的生活助理",
+        "target": "曝杨紫每天都在很痛苦地减肥",
+        "weight": 2.0
+      },
+      {
+        "source": "曝杨紫每天都在很痛苦地减肥",
+        "target": "每天这两个小时最容易变胖",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "减肥",
+      "weight": 26.0
+    },
+    {
+      "text": "每天",
+      "weight": 23.0
+    },
+    {
+      "text": "痛苦",
+      "weight": 21.0
+    },
+    {
+      "text": "曝杨",
+      "weight": 20.0
+    },
+    {
+      "text": "杨紫",
+      "weight": 9.0
+    },
+    {
+      "text": "生命",
+      "weight": 8.0
+    },
+    {
+      "text": "容易",
+      "weight": 4.0
+    },
+    {
+      "text": "展开",
+      "weight": 4.0
+    },
+    {
+      "text": "角色",
+      "weight": 4.0
+    },
+    {
+      "text": "自律",
+      "weight": 4.0
+    },
+    {
+      "text": "开始",
+      "weight": 3.0
+    },
+    {
+      "text": "nice",
+      "weight": 3.0
+    },
+    {
+      "text": "工作",
+      "weight": 3.0
+    },
+    {
+      "text": "演员",
+      "weight": 3.0
+    },
+    {
+      "text": "明天",
+      "weight": 3.0
+    },
+    {
+      "text": "来看",
+      "weight": 3.0
+    },
+    {
+      "text": "发胖",
+      "weight": 3.0
+    },
+    {
+      "text": "时刻",
+      "weight": 3.0
+    },
+    {
+      "text": "期待",
+      "weight": 3.0
+    },
+    {
+      "text": "需要",
+      "weight": 3.0
+    },
+    {
+      "text": "##",
+      "weight": 2.0
+    },
+    {
+      "text": "剧组",
+      "weight": 2.0
+    },
+    {
+      "text": "专门",
+      "weight": 2.0
+    },
+    {
+      "text": "生活",
+      "weight": 2.0
+    },
+    {
+      "text": "助理",
+      "weight": 2.0
+    },
+    {
+      "text": "网友",
+      "weight": 2.0
+    },
+    {
+      "text": "爆料",
+      "weight": 2.0
+    },
+    {
+      "text": "本人",
+      "weight": 2.0
+    },
+    {
+      "text": "超级",
+      "weight": 2.0
+    },
+    {
+      "text": "有趣",
+      "weight": 2.0
+    },
+    {
+      "text": "敬业",
+      "weight": 2.0
+    },
+    {
+      "text": "预热",
+      "weight": 2.0
+    },
+    {
+      "text": "一边",
+      "weight": 2.0
+    },
+    {
+      "text": "快乐",
+      "weight": 2.0
+    },
+    {
+      "text": "时间",
+      "weight": 2.0
+    },
+    {
+      "text": "时候",
+      "weight": 2.0
+    },
+    {
+      "text": "多部",
+      "weight": 2.0
+    },
+    {
+      "text": "待播剧",
+      "weight": 2.0
+    },
+    {
+      "text": "期待值",
+      "weight": 2.0
+    },
+    {
+      "text": "拉满",
+      "weight": 2.0
+    },
+    {
+      "text": "哪部",
+      "weight": 2.0
+    },
+    {
+      "text": "聊聊",
+      "weight": 2.0
+    },
+    {
+      "text": "小城",
+      "weight": 2.0
+    },
+    {
+      "text": "难忘",
+      "weight": 2.0
+    },
+    {
+      "text": "明星",
+      "weight": 2.0
+    },
+    {
+      "text": "一下",
+      "weight": 2.0
+    },
+    {
+      "text": "作品",
+      "weight": 2.0
+    },
+    {
+      "text": "月底",
+      "weight": 2.0
+    },
+    {
+      "text": "要求",
+      "weight": 2.0
+    },
+    {
+      "text": "对待",
+      "weight": 2.0
+    },
+    {
+      "text": "大家",
+      "weight": 2.0
+    },
+    {
+      "text": "聊天记录",
+      "weight": 2.0
+    },
+    {
+      "text": "觉得",
+      "weight": 2.0
+    },
+    {
+      "text": "业内",
+      "weight": 1.0
+    },
+    {
+      "text": "朋友",
+      "weight": 1.0
+    },
+    {
+      "text": "透露",
+      "weight": 1.0
+    },
+    {
+      "text": "ncie",
+      "weight": 1.0
+    },
+    {
+      "text": "呜呜",
+      "weight": 1.0
+    },
+    {
+      "text": "wow",
+      "weight": 1.0
+    },
+    {
+      "text": "只是",
+      "weight": 1.0
+    },
+    {
+      "text": "美食",
+      "weight": 1.0
+    },
+    {
+      "text": "抗争",
+      "weight": 1.0
+    },
+    {
+      "text": "享受",
+      "weight": 1.0
+    },
+    {
+      "text": "经历",
+      "weight": 1.0
+    },
+    {
+      "text": "折磨",
+      "weight": 1.0
+    },
+    {
+      "text": "大概",
+      "weight": 1.0
+    },
+    {
+      "text": "日常",
+      "weight": 1.0
+    },
+    {
+      "text": "GLASS",
+      "weight": 1.0
+    },
+    {
+      "text": "杂志",
+      "weight": 1.0
+    },
+    {
+      "text": "树有",
+      "weight": 1.0
+    },
+    {
+      "text": "预告",
+      "weight": 1.0
+    },
+    {
+      "text": "昨天",
+      "weight": 1.0
+    },
+    {
+      "text": "华伦",
+      "weight": 1.0
+    },
+    {
+      "text": "线下",
+      "weight": 1.0
+    },
+    {
+      "text": "杨紫超",
+      "weight": 1.0
+    },
+    {
+      "text": "美丽",
+      "weight": 1.0
+    },
+    {
+      "text": "对联",
+      "weight": 1.0
+    },
+    {
+      "text": "剧宣",
+      "weight": 1.0
+    },
+    {
+      "text": "一月底",
+      "weight": 1.0
+    },
+    {
+      "text": "央视",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-1055567522662432255",
+      "published_at": "2026-01-18T16:48:00+08:00",
+      "account_name": "娱乐圈茶水间",
+      "content_text": "#曝杨紫每天都在很痛苦地减肥##曝杨紫在剧组有专门的生活助理#网友爆料业内朋友透露杨紫本人超级ncie、有趣，每天也在很痛苦地减肥。呜呜好敬业！ ​",
+      "reposts": 345,
+      "comments": 601,
+      "likes": 15718
+    },
+    {
+      "post_id": "detail-3314584342981829185",
+      "published_at": "2026-01-18T21:04:00+08:00",
+      "account_name": "焦安然I",
+      "content_text": "wow，杨紫生命树开始预热啦！#曝杨紫每天都在很痛苦地减肥#​",
+      "reposts": 2,
+      "comments": 97,
+      "likes": 872
+    },
+    {
+      "post_id": "detail-4385051261088829108",
+      "published_at": "2026-01-18T17:42:00+08:00",
+      "account_name": "娱圈显微镜",
+      "content_text": "#曝杨紫每天都在很痛苦地减肥##曝杨紫在剧组有专门的生活助理#网友爆料杨紫本人超级nice又有趣，只是每天都要和美食“抗争”。一边享受工作的快乐，一边经历减肥的“折磨”，这大概就是演员的日常。 ​",
+      "reposts": 19,
+      "comments": 51,
+      "likes": 881
+    },
+    {
+      "post_id": "detail-5933385908305423115",
+      "published_at": "2026-01-18T22:14:00+08:00",
+      "account_name": "饭圈五阿哥",
+      "content_text": "#曝杨紫每天都在很痛苦地减肥#明天GLASS杂志、生命树有新预告 ​",
+      "reposts": 2,
+      "comments": 55,
+      "likes": 378
+    },
+    {
+      "post_id": "detail-6166161388540314781",
+      "published_at": "2026-01-18T19:18:00+08:00",
+      "account_name": "Du_Mber小姐",
+      "content_text": "#曝杨紫每天都在很痛苦地减肥#昨天华伦线下杨紫超美丽 还做了对联剧宣就在一月底 就在央视 就在爱奇艺 质感满满 无人区实景拍摄的生命树等你来看 ​",
+      "reposts": 67,
+      "comments": 138,
+      "likes": 1605
+    },
+    {
+      "post_id": "detail-2001746939640656632",
+      "published_at": "2026-01-18T20:19:00+08:00",
+      "account_name": "人民日报健康客户端",
+      "content_text": "【#每天这两个小时最容易变胖#】#曝杨紫每天都在很痛苦地减肥#江西省南昌大学第二附属医院内分泌代谢科主任医师赖晓阳指出，“发胖时刻”有2个时间段：10:00～11:0016:00～17:00“发胖时刻”并不是因为某个固定时间点吃东西就一定会发胖，而是这个时间点更容易产生饥饿感。如果这个时段如果再吃很 ​展开c",
+      "reposts": 22,
+      "comments": 3,
+      "likes": 40
+    },
+    {
+      "post_id": "detail-8839215740607746836",
+      "published_at": "2026-01-18T20:51:00+08:00",
+      "account_name": "咕噜黑化了",
+      "content_text": "好消息，生命树开始预热啦！#曝杨紫每天都在很痛苦地减肥#​",
+      "reposts": 3,
+      "comments": 53,
+      "likes": 413
+    },
+    {
+      "post_id": "detail-3119048058784294932",
+      "published_at": "2026-01-18T19:55:00+08:00",
+      "account_name": "还未曾赴倒悬",
+      "content_text": "杨紫曾说减肥就是不吃饭，不是自愿的，很痛苦，减到会抑郁，当演员真是不容易，而且现在的杨紫比起小雪那个时候脸已经瘦了很多了#曝杨紫每天都在很痛苦地减肥#​",
+      "reposts": 33,
+      "comments": 104,
+      "likes": 1328
+    }
+  ]
+}

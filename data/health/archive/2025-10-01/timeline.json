@@ -1,0 +1,104 @@
+{
+  "updated_at": "2025-12-05T20:37:28.427817+08:00",
+  "summary": {
+    "total_events": 5,
+    "by_major": {
+      "健康管理与养生": 2,
+      "医疗服务与医患矛盾": 1,
+      "食品药品安全": 2
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-09-30-topic-39d860a5",
+      "title": "王菊怎么瘦成这样了",
+      "category": "健康管理与养生",
+      "start_ts": 1759233600,
+      "end_ts": 1759244400,
+      "heat_peak": 318162.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759244400,
+          "heat": 318162.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-09-30-topic-cdde414d",
+      "title": "女子过度医美面部馒化酷似面具人",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1759240800,
+      "end_ts": 1759244400,
+      "heat_peak": 421836.0,
+      "sentiment": -0.7,
+      "region": "湖北",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759244400,
+          "heat": 421836.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-01-topic-ee0543d9",
+      "title": "蜜雪冰城门店 老鼠横行",
+      "category": "食品药品安全",
+      "start_ts": 1759309200,
+      "end_ts": 1759316400,
+      "heat_peak": 295897.0,
+      "sentiment": -0.3,
+      "region": "河南",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759316400,
+          "heat": 295897.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-01-topic-d96c9a89",
+      "title": "习惯侧睡的人今晚换个姿势",
+      "category": "健康管理与养生",
+      "start_ts": 1759320000,
+      "end_ts": 1759330800,
+      "heat_peak": 192324.0,
+      "sentiment": 0.0,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759330800,
+          "heat": 192324.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-01-topic-b958a1a5",
+      "title": "网友为鸡排哥的用油吵翻了天",
+      "category": "食品药品安全",
+      "start_ts": 1759327200,
+      "end_ts": 1759330800,
+      "heat_peak": 1055990.0,
+      "sentiment": 0.4,
+      "region": "江西",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759330800,
+          "heat": 1055990.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-01"
+}

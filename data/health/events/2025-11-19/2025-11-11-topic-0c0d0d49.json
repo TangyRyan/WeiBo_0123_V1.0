@@ -1,0 +1,189 @@
+{
+  "event_id": "2025-11-11-topic-0c0d0d49",
+  "date": "2025-11-11",
+  "title": "赵继伟受伤",
+  "category": "特殊场景与群体健康",
+  "health_minor": "公共场合聚集性健康问题",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "region": "广东",
+  "start_ts": 1762862400,
+  "end_ts": 1762862400,
+  "heat_peak": 167321.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762862400,
+      "heat": 167321.0,
+      "rank": null
+    }
+  ],
+  "summary": "赵继伟受伤离场。",
+  "tags": [
+    "赵继伟受伤",
+    "辽宁男篮",
+    "热点解读",
+    "微博vlog大赛",
+    "全运会男篮辽粤大战",
+    "第十五届全运会",
+    "广东vs辽宁",
+    "全运日记",
+    "浙江稠州 广东队",
+    "广东VS辽宁",
+    "v观全运会",
+    "全运会",
+    "全民聊全运"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "赵继伟受伤",
+        "label": "赵继伟受伤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "辽宁男篮",
+        "label": "辽宁男篮",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点解读",
+        "label": "热点解读",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博vlog大赛",
+        "label": "微博vlog大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全运会男篮辽粤大战",
+        "label": "全运会男篮辽粤大战",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "第十五届全运会",
+        "label": "第十五届全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "广东vs辽宁",
+        "label": "广东vs辽宁",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全运日记",
+        "label": "全运日记",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "浙江稠州 广东队",
+        "label": "浙江稠州 广东队",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "广东VS辽宁",
+        "label": "广东VS辽宁",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "v观全运会",
+        "label": "v观全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全运会",
+        "label": "全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全民聊全运",
+        "label": "全民聊全运",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "sample_posts": []
+}

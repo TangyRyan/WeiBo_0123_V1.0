@@ -1,0 +1,44 @@
+# Ignore browser cache folders
+spider/browser_data_detail/Default/Cache/
+spider/browser_data_detail/Default/Code Cache/
+spider/browser_data_detail/Default/*Cache*/
+spider/browser_data_detail/**/Cache/
+spider/browser_data_detail/**/Code Cache/
+
+# General cache ignores
+**/Cache/
+**/Code Cache/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+.env
+.env.*
+.envrc
+
+# Logs and runtime output
+*.log
+server*.log
+
+# Data outputs (keep data/ tracked)
+spider/browser_data_detail/
+spider/auth_state.json
+spider/weibo_cookies.json
+
+# Editors and tools
+.idea/
+.vscode/
+.pytest_cache/
+*.iml
+.DS_Store
+
+# Node and tooling
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml

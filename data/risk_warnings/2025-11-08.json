@@ -1,0 +1,171 @@
+{
+  "generated_at": "2025-12-07T03:24:55.577334+08:00",
+  "events": [
+    {
+      "name": "中公教育以物抵债退落榜考生学费",
+      "date": "2025-12-05",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "广东",
+        "topic_type": "教育",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.4,
+          "气愤": 0.6,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 69.25
+    },
+    {
+      "name": "买卖账号赚快钱已有人获刑",
+      "date": "2025-12-05",
+      "risk_score": 76.02026981334618,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 76.02026981334618,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "山西",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.3,
+          "恐惧": 0.7,
+          "惊喜": 0.0,
+          "伤心": 0.2,
+          "讨厌": 0.6,
+          "气愤": 0.8,
+          "期盼": 0.4
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 83.8513490667309
+      },
+      "sort_key": 66.02026981334618
+    },
+    {
+      "name": "陈震全网粉丝超2400万",
+      "date": "2025-12-05",
+      "risk_score": 75.55287040027176,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 75.55287040027176,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.6,
+        "region": "未知",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.3,
+          "信任": 0.1,
+          "恐惧": 0.1,
+          "惊喜": 0.4,
+          "伤心": 0.2,
+          "讨厌": 0.7,
+          "气愤": 0.6,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 80.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 90.26435200135877
+      },
+      "sort_key": 65.55287040027176
+    },
+    {
+      "name": "高市错误言论破坏中日联合声明",
+      "date": "2025-12-04",
+      "risk_score": 79.97654580960499,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.97654580960499,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.8,
+        "region": "北京",
+        "topic_type": "时政",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.4,
+          "惊喜": 0.0,
+          "伤心": 0.3,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.2
+        }
+      },
+      "risk_dims": {
+        "negativity": 90.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 94.88272904802494
+      },
+      "sort_key": 64.97654580960499
+    },
+    {
+      "name": "官方确认倒车致2人身亡女子系法官",
+      "date": "2025-12-04",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "内蒙古",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.2,
+          "惊喜": 0.0,
+          "伤心": 0.8,
+          "讨厌": 0.6,
+          "气愤": 0.9,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 64.25
+    }
+  ],
+  "date": "2025-11-08"
+}

@@ -1,0 +1,173 @@
+{
+  "event_id": "2025-11-25-topic-d1fba467",
+  "date": "2025-11-25",
+  "title": "北大医药直线涨停",
+  "category": "传染病与公共卫生应急",
+  "health_minor": "已知传染病暴发",
+  "sentiment": 0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1764054000,
+  "end_ts": 1764057600,
+  "heat_peak": 445368.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764054000,
+      "heat": 445368.0,
+      "rank": null
+    },
+    {
+      "ts": 1764057600,
+      "heat": 445368.0,
+      "rank": null
+    }
+  ],
+  "summary": "11月25日，流感概念快速拉升，北大医药直线涨停。截至收盘，抗流感概念表现活跃，海南海药、特一药业、北大医药、金迪克涨停。",
+  "tags": [
+    "流感概念短线拉升",
+    "北大医药直线涨停",
+    "a股",
+    "A股半日放量1493亿",
+    "A股行情",
+    "小米集团涨4.5%",
+    "A股迎反攻",
+    "全网热点共创计划",
+    "曝苹果罕见裁员",
+    "女装直播退货率80%以上"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "流感概念短线拉升",
+        "label": "流感概念短线拉升",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "北大医药直线涨停",
+        "label": "北大医药直线涨停",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "a股",
+        "label": "a股",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "A股半日放量1493亿",
+        "label": "A股半日放量1493亿",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "A股行情",
+        "label": "A股行情",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "小米集团涨4.5%",
+        "label": "小米集团涨4.5%",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "A股迎反攻",
+        "label": "A股迎反攻",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全网热点共创计划",
+        "label": "全网热点共创计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "曝苹果罕见裁员",
+        "label": "曝苹果罕见裁员",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女装直播退货率80%以上",
+        "label": "女装直播退货率80%以上",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

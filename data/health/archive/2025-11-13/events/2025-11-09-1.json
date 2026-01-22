@@ -1,0 +1,176 @@
+{
+  "event_id": "2025-11-09-1",
+  "date": "2025-11-09",
+  "title": "每天1个苹果身体有什么变化",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.8,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.8
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.5
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1762675200,
+  "end_ts": 1762686000,
+  "heat_peak": 231270.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1762675200,
+      "heat": 231270.0,
+      "rank": null
+    },
+    {
+      "ts": 1762678800,
+      "heat": 231270.0,
+      "rank": null
+    },
+    {
+      "ts": 1762682400,
+      "heat": 231270.0,
+      "rank": null
+    },
+    {
+      "ts": 1762686000,
+      "heat": 231270.0,
+      "rank": null
+    }
+  ],
+  "summary": "每天1个苹果身体有什么变化",
+  "tags": [
+    "苹果煮水改善气色养护皮肤",
+    "每天1个苹果身体有什么变化",
+    "苹果和茶是公认的延寿组合",
+    "苹果是一种低调的抗炎水果",
+    "水果之王苹果的8大超能力",
+    "苹果才是真的养生奢侈品",
+    "三分钟快速追热点",
+    "苹果煮水能改善气色",
+    "经常熬夜面色不佳可用苹果煮水"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "苹果煮水改善气色养护皮肤",
+        "label": "苹果煮水改善气色养护皮肤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "每天1个苹果身体有什么变化",
+        "label": "每天1个苹果身体有什么变化",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "苹果和茶是公认的延寿组合",
+        "label": "苹果和茶是公认的延寿组合",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "苹果是一种低调的抗炎水果",
+        "label": "苹果是一种低调的抗炎水果",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "水果之王苹果的8大超能力",
+        "label": "水果之王苹果的8大超能力",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "苹果才是真的养生奢侈品",
+        "label": "苹果才是真的养生奢侈品",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三分钟快速追热点",
+        "label": "三分钟快速追热点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "苹果煮水能改善气色",
+        "label": "苹果煮水能改善气色",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "经常熬夜面色不佳可用苹果煮水",
+        "label": "经常熬夜面色不佳可用苹果煮水",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.8
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.5
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "sample_posts": []
+}

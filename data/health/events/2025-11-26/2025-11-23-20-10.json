@@ -1,0 +1,147 @@
+{
+  "event_id": "2025-11-23-20-10",
+  "date": "2025-11-23",
+  "title": "20岁男生肺被啃出10多个空洞",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1763910000,
+  "end_ts": 1763910000,
+  "heat_peak": 225729.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763910000,
+      "heat": 225729.0,
+      "rank": null
+    }
+  ],
+  "summary": "20岁男生肺被啃出10多个空洞",
+  "tags": [
+    "20岁男生肺被啃出10多个空洞",
+    "挤了颗痘痘肺竟被啃出十多个空洞",
+    "20岁男生脸上挤痘痘挤进ICU",
+    "挤了1颗痘痘肺被啃出10多个洞洞",
+    "挤颗痘痘肺被啃出十几个空洞",
+    "三分钟视频助燃计划",
+    "解压"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "20岁男生肺被啃出10多个空洞",
+        "label": "20岁男生肺被啃出10多个空洞",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "挤了颗痘痘肺竟被啃出十多个空洞",
+        "label": "挤了颗痘痘肺竟被啃出十多个空洞",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "20岁男生脸上挤痘痘挤进ICU",
+        "label": "20岁男生脸上挤痘痘挤进ICU",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "挤了1颗痘痘肺被啃出10多个洞洞",
+        "label": "挤了1颗痘痘肺被啃出10多个洞洞",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "挤颗痘痘肺被啃出十几个空洞",
+        "label": "挤颗痘痘肺被啃出十几个空洞",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三分钟视频助燃计划",
+        "label": "三分钟视频助燃计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "解压",
+        "label": "解压",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

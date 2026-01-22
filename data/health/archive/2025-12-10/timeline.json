@@ -1,0 +1,105 @@
+{
+  "updated_at": "2025-12-10T23:59:54.944047+08:00",
+  "summary": {
+    "total_events": 5,
+    "by_major": {
+      "健康观念与社会现象": 2,
+      "医疗服务与医患矛盾": 1,
+      "特殊场景与群体健康": 1,
+      "食品药品安全": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-12-09-topic-3241927c",
+      "title": "张家齐说月经意味着噩梦的开始",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1765249200,
+      "end_ts": 1765263600,
+      "heat_peak": 274180.0,
+      "sentiment": -0.5,
+      "region": "北京",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1765263600,
+          "heat": 274180.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-09-topic-71acf0ea",
+      "title": "网传小洛熙爸爸失业",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1765267200,
+      "end_ts": 1765267200,
+      "heat_peak": 294182.0,
+      "sentiment": -0.7,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1765267200,
+          "heat": 294182.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-09-5",
+      "title": "怀孕或使女性衰老超5岁",
+      "category": "健康观念与社会现象",
+      "start_ts": 1765281600,
+      "end_ts": 1765292400,
+      "heat_peak": 378308.0,
+      "sentiment": -0.5,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1765292400,
+          "heat": 378308.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-09-topic-c7f7a1c2",
+      "title": "万宁叔整容",
+      "category": "健康观念与社会现象",
+      "start_ts": 1765281600,
+      "end_ts": 1765292400,
+      "heat_peak": 424544.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1765292400,
+          "heat": 424544.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-09-8",
+      "title": "乔任梁爸爸因吃8个死蟹住院",
+      "category": "食品药品安全",
+      "start_ts": 1765281600,
+      "end_ts": 1765292400,
+      "heat_peak": 436003.0,
+      "sentiment": -0.5,
+      "region": "上海",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1765292400,
+          "heat": 436003.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-12-10"
+}

@@ -1,0 +1,122 @@
+{
+  "event_id": "2025-10-26-topic-73aad65d",
+  "date": "2025-10-26",
+  "title": "女孩失联一周竟是躲房间玩手机",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "安徽",
+  "start_ts": 1761462000,
+  "end_ts": 1761469200,
+  "heat_peak": 287438.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1761462000,
+      "heat": 287438.0,
+      "rank": null
+    },
+    {
+      "ts": 1761465600,
+      "heat": 287438.0,
+      "rank": null
+    },
+    {
+      "ts": 1761469200,
+      "heat": 287438.0,
+      "rank": null
+    }
+  ],
+  "summary": "女孩失联一周竟是躲房间玩手机",
+  "tags": [
+    "女孩失联一周竟是躲房间玩手机",
+    "母亲回应女孩躲房间玩手机失联"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "女孩失联一周竟是躲房间玩手机",
+        "label": "女孩失联一周竟是躲房间玩手机",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "母亲回应女孩躲房间玩手机失联",
+        "label": "母亲回应女孩躲房间玩手机失联",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

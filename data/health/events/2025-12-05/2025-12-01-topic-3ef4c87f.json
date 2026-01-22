@@ -1,0 +1,194 @@
+{
+  "event_id": "2025-12-01-topic-3ef4c87f",
+  "date": "2025-12-01",
+  "title": "预防流感八问八答",
+  "category": "传染病与公共卫生应急",
+  "health_minor": "疫苗与防疫政策",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.8
+    },
+    {
+      "name": "恐惧",
+      "value": 0.5
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1764583200,
+  "end_ts": 1764586800,
+  "heat_peak": 551730.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764583200,
+      "heat": 551730.0,
+      "rank": null
+    },
+    {
+      "ts": 1764586800,
+      "heat": 551730.0,
+      "rank": null
+    }
+  ],
+  "summary": "预防流感八问八答",
+  "tags": [
+    "预防流感八问八答",
+    "流感的典型症状有哪些",
+    "秋冬如何预防呼吸道感染",
+    "一个蒸梨缓解两种常见咳嗽",
+    "蒸梨的好处这么多",
+    "情感生活",
+    "繁殖犬被剖腹丢弃最新进展",
+    "被剖腹的繁殖犬目前术后情况稳定",
+    "罗永浩将盲测高档音响",
+    "遇见艺术",
+    "ai创造营",
+    "ai创作热点",
+    "微博超有用视频大赛"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "预防流感八问八答",
+        "label": "预防流感八问八答",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感的典型症状有哪些",
+        "label": "流感的典型症状有哪些",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秋冬如何预防呼吸道感染",
+        "label": "秋冬如何预防呼吸道感染",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一个蒸梨缓解两种常见咳嗽",
+        "label": "一个蒸梨缓解两种常见咳嗽",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "蒸梨的好处这么多",
+        "label": "蒸梨的好处这么多",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "情感生活",
+        "label": "情感生活",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "繁殖犬被剖腹丢弃最新进展",
+        "label": "繁殖犬被剖腹丢弃最新进展",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "被剖腹的繁殖犬目前术后情况稳定",
+        "label": "被剖腹的繁殖犬目前术后情况稳定",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗永浩将盲测高档音响",
+        "label": "罗永浩将盲测高档音响",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "遇见艺术",
+        "label": "遇见艺术",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "ai创造营",
+        "label": "ai创造营",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "ai创作热点",
+        "label": "ai创作热点",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.8
+    },
+    {
+      "name": "恐惧",
+      "value": 0.5
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "sample_posts": []
+}

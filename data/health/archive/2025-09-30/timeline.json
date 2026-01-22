@@ -1,0 +1,49 @@
+{
+  "updated_at": "2025-12-05T20:31:48.488134+08:00",
+  "summary": {
+    "total_events": 2,
+    "by_major": {
+      "健康管理与养生": 1,
+      "医疗服务与医患矛盾": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-09-30-topic-39d860a5",
+      "title": "王菊怎么瘦成这样了",
+      "category": "健康管理与养生",
+      "start_ts": 1759233600,
+      "end_ts": 1759244400,
+      "heat_peak": 318162.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759244400,
+          "heat": 318162.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-09-30-topic-cdde414d",
+      "title": "女子过度医美面部馒化酷似面具人",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1759240800,
+      "end_ts": 1759244400,
+      "heat_peak": 421836.0,
+      "sentiment": -0.7,
+      "region": "湖北",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759244400,
+          "heat": 421836.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-09-30"
+}

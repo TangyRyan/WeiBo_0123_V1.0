@@ -1,0 +1,616 @@
+{
+  "event_id": "2025-10-10-topic-a6fff2b3",
+  "date": "2025-10-10",
+  "title": "人唯一不会长大的器官",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.2
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.05
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.15
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1760090400,
+  "end_ts": 1760108400,
+  "heat_peak": 314586.0,
+  "point_count": 6,
+  "points": [
+    {
+      "ts": 1760090400,
+      "heat": 314586.0,
+      "rank": null
+    },
+    {
+      "ts": 1760094000,
+      "heat": 314586.0,
+      "rank": null
+    },
+    {
+      "ts": 1760097600,
+      "heat": 314586.0,
+      "rank": null
+    },
+    {
+      "ts": 1760101200,
+      "heat": 314586.0,
+      "rank": null
+    },
+    {
+      "ts": 1760104800,
+      "heat": 314586.0,
+      "rank": null
+    },
+    {
+      "ts": 1760108400,
+      "heat": 314586.0,
+      "rank": null
+    }
+  ],
+  "summary": "人唯一不会长大的器官",
+  "tags": [
+    "人唯一不会长大的器官",
+    "深小图荐书",
+    "全球每8人就有1人患精神疾病",
+    "全球近10亿人有精神疾病",
+    "生活手记",
+    "帅哥",
+    "肌肉男",
+    "宝宝成长记录",
+    "朱一龙"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "人唯一不会长大的器官",
+        "label": "人唯一不会长大的器官",
+        "weight": 17.0,
+        "community": 0
+      },
+      {
+        "id": "深小图荐书",
+        "label": "深小图荐书",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "全球每8人就有1人患精神疾病",
+        "label": "全球每8人就有1人患精神疾病",
+        "weight": 2.0,
+        "community": 3
+      },
+      {
+        "id": "全球近10亿人有精神疾病",
+        "label": "全球近10亿人有精神疾病",
+        "weight": 2.0,
+        "community": 3
+      },
+      {
+        "id": "生活手记",
+        "label": "生活手记",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "帅哥",
+        "label": "帅哥",
+        "weight": 2.0,
+        "community": 2
+      },
+      {
+        "id": "肌肉男",
+        "label": "肌肉男",
+        "weight": 2.0,
+        "community": 2
+      },
+      {
+        "id": "宝宝成长记录",
+        "label": "宝宝成长记录",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "朱一龙",
+        "label": "朱一龙",
+        "weight": 2.0,
+        "community": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "全球每8人就有1人患精神疾病",
+        "target": "全球近10亿人有精神疾病",
+        "weight": 1.0
+      },
+      {
+        "source": "人唯一不会长大的器官",
+        "target": "生活手记",
+        "weight": 1.0
+      },
+      {
+        "source": "人唯一不会长大的器官",
+        "target": "帅哥",
+        "weight": 1.0
+      },
+      {
+        "source": "人唯一不会长大的器官",
+        "target": "肌肉男",
+        "weight": 1.0
+      },
+      {
+        "source": "帅哥",
+        "target": "肌肉男",
+        "weight": 1.0
+      },
+      {
+        "source": "人唯一不会长大的器官",
+        "target": "宝宝成长记录",
+        "weight": 1.0
+      },
+      {
+        "source": "人唯一不会长大的器官",
+        "target": "朱一龙",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "长大",
+      "weight": 22.0
+    },
+    {
+      "text": "不会",
+      "weight": 20.0
+    },
+    {
+      "text": "器官",
+      "weight": 19.0
+    },
+    {
+      "text": "唯一",
+      "weight": 18.0
+    },
+    {
+      "text": "眼睛",
+      "weight": 16.0
+    },
+    {
+      "text": "从小",
+      "weight": 4.0
+    },
+    {
+      "text": "小时候",
+      "weight": 3.0
+    },
+    {
+      "text": "展开",
+      "weight": 3.0
+    },
+    {
+      "text": "原来",
+      "weight": 3.0
+    },
+    {
+      "text": "丁丁",
+      "weight": 3.0
+    },
+    {
+      "text": "精神疾病",
+      "weight": 3.0
+    },
+    {
+      "text": "##",
+      "weight": 3.0
+    },
+    {
+      "text": "扁豆",
+      "weight": 3.0
+    },
+    {
+      "text": "倒入",
+      "weight": 3.0
+    },
+    {
+      "text": "朱一龙",
+      "weight": 2.0
+    },
+    {
+      "text": "经常",
+      "weight": 2.0
+    },
+    {
+      "text": "不大",
+      "weight": 2.0
+    },
+    {
+      "text": "真的",
+      "weight": 2.0
+    },
+    {
+      "text": "感觉",
+      "weight": 2.0
+    },
+    {
+      "text": "男人",
+      "weight": 2.0
+    },
+    {
+      "text": "出品",
+      "weight": 2.0
+    },
+    {
+      "text": "英国",
+      "weight": 2.0
+    },
+    {
+      "text": "奖得主",
+      "weight": 2.0
+    },
+    {
+      "text": "全球",
+      "weight": 2.0
+    },
+    {
+      "text": "亿人",
+      "weight": 2.0
+    },
+    {
+      "text": "精神",
+      "weight": 2.0
+    },
+    {
+      "text": "从小到大",
+      "weight": 2.0
+    },
+    {
+      "text": "看看",
+      "weight": 2.0
+    },
+    {
+      "text": "一定",
+      "weight": 2.0
+    },
+    {
+      "text": "微博",
+      "weight": 2.0
+    },
+    {
+      "text": "关键",
+      "weight": 2.0
+    },
+    {
+      "text": "漂亮",
+      "weight": 2.0
+    },
+    {
+      "text": "明亮",
+      "weight": 2.0
+    },
+    {
+      "text": "绝好",
+      "weight": 2.0
+    },
+    {
+      "text": "视频",
+      "weight": 2.0
+    },
+    {
+      "text": "现在",
+      "weight": 1.0
+    },
+    {
+      "text": "原因",
+      "weight": 1.0
+    },
+    {
+      "text": "提前",
+      "weight": 1.0
+    },
+    {
+      "text": "不算",
+      "weight": 1.0
+    },
+    {
+      "text": "缩短",
+      "weight": 1.0
+    },
+    {
+      "text": "寿命",
+      "weight": 1.0
+    },
+    {
+      "text": "坏习惯",
+      "weight": 1.0
+    },
+    {
+      "text": "缺乏",
+      "weight": 1.0
+    },
+    {
+      "text": "性生活",
+      "weight": 1.0
+    },
+    {
+      "text": "长期",
+      "weight": 1.0
+    },
+    {
+      "text": "进行",
+      "weight": 1.0
+    },
+    {
+      "text": "体育锻炼",
+      "weight": 1.0
+    },
+    {
+      "text": "长时间",
+      "weight": 1.0
+    },
+    {
+      "text": "电子游戏",
+      "weight": 1.0
+    },
+    {
+      "text": "叫外卖",
+      "weight": 1.0
+    },
+    {
+      "text": "偏爱",
+      "weight": 1.0
+    },
+    {
+      "text": "腌制",
+      "weight": 1.0
+    },
+    {
+      "text": "食品",
+      "weight": 1.0
+    },
+    {
+      "text": "晚上",
+      "weight": 1.0
+    },
+    {
+      "text": "东西",
+      "weight": 1.0
+    },
+    {
+      "text": "注重",
+      "weight": 1.0
+    },
+    {
+      "text": "个人卫生",
+      "weight": 1.0
+    },
+    {
+      "text": "私生活",
+      "weight": 1.0
+    },
+    {
+      "text": "混乱",
+      "weight": 1.0
+    },
+    {
+      "text": "喝水",
+      "weight": 1.0
+    },
+    {
+      "text": "喜欢",
+      "weight": 1.0
+    },
+    {
+      "text": "吃水果",
+      "weight": 1.0
+    },
+    {
+      "text": "十一",
+      "weight": 1.0
+    },
+    {
+      "text": "肉类",
+      "weight": 1.0
+    },
+    {
+      "text": "不吃",
+      "weight": 1.0
+    },
+    {
+      "text": "蔬菜",
+      "weight": 1.0
+    },
+    {
+      "text": "十二",
+      "weight": 1.0
+    },
+    {
+      "text": "憋闷",
+      "weight": 1.0
+    },
+    {
+      "text": "生气",
+      "weight": 1.0
+    },
+    {
+      "text": "md",
+      "weight": 1.0
+    },
+    {
+      "text": "之后",
+      "weight": 1.0
+    },
+    {
+      "text": "果然",
+      "weight": 1.0
+    },
+    {
+      "text": "But",
+      "weight": 1.0
+    },
+    {
+      "text": "影响",
+      "weight": 1.0
+    },
+    {
+      "text": "师兄",
+      "weight": 1.0
+    },
+    {
+      "text": "战斗机",
+      "weight": 1.0
+    },
+    {
+      "text": "妈妈",
+      "weight": 1.0
+    },
+    {
+      "text": "添寿",
+      "weight": 1.0
+    },
+    {
+      "text": "没病",
+      "weight": 1.0
+    },
+    {
+      "text": "没灾",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.2
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.05
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.15
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-4326347510918273124",
+      "published_at": "2025-10-10T22:42:00+08:00",
+      "account_name": "乌乌乌乌乌梅凉",
+      "content_text": "所以这就是朱一龙小时候眼睛这么大，现在还这么大的原因吗#人唯一不会长大的器官#​",
+      "reposts": 6,
+      "comments": 12,
+      "likes": 354
+    },
+    {
+      "post_id": "detail-2833029822405618757",
+      "published_at": "2025-10-10T19:31:00+08:00",
+      "account_name": "老司机出品运营小妹",
+      "content_text": "#人唯一不会长大的器官#眼睛是唯一不会长大的器官，提前长大的不算​",
+      "reposts": 12,
+      "comments": 56,
+      "likes": 208
+    },
+    {
+      "post_id": "detail-380089620596803108",
+      "published_at": "2025-11-08T14:20:00+08:00",
+      "account_name": "夏吱秋",
+      "content_text": "缩短寿命的坏习惯：一、缺乏性生活。二、长期不进行体育锻炼。三、长时间玩电子游戏。四、经常叫外卖。五、偏爱腌制食品。六、晚上吃东西。七、不注重个人卫生。八、私生活混乱。九、不喝水。十、不喜欢吃水果。十一、只吃肉类，不吃蔬菜。十二、经常憋闷和生气。  ​展开c",
+      "reposts": 0,
+      "comments": 0,
+      "likes": 12
+    },
+    {
+      "post_id": "detail-4058378083066096426",
+      "published_at": "2025-10-10T20:17:00+08:00",
+      "account_name": "-_-二师兄",
+      "content_text": "#人唯一不会长大的器官#从小眼睛就不大，md，长大之后果然也不大。But，不影响师兄从小就开战斗机​",
+      "reposts": 9,
+      "comments": 61,
+      "likes": 328
+    },
+    {
+      "post_id": "detail-6909349028272565138",
+      "published_at": "2025-10-06T00:04:00+08:00",
+      "account_name": "投稿儿",
+      "content_text": "妈妈添寿，没病没灾，长命百岁！！#人唯一不会长大的器官#​",
+      "reposts": 67,
+      "comments": 88,
+      "likes": 1830
+    },
+    {
+      "post_id": "detail-997257447910942139",
+      "published_at": "2025-10-10T19:15:00+08:00",
+      "account_name": "高小卷-",
+      "content_text": "#人唯一不会长大的器官#真的是眼睛诶，用AI生成小时候眼睛没怎么变诶​",
+      "reposts": 3,
+      "comments": 37,
+      "likes": 193
+    },
+    {
+      "post_id": "detail-4301568923301960178",
+      "published_at": "2025-10-10T19:47:00+08:00",
+      "account_name": "小怡说车",
+      "content_text": "#人唯一不会长大的器官#原来眼睛不会长大，难怪孩子小时候眼睛大大的，长大后就感觉没那么大了 ​",
+      "reposts": 2,
+      "comments": 56,
+      "likes": 139
+    },
+    {
+      "post_id": "detail-1327392570353135157",
+      "published_at": "2025-10-10T20:18:00+08:00",
+      "account_name": "后沙月光本尊",
+      "content_text": "#人唯一不会长大的器官#原来是说眼睛，我还以为话题说的是丁丁。因为有的男人丁丁也长不大，出于工作需要，他们从小就把丁丁割了泡酒，就不会再长大了有得必有失。 ​",
+      "reposts": 0,
+      "comments": 16,
+      "likes": 80
+    }
+  ]
+}

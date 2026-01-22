@@ -1,0 +1,126 @@
+{
+  "event_id": "2025-11-03-topic-f316decf",
+  "date": "2025-11-03",
+  "title": "患癌女孩生前遗憾或是未能见到妈妈",
+  "category": "特殊场景与群体健康",
+  "health_minor": "特殊群体健康危机",
+  "sentiment": -0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "河南",
+  "start_ts": 1762174800,
+  "end_ts": 1762174800,
+  "heat_peak": 222891.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762174800,
+      "heat": 222891.0,
+      "rank": null
+    }
+  ],
+  "summary": "患癌女孩生前遗憾或是未能见到妈妈",
+  "tags": [
+    "患癌女孩生前遗憾或是未能见到妈妈",
+    "房主任搂着杨幂给女儿录视频",
+    "11岁抗癌女孩去世",
+    "年仅11岁抗癌博主离世"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "患癌女孩生前遗憾或是未能见到妈妈",
+        "label": "患癌女孩生前遗憾或是未能见到妈妈",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "房主任搂着杨幂给女儿录视频",
+        "label": "房主任搂着杨幂给女儿录视频",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "11岁抗癌女孩去世",
+        "label": "11岁抗癌女孩去世",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "年仅11岁抗癌博主离世",
+        "label": "年仅11岁抗癌博主离世",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

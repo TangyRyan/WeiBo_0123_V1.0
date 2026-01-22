@@ -1,0 +1,138 @@
+{
+  "event_id": "2025-11-09-44-1",
+  "date": "2025-11-09",
+  "title": "44岁导演心梗离世仅获赔1万元",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.75,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "河南",
+  "start_ts": 1762686000,
+  "end_ts": 1762689600,
+  "heat_peak": 218040.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1762686000,
+      "heat": 218040.0,
+      "rank": null
+    },
+    {
+      "ts": 1762689600,
+      "heat": 218040.0,
+      "rank": null
+    }
+  ],
+  "summary": "44岁导演心梗离世仅获赔1万元",
+  "tags": [
+    "44岁导演心梗离世仅获赔1万元",
+    "去世导演妻子被要求签无责协议",
+    "雨墨cc超话",
+    "健闻登顶计划",
+    "女性健康必修课"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "44岁导演心梗离世仅获赔1万元",
+        "label": "44岁导演心梗离世仅获赔1万元",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "去世导演妻子被要求签无责协议",
+        "label": "去世导演妻子被要求签无责协议",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "雨墨cc超话",
+        "label": "雨墨cc超话",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "女性健康必修课",
+        "label": "女性健康必修课",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,190 @@
+{
+  "event_id": "2025-11-13-3",
+  "date": "2025-11-13",
+  "title": "唐诡3大唐第一禁忌恋",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.15,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1763020800,
+  "end_ts": 1763031600,
+  "heat_peak": 205522.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1763020800,
+      "heat": 205522.0,
+      "rank": null
+    },
+    {
+      "ts": 1763024400,
+      "heat": 205522.0,
+      "rank": null
+    },
+    {
+      "ts": 1763028000,
+      "heat": 205522.0,
+      "rank": null
+    },
+    {
+      "ts": 1763031600,
+      "heat": 205522.0,
+      "rank": null
+    }
+  ],
+  "summary": "唐诡3大唐第一禁忌恋",
+  "tags": [
+    "白头发是身体发出的压力警告",
+    "长白头发可能是缺乏这3种营养",
+    "少白头到底是怎么回事",
+    "白发会越拔越多吗",
+    "康养宜黄等你来",
+    "正式确诊为奶牛猫",
+    "微博超有用视频大赛",
+    "健闻登顶计划",
+    "微博声浪计划",
+    "听见微博",
+    "日常小科普"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "白头发是身体发出的压力警告",
+        "label": "白头发是身体发出的压力警告",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "长白头发可能是缺乏这3种营养",
+        "label": "长白头发可能是缺乏这3种营养",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "少白头到底是怎么回事",
+        "label": "少白头到底是怎么回事",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "白发会越拔越多吗",
+        "label": "白发会越拔越多吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "康养宜黄等你来",
+        "label": "康养宜黄等你来",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "正式确诊为奶牛猫",
+        "label": "正式确诊为奶牛猫",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博声浪计划",
+        "label": "微博声浪计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "听见微博",
+        "label": "听见微博",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "日常小科普",
+        "label": "日常小科普",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": []
+}

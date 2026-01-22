@@ -1,0 +1,564 @@
+{
+  "event_id": "2025-10-11-topic-11960f4c",
+  "date": "2025-10-11",
+  "title": "李杰灵谈对抗焦虑的工作模式",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": 0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "广东",
+  "start_ts": 1760173200,
+  "end_ts": 1760173200,
+  "heat_peak": 225886.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1760173200,
+      "heat": 225886.0,
+      "rank": null
+    }
+  ],
+  "summary": "「好有意思博主鉴赏会」第二期播客重磅上线！一起围观花总x六层楼x李杰灵 共话创作心得，直面内容创作的挑战与突破！",
+  "tags": [
+    "李杰灵谈对抗焦虑的工作模式",
+    "微博V影响力大会",
+    "冯建宇宇宙遨游计划",
+    "D一次出发",
+    "我们D约定",
+    "非正式跨年派对",
+    "瑾日心情",
+    "暗影侦探"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "李杰灵谈对抗焦虑的工作模式",
+        "label": "李杰灵谈对抗焦虑的工作模式",
+        "weight": 8.0,
+        "community": 1
+      },
+      {
+        "id": "微博V影响力大会",
+        "label": "微博V影响力大会",
+        "weight": 3.0,
+        "community": 1
+      },
+      {
+        "id": "冯建宇宇宙遨游计划",
+        "label": "冯建宇宇宙遨游计划",
+        "weight": 2.0,
+        "community": 2
+      },
+      {
+        "id": "D一次出发",
+        "label": "D一次出发",
+        "weight": 2.0,
+        "community": 4
+      },
+      {
+        "id": "我们D约定",
+        "label": "我们D约定",
+        "weight": 2.0,
+        "community": 4
+      },
+      {
+        "id": "非正式跨年派对",
+        "label": "非正式跨年派对",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "瑾日心情",
+        "label": "瑾日心情",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "暗影侦探",
+        "label": "暗影侦探",
+        "weight": 2.0,
+        "community": 3
+      }
+    ],
+    "edges": [
+      {
+        "source": "微博V影响力大会",
+        "target": "李杰灵谈对抗焦虑的工作模式",
+        "weight": 2.0
+      },
+      {
+        "source": "D一次出发",
+        "target": "我们D约定",
+        "weight": 1.0
+      },
+      {
+        "source": "瑾日心情",
+        "target": "非正式跨年派对",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "焦虑",
+      "weight": 17.0
+    },
+    {
+      "text": "工作",
+      "weight": 12.0
+    },
+    {
+      "text": "对抗",
+      "weight": 10.0
+    },
+    {
+      "text": "李杰",
+      "weight": 8.0
+    },
+    {
+      "text": "灵谈",
+      "weight": 7.0
+    },
+    {
+      "text": "模式",
+      "weight": 7.0
+    },
+    {
+      "text": "开心",
+      "weight": 5.0
+    },
+    {
+      "text": "微博",
+      "weight": 5.0
+    },
+    {
+      "text": "李杰灵",
+      "weight": 4.0
+    },
+    {
+      "text": "状态",
+      "weight": 4.0
+    },
+    {
+      "text": "产出",
+      "weight": 4.0
+    },
+    {
+      "text": "展开",
+      "weight": 3.0
+    },
+    {
+      "text": "扼杀",
+      "weight": 3.0
+    },
+    {
+      "text": "创造力",
+      "weight": 3.0
+    },
+    {
+      "text": "建宇",
+      "weight": 3.0
+    },
+    {
+      "text": "超话",
+      "weight": 3.0
+    },
+    {
+      "text": "宇宙",
+      "weight": 3.0
+    },
+    {
+      "text": "现在",
+      "weight": 2.0
+    },
+    {
+      "text": "频率",
+      "weight": 2.0
+    },
+    {
+      "text": "在家",
+      "weight": 2.0
+    },
+    {
+      "text": "瞬间",
+      "weight": 2.0
+    },
+    {
+      "text": "日益",
+      "weight": 2.0
+    },
+    {
+      "text": "分享",
+      "weight": 2.0
+    },
+    {
+      "text": "心得",
+      "weight": 2.0
+    },
+    {
+      "text": "决定",
+      "weight": 2.0
+    },
+    {
+      "text": "才能",
+      "weight": 2.0
+    },
+    {
+      "text": "内容",
+      "weight": 2.0
+    },
+    {
+      "text": "当作",
+      "weight": 2.0
+    },
+    {
+      "text": "一份",
+      "weight": 2.0
+    },
+    {
+      "text": "重要",
+      "weight": 2.0
+    },
+    {
+      "text": "功课",
+      "weight": 2.0
+    },
+    {
+      "text": "练习",
+      "weight": 2.0
+    },
+    {
+      "text": "成为",
+      "weight": 2.0
+    },
+    {
+      "text": "创造",
+      "weight": 2.0
+    },
+    {
+      "text": "价值",
+      "weight": 2.0
+    },
+    {
+      "text": "一部分",
+      "weight": 2.0
+    },
+    {
+      "text": "发现",
+      "weight": 2.0
+    },
+    {
+      "text": "随之而来",
+      "weight": 2.0
+    },
+    {
+      "text": "收听",
+      "weight": 2.0
+    },
+    {
+      "text": "完整",
+      "weight": 2.0
+    },
+    {
+      "text": "播客",
+      "weight": 2.0
+    },
+    {
+      "text": "正文",
+      "weight": 2.0
+    },
+    {
+      "text": "影响力",
+      "weight": 2.0
+    },
+    {
+      "text": "大会",
+      "weight": 2.0
+    },
+    {
+      "text": "遨游",
+      "weight": 2.0
+    },
+    {
+      "text": "计划",
+      "weight": 2.0
+    },
+    {
+      "text": "Desire4",
+      "weight": 2.0
+    },
+    {
+      "text": "出发",
+      "weight": 2.0
+    },
+    {
+      "text": "##",
+      "weight": 2.0
+    },
+    {
+      "text": "真的",
+      "weight": 1.0
+    },
+    {
+      "text": "觉得",
+      "weight": 1.0
+    },
+    {
+      "text": "深圳",
+      "weight": 1.0
+    },
+    {
+      "text": "通透",
+      "weight": 1.0
+    },
+    {
+      "text": "男人",
+      "weight": 1.0
+    },
+    {
+      "text": "出道",
+      "weight": 1.0
+    },
+    {
+      "text": "躺平",
+      "weight": 1.0
+    },
+    {
+      "text": "开始",
+      "weight": 1.0
+    },
+    {
+      "text": "比较",
+      "weight": 1.0
+    },
+    {
+      "text": "自由",
+      "weight": 1.0
+    },
+    {
+      "text": "别人",
+      "weight": 1.0
+    },
+    {
+      "text": "白天",
+      "weight": 1.0
+    },
+    {
+      "text": "一人",
+      "weight": 1.0
+    },
+    {
+      "text": "时间",
+      "weight": 1.0
+    },
+    {
+      "text": "无所事事",
+      "weight": 1.0
+    },
+    {
+      "text": "胡思乱想",
+      "weight": 1.0
+    },
+    {
+      "text": "最好",
+      "weight": 1.0
+    },
+    {
+      "text": "办法",
+      "weight": 1.0
+    },
+    {
+      "text": "保持",
+      "weight": 1.0
+    },
+    {
+      "text": "平和",
+      "weight": 1.0
+    },
+    {
+      "text": "心态",
+      "weight": 1.0
+    },
+    {
+      "text": "物来",
+      "weight": 1.0
+    },
+    {
+      "text": "顺应",
+      "weight": 1.0
+    },
+    {
+      "text": "未来",
+      "weight": 1.0
+    },
+    {
+      "text": "不迎",
+      "weight": 1.0
+    },
+    {
+      "text": "灵谈用",
+      "weight": 1.0
+    },
+    {
+      "text": "贴合",
+      "weight": 1.0
+    },
+    {
+      "text": "普通人",
+      "weight": 1.0
+    },
+    {
+      "text": "日常",
+      "weight": 1.0
+    },
+    {
+      "text": "具体",
+      "weight": 1.0
+    },
+    {
+      "text": "行动",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-3185541596297051150",
+      "published_at": "2025-10-11T17:55:00+08:00",
+      "account_name": "猫哥NothingCat",
+      "content_text": "#李杰灵谈对抗焦虑的工作模式#我真的觉得李杰灵是深圳活的最通透的男人 ​",
+      "reposts": 8,
+      "comments": 11,
+      "likes": 16
+    },
+    {
+      "post_id": "detail-7946413958252215396",
+      "published_at": "2025-10-11T17:39:00+08:00",
+      "account_name": "小虫inter",
+      "content_text": "以现在上热搜的频率，@李杰灵这是要出道啊#李杰灵谈对抗焦虑的工作模式#​",
+      "reposts": 4,
+      "comments": 6,
+      "likes": 10
+    },
+    {
+      "post_id": "detail-2508038310871790174",
+      "published_at": "2025-10-11T17:43:00+08:00",
+      "account_name": "财夜话",
+      "content_text": "#李杰灵谈对抗焦虑的工作模式#在家躺平不工作，就会很开心么？一开始会比较自由，别人白天都工作，你自己一人在家待着，时间长了，就会很无所事事，也会胡思乱想。不工作会焦虑，工作也会有焦虑。最好的办法是保持平和的心态:物来顺应，未来不迎。 ​",
+      "reposts": 0,
+      "comments": 3,
+      "likes": 6
+    },
+    {
+      "post_id": "detail-3766116777765123206",
+      "published_at": "2025-10-11T17:37:00+08:00",
+      "account_name": "蝈蝈梦伴着花香飞翔",
+      "content_text": "看李杰灵谈用工作对抗焦虑，太贴合普通人的日常了，“用具体行动代替空想”的方式，其实是最接地气的解压法——焦虑本就常源于“想太多、做太少”，而动手做事能瞬间把人从内耗里拽出来。就像我前阵为季度总结焦虑到失眠，越想“写不好会挨批”越拖延。后来索性不想结果，先列提纲、找数据 ​展开c",
+      "reposts": 0,
+      "comments": 63,
+      "likes": 20
+    },
+    {
+      "post_id": "detail-4674739976900208836",
+      "published_at": "2025-10-10T12:22:00+08:00",
+      "account_name": "·每天都超困",
+      "content_text": "#李杰灵谈对抗焦虑的工作模式#学到了！以后摸鱼理直气壮了，毕竟老板，我这是在为创作积累能量哈哈哈哈哈哈哈！ ​",
+      "reposts": 0,
+      "comments": 2,
+      "likes": 137
+    },
+    {
+      "post_id": "detail-30256546860649175",
+      "published_at": "2025-10-11T17:53:00+08:00",
+      "account_name": "Sh_lanyangyangdawang",
+      "content_text": "#李杰灵谈对抗焦虑的工作模式#非常理解“焦虑会扼杀创造力”这个观点在前司做一个需要网感和创造性思维的岗位。刚入职经常会有新的点子并且有动力落地；后边随着公司经营日益不善，领导施压频率日益提高，灵感越来越枯竭，做策划也畏首畏尾😢 ​",
+      "reposts": 0,
+      "comments": 2,
+      "likes": 1
+    },
+    {
+      "post_id": "detail-8967210967688652616",
+      "published_at": "2025-10-09T17:31:00+08:00",
+      "account_name": "微博V影响力大会",
+      "content_text": "#李杰灵谈对抗焦虑的工作模式#@李杰灵分享了他对抗焦虑的心得：状态决定产出，焦虑会扼杀创造力，开心才能产出好的内容。要把“让自己开心”当作一份重要的功课去练习，让它成为创造价值的一部分，你会发现，好状态会随之而来。收听完整播客戳👉微博正文#微博V影响力大会#​展开c",
+      "reposts": 76,
+      "comments": 7,
+      "likes": 160
+    },
+    {
+      "post_id": "detail-9139190986513569961",
+      "published_at": "2025-10-11T11:47:00+08:00",
+      "account_name": "粉丝红包",
+      "content_text": "#李杰灵谈对抗焦虑的工作模式#@李杰灵分享了他对抗焦虑的心得：状态决定产出，焦虑会扼杀创造力，开心才能产出好的内容。要把“让自己开心”当作一份重要的功课去练习，让它成为创造价值的一部分，你会发现，好状态会随之而来。收听完整播客戳👉微博正文#微博V影响力大会#​展开c",
+      "reposts": 56,
+      "comments": 8,
+      "likes": 132
+    }
+  ]
+}

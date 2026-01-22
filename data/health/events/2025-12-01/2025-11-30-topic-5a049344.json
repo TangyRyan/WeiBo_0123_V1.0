@@ -1,0 +1,218 @@
+{
+  "event_id": "2025-11-30-topic-5a049344",
+  "date": "2025-11-30",
+  "title": "秋冬如何预防呼吸道感染",
+  "category": "健康政策与公共服务",
+  "health_minor": "公共健康服务",
+  "sentiment": 0.35,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764478800,
+  "end_ts": 1764489600,
+  "heat_peak": 440407.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1764478800,
+      "heat": 440407.0,
+      "rank": null
+    },
+    {
+      "ts": 1764482400,
+      "heat": 440407.0,
+      "rank": null
+    },
+    {
+      "ts": 1764486000,
+      "heat": 440407.0,
+      "rank": null
+    },
+    {
+      "ts": 1764489600,
+      "heat": 440407.0,
+      "rank": null
+    }
+  ],
+  "summary": "秋冬如何预防呼吸道感染",
+  "tags": [
+    "秋冬如何预防呼吸道感染",
+    "秋冬嗓子不舒服如何缓解",
+    "流感",
+    "预防流感八问八答",
+    "流感的典型症状有哪些",
+    "别把甲流当成普通感冒",
+    "预防流感要做到的5件事",
+    "微博兴趣创作计划",
+    "健康知识科普",
+    "全民营养提升计划",
+    "微博超有用视频大赛",
+    "流感季",
+    "流感病毒",
+    "三分钟视频助燃计划",
+    "沙家坡干货"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "秋冬如何预防呼吸道感染",
+        "label": "秋冬如何预防呼吸道感染",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秋冬嗓子不舒服如何缓解",
+        "label": "秋冬嗓子不舒服如何缓解",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感",
+        "label": "流感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "预防流感八问八答",
+        "label": "预防流感八问八答",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感的典型症状有哪些",
+        "label": "流感的典型症状有哪些",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "别把甲流当成普通感冒",
+        "label": "别把甲流当成普通感冒",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "预防流感要做到的5件事",
+        "label": "预防流感要做到的5件事",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健康知识科普",
+        "label": "健康知识科普",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全民营养提升计划",
+        "label": "全民营养提升计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感季",
+        "label": "流感季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感病毒",
+        "label": "流感病毒",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三分钟视频助燃计划",
+        "label": "三分钟视频助燃计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "沙家坡干货",
+        "label": "沙家坡干货",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.7
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.6
+    }
+  ],
+  "sample_posts": []
+}

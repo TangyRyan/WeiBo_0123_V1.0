@@ -1,0 +1,104 @@
+{
+  "updated_at": "2025-12-07T05:32:58.219004+08:00",
+  "summary": {
+    "total_events": 5,
+    "by_major": {
+      "健康管理与养生": 1,
+      "健康观念与社会现象": 1,
+      "特殊场景与群体健康": 3
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-16-topic-8013b430",
+      "title": "家属回应女子缅北器官被摘除售卖",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760608800,
+      "end_ts": 1760612400,
+      "heat_peak": 381128.0,
+      "sentiment": -0.9,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760612400,
+          "heat": 381128.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-16-topic-fd800d27",
+      "title": "男子应聘船员出海严重晕船自缢身亡",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760619600,
+      "end_ts": 1760626800,
+      "heat_peak": 220636.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760626800,
+          "heat": 220636.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-17-topic-b508791a",
+      "title": "终于有剧拍出了堕落的第一口",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760673600,
+      "end_ts": 1760677200,
+      "heat_peak": 203159.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760677200,
+          "heat": 203159.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-17-topic-35859e2d",
+      "title": "杨力维杨舒予父亲去世",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760691600,
+      "end_ts": 1760713200,
+      "heat_peak": 408152.0,
+      "sentiment": -0.7,
+      "region": "广东",
+      "point_count": 7,
+      "points": [
+        {
+          "ts": 1760713200,
+          "heat": 408152.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-17-topic-1900513f",
+      "title": "方媛小腿浮肿",
+      "category": "健康管理与养生",
+      "start_ts": 1760702400,
+      "end_ts": 1760709600,
+      "heat_peak": 222863.0,
+      "sentiment": 0.15,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760709600,
+          "heat": 222863.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-17"
+}

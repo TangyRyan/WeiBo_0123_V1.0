@@ -1,0 +1,164 @@
+{
+  "event_id": "2025-11-07-5",
+  "date": "2025-11-07",
+  "title": "再见爱人5保险事变",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.0
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "香港",
+  "start_ts": 1762473600,
+  "end_ts": 1762527600,
+  "heat_peak": 220341.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1762473600,
+      "heat": 220341.0,
+      "rank": null
+    },
+    {
+      "ts": 1762477200,
+      "heat": 220341.0,
+      "rank": null
+    },
+    {
+      "ts": 1762527600,
+      "heat": 220341.0,
+      "rank": null
+    }
+  ],
+  "summary": "《再见爱人5》每周四周五12:00芒果TV更新～",
+  "tags": [
+    "再见爱人5保险事变",
+    "车崇健 风险规避型利己者",
+    "热点观点 ﻿",
+    "李施嬅",
+    "再见爱人",
+    "新老还珠演员为短剧还珠打call",
+    "林心如说李施嬅的独立坚强有点苦",
+    "林心如秦岚李晟海陆张睿为短剧还珠打call"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "再见爱人5保险事变",
+        "label": "再见爱人5保险事变",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "车崇健 风险规避型利己者",
+        "label": "车崇健 风险规避型利己者",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点 ﻿",
+        "label": "热点观点 ﻿",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "李施嬅",
+        "label": "李施嬅",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "再见爱人",
+        "label": "再见爱人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "新老还珠演员为短剧还珠打call",
+        "label": "新老还珠演员为短剧还珠打call",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "林心如说李施嬅的独立坚强有点苦",
+        "label": "林心如说李施嬅的独立坚强有点苦",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "林心如秦岚李晟海陆张睿为短剧还珠打call",
+        "label": "林心如秦岚李晟海陆张睿为短剧还珠打call",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.0
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.8
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

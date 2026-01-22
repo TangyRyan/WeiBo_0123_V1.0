@@ -1,0 +1,117 @@
+{
+  "event_id": "2025-11-23-topic-af84a7ee",
+  "date": "2025-11-23",
+  "title": "云南一山谷惊现百米露天垃圾池",
+  "category": "环境与灾害关联健康问题",
+  "health_minor": "突发污染健康影响",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.8
+    },
+    {
+      "name": "气愤",
+      "value": 0.9
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "云南",
+  "start_ts": 1763874000,
+  "end_ts": 1763874000,
+  "heat_peak": 286997.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1763870400,
+      "heat": 286997.0,
+      "rank": null
+    },
+    {
+      "ts": 1763874000,
+      "heat": 286997.0,
+      "rank": null
+    }
+  ],
+  "summary": "11月22日，自媒体博主@小符同志 发布视频爆料，云南省昭通市彝良县境内一山谷中出现大量垃圾，其拍摄的视频中显示，无数生活垃圾在山谷中蔓延，青山中的谷地俨然成了一个露天大型垃圾池。",
+  "tags": [
+    "云南一山谷惊现百米露天垃圾池",
+    "官方回应山谷内现百米垃圾池"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "云南一山谷惊现百米露天垃圾池",
+        "label": "云南一山谷惊现百米露天垃圾池",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "官方回应山谷内现百米垃圾池",
+        "label": "官方回应山谷内现百米垃圾池",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.8
+    },
+    {
+      "name": "气愤",
+      "value": 0.9
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

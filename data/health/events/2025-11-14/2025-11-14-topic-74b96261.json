@@ -1,0 +1,168 @@
+{
+  "event_id": "2025-11-14-topic-74b96261",
+  "date": "2025-11-14",
+  "title": "男子因朋友圈无人点赞患上抑郁症",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": -0.35,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.08
+    },
+    {
+      "name": "恐惧",
+      "value": 0.22
+    },
+    {
+      "name": "惊喜",
+      "value": 0.03
+    },
+    {
+      "name": "伤心",
+      "value": 0.28
+    },
+    {
+      "name": "讨厌",
+      "value": 0.15
+    },
+    {
+      "name": "气愤",
+      "value": 0.12
+    },
+    {
+      "name": "期盼",
+      "value": 0.07
+    }
+  ],
+  "region": "江苏",
+  "start_ts": 1763053200,
+  "end_ts": 1763074800,
+  "heat_peak": 85525.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1763049600,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763053200,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763056800,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763060400,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763064000,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763067600,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763071200,
+      "heat": 85525.0,
+      "rank": null
+    },
+    {
+      "ts": 1763074800,
+      "heat": 85525.0,
+      "rank": null
+    }
+  ],
+  "summary": "11月13日，江苏淮安35岁的小张因社交焦虑被诊断为抑郁症。",
+  "tags": [
+    "男子因朋友圈无人点赞患上抑郁症",
+    "高敏感性格和家庭教育有关吗",
+    "微博声浪计划",
+    "听见微博",
+    "脱口而出"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "男子因朋友圈无人点赞患上抑郁症",
+        "label": "男子因朋友圈无人点赞患上抑郁症",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "高敏感性格和家庭教育有关吗",
+        "label": "高敏感性格和家庭教育有关吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博声浪计划",
+        "label": "微博声浪计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "听见微博",
+        "label": "听见微博",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "脱口而出",
+        "label": "脱口而出",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.08
+    },
+    {
+      "name": "恐惧",
+      "value": 0.22
+    },
+    {
+      "name": "惊喜",
+      "value": 0.03
+    },
+    {
+      "name": "伤心",
+      "value": 0.28
+    },
+    {
+      "name": "讨厌",
+      "value": 0.15
+    },
+    {
+      "name": "气愤",
+      "value": 0.12
+    },
+    {
+      "name": "期盼",
+      "value": 0.07
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,196 @@
+{
+  "event_id": "2025-11-12-30",
+  "date": "2025-11-12",
+  "title": "打羽毛球 瘦30斤",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762902000,
+  "end_ts": 1762902000,
+  "heat_peak": 60379.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762902000,
+      "heat": 60379.0,
+      "rank": null
+    }
+  ],
+  "summary": "打羽毛球 瘦30斤",
+  "tags": [
+    "挥拍运动是防心血管病的最佳运动",
+    "打羽毛球 瘦30斤",
+    "微博vlog大赛",
+    "一分钟视频创作季",
+    "全民运动flag大会",
+    "跑步",
+    "为什么健身房容易倒闭",
+    "即刻开跑",
+    "给生活加点flow",
+    "成都微互动",
+    "减肥 和家族基因做对抗",
+    "适合自己的最佳运动",
+    "微博兴趣创作计划",
+    "发现生活中的小美好"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "挥拍运动是防心血管病的最佳运动",
+        "label": "挥拍运动是防心血管病的最佳运动",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "打羽毛球 瘦30斤",
+        "label": "打羽毛球 瘦30斤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博vlog大赛",
+        "label": "微博vlog大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全民运动flag大会",
+        "label": "全民运动flag大会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "跑步",
+        "label": "跑步",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么健身房容易倒闭",
+        "label": "为什么健身房容易倒闭",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "即刻开跑",
+        "label": "即刻开跑",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "给生活加点flow",
+        "label": "给生活加点flow",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "成都微互动",
+        "label": "成都微互动",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "减肥 和家族基因做对抗",
+        "label": "减肥 和家族基因做对抗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "适合自己的最佳运动",
+        "label": "适合自己的最佳运动",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "发现生活中的小美好",
+        "label": "发现生活中的小美好",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

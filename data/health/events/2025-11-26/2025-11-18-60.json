@@ -1,0 +1,148 @@
+{
+  "event_id": "2025-11-18-60",
+  "date": "2025-11-18",
+  "title": "60岁孕妇剖腹产生下男婴",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.1,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.15
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.35
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.15
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "江苏",
+  "start_ts": 1763434800,
+  "end_ts": 1763445600,
+  "heat_peak": 118721.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1763434800,
+      "heat": 118721.0,
+      "rank": null
+    },
+    {
+      "ts": 1763438400,
+      "heat": 118721.0,
+      "rank": null
+    },
+    {
+      "ts": 1763442000,
+      "heat": 118721.0,
+      "rank": null
+    },
+    {
+      "ts": 1763445600,
+      "heat": 118721.0,
+      "rank": null
+    }
+  ],
+  "summary": "近日，南京市妇幼保健院成功为一位60岁的超高龄产妇王女士实施剖宫产手术，一名2630g的健康男婴平安降生。",
+  "tags": [
+    "60岁孕妇剖腹产生下男婴",
+    "医生回应60岁孕妇剖腹产生男婴",
+    "微博兴趣创作计划",
+    "育儿聊一聊",
+    "生活碎碎念"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "60岁孕妇剖腹产生下男婴",
+        "label": "60岁孕妇剖腹产生下男婴",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "医生回应60岁孕妇剖腹产生男婴",
+        "label": "医生回应60岁孕妇剖腹产生男婴",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "育儿聊一聊",
+        "label": "育儿聊一聊",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "生活碎碎念",
+        "label": "生活碎碎念",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.15
+    },
+    {
+      "name": "信任",
+      "value": 0.25
+    },
+    {
+      "name": "恐惧",
+      "value": 0.35
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.15
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

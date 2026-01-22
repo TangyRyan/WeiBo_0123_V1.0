@@ -1,0 +1,155 @@
+{
+  "event_id": "2025-10-30-topic-e9e06522",
+  "date": "2025-10-30",
+  "title": "刘谦抗癌成功后近况",
+  "category": "健康管理与养生",
+  "health_minor": "6.3 健康生活方式",
+  "sentiment": 0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "region": "上海",
+  "start_ts": 1761825600,
+  "end_ts": 1761836400,
+  "heat_peak": 245293.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1761825600,
+      "heat": 245293.0,
+      "rank": null
+    },
+    {
+      "ts": 1761829200,
+      "heat": 245293.0,
+      "rank": null
+    },
+    {
+      "ts": 1761832800,
+      "heat": 245293.0,
+      "rank": null
+    },
+    {
+      "ts": 1761836400,
+      "heat": 245293.0,
+      "rank": null
+    }
+  ],
+  "summary": "刘谦抗癌成功后近况",
+  "tags": [
+    "刘谦抗癌成功后近况",
+    "刘谦透露年底行程跟过年有关",
+    "微博创作者中心",
+    "微博兴趣创作计划",
+    "跟肿瘤说拜拜",
+    "一分钟视频创作季"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "刘谦抗癌成功后近况",
+        "label": "刘谦抗癌成功后近况",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "刘谦透露年底行程跟过年有关",
+        "label": "刘谦透露年底行程跟过年有关",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博创作者中心",
+        "label": "微博创作者中心",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "跟肿瘤说拜拜",
+        "label": "跟肿瘤说拜拜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.6
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.3
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,171 @@
+{
+  "generated_at": "2025-12-10T16:23:55.954449+08:00",
+  "events": [
+    {
+      "name": "蓝战非被勒索300万",
+      "date": "2025-12-09",
+      "risk_score": 80.04138831411963,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 80.04138831411963,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.8,
+        "region": "国外",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.8,
+          "惊喜": 0.0,
+          "伤心": 0.5,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 90.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 95.20694157059813
+      },
+      "sort_key": 75.04138831411963
+    },
+    {
+      "name": "白天辉被执行死刑",
+      "date": "2025-12-09",
+      "risk_score": 79.25,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 79.25,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "天津",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.0,
+          "惊喜": 0.0,
+          "伤心": 0.1,
+          "讨厌": 0.3,
+          "气愤": 0.5,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 74.25
+    },
+    {
+      "name": "日本近海7.5级强震",
+      "date": "2025-12-09",
+      "risk_score": 78.39984189807366,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.39984189807366,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.7,
+        "region": "国外",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.8,
+          "惊喜": 0.0,
+          "伤心": 0.7,
+          "讨厌": 0.1,
+          "气愤": 0.1,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 85.0,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 95.7492094903683
+      },
+      "sort_key": 73.39984189807366
+    },
+    {
+      "name": "辽宁丹东有人疑在江边放生大米",
+      "date": "2025-12-09",
+      "risk_score": 78.375,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.375,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.65,
+        "region": "辽宁",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.1,
+          "惊喜": 0.3,
+          "伤心": 0.4,
+          "讨厌": 0.6,
+          "气愤": 0.7,
+          "期盼": 0.1
+        }
+      },
+      "risk_dims": {
+        "negativity": 82.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 100.0
+      },
+      "sort_key": 73.375
+    },
+    {
+      "name": "蓝战非被绑架警方已立案",
+      "date": "2025-12-09",
+      "risk_score": 78.07315087110196,
+      "risk_low": 0.0,
+      "risk_mid": 0.0,
+      "risk_high": 78.07315087110196,
+      "risk_level": "high",
+      "risk_level_label": "高风险",
+      "llm": {
+        "sentiment": -0.65,
+        "region": "国外",
+        "topic_type": "社会",
+        "source": "llm",
+        "sentiment_vector": {
+          "喜悦": 0.0,
+          "信任": 0.1,
+          "恐惧": 0.7,
+          "惊喜": 0.0,
+          "伤心": 0.4,
+          "讨厌": 0.5,
+          "气愤": 0.6,
+          "期盼": 0.3
+        }
+      },
+      "risk_dims": {
+        "negativity": 82.5,
+        "growth": 50.0,
+        "sensitivity": 85.0,
+        "crowd": 98.4907543555098
+      },
+      "sort_key": 73.07315087110196
+    }
+  ],
+  "date": "2025-12-09"
+}

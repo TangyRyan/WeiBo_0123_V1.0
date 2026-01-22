@@ -1,0 +1,133 @@
+{
+  "event_id": "2025-11-01-topic-a1834803",
+  "date": "2025-11-01",
+  "title": "为救儿子盗窃入狱的男子仍待业",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "吉林",
+  "start_ts": 1761976800,
+  "end_ts": 1761976800,
+  "heat_peak": 225593.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1761976800,
+      "heat": 225593.0,
+      "rank": null
+    }
+  ],
+  "summary": "为救儿子盗窃入狱的男子仍待业",
+  "tags": [
+    "为救白血病儿子父亲盗窃入狱",
+    "为救白血病儿子盗窃入狱男子现状",
+    "为救儿子盗窃入狱的男子仍待业",
+    "一锤开悟",
+    "热点观点"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "为救白血病儿子父亲盗窃入狱",
+        "label": "为救白血病儿子父亲盗窃入狱",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为救白血病儿子盗窃入狱男子现状",
+        "label": "为救白血病儿子盗窃入狱男子现状",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为救儿子盗窃入狱的男子仍待业",
+        "label": "为救儿子盗窃入狱的男子仍待业",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一锤开悟",
+        "label": "一锤开悟",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点观点",
+        "label": "热点观点",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.6
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

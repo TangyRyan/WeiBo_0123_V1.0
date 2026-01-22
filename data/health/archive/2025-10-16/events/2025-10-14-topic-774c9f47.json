@@ -1,0 +1,558 @@
+{
+  "event_id": "2025-10-14-topic-774c9f47",
+  "date": "2025-10-14",
+  "title": "李沛恩合约",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": 0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "region": "上海",
+  "start_ts": 1760446800,
+  "end_ts": 1760454000,
+  "heat_peak": 288127.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1760446800,
+      "heat": 288127.0,
+      "rank": null
+    },
+    {
+      "ts": 1760450400,
+      "heat": 288127.0,
+      "rank": null
+    },
+    {
+      "ts": 1760454000,
+      "heat": 288127.0,
+      "rank": null
+    }
+  ],
+  "summary": "李沛恩合约",
+  "tags": [
+    "李沛恩合约",
+    "李沛恩娇兰",
+    "法国娇兰品牌挚友李沛恩",
+    "李沛恩 禾马",
+    "李沛恩"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "李沛恩合约",
+        "label": "李沛恩合约",
+        "weight": 20.0,
+        "community": 0
+      },
+      {
+        "id": "李沛恩娇兰",
+        "label": "李沛恩娇兰",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "法国娇兰品牌挚友李沛恩",
+        "label": "法国娇兰品牌挚友李沛恩",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "李沛恩 禾马",
+        "label": "李沛恩 禾马",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "李沛恩",
+        "label": "李沛恩",
+        "weight": 2.0,
+        "community": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "李沛恩合约",
+        "target": "李沛恩娇兰",
+        "weight": 1.0
+      },
+      {
+        "source": "李沛恩合约",
+        "target": "法国娇兰品牌挚友李沛恩",
+        "weight": 1.0
+      },
+      {
+        "source": "李沛恩 禾马",
+        "target": "李沛恩合约",
+        "weight": 1.0
+      },
+      {
+        "source": "李沛恩",
+        "target": "李沛恩合约",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "李沛恩",
+      "weight": 58.0
+    },
+    {
+      "text": "合约",
+      "weight": 23.0
+    },
+    {
+      "text": "公司",
+      "weight": 10.0
+    },
+    {
+      "text": "支持",
+      "weight": 9.0
+    },
+    {
+      "text": "娇兰",
+      "weight": 8.0
+    },
+    {
+      "text": "期待",
+      "weight": 6.0
+    },
+    {
+      "text": "明天",
+      "weight": 5.0
+    },
+    {
+      "text": "一直",
+      "weight": 5.0
+    },
+    {
+      "text": "大家",
+      "weight": 4.0
+    },
+    {
+      "text": "胜诉",
+      "weight": 4.0
+    },
+    {
+      "text": "Pein",
+      "weight": 4.0
+    },
+    {
+      "text": "问题",
+      "weight": 4.0
+    },
+    {
+      "text": "品牌",
+      "weight": 4.0
+    },
+    {
+      "text": "知道",
+      "weight": 3.0
+    },
+    {
+      "text": "希望",
+      "weight": 3.0
+    },
+    {
+      "text": "永远",
+      "weight": 3.0
+    },
+    {
+      "text": "一审判决",
+      "weight": 3.0
+    },
+    {
+      "text": "艺人",
+      "weight": 3.0
+    },
+    {
+      "text": "解约",
+      "weight": 3.0
+    },
+    {
+      "text": "判决",
+      "weight": 3.0
+    },
+    {
+      "text": "结果",
+      "weight": 3.0
+    },
+    {
+      "text": "明晚",
+      "weight": 3.0
+    },
+    {
+      "text": "京东",
+      "weight": 3.0
+    },
+    {
+      "text": "直播间",
+      "weight": 3.0
+    },
+    {
+      "text": "以后",
+      "weight": 3.0
+    },
+    {
+      "text": "越来越",
+      "weight": 3.0
+    },
+    {
+      "text": "直播",
+      "weight": 3.0
+    },
+    {
+      "text": "先生",
+      "weight": 3.0
+    },
+    {
+      "text": "未来",
+      "weight": 3.0
+    },
+    {
+      "text": "挚友",
+      "weight": 3.0
+    },
+    {
+      "text": "感谢",
+      "weight": 3.0
+    },
+    {
+      "text": "选择",
+      "weight": 3.0
+    },
+    {
+      "text": "脸颊",
+      "weight": 3.0
+    },
+    {
+      "text": "前司",
+      "weight": 3.0
+    },
+    {
+      "text": "那么",
+      "weight": 3.0
+    },
+    {
+      "text": "别的",
+      "weight": 2.0
+    },
+    {
+      "text": "清楚",
+      "weight": 2.0
+    },
+    {
+      "text": "沛恩",
+      "weight": 2.0
+    },
+    {
+      "text": "公道",
+      "weight": 2.0
+    },
+    {
+      "text": "人心",
+      "weight": 2.0
+    },
+    {
+      "text": "之后",
+      "weight": 2.0
+    },
+    {
+      "text": "娱乐",
+      "weight": 2.0
+    },
+    {
+      "text": "经纪",
+      "weight": 2.0
+    },
+    {
+      "text": "契约",
+      "weight": 2.0
+    },
+    {
+      "text": "精神",
+      "weight": 2.0
+    },
+    {
+      "text": "静待",
+      "weight": 2.0
+    },
+    {
+      "text": "空降",
+      "weight": 2.0
+    },
+    {
+      "text": "只会",
+      "weight": 2.0
+    },
+    {
+      "text": "兢兢业业",
+      "weight": 2.0
+    },
+    {
+      "text": "工作",
+      "weight": 2.0
+    },
+    {
+      "text": "奖励",
+      "weight": 2.0
+    },
+    {
+      "text": "决定",
+      "weight": 2.0
+    },
+    {
+      "text": "一审",
+      "weight": 2.0
+    },
+    {
+      "text": "判决书",
+      "weight": 2.0
+    },
+    {
+      "text": "角色",
+      "weight": 2.0
+    },
+    {
+      "text": "演员",
+      "weight": 2.0
+    },
+    {
+      "text": "法国",
+      "weight": 2.0
+    },
+    {
+      "text": "拖欠",
+      "weight": 2.0
+    },
+    {
+      "text": "关心",
+      "weight": 2.0
+    },
+    {
+      "text": "法律",
+      "weight": 2.0
+    },
+    {
+      "text": "情况",
+      "weight": 2.0
+    },
+    {
+      "text": "第一次",
+      "weight": 2.0
+    },
+    {
+      "text": "高途",
+      "weight": 2.0
+    },
+    {
+      "text": "现在",
+      "weight": 1.0
+    },
+    {
+      "text": "幸福",
+      "weight": 1.0
+    },
+    {
+      "text": "多多",
+      "weight": 1.0
+    },
+    {
+      "text": "妈妈",
+      "weight": 1.0
+    },
+    {
+      "text": "江李姐",
+      "weight": 1.0
+    },
+    {
+      "text": "从来",
+      "weight": 1.0
+    },
+    {
+      "text": "所谓",
+      "weight": 1.0
+    },
+    {
+      "text": "心理",
+      "weight": 1.0
+    },
+    {
+      "text": "永远都是",
+      "weight": 1.0
+    },
+    {
+      "text": "健康活泼",
+      "weight": 1.0
+    },
+    {
+      "text": "快乐",
+      "weight": 1.0
+    },
+    {
+      "text": "小狗",
+      "weight": 1.0
+    },
+    {
+      "text": "今天",
+      "weight": 1.0
+    },
+    {
+      "text": "坦途",
+      "weight": 1.0
+    },
+    {
+      "text": "不如",
+      "weight": 1.0
+    },
+    {
+      "text": "来娇兰",
+      "weight": 1.0
+    },
+    {
+      "text": "看看",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.7
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-6672264711781143555",
+      "published_at": "2025-10-14T21:30:00+08:00",
+      "account_name": "我是小雀_",
+      "content_text": "#李沛恩合约#别的都不清楚，只知道李沛恩现在很幸福！！！希望大家多多支持沛恩妈妈！！！！江李姐永远支持沛恩！！！！一审判决李沛恩胜诉！！！！公道自在人心！！！@李沛恩Pein_​",
+      "reposts": 93,
+      "comments": 278,
+      "likes": 4998
+    },
+    {
+      "post_id": "detail-915473873311579172",
+      "published_at": "2025-10-14T22:00:00+08:00",
+      "account_name": "P_1比耶",
+      "content_text": "#李沛恩合约#从来没有所谓的心理问题。永远都是健康活泼的快乐小狗啊。只知道今天之后皆是坦途。大家不如明天来娇兰看看这个很会演戏的李沛恩​",
+      "reposts": 24,
+      "comments": 31,
+      "likes": 688
+    },
+    {
+      "post_id": "detail-6377298573917863087",
+      "published_at": "2025-10-14T21:14:00+08:00",
+      "account_name": "茶宝点评i",
+      "content_text": "李沛恩和禾马娱乐的经纪纠纷，禾马娱乐一审判决赢了耶，所以说艺人不要随便解约，还是要有契约精神，不然和公司闹得难看更对自己没好处，契约精神在内娱太重要了，也是艺人的生命线。#李沛恩合约#​",
+      "reposts": 4,
+      "comments": 265,
+      "likes": 2316
+    },
+    {
+      "post_id": "detail-2213381909485385854",
+      "published_at": "2025-10-14T21:41:00+08:00",
+      "account_name": "TiAmoriikyu",
+      "content_text": "#李沛恩合约#能这么快出来声明当然是因为判决就在这有证据有结果有底气，正常合约问题有些人别盯着李沛恩造谣了，剩下的合约问题我们静待结果支持一下@李沛恩Pein_明晚6点李沛恩空降京东娇兰直播间李沛恩以后只会越来越好 ​",
+      "reposts": 334,
+      "comments": 350,
+      "likes": 3467
+    },
+    {
+      "post_id": "detail-3395498952328985755",
+      "published_at": "2025-10-14T21:36:00+08:00",
+      "account_name": "Gawiye_S",
+      "content_text": "#李沛恩合约#别的不清楚，只知道李沛恩一直兢兢业业工作，真诚回馈粉丝，奖励姐永远支持李沛恩的决定🥹另外一审已经判决李沛恩胜诉，公道自在人心 ，一起期待明天下午18:00李沛恩空降京东美妆娇兰直播间 ​",
+      "reposts": 44,
+      "comments": 96,
+      "likes": 1688
+    },
+    {
+      "post_id": "detail-4748326817298015079",
+      "published_at": "2025-10-14T21:53:00+08:00",
+      "account_name": "栗子_弘Treasure",
+      "content_text": "#李沛恩合约#前公司不做人罢了，我们以后只走花路守护这个李沛恩的笑容​",
+      "reposts": 48,
+      "comments": 35,
+      "likes": 600
+    },
+    {
+      "post_id": "detail-5375565502206218398",
+      "published_at": "2025-10-14T22:01:00+08:00",
+      "account_name": "系红领巾的猴子",
+      "content_text": "#李沛恩合约#判决书已经明明白白了哈 ​",
+      "reposts": 68,
+      "comments": 74,
+      "likes": 969
+    },
+    {
+      "post_id": "detail-1138313561850888083",
+      "published_at": "2025-10-14T21:38:00+08:00",
+      "account_name": "诱昒",
+      "content_text": "#李沛恩合约#支持李沛恩一切决定，期待李沛恩明晚京东娇兰直播！奖励姐一直支持李沛恩，希望李沛恩天天开心@李沛恩Pein_​​​",
+      "reposts": 18,
+      "comments": 59,
+      "likes": 791
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "event_id": "2025-11-02-topic-34b7ada0",
+  "date": "2025-11-02",
+  "title": "药中茅台片仔癀跌破官方指导价",
+  "category": "食品药品安全",
+  "health_minor": "药品安全突发情况",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762070400,
+  "end_ts": 1762077600,
+  "heat_peak": 255202.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1762070400,
+      "heat": 255202.0,
+      "rank": null
+    },
+    {
+      "ts": 1762074000,
+      "heat": 255202.0,
+      "rank": null
+    },
+    {
+      "ts": 1762077600,
+      "heat": 255202.0,
+      "rank": null
+    }
+  ],
+  "summary": "曾经一粒难求、如今价格暴跌，“药中茅台”片仔癀怎么了？",
+  "tags": [
+    "药中茅台片仔癀跌破官方指导价",
+    "炒片仔癀的黄牛改行炒黄金了",
+    "宋清辉股海观察",
+    "黄金税收新政对个人买金有何影响",
+    "热点解读"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "药中茅台片仔癀跌破官方指导价",
+        "label": "药中茅台片仔癀跌破官方指导价",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "炒片仔癀的黄牛改行炒黄金了",
+        "label": "炒片仔癀的黄牛改行炒黄金了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "宋清辉股海观察",
+        "label": "宋清辉股海观察",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "黄金税收新政对个人买金有何影响",
+        "label": "黄金税收新政对个人买金有何影响",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点解读",
+        "label": "热点解读",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

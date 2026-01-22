@@ -1,0 +1,80 @@
+{
+  "topic": "#康熙#",
+  "fetched_at": "2025-11-06T14:54:44+08:00",
+  "total": 3,
+  "top_n": 30,
+  "items": [
+    {
+      "id": "5229664735072796",
+      "bid": "QcrIllhFi",
+      "url": "https://m.weibo.cn/status/QcrIllhFi",
+      "created_at": "2025-11-05T16:51:38+08:00",
+      "user_id": 1965565743,
+      "user_name": "逍遥哥哥__XiaoYao",
+      "verified": true,
+      "region": "江苏",
+      "source": "逍遥先森超话",
+      "text": "#康熙#\n没想到还能吃到这样的瓜！",
+      "text_raw": "<a  href=\"https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BA%B7%E7%86%99%23&isnewpage=1&launchid=10000360-page_H5\" data-hide=\"\"><span class=\"surl-text\">#康熙#</span></a><br />没想到还能吃到这样的瓜！<span class=\"url-icon\"><img alt=\"[吃瓜]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/0b/201810_chigua_mobile.png\" style=\"width:1em; height:1em;\" /></span> ",
+      "reposts": 79,
+      "comments": 99,
+      "likes": 105,
+      "pics": [
+        "https://wx4.sinaimg.cn/large/7528272fgy1i71ft7ndl9j20xi16zafd.jpg",
+        "https://wx1.sinaimg.cn/large/7528272fgy1i71ft2tdr6j20xi15un8l.jpg"
+      ],
+      "video": null,
+      "score": 100.60000000000001
+    },
+    {
+      "id": "5229649241314243",
+      "bid": "Qcrjm5vTt",
+      "url": "https://m.weibo.cn/status/Qcrjm5vTt",
+      "created_at": "2025-11-05T15:50:04+08:00",
+      "user_id": 7436228619,
+      "user_name": "幸运梨子呀",
+      "verified": true,
+      "region": "广东",
+      "source": "iPhone客户端",
+      "text": "#康熙#昨晚这个瓜吃到半宿真特别有意思哈哈哈，没看到的朋友真的建议可以去看看，非常有趣，清宫血统大乱炖",
+      "text_raw": "<a  href=\"https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BA%B7%E7%86%99%23&isnewpage=1&launchid=10000360-page_H5\" data-hide=\"\"><span class=\"surl-text\">#康熙#</span></a>昨晚这个瓜吃到半宿真特别有意思哈哈哈，没看到的朋友真的建议可以去看看，非常有趣，清宫血统大乱炖<span class=\"url-icon\"><img alt=\"[嘻嘻]\" src=\"https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/8e/201810_xixi_mobile.png\" style=\"width:1em; height:1em;\" /></span> ",
+      "reposts": 9,
+      "comments": 26,
+      "likes": 96,
+      "pics": [
+        "https://wx1.sinaimg.cn/large/0087fELhgy1i71e13cvv9j30zk0zkn4r.jpg"
+      ],
+      "video": null,
+      "score": 66.3
+    },
+    {
+      "id": "5229900558764930",
+      "bid": "QcxQHAM9Q",
+      "url": "https://m.weibo.cn/status/QcxQHAM9Q",
+      "created_at": "2025-11-06T08:28:43+08:00",
+      "user_id": 5609184218,
+      "user_name": "羊就是咩咩叫",
+      "verified": true,
+      "region": "陕西",
+      "source": "",
+      "text": "网友发现红楼梦好像和洪康熙这件事也存在着联系…#康熙#",
+      "text_raw": "网友发现红楼梦好像和洪康熙这件事也存在着联系…<a  href=\"https://m.weibo.cn/search?containerid=231522type%3D1%26t%3D10%26q%3D%23%E5%BA%B7%E7%86%99%23&isnewpage=1&launchid=10000360-page_H5\" data-hide=\"\"><span class=\"surl-text\">#康熙#</span></a> ",
+      "reposts": 6,
+      "comments": 13,
+      "likes": 25,
+      "pics": [
+        "https://wx1.sinaimg.cn/large/0067Bz3cly1i726uq73dzj30xc18gad8.jpg",
+        "https://wx2.sinaimg.cn/large/0067Bz3cly1i726uqcrv6j30zu0muael.jpg",
+        "https://wx2.sinaimg.cn/large/0067Bz3cly1i726uqf6iyj30zu12u44v.jpg",
+        "https://wx2.sinaimg.cn/large/0067Bz3cly1i726uqej6wj30zu0c276g.jpg",
+        "https://wx4.sinaimg.cn/large/0067Bz3cly1i726uqgl2aj30zu0epaby.jpg",
+        "https://wx1.sinaimg.cn/large/0067Bz3cly1i726v5k6s1j30xi12xtdt.jpg",
+        "https://wx1.sinaimg.cn/large/0067Bz3cly1i726v5lkawj30xi1hswn0.jpg",
+        "https://wx2.sinaimg.cn/large/0067Bz3cly1i726v5l6sfj30xi18sn53.jpg",
+        "https://wx2.sinaimg.cn/large/0067Bz3cly1i726v5jistj30xi0qtq6a.jpg"
+      ],
+      "video": null,
+      "score": 19.5
+    }
+  ]
+}

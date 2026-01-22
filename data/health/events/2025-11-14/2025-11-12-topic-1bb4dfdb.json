@@ -1,0 +1,189 @@
+{
+  "event_id": "2025-11-12-topic-1bb4dfdb",
+  "date": "2025-11-12",
+  "title": "双十一期间多名主播喊破了肺泡",
+  "category": "特殊场景与群体健康",
+  "health_minor": "公共场合聚集性健康问题",
+  "sentiment": -0.45,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.05
+    },
+    {
+      "name": "恐惧",
+      "value": 0.35
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.55
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.65
+    },
+    {
+      "name": "期盼",
+      "value": 0.15
+    }
+  ],
+  "region": "浙江",
+  "start_ts": 1762876800,
+  "end_ts": 1762902000,
+  "heat_peak": 104574.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1762876800,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762880400,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762884000,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762887600,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762891200,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762894800,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762898400,
+      "heat": 104574.0,
+      "rank": null
+    },
+    {
+      "ts": 1762902000,
+      "heat": 104574.0,
+      "rank": null
+    }
+  ],
+  "summary": "近期，医院接诊了好多位在用力发声后，突然遭遇胸口刺疼，被肺气压伤的患者，从职业来看，十有八九都是主播。",
+  "tags": [
+    "双十一期间多名主播喊破了肺泡",
+    "微博中医药月",
+    "为什么肺坏了也会无症状",
+    "双十一 没便宜",
+    "双十一",
+    "双11狂欢夜",
+    "无花果是润燥能手",
+    "原来无花果有这么多作用"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "双十一期间多名主播喊破了肺泡",
+        "label": "双十一期间多名主播喊破了肺泡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博中医药月",
+        "label": "微博中医药月",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么肺坏了也会无症状",
+        "label": "为什么肺坏了也会无症状",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "双十一 没便宜",
+        "label": "双十一 没便宜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "双十一",
+        "label": "双十一",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "双11狂欢夜",
+        "label": "双11狂欢夜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "无花果是润燥能手",
+        "label": "无花果是润燥能手",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "原来无花果有这么多作用",
+        "label": "原来无花果有这么多作用",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.05
+    },
+    {
+      "name": "恐惧",
+      "value": 0.35
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.55
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.65
+    },
+    {
+      "name": "期盼",
+      "value": 0.15
+    }
+  ],
+  "sample_posts": []
+}

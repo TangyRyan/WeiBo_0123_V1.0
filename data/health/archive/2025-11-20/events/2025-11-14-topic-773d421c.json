@@ -1,0 +1,140 @@
+{
+  "event_id": "2025-11-14-topic-773d421c",
+  "date": "2025-11-14",
+  "title": "糖尿病人群患带状疱疹风险更高",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.6
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763089200,
+  "end_ts": 1763089200,
+  "heat_peak": 215213.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763089200,
+      "heat": 215213.0,
+      "rank": null
+    }
+  ],
+  "summary": "11月14日为“世界防治糖尿病日”，据悉，糖尿病等慢性病患者是带状疱疹的高发人群之一。",
+  "tags": [
+    "糖尿病人群患带状疱疹风险更高",
+    "三分钟视频助燃计划",
+    "微博中长视频扶持计划",
+    "糖尿病多吃三种蔬菜胜过大把药",
+    "超六成糖尿病前期患者自己没感觉",
+    "年轻人你离糖尿病有多远"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "糖尿病人群患带状疱疹风险更高",
+        "label": "糖尿病人群患带状疱疹风险更高",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "三分钟视频助燃计划",
+        "label": "三分钟视频助燃计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博中长视频扶持计划",
+        "label": "微博中长视频扶持计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "糖尿病多吃三种蔬菜胜过大把药",
+        "label": "糖尿病多吃三种蔬菜胜过大把药",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "超六成糖尿病前期患者自己没感觉",
+        "label": "超六成糖尿病前期患者自己没感觉",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "年轻人你离糖尿病有多远",
+        "label": "年轻人你离糖尿病有多远",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.4
+    },
+    {
+      "name": "恐惧",
+      "value": 0.6
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.2
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

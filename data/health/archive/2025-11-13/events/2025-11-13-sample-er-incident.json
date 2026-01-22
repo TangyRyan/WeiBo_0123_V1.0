@@ -1,0 +1,78 @@
+{
+  "event_id": "2025-11-13-sample-er-incident",
+  "date": "2025-11-13",
+  "title": "××医院护士被袭事件",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.35,
+  "sentiment_vector": [
+    { "name": "喜悦", "value": 0.05 },
+    { "name": "信任", "value": 0.12 },
+    { "name": "恐惧", "value": 0.44 },
+    { "name": "惊喜", "value": 0.08 },
+    { "name": "伤心", "value": 0.51 },
+    { "name": "讨厌", "value": 0.33 },
+    { "name": "气愤", "value": 0.62 },
+    { "name": "期盼", "value": 0.18 }
+  ],
+  "region": "广东",
+  "start_ts": 1731460800,
+  "end_ts": 1731471600,
+  "heat_peak": 985000,
+  "point_count": 3,
+  "points": [
+    { "ts": 1731460800, "heat": 120000, "rank": 48 },
+    { "ts": 1731466800, "heat": 640000, "rank": 18 },
+    { "ts": 1731471600, "heat": 985000, "rank": 6 }
+  ],
+  "summary": "患者家属在候诊区与医护沟通失衡，导致冲突升级并对值班护士造成身体伤害，当地卫健委已通报处理结果与整改计划。",
+  "tags": ["医患矛盾", "护士安全", "医院管理"],
+  "tag_graph": {
+    "nodes": [
+      { "id": "医患矛盾", "label": "医患矛盾", "weight": 18.0, "community": 0 },
+      { "id": "护士安全", "label": "护士安全", "weight": 11.0, "community": 0 },
+      { "id": "医院管理", "label": "医院管理", "weight": 7.0, "community": 1 }
+    ],
+    "edges": [
+      { "source": "医患矛盾", "target": "护士安全", "weight": 6.0 },
+      { "source": "医患矛盾", "target": "医院管理", "weight": 4.0 }
+    ]
+  },
+  "wordcloud": [
+    { "text": "护士", "weight": 32.0 },
+    { "text": "袭击", "weight": 21.0 },
+    { "text": "候诊区", "weight": 18.0 },
+    { "text": "整改", "weight": 14.0 },
+    { "text": "家属", "weight": 13.0 }
+  ],
+  "emotions": [
+    { "name": "喜悦", "value": 0.05 },
+    { "name": "信任", "value": 0.12 },
+    { "name": "恐惧", "value": 0.44 },
+    { "name": "惊喜", "value": 0.08 },
+    { "name": "伤心", "value": 0.51 },
+    { "name": "讨厌", "value": 0.33 },
+    { "name": "气愤", "value": 0.62 },
+    { "name": "期盼", "value": 0.18 }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "sample-1",
+      "published_at": "2025-11-13T08:30:00+08:00",
+      "account_name": "南城急诊在线",
+      "content_text": "夜班护士被家属推倒受伤，医院保安第一时间控制涉事人员，警方已立案调查。",
+      "reposts": 138,
+      "comments": 512,
+      "likes": 3500
+    },
+    {
+      "post_id": "sample-2",
+      "published_at": "2025-11-13T09:15:00+08:00",
+      "account_name": "医管观察员",
+      "content_text": "冲突后的院内整改要点：限流、陪护实名与多部门联合值守，保障医护安全刻不容缓。",
+      "reposts": 92,
+      "comments": 210,
+      "likes": 1880
+    }
+  ]
+}

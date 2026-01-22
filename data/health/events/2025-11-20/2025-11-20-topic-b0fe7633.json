@@ -1,0 +1,105 @@
+{
+  "event_id": "2025-11-20-topic-b0fe7633",
+  "date": "2025-11-20",
+  "title": "张佳宁拯救职场不开心",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": 0.45,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.65
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.15
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763611200,
+  "end_ts": 1763611200,
+  "heat_peak": 280272.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763611200,
+      "heat": 280272.0,
+      "rank": null
+    }
+  ],
+  "summary": "张佳宁拯救职场不开心",
+  "tags": [
+    "张佳宁拯救职场不开心"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "张佳宁拯救职场不开心",
+        "label": "张佳宁拯救职场不开心",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.65
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.15
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": []
+}

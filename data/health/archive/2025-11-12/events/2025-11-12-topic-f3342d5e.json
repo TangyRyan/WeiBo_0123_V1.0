@@ -1,0 +1,203 @@
+{
+  "event_id": "2025-11-12-topic-f3342d5e",
+  "date": "2025-11-12",
+  "title": "向太回应李连杰状态回春",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.15
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.05
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.08
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762880400,
+  "end_ts": 1762912800,
+  "heat_peak": 111109.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1762880400,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762884000,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762887600,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762891200,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762894800,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762898400,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762902000,
+      "heat": 111109.0,
+      "rank": null
+    },
+    {
+      "ts": 1762912800,
+      "heat": 111109.0,
+      "rank": null
+    }
+  ],
+  "summary": "向太回应李连杰状态回春",
+  "tags": [
+    "向太回应李连杰状态回春",
+    "向太否认李连杰换心脏",
+    "李连杰 逆龄",
+    "十分钟视频助燃计划",
+    "微博兴趣创作计划",
+    "一分钟视频创作季",
+    "向佐曾问向太认真演戏为何被笑话",
+    "向太谈与李连杰同历印尼海啸",
+    "向太曝李连杰开始修边幅",
+    "向太解释李连杰憔悴原因"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "向太回应李连杰状态回春",
+        "label": "向太回应李连杰状态回春",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向太否认李连杰换心脏",
+        "label": "向太否认李连杰换心脏",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "李连杰 逆龄",
+        "label": "李连杰 逆龄",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "十分钟视频助燃计划",
+        "label": "十分钟视频助燃计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向佐曾问向太认真演戏为何被笑话",
+        "label": "向佐曾问向太认真演戏为何被笑话",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向太谈与李连杰同历印尼海啸",
+        "label": "向太谈与李连杰同历印尼海啸",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向太曝李连杰开始修边幅",
+        "label": "向太曝李连杰开始修边幅",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向太解释李连杰憔悴原因",
+        "label": "向太解释李连杰憔悴原因",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.15
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.05
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.08
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "sample_posts": []
+}

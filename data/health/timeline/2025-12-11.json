@@ -1,0 +1,67 @@
+{
+  "updated_at": "2025-12-11T17:57:39.453398+08:00",
+  "summary": {
+    "total_events": 3,
+    "by_major": {
+      "健康观念与社会现象": 2,
+      "食品药品安全": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-12-09-5",
+      "title": "怀孕或使女性衰老超5岁",
+      "category": "健康观念与社会现象",
+      "start_ts": 1765281600,
+      "end_ts": 1765292400,
+      "heat_peak": 378308.0,
+      "sentiment": -0.5,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1765292400,
+          "heat": 378308.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-09-topic-c7f7a1c2",
+      "title": "万宁叔整容",
+      "category": "健康观念与社会现象",
+      "start_ts": 1765281600,
+      "end_ts": 1765292400,
+      "heat_peak": 424544.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1765292400,
+          "heat": 424544.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-12-09-8",
+      "title": "乔任梁爸爸因吃8个死蟹住院",
+      "category": "食品药品安全",
+      "start_ts": 1765281600,
+      "end_ts": 1765292400,
+      "heat_peak": 436003.0,
+      "sentiment": -0.5,
+      "region": "上海",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1765292400,
+          "heat": 436003.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-12-11"
+}

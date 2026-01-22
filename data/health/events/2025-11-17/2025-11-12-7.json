@@ -1,0 +1,196 @@
+{
+  "event_id": "2025-11-12-7",
+  "date": "2025-11-12",
+  "title": "7省份已率先实现生娃基本不花钱",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "上海",
+  "start_ts": 1762912800,
+  "end_ts": 1762912800,
+  "heat_peak": 206057.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762912800,
+      "heat": 206057.0,
+      "rank": null
+    }
+  ],
+  "summary": "国家医保局近日发布数据，7个省份已率先将分娩镇痛纳入医保报销范围，为孕产妇减负又减痛，人均减负超千元。",
+  "tags": [
+    "章泽天尽量每天7点起床",
+    "冷知识百科",
+    "章泽天出席艺术晚宴",
+    "章泽天朱珠同框",
+    "章泽天问编辑有没有刘冲的八卦",
+    "章泽天成VOGUEArt客座总监",
+    "章泽天高情商回复能不能看懂艺术展",
+    "巅峰对决",
+    "情商",
+    "章泽天",
+    "精彩",
+    "励志",
+    "科技",
+    "投资"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "章泽天尽量每天7点起床",
+        "label": "章泽天尽量每天7点起床",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冷知识百科",
+        "label": "冷知识百科",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "章泽天出席艺术晚宴",
+        "label": "章泽天出席艺术晚宴",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "章泽天朱珠同框",
+        "label": "章泽天朱珠同框",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "章泽天问编辑有没有刘冲的八卦",
+        "label": "章泽天问编辑有没有刘冲的八卦",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "章泽天成VOGUEArt客座总监",
+        "label": "章泽天成VOGUEArt客座总监",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "章泽天高情商回复能不能看懂艺术展",
+        "label": "章泽天高情商回复能不能看懂艺术展",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "巅峰对决",
+        "label": "巅峰对决",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "情商",
+        "label": "情商",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "章泽天",
+        "label": "章泽天",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "精彩",
+        "label": "精彩",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "励志",
+        "label": "励志",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "科技",
+        "label": "科技",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "投资",
+        "label": "投资",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": []
+}

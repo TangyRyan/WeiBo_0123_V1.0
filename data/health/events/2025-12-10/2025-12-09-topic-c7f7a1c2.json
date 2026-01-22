@@ -1,0 +1,514 @@
+{
+  "event_id": "2025-12-09-topic-c7f7a1c2",
+  "date": "2025-12-09",
+  "title": "万宁叔整容",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1765281600,
+  "end_ts": 1765292400,
+  "heat_peak": 424544.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1765281600,
+      "heat": 424544.0,
+      "rank": null
+    },
+    {
+      "ts": 1765285200,
+      "heat": 424544.0,
+      "rank": null
+    },
+    {
+      "ts": 1765288800,
+      "heat": 424544.0,
+      "rank": null
+    },
+    {
+      "ts": 1765292400,
+      "heat": 424544.0,
+      "rank": null
+    }
+  ],
+  "summary": "万宁叔整容",
+  "tags": [
+    "万宁叔整容"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "万宁叔整容",
+        "label": "万宁叔整容",
+        "weight": 20.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [
+    {
+      "text": "万宁",
+      "weight": 28.0
+    },
+    {
+      "text": "整容",
+      "weight": 26.0
+    },
+    {
+      "text": "搞笑",
+      "weight": 9.0
+    },
+    {
+      "text": "颜值",
+      "weight": 7.0
+    },
+    {
+      "text": "路线",
+      "weight": 6.0
+    },
+    {
+      "text": "觉得",
+      "weight": 4.0
+    },
+    {
+      "text": "区别",
+      "weight": 4.0
+    },
+    {
+      "text": "博主",
+      "weight": 4.0
+    },
+    {
+      "text": "赛道",
+      "weight": 4.0
+    },
+    {
+      "text": "医美",
+      "weight": 3.0
+    },
+    {
+      "text": "之前",
+      "weight": 3.0
+    },
+    {
+      "text": "视频",
+      "weight": 3.0
+    },
+    {
+      "text": "变化",
+      "weight": 3.0
+    },
+    {
+      "text": "出来",
+      "weight": 3.0
+    },
+    {
+      "text": "其实",
+      "weight": 3.0
+    },
+    {
+      "text": "整成",
+      "weight": 3.0
+    },
+    {
+      "text": "河马",
+      "weight": 3.0
+    },
+    {
+      "text": "哈哈哈",
+      "weight": 2.0
+    },
+    {
+      "text": "整了",
+      "weight": 2.0
+    },
+    {
+      "text": "微调",
+      "weight": 2.0
+    },
+    {
+      "text": "否认",
+      "weight": 2.0
+    },
+    {
+      "text": "一下",
+      "weight": 2.0
+    },
+    {
+      "text": "应该",
+      "weight": 2.0
+    },
+    {
+      "text": "自然",
+      "weight": 2.0
+    },
+    {
+      "text": "一点",
+      "weight": 2.0
+    },
+    {
+      "text": "好看",
+      "weight": 2.0
+    },
+    {
+      "text": "微博",
+      "weight": 2.0
+    },
+    {
+      "text": "是不是",
+      "weight": 2.0
+    },
+    {
+      "text": "整完",
+      "weight": 2.0
+    },
+    {
+      "text": "避雷",
+      "weight": 2.0
+    },
+    {
+      "text": "不过",
+      "weight": 2.0
+    },
+    {
+      "text": "整体",
+      "weight": 2.0
+    },
+    {
+      "text": "突然",
+      "weight": 2.0
+    },
+    {
+      "text": "叔去",
+      "weight": 1.0
+    },
+    {
+      "text": "之后",
+      "weight": 1.0
+    },
+    {
+      "text": "只能",
+      "weight": 1.0
+    },
+    {
+      "text": "算是",
+      "weight": 1.0
+    },
+    {
+      "text": "而且",
+      "weight": 1.0
+    },
+    {
+      "text": "人家",
+      "weight": 1.0
+    },
+    {
+      "text": "光明正大",
+      "weight": 1.0
+    },
+    {
+      "text": "发出",
+      "weight": 1.0
+    },
+    {
+      "text": "看着",
+      "weight": 1.0
+    },
+    {
+      "text": "高兴",
+      "weight": 1.0
+    },
+    {
+      "text": "变成",
+      "weight": 1.0
+    },
+    {
+      "text": "怎么",
+      "weight": 1.0
+    },
+    {
+      "text": "还帅",
+      "weight": 1.0
+    },
+    {
+      "text": "起来",
+      "weight": 1.0
+    },
+    {
+      "text": "为了",
+      "weight": 1.0
+    },
+    {
+      "text": "机构",
+      "weight": 1.0
+    },
+    {
+      "text": "打广告",
+      "weight": 1.0
+    },
+    {
+      "text": "搞不懂",
+      "weight": 1.0
+    },
+    {
+      "text": "为啥",
+      "weight": 1.0
+    },
+    {
+      "text": "真实",
+      "weight": 1.0
+    },
+    {
+      "text": "不好",
+      "weight": 1.0
+    },
+    {
+      "text": "运动",
+      "weight": 1.0
+    },
+    {
+      "text": "减肥",
+      "weight": 1.0
+    },
+    {
+      "text": "瘦下来",
+      "weight": 1.0
+    },
+    {
+      "text": "普通人",
+      "weight": 1.0
+    },
+    {
+      "text": "不要",
+      "weight": 1.0
+    },
+    {
+      "text": "真的",
+      "weight": 1.0
+    },
+    {
+      "text": "太假",
+      "weight": 1.0
+    },
+    {
+      "text": "偶遇",
+      "weight": 1.0
+    },
+    {
+      "text": "挺帅",
+      "weight": 1.0
+    },
+    {
+      "text": "平时",
+      "weight": 1.0
+    },
+    {
+      "text": "恶搞",
+      "weight": 1.0
+    },
+    {
+      "text": "表情",
+      "weight": 1.0
+    },
+    {
+      "text": "而已",
+      "weight": 1.0
+    },
+    {
+      "text": "主要",
+      "weight": 1.0
+    },
+    {
+      "text": "花钱",
+      "weight": 1.0
+    },
+    {
+      "text": "找罪",
+      "weight": 1.0
+    },
+    {
+      "text": "勇闯",
+      "weight": 1.0
+    },
+    {
+      "text": "发现",
+      "weight": 1.0
+    },
+    {
+      "text": "容貌",
+      "weight": 1.0
+    },
+    {
+      "text": "霁色",
+      "weight": 1.0
+    },
+    {
+      "text": "入怀",
+      "weight": 1.0
+    },
+    {
+      "text": "闯入",
+      "weight": 1.0
+    },
+    {
+      "text": "大家",
+      "weight": 1.0
+    },
+    {
+      "text": "整牙",
+      "weight": 1.0
+    },
+    {
+      "text": "出整",
+      "weight": 1.0
+    },
+    {
+      "text": "完脸",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.3
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-7629245840263591545",
+      "published_at": "2025-12-09T21:58:00+08:00",
+      "account_name": "全给我李正",
+      "content_text": "#万宁叔整容#万宁叔去整容了？这是要走颜值路线了吗哈哈哈 你们觉得整了之后区别大吗？​",
+      "reposts": 1,
+      "comments": 32,
+      "likes": 118
+    },
+    {
+      "post_id": "detail-4108414614236720106",
+      "published_at": "2025-12-10T00:58:00+08:00",
+      "account_name": "纯猫詩",
+      "content_text": "#万宁叔整容#只能算是微调吧！而且人家也没否认整容光明正大发出来了走搞笑路线咋了微调一下自己看着也高兴吧 ​",
+      "reposts": 3,
+      "comments": 7,
+      "likes": 38
+    },
+    {
+      "post_id": "detail-4122248108235050476",
+      "published_at": "2025-12-09T22:03:00+08:00",
+      "account_name": "凛岛诗",
+      "content_text": "#万宁叔整容#这是要从搞笑路线变成颜值路线吗，万宁叔怎么丑着丑着还帅起来了 这应该不是为了给医美机构打广告吧 ​",
+      "reposts": 8,
+      "comments": 18,
+      "likes": 342
+    },
+    {
+      "post_id": "detail-8982264608359351361",
+      "published_at": "2025-12-10T00:07:00+08:00",
+      "account_name": "一枚搞机的原子弹",
+      "content_text": "#万宁叔整容#搞不懂为啥都要去整容呢？自然一点真实一点不好吗？运动减肥瘦下来就很好看啦！普通人还是不要去整容医美了！真的太假太不自然了！ ​",
+      "reposts": 39,
+      "comments": 43,
+      "likes": 56
+    },
+    {
+      "post_id": "detail-6936528410975504302",
+      "published_at": "2025-12-09T22:07:00+08:00",
+      "account_name": "纸短dudufe",
+      "content_text": "#万宁叔整容#之前路人偶遇就挺帅的，平时视频恶搞表情做多了而已吧 ​",
+      "reposts": 1,
+      "comments": 29,
+      "likes": 215
+    },
+    {
+      "post_id": "detail-6758156308314803324",
+      "published_at": "2025-12-09T22:49:00+08:00",
+      "account_name": "ANYKHlNG",
+      "content_text": "#万宁叔整容#他不是搞笑博主吗，也要走颜值路线了？主要是这也没啥区别啊…花钱找罪受​",
+      "reposts": 42,
+      "comments": 46,
+      "likes": 175
+    },
+    {
+      "post_id": "detail-2279112152182542733",
+      "published_at": "2025-12-09T22:02:00+08:00",
+      "account_name": "智鸡的旻巴",
+      "content_text": "#万宁叔整容#搞笑男也要勇闯颜值赛道了吗但是该说不说 我并没有发现有什么区别阿🤣 ​",
+      "reposts": 1,
+      "comments": 28,
+      "likes": 87
+    },
+    {
+      "post_id": "detail-7575622218735273698",
+      "published_at": "2025-12-09T21:52:00+08:00",
+      "account_name": "霁色入怀",
+      "content_text": "#万宁叔整容#这是做了医美还是整容啊 搞笑博主也这么卷容貌了么L霁色入怀的微博视频​",
+      "reposts": 3,
+      "comments": 41,
+      "likes": 79
+    }
+  ]
+}

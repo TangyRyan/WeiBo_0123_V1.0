@@ -1,0 +1,117 @@
+{
+  "event_id": "2025-11-17-topic-43e33373",
+  "date": "2025-11-17",
+  "title": "众星送别悼念甄志强",
+  "category": "特殊场景与群体健康",
+  "health_minor": "特殊群体健康危机",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "香港",
+  "start_ts": 1763348400,
+  "end_ts": 1763352000,
+  "heat_peak": 266394.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1763348400,
+      "heat": 266394.0,
+      "rank": null
+    },
+    {
+      "ts": 1763352000,
+      "heat": 266394.0,
+      "rank": null
+    }
+  ],
+  "summary": "众星送别悼念甄志强",
+  "tags": [
+    "众星送别悼念甄志强",
+    "甄志强遗体已火化"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "众星送别悼念甄志强",
+        "label": "众星送别悼念甄志强",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "甄志强遗体已火化",
+        "label": "甄志强遗体已火化",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.8
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

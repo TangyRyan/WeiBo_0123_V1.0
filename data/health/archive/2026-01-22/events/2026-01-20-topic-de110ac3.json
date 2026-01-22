@@ -1,0 +1,531 @@
+{
+  "event_id": "2026-01-20-topic-de110ac3",
+  "date": "2026-01-20",
+  "title": "很爱吃但巨发胖的东西",
+  "category": "健康管理与养生",
+  "health_minor": "6.3 健康生活方式",
+  "sentiment": -0.2,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "四川",
+  "start_ts": 1768838400,
+  "end_ts": 1768838400,
+  "heat_peak": 142160.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1768838400,
+      "heat": 142160.0,
+      "rank": null
+    }
+  ],
+  "summary": "很爱吃但巨发胖的东西",
+  "tags": [
+    "很爱吃但巨发胖的东西",
+    "听医者说",
+    "你的健康我守护",
+    "小卫的健康提示"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "很爱吃但巨发胖的东西",
+        "label": "很爱吃但巨发胖的东西",
+        "weight": 18.0,
+        "community": 0
+      },
+      {
+        "id": "听医者说",
+        "label": "听医者说",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "你的健康我守护",
+        "label": "你的健康我守护",
+        "weight": 3.0,
+        "community": 1
+      },
+      {
+        "id": "小卫的健康提示",
+        "label": "小卫的健康提示",
+        "weight": 2.0,
+        "community": 1
+      }
+    ],
+    "edges": [
+      {
+        "source": "你的健康我守护",
+        "target": "听医者说",
+        "weight": 1.0
+      },
+      {
+        "source": "你的健康我守护",
+        "target": "小卫的健康提示",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "发胖",
+      "weight": 20.0
+    },
+    {
+      "text": "东西",
+      "weight": 20.0
+    },
+    {
+      "text": "展开",
+      "weight": 7.0
+    },
+    {
+      "text": "热量",
+      "weight": 5.0
+    },
+    {
+      "text": "奶茶",
+      "weight": 5.0
+    },
+    {
+      "text": "高糖",
+      "weight": 4.0
+    },
+    {
+      "text": "高油",
+      "weight": 4.0
+    },
+    {
+      "text": "食物",
+      "weight": 4.0
+    },
+    {
+      "text": "时候",
+      "weight": 4.0
+    },
+    {
+      "text": "好吃",
+      "weight": 4.0
+    },
+    {
+      "text": "快乐",
+      "weight": 3.0
+    },
+    {
+      "text": "碳水",
+      "weight": 3.0
+    },
+    {
+      "text": "身体",
+      "weight": 3.0
+    },
+    {
+      "text": "这些",
+      "weight": 3.0
+    },
+    {
+      "text": "代谢",
+      "weight": 3.0
+    },
+    {
+      "text": "健康",
+      "weight": 3.0
+    },
+    {
+      "text": "炸鸡",
+      "weight": 3.0
+    },
+    {
+      "text": "蛋糕",
+      "weight": 3.0
+    },
+    {
+      "text": "这种",
+      "weight": 3.0
+    },
+    {
+      "text": "甘蔗",
+      "weight": 3.0
+    },
+    {
+      "text": "最近",
+      "weight": 3.0
+    },
+    {
+      "text": "炎症",
+      "weight": 3.0
+    },
+    {
+      "text": "长期",
+      "weight": 3.0
+    },
+    {
+      "text": "减肥",
+      "weight": 2.0
+    },
+    {
+      "text": "全是",
+      "weight": 2.0
+    },
+    {
+      "text": "混合物",
+      "weight": 2.0
+    },
+    {
+      "text": "水果",
+      "weight": 2.0
+    },
+    {
+      "text": "一样",
+      "weight": 2.0
+    },
+    {
+      "text": "美食",
+      "weight": 2.0
+    },
+    {
+      "text": "隐形",
+      "weight": 2.0
+    },
+    {
+      "text": "脂肪",
+      "weight": 2.0
+    },
+    {
+      "text": "悄悄",
+      "weight": 2.0
+    },
+    {
+      "text": "守护",
+      "weight": 2.0
+    },
+    {
+      "text": "罪恶",
+      "weight": 2.0
+    },
+    {
+      "text": "油炸",
+      "weight": 2.0
+    },
+    {
+      "text": "螺蛳",
+      "weight": 2.0
+    },
+    {
+      "text": "容易",
+      "weight": 2.0
+    },
+    {
+      "text": "不能",
+      "weight": 2.0
+    },
+    {
+      "text": "酱香",
+      "weight": 2.0
+    },
+    {
+      "text": "本身",
+      "weight": 2.0
+    },
+    {
+      "text": "有人",
+      "weight": 2.0
+    },
+    {
+      "text": "喝水",
+      "weight": 2.0
+    },
+    {
+      "text": "吸收",
+      "weight": 2.0
+    },
+    {
+      "text": "分子",
+      "weight": 2.0
+    },
+    {
+      "text": "腊肠",
+      "weight": 2.0
+    },
+    {
+      "text": "香肠",
+      "weight": 2.0
+    },
+    {
+      "text": "饮食习惯",
+      "weight": 2.0
+    },
+    {
+      "text": "口腔癌",
+      "weight": 2.0
+    },
+    {
+      "text": "美味",
+      "weight": 2.0
+    },
+    {
+      "text": "一人",
+      "weight": 1.0
+    },
+    {
+      "text": "破防",
+      "weight": 1.0
+    },
+    {
+      "text": "瞬间",
+      "weight": 1.0
+    },
+    {
+      "text": "几张",
+      "weight": 1.0
+    },
+    {
+      "text": "发现自己",
+      "weight": 1.0
+    },
+    {
+      "text": "戒不掉",
+      "weight": 1.0
+    },
+    {
+      "text": "刺客",
+      "weight": 1.0
+    },
+    {
+      "text": "劣质",
+      "weight": 1.0
+    },
+    {
+      "text": "糖油",
+      "weight": 1.0
+    },
+    {
+      "text": "诱惑",
+      "weight": 1.0
+    },
+    {
+      "text": "一口",
+      "weight": 1.0
+    },
+    {
+      "text": "增加",
+      "weight": 1.0
+    },
+    {
+      "text": "体重",
+      "weight": 1.0
+    },
+    {
+      "text": "焦虑",
+      "weight": 1.0
+    },
+    {
+      "text": "嘴上",
+      "weight": 1.0
+    },
+    {
+      "text": "明天",
+      "weight": 1.0
+    },
+    {
+      "text": "开始",
+      "weight": 1.0
+    },
+    {
+      "text": "诚实",
+      "weight": 1.0
+    },
+    {
+      "text": "精光",
+      "weight": 1.0
+    },
+    {
+      "text": "有没有",
+      "weight": 1.0
+    },
+    {
+      "text": "办法",
+      "weight": 1.0
+    },
+    {
+      "text": "在线",
+      "weight": 1.0
+    },
+    {
+      "text": "医者",
+      "weight": 1.0
+    },
+    {
+      "text": "伤肝",
+      "weight": 1.0
+    },
+    {
+      "text": "寒风",
+      "weight": 1.0
+    },
+    {
+      "text": "一吹",
+      "weight": 1.0
+    },
+    {
+      "text": "火锅",
+      "weight": 1.0
+    },
+    {
+      "text": "炖肉",
+      "weight": 1.0
+    },
+    {
+      "text": "糕点",
+      "weight": 1.0
+    },
+    {
+      "text": "坚果",
+      "weight": 1.0
+    },
+    {
+      "text": "轮番",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.3
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-5356478686940372104",
+      "published_at": "2026-01-19T17:40:00+08:00",
+      "account_name": "钵钵蔡",
+      "content_text": "一人说一个你很爱吃但巨发胖的东西 ​",
+      "reposts": 1440,
+      "comments": 765,
+      "likes": 4621
+    },
+    {
+      "post_id": "detail-6392724600622485749",
+      "published_at": "2026-01-19T20:27:00+08:00",
+      "account_name": "酷酷__别惹ta丨鲨靊了",
+      "content_text": "#很爱吃但巨发胖的东西#减肥人破防瞬间：刷到这几张图，发现自己戒不掉的快乐，全是“热量刺客”！劣质碳水、糖油混合物、高糖水果……每一样都在诱惑我，每一口都在增加我的体重焦虑。嘴上说着“明天开始减肥”，身体却诚实地把奶茶喝了个精光。有没有什么办法，能让我既吃这些又不胖啊！在线等， ​展开c",
+      "reposts": 7,
+      "comments": 7,
+      "likes": 56
+    },
+    {
+      "post_id": "detail-7003452079677595301",
+      "published_at": "2026-01-20T09:49:00+08:00",
+      "account_name": "健康成都官微",
+      "content_text": "#听医者说#【别让“贴膘”伤肝！】寒风一吹，火锅、炖肉、糕点、坚果轮番登场，“贴膘”“进补”成为“冬季传统”。但对于脂肪肝人群来说，高油、高糖美食就是“隐形陷阱”——肝细胞里的脂肪会越堆越多，悄悄拖慢肝脏代谢。#你的健康我守护#如何在食欲旺盛的季节把住油和糖这两道关，既是控制 ​展开c",
+      "reposts": 9,
+      "comments": 140,
+      "likes": 23
+    },
+    {
+      "post_id": "detail-6903390748100041149",
+      "published_at": "2026-01-19T19:35:00+08:00",
+      "account_name": "吃不饱o3399",
+      "content_text": "#很爱吃但巨发胖的东西#蒜鸟蒜鸟 我爱吃的都发胖​",
+      "reposts": 26,
+      "comments": 105,
+      "likes": 242
+    },
+    {
+      "post_id": "detail-7610913613265339709",
+      "published_at": "2026-01-19T20:51:00+08:00",
+      "account_name": "李玉儿聊车",
+      "content_text": "#很爱吃但巨发胖的东西#来唠唠！你有啥超爱吃但一吃就胖的“罪恶美食”？ ​",
+      "reposts": 2,
+      "comments": 30,
+      "likes": 74
+    },
+    {
+      "post_id": "detail-4437042568742974909",
+      "published_at": "2026-01-19T21:13:00+08:00",
+      "account_name": "草莓印在腰间咬住耳垂说爱你K",
+      "content_text": "#很爱吃但巨发胖的东西#​​油炸和高油高糖类​​：油条、手抓饼、炸鸡、麻花、麻球、煎饺、奶茶、蛋糕、饼干、冰淇淋等。​​碳水类​​：白粥、、炒饭、炒面、炒粉、螺蛳粉、酸辣粉等。这类食物升糖快，容易让你很快饿，从而导致下一餐暴饮暴食。​​高糖水果和加工品​​：荔枝、龙眼、榴 ​展开c",
+      "reposts": 1,
+      "comments": 14,
+      "likes": 123
+    },
+    {
+      "post_id": "detail-7323581549174228681",
+      "published_at": "2026-01-19T22:17:00+08:00",
+      "account_name": "三蝶纪",
+      "content_text": "#很爱吃但巨发胖的东西#这种罪恶的东西只有在旅行的时候才敢放开吃 ​",
+      "reposts": 2,
+      "comments": 15,
+      "likes": 40
+    },
+    {
+      "post_id": "detail-6634499260537132418",
+      "published_at": "2026-01-19T21:33:00+08:00",
+      "account_name": "郭小南1113",
+      "content_text": "辽辽爸爸巨爱吃甘蔗！尤其是一到冬天，每天都得嚼两段。我不常吃甘蔗的人都不知道甘蔗还分品种？他说紫色皮的费牙，绿皮的好嚼！#很爱吃但巨发胖的东西#​",
+      "reposts": 0,
+      "comments": 32,
+      "likes": 19
+    }
+  ]
+}

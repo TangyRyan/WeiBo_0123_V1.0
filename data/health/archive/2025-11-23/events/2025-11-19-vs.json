@@ -1,0 +1,150 @@
+{
+  "event_id": "2025-11-19-vs",
+  "date": "2025-11-19",
+  "title": "乒乓球女团决赛河北vs山东",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.2
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763550000,
+  "end_ts": 1763557200,
+  "heat_peak": 742946.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1763550000,
+      "heat": 742946.0,
+      "rank": null
+    },
+    {
+      "ts": 1763553600,
+      "heat": 742946.0,
+      "rank": null
+    },
+    {
+      "ts": 1763557200,
+      "heat": 742946.0,
+      "rank": null
+    }
+  ],
+  "summary": "乒乓球女团决赛河北vs山东",
+  "tags": [
+    "鲜牛奶vs常温奶",
+    "经常喝牛奶vs经常喝咖啡",
+    "微博兴趣创作计划",
+    "全网热点共创计划",
+    "微博vlog大赛",
+    "减脂餐打卡"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "鲜牛奶vs常温奶",
+        "label": "鲜牛奶vs常温奶",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "经常喝牛奶vs经常喝咖啡",
+        "label": "经常喝牛奶vs经常喝咖啡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全网热点共创计划",
+        "label": "全网热点共创计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博vlog大赛",
+        "label": "微博vlog大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "减脂餐打卡",
+        "label": "减脂餐打卡",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.2
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

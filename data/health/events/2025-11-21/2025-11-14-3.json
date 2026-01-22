@@ -1,0 +1,189 @@
+{
+  "event_id": "2025-11-14-3",
+  "date": "2025-11-14",
+  "title": "长白头发可能是缺乏这3种营养",
+  "category": "健康管理与养生",
+  "health_minor": "6.3 健康生活方式",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.35
+    },
+    {
+      "name": "恐惧",
+      "value": 0.25
+    },
+    {
+      "name": "惊喜",
+      "value": 0.02
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.05
+    },
+    {
+      "name": "气愤",
+      "value": 0.03
+    },
+    {
+      "name": "期盼",
+      "value": 0.15
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763053200,
+  "end_ts": 1763074800,
+  "heat_peak": 58140.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1763049600,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763053200,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763056800,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763060400,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763064000,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763067600,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763071200,
+      "heat": 58140.0,
+      "rank": null
+    },
+    {
+      "ts": 1763074800,
+      "heat": 58140.0,
+      "rank": null
+    }
+  ],
+  "summary": "长白头发可能是缺乏这3种营养",
+  "tags": [
+    "长白头发可能是缺乏这3种营养",
+    "少白头到底是怎么回事",
+    "白发会越拔越多吗",
+    "白头发是身体发出的压力警告",
+    "这些不良习惯容易长白头发",
+    "微博超有用视频大赛",
+    "健闻登顶计划",
+    "日常小科普"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "长白头发可能是缺乏这3种营养",
+        "label": "长白头发可能是缺乏这3种营养",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "少白头到底是怎么回事",
+        "label": "少白头到底是怎么回事",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "白发会越拔越多吗",
+        "label": "白发会越拔越多吗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "白头发是身体发出的压力警告",
+        "label": "白头发是身体发出的压力警告",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "这些不良习惯容易长白头发",
+        "label": "这些不良习惯容易长白头发",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "日常小科普",
+        "label": "日常小科普",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.35
+    },
+    {
+      "name": "恐惧",
+      "value": 0.25
+    },
+    {
+      "name": "惊喜",
+      "value": 0.02
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.05
+    },
+    {
+      "name": "气愤",
+      "value": 0.03
+    },
+    {
+      "name": "期盼",
+      "value": 0.15
+    }
+  ],
+  "sample_posts": []
+}

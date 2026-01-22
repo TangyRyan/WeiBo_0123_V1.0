@@ -1,0 +1,168 @@
+{
+  "event_id": "2025-11-20-topic-99359560",
+  "date": "2025-11-20",
+  "title": "肺科医院楼道四处是烟头",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "上海",
+  "start_ts": 1763629200,
+  "end_ts": 1763629200,
+  "heat_peak": 113755.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1763629200,
+      "heat": 113755.0,
+      "rank": null
+    }
+  ],
+  "summary": "“本是治病救人的地方，却处处烟雾缭绕，实在让人无语。”",
+  "tags": [
+    "肺科医院楼道四处是烟头",
+    "戒烟后身体发生的变化",
+    "陈立农的巡演笔记",
+    "我的快乐自留地",
+    "技术竞争才是良性之争",
+    "何同学坦言今年公司亏损",
+    "微博尝鲜计划",
+    "温暖的食光",
+    "组个冬日养生局",
+    "冬日暖胃必备搭子"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "肺科医院楼道四处是烟头",
+        "label": "肺科医院楼道四处是烟头",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "戒烟后身体发生的变化",
+        "label": "戒烟后身体发生的变化",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "陈立农的巡演笔记",
+        "label": "陈立农的巡演笔记",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我的快乐自留地",
+        "label": "我的快乐自留地",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "技术竞争才是良性之争",
+        "label": "技术竞争才是良性之争",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "何同学坦言今年公司亏损",
+        "label": "何同学坦言今年公司亏损",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博尝鲜计划",
+        "label": "微博尝鲜计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "温暖的食光",
+        "label": "温暖的食光",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "组个冬日养生局",
+        "label": "组个冬日养生局",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬日暖胃必备搭子",
+        "label": "冬日暖胃必备搭子",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

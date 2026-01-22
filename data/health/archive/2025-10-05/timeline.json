@@ -1,0 +1,197 @@
+{
+  "updated_at": "2025-12-05T20:37:46.298906+08:00",
+  "summary": {
+    "total_events": 10,
+    "by_major": {
+      "健康管理与养生": 3,
+      "健康观念与社会现象": 2,
+      "医疗服务与医患矛盾": 1,
+      "特殊场景与群体健康": 1,
+      "环境与灾害关联健康问题": 2,
+      "食品药品安全": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-03-3",
+      "title": "国庆假期第3天",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759464000,
+      "end_ts": 1759478400,
+      "heat_peak": 278716.0,
+      "sentiment": 0.15,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759478400,
+          "heat": 278716.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-03-topic-1c156b4d",
+      "title": "黄磊首次回应未熟豆角食物中毒争议",
+      "category": "食品药品安全",
+      "start_ts": 1759485600,
+      "end_ts": 1759503600,
+      "heat_peak": 232413.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1759503600,
+          "heat": 232413.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-03-topic-e9a77a05",
+      "title": "女子订婚前帮闺蜜染发手被染成蓝色",
+      "category": "健康管理与养生",
+      "start_ts": 1759500000,
+      "end_ts": 1759503600,
+      "heat_peak": 225415.0,
+      "sentiment": -0.4,
+      "region": "山东",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759503600,
+          "heat": 225415.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-03-topic-aa4b9a3c",
+      "title": "当地回应新郎在结婚当天跳河",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759503600,
+      "end_ts": 1759503600,
+      "heat_peak": 227803.0,
+      "sentiment": -0.7,
+      "region": "陕西",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1759503600,
+          "heat": 227803.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-04-topic-27db8b89",
+      "title": "韩国营养针",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1759539600,
+      "end_ts": 1759539600,
+      "heat_peak": 242706.0,
+      "sentiment": -0.65,
+      "region": "国外",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1759539600,
+          "heat": 242706.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-04-topic-add05cad",
+      "title": "浴室五杀",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1759557600,
+      "end_ts": 1759564800,
+      "heat_peak": 194856.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759564800,
+          "heat": 194856.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-04-9",
+      "title": "9招教你十一假期美美出片",
+      "category": "健康管理与养生",
+      "start_ts": 1759568400,
+      "end_ts": 1759579200,
+      "heat_peak": 582329.0,
+      "sentiment": 0.5,
+      "region": "上海",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759579200,
+          "heat": 582329.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-5e2547c6",
+      "title": "珠峰东坡暴雪有人员已出现失温症状",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759658400,
+      "end_ts": 1759662000,
+      "heat_peak": 335645.0,
+      "sentiment": -0.4,
+      "region": "西藏",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759662000,
+          "heat": 335645.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-1cf1bf2f",
+      "title": "建议气血不足的人不要留长发",
+      "category": "健康管理与养生",
+      "start_ts": 1759672800,
+      "end_ts": 1759676400,
+      "heat_peak": 205664.0,
+      "sentiment": 0.0,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759676400,
+          "heat": 205664.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-a9063be9",
+      "title": "河南多地现行走的硫酸",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759672800,
+      "end_ts": 1759676400,
+      "heat_peak": 1128296.0,
+      "sentiment": -0.6,
+      "region": "河南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759676400,
+          "heat": 1128296.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-05"
+}

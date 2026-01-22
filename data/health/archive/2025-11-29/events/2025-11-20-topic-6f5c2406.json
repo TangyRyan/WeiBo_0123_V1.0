@@ -1,0 +1,172 @@
+{
+  "event_id": "2025-11-20-topic-6f5c2406",
+  "date": "2025-11-20",
+  "title": "罗志祥立遗嘱",
+  "category": "健康观念与社会现象",
+  "health_minor": "心理健康话题",
+  "sentiment": -0.35,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.05
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1763571600,
+  "end_ts": 1763589600,
+  "heat_peak": 32369.0,
+  "point_count": 6,
+  "points": [
+    {
+      "ts": 1763568000,
+      "heat": 32369.0,
+      "rank": null
+    },
+    {
+      "ts": 1763571600,
+      "heat": 32369.0,
+      "rank": null
+    },
+    {
+      "ts": 1763575200,
+      "heat": 32369.0,
+      "rank": null
+    },
+    {
+      "ts": 1763578800,
+      "heat": 32369.0,
+      "rank": null
+    },
+    {
+      "ts": 1763582400,
+      "heat": 32369.0,
+      "rank": null
+    },
+    {
+      "ts": 1763589600,
+      "heat": 32369.0,
+      "rank": null
+    }
+  ],
+  "summary": "罗志祥立遗嘱",
+  "tags": [
+    "罗志祥立遗嘱",
+    "罗志祥自曝患微笑抑郁症",
+    "罗志祥曾考虑和经纪人登记结婚",
+    "罗志祥自曝患微笑忧郁症",
+    "罗志祥微笑忧郁症",
+    "罗志祥在泰国换性别出道失败",
+    "罗志祥后悔"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "罗志祥立遗嘱",
+        "label": "罗志祥立遗嘱",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗志祥自曝患微笑抑郁症",
+        "label": "罗志祥自曝患微笑抑郁症",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗志祥曾考虑和经纪人登记结婚",
+        "label": "罗志祥曾考虑和经纪人登记结婚",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗志祥自曝患微笑忧郁症",
+        "label": "罗志祥自曝患微笑忧郁症",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗志祥微笑忧郁症",
+        "label": "罗志祥微笑忧郁症",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗志祥在泰国换性别出道失败",
+        "label": "罗志祥在泰国换性别出道失败",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "罗志祥后悔",
+        "label": "罗志祥后悔",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.3
+    },
+    {
+      "name": "气愤",
+      "value": 0.2
+    },
+    {
+      "name": "期盼",
+      "value": 0.05
+    }
+  ],
+  "sample_posts": []
+}

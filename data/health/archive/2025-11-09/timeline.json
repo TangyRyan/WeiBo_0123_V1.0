@@ -1,0 +1,721 @@
+{
+  "updated_at": "2026-01-23T05:41:35.112970+08:00",
+  "summary": {
+    "total_events": 39,
+    "by_major": {
+      "健康政策与公共服务": 3,
+      "健康管理与养生": 12,
+      "健康观念与社会现象": 7,
+      "医疗服务与医患矛盾": 6,
+      "医疗行业与技术动态": 3,
+      "特殊场景与群体健康": 4,
+      "环境与灾害关联健康问题": 1,
+      "食品药品安全": 3
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-31-60",
+      "title": "女子生育后才领结婚证津贴少60天",
+      "category": "健康政策与公共服务",
+      "start_ts": 1761843600,
+      "end_ts": 1761843600,
+      "heat_peak": 344412.0,
+      "sentiment": -0.35,
+      "region": "江西",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1761843600,
+          "heat": 344412.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-31-topic-1cea379a",
+      "title": "加湿器加精油可能致肺炎",
+      "category": "健康管理与养生",
+      "start_ts": 1761876000,
+      "end_ts": 1761883200,
+      "heat_peak": 224163.0,
+      "sentiment": -0.5,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1761883200,
+          "heat": 224163.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-31-topic-32df2742",
+      "title": "新生儿转运时从推车坠落",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1761876000,
+      "end_ts": 1761890400,
+      "heat_peak": 299659.0,
+      "sentiment": -0.8,
+      "region": "福建",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1761890400,
+          "heat": 299659.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-01-topic-a1834803",
+      "title": "为救儿子盗窃入狱的男子仍待业",
+      "category": "健康观念与社会现象",
+      "start_ts": 1761976800,
+      "end_ts": 1761976800,
+      "heat_peak": 225593.0,
+      "sentiment": -0.65,
+      "region": "吉林",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1761976800,
+          "heat": 225593.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-01-topic-12862902",
+      "title": "老人感冒医生多看一眼片子救了一命",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1762005600,
+      "end_ts": 1762005600,
+      "heat_peak": 255330.0,
+      "sentiment": 0.7,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762005600,
+          "heat": 255330.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-02-39",
+      "title": "39岁牙周病无牙戴假牙生活",
+      "category": "健康管理与养生",
+      "start_ts": 1762012800,
+      "end_ts": 1762016400,
+      "heat_peak": 259747.0,
+      "sentiment": -0.3,
+      "region": "吉林",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762016400,
+          "heat": 259747.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-02-7",
+      "title": "中国人有7张太空全家福了",
+      "category": "食品药品安全",
+      "start_ts": 1762012800,
+      "end_ts": 1762048800,
+      "heat_peak": 369753.0,
+      "sentiment": -0.7,
+      "region": "河南",
+      "point_count": 11,
+      "points": [
+        {
+          "ts": 1762048800,
+          "heat": 369753.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-02-topic-34b7ada0",
+      "title": "药中茅台片仔癀跌破官方指导价",
+      "category": "食品药品安全",
+      "start_ts": 1762070400,
+      "end_ts": 1762077600,
+      "heat_peak": 255202.0,
+      "sentiment": -0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1762077600,
+          "heat": 255202.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-03-topic-afc00c85",
+      "title": "男孩做微创手术被切六个器官",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1762164000,
+      "end_ts": 1762167600,
+      "heat_peak": 205040.0,
+      "sentiment": -0.4,
+      "region": "山东",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762167600,
+          "heat": 205040.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-03-topic-5e6f0948",
+      "title": "山东被切六个器官男孩妈妈发声",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1762164000,
+      "end_ts": 1762167600,
+      "heat_peak": 207056.0,
+      "sentiment": -0.4,
+      "region": "山东",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762167600,
+          "heat": 207056.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-03-belike",
+      "title": "早睡时你的器官belike",
+      "category": "健康管理与养生",
+      "start_ts": 1762171200,
+      "end_ts": 1762178400,
+      "heat_peak": 198332.0,
+      "sentiment": 0.45,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1762178400,
+          "heat": 198332.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-03-topic-f316decf",
+      "title": "患癌女孩生前遗憾或是未能见到妈妈",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1762174800,
+      "end_ts": 1762174800,
+      "heat_peak": 222891.0,
+      "sentiment": -0.5,
+      "region": "河南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762174800,
+          "heat": 222891.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-03-340-8",
+      "title": "340斤男生展示8块腹肌走红",
+      "category": "健康管理与养生",
+      "start_ts": 1762182000,
+      "end_ts": 1762182000,
+      "heat_peak": 224024.0,
+      "sentiment": 0.4,
+      "region": "辽宁",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762182000,
+          "heat": 224024.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-04-topic-044902d1",
+      "title": "何炅 最近谣传我有衰老焦虑",
+      "category": "健康观念与社会现象",
+      "start_ts": 1762189200,
+      "end_ts": 1762228800,
+      "heat_peak": 182296.0,
+      "sentiment": 0.4,
+      "region": "未知",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1762228800,
+          "heat": 182296.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-04-400ml-400ml",
+      "title": "献血400ml没事失血400ml很危险",
+      "category": "健康管理与养生",
+      "start_ts": 1762246800,
+      "end_ts": 1762268400,
+      "heat_peak": 186361.0,
+      "sentiment": 0.18,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1762268400,
+          "heat": 186361.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-04-topic-5fcd8287",
+      "title": "妈妈检查女儿书包发现诡异恐怖画",
+      "category": "健康观念与社会现象",
+      "start_ts": 1762261200,
+      "end_ts": 1762268400,
+      "heat_peak": 190839.0,
+      "sentiment": -0.65,
+      "region": "江苏",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1762268400,
+          "heat": 190839.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-05-topic-ee831609",
+      "title": "抗癌针",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1762326000,
+      "end_ts": 1762354800,
+      "heat_peak": 337074.0,
+      "sentiment": -0.5,
+      "region": "未知",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1762354800,
+          "heat": 337074.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-05-topic-d665ed9a",
+      "title": "湖南通报祖某某曾某生活作风问题",
+      "category": "健康观念与社会现象",
+      "start_ts": 1762340400,
+      "end_ts": 1762340400,
+      "heat_peak": 313943.0,
+      "sentiment": -0.4,
+      "region": "湖南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762340400,
+          "heat": 313943.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-05-8",
+      "title": "中国首例冷冻人8年后怎么样了",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1762340400,
+      "end_ts": 1762340400,
+      "heat_peak": 409898.0,
+      "sentiment": -0.4,
+      "region": "山东",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762340400,
+          "heat": 409898.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-06-topic-95742c5c",
+      "title": "全红婵坚持每月给家里生活费",
+      "category": "健康观念与社会现象",
+      "start_ts": 1762387200,
+      "end_ts": 1762412400,
+      "heat_peak": 424216.0,
+      "sentiment": 0.75,
+      "region": "广东",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1762412400,
+          "heat": 424216.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-06-topic-c8d172b6",
+      "title": "女子引产被拒诞下女婴被医生抱养",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1762441200,
+      "end_ts": 1762441200,
+      "heat_peak": 268439.0,
+      "sentiment": -0.5,
+      "region": "云南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762441200,
+          "heat": 268439.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-c8d172b6",
+      "title": "女子引产被拒诞下女婴被医生抱养",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1762444800,
+      "end_ts": 1762480800,
+      "heat_peak": 205629.0,
+      "sentiment": -0.6,
+      "region": "云南",
+      "point_count": 9,
+      "points": [
+        {
+          "ts": 1762480800,
+          "heat": 205629.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-5",
+      "title": "再见爱人5保险事变",
+      "category": "健康观念与社会现象",
+      "start_ts": 1762473600,
+      "end_ts": 1762527600,
+      "heat_peak": 220341.0,
+      "sentiment": -0.5,
+      "region": "香港",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1762527600,
+          "heat": 220341.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-bcf5a005",
+      "title": "网红尿毒症夫妇丈夫离世",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1762473600,
+      "end_ts": 1762491600,
+      "heat_peak": 229544.0,
+      "sentiment": -0.7,
+      "region": "重庆",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1762491600,
+          "heat": 229544.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-9d734bd4",
+      "title": "妻子说尿毒症丈夫生前一直为她做饭",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1762480800,
+      "end_ts": 1762480800,
+      "heat_peak": 200349.0,
+      "sentiment": 0.3,
+      "region": "重庆",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762480800,
+          "heat": 200349.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-5e65d52a",
+      "title": "立冬京东送玄学秋裤",
+      "category": "健康管理与养生",
+      "start_ts": 1762495200,
+      "end_ts": 1762495200,
+      "heat_peak": 232832.0,
+      "sentiment": 0.45,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762495200,
+          "heat": 232832.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-00d9e64a",
+      "title": "连锁酒店 万能抹布",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1762495200,
+      "end_ts": 1762495200,
+      "heat_peak": 238249.0,
+      "sentiment": -0.7,
+      "region": "江苏",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762495200,
+          "heat": 238249.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-180ee790",
+      "title": "特朗普官宣降价减肥药企高管当场晕倒",
+      "category": "健康政策与公共服务",
+      "start_ts": 1762498800,
+      "end_ts": 1762502400,
+      "heat_peak": 516354.0,
+      "sentiment": -0.4,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762502400,
+          "heat": 516354.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-topic-4eaa16fa",
+      "title": "吕艳婷通过抱树解压",
+      "category": "健康管理与养生",
+      "start_ts": 1762520400,
+      "end_ts": 1762520400,
+      "heat_peak": 289037.0,
+      "sentiment": 0.7,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762520400,
+          "heat": 289037.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-07-25",
+      "title": "空腹爬楼瘦了25斤",
+      "category": "健康管理与养生",
+      "start_ts": 1762524000,
+      "end_ts": 1762527600,
+      "heat_peak": 221540.0,
+      "sentiment": 0.5,
+      "region": "未知",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1762527600,
+          "heat": 221540.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-08-topic-2b5a11d5",
+      "title": "女子生产大出血孩子爷爷将娃送人",
+      "category": "医疗服务与医患矛盾",
+      "start_ts": 1762606800,
+      "end_ts": 1762614000,
+      "heat_peak": 219432.0,
+      "sentiment": -0.5,
+      "region": "江西",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1762614000,
+          "heat": 219432.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-08-topic-38f91abf",
+      "title": "快睡着时身体抖了一下的原因",
+      "category": "健康管理与养生",
+      "start_ts": 1762606800,
+      "end_ts": 1762614000,
+      "heat_peak": 346761.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1762614000,
+          "heat": 346761.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-08-1",
+      "title": "男子喉咙痛1个月咽喉长满雪花",
+      "category": "健康管理与养生",
+      "start_ts": 1762610400,
+      "end_ts": 1762614000,
+      "heat_peak": 230624.0,
+      "sentiment": -0.6,
+      "region": "浙江",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762614000,
+          "heat": 230624.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-08-topic-d24b538b",
+      "title": "好气血才能有好声音",
+      "category": "健康管理与养生",
+      "start_ts": 1762610400,
+      "end_ts": 1762610400,
+      "heat_peak": 449925.0,
+      "sentiment": 0.7,
+      "region": "云南",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762610400,
+          "heat": 449925.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-08-topic-36c65894",
+      "title": "网购睡袍口袋中发现用过的妇炎洁",
+      "category": "食品药品安全",
+      "start_ts": 1762614000,
+      "end_ts": 1762614000,
+      "heat_peak": 259329.0,
+      "sentiment": -0.75,
+      "region": "未知",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762614000,
+          "heat": 259329.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-08-topic-322163a0",
+      "title": "男子帮邻居关液化气瓶遇爆炸离世",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1762614000,
+      "end_ts": 1762614000,
+      "heat_peak": 354486.0,
+      "sentiment": -0.5,
+      "region": "浙江",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1762614000,
+          "heat": 354486.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-09-1",
+      "title": "每天1个苹果身体有什么变化",
+      "category": "健康管理与养生",
+      "start_ts": 1762675200,
+      "end_ts": 1762686000,
+      "heat_peak": 231270.0,
+      "sentiment": 0.8,
+      "region": "北京",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1762686000,
+          "heat": 231270.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-09-44-1",
+      "title": "44岁导演心梗离世仅获赔1万元",
+      "category": "健康观念与社会现象",
+      "start_ts": 1762686000,
+      "end_ts": 1762689600,
+      "heat_peak": 218040.0,
+      "sentiment": -0.75,
+      "region": "河南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762689600,
+          "heat": 218040.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-11-09-topic-fbe123a0",
+      "title": "央视曝光被薅羊毛的医保卡",
+      "category": "健康政策与公共服务",
+      "start_ts": 1762696800,
+      "end_ts": 1762700400,
+      "heat_peak": 1109596.0,
+      "sentiment": -0.7,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1762700400,
+          "heat": 1109596.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-11-09"
+}

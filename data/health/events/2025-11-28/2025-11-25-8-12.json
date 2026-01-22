@@ -1,0 +1,159 @@
+{
+  "event_id": "2025-11-25-8-12",
+  "date": "2025-11-25",
+  "title": "北方降温可达8至12摄氏度",
+  "category": "特殊场景与群体健康",
+  "health_minor": "特殊群体健康危机",
+  "sentiment": -0.1,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1764079200,
+  "end_ts": 1764082800,
+  "heat_peak": 391683.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1764079200,
+      "heat": 391683.0,
+      "rank": null
+    },
+    {
+      "ts": 1764082800,
+      "heat": 391683.0,
+      "rank": null
+    }
+  ],
+  "summary": "25日，较强冷空气影响我国中东部地区，普遍降温4～6℃，北方部分地区降温可达8～12℃，长江以北伴有4～7级偏北风，部分地区阵风8～10级。",
+  "tags": [
+    "降温天气安全风险提示",
+    "北方降温可达8至12摄氏度",
+    "全民消防安全用火用电",
+    "新一轮冷空气今天到",
+    "晚安天气",
+    "嗓子不舒服试试空气炸锅烤梨",
+    "冬季干燥烤个梨吃吃吧",
+    "秒懂热点就用智搜"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "降温天气安全风险提示",
+        "label": "降温天气安全风险提示",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "北方降温可达8至12摄氏度",
+        "label": "北方降温可达8至12摄氏度",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "全民消防安全用火用电",
+        "label": "全民消防安全用火用电",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "新一轮冷空气今天到",
+        "label": "新一轮冷空气今天到",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "晚安天气",
+        "label": "晚安天气",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "嗓子不舒服试试空气炸锅烤梨",
+        "label": "嗓子不舒服试试空气炸锅烤梨",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬季干燥烤个梨吃吃吧",
+        "label": "冬季干燥烤个梨吃吃吧",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "秒懂热点就用智搜",
+        "label": "秒懂热点就用智搜",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

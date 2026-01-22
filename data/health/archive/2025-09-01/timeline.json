@@ -1,0 +1,49 @@
+{
+  "updated_at": "2025-12-05T20:30:50.828459+08:00",
+  "summary": {
+    "total_events": 2,
+    "by_major": {
+      "健康政策与公共服务": 1,
+      "健康管理与养生": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-09-01-82",
+      "title": "瘦下82斤身体各部位的变化",
+      "category": "健康管理与养生",
+      "start_ts": 1756720800,
+      "end_ts": 1756738800,
+      "heat_peak": 414997.0,
+      "sentiment": 0.7,
+      "region": "四川",
+      "point_count": 6,
+      "points": [
+        {
+          "ts": 1756738800,
+          "heat": 414997.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-09-01-1",
+      "title": "全连牺牲只有1人留下照片",
+      "category": "健康政策与公共服务",
+      "start_ts": 1756738800,
+      "end_ts": 1756738800,
+      "heat_peak": 466453.0,
+      "sentiment": 0.6,
+      "region": "天津",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1756738800,
+          "heat": 466453.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-09-01"
+}

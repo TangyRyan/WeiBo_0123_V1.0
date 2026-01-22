@@ -1,0 +1,190 @@
+{
+  "event_id": "2025-11-20-topic-ec775927",
+  "date": "2025-11-20",
+  "title": "郑大一附院西院区今起停诊",
+  "category": "医疗服务与医患矛盾",
+  "health_minor": "医疗资源与服务争议",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "河南",
+  "start_ts": 1763629200,
+  "end_ts": 1763629200,
+  "heat_peak": 112991.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1763618400,
+      "heat": 112991.0,
+      "rank": null
+    },
+    {
+      "ts": 1763622000,
+      "heat": 112991.0,
+      "rank": null
+    },
+    {
+      "ts": 1763625600,
+      "heat": 112991.0,
+      "rank": null
+    },
+    {
+      "ts": 1763629200,
+      "heat": 112991.0,
+      "rank": null
+    }
+  ],
+  "summary": "根据“亚洲最大医院”郑州大学第一附属医院早前发布的公告，郑州大学第一附属医院朱屯路、化肥东路医疗延伸点已于11月20日起停诊。",
+  "tags": [
+    "郑大一附院西院区今起停诊",
+    "亚洲最大医院停诊",
+    "郑大一附院近期成被执行人",
+    "西院停诊的郑大一附院多次被罚",
+    "喜人奇妙夜",
+    "时代少年团六周年演唱会",
+    "大学生已经开始在宿舍过年了",
+    "校园共创计划",
+    "我的幽默灵感片场",
+    "豹备",
+    "分享点沙"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "郑大一附院西院区今起停诊",
+        "label": "郑大一附院西院区今起停诊",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "亚洲最大医院停诊",
+        "label": "亚洲最大医院停诊",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑大一附院近期成被执行人",
+        "label": "郑大一附院近期成被执行人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "西院停诊的郑大一附院多次被罚",
+        "label": "西院停诊的郑大一附院多次被罚",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "喜人奇妙夜",
+        "label": "喜人奇妙夜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "时代少年团六周年演唱会",
+        "label": "时代少年团六周年演唱会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "大学生已经开始在宿舍过年了",
+        "label": "大学生已经开始在宿舍过年了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "校园共创计划",
+        "label": "校园共创计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我的幽默灵感片场",
+        "label": "我的幽默灵感片场",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "豹备",
+        "label": "豹备",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "分享点沙",
+        "label": "分享点沙",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.2
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

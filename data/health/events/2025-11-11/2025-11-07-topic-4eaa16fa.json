@@ -1,0 +1,175 @@
+{
+  "event_id": "2025-11-07-topic-4eaa16fa",
+  "date": "2025-11-07",
+  "title": "吕艳婷通过抱树解压",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762520400,
+  "end_ts": 1762520400,
+  "heat_peak": 289037.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762520400,
+      "heat": 289037.0,
+      "rank": null
+    }
+  ],
+  "summary": "吕艳婷通过抱树解压",
+  "tags": [
+    "吕艳婷通过抱树解压",
+    "微博v影响力大会",
+    "友友碰头日",
+    "黄明昊的人缘怎么能好成这样",
+    "电视剧四喜",
+    "佘诗曼的S感气场焊在身上了",
+    "向往的生活",
+    "向往的生活戏如人生",
+    "带着微博去旅行",
+    "一条微博记录立冬",
+    "他俩往那一站我就知道谁最命苦"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "吕艳婷通过抱树解压",
+        "label": "吕艳婷通过抱树解压",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博v影响力大会",
+        "label": "微博v影响力大会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "友友碰头日",
+        "label": "友友碰头日",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "黄明昊的人缘怎么能好成这样",
+        "label": "黄明昊的人缘怎么能好成这样",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "电视剧四喜",
+        "label": "电视剧四喜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "佘诗曼的S感气场焊在身上了",
+        "label": "佘诗曼的S感气场焊在身上了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向往的生活",
+        "label": "向往的生活",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "向往的生活戏如人生",
+        "label": "向往的生活戏如人生",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "带着微博去旅行",
+        "label": "带着微博去旅行",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一条微博记录立冬",
+        "label": "一条微博记录立冬",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "他俩往那一站我就知道谁最命苦",
+        "label": "他俩往那一站我就知道谁最命苦",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

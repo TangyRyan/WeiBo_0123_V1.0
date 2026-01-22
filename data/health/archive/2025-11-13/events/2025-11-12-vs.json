@@ -1,0 +1,207 @@
+{
+  "event_id": "2025-11-12-vs",
+  "date": "2025-11-12",
+  "title": "每天喝咖啡vs从来不喝咖啡",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.0,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.15
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.25
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "四川",
+  "start_ts": 1762923600,
+  "end_ts": 1762941600,
+  "heat_peak": 102471.0,
+  "point_count": 6,
+  "points": [
+    {
+      "ts": 1762923600,
+      "heat": 102471.0,
+      "rank": null
+    },
+    {
+      "ts": 1762927200,
+      "heat": 102471.0,
+      "rank": null
+    },
+    {
+      "ts": 1762930800,
+      "heat": 102471.0,
+      "rank": null
+    },
+    {
+      "ts": 1762934400,
+      "heat": 102471.0,
+      "rank": null
+    },
+    {
+      "ts": 1762938000,
+      "heat": 102471.0,
+      "rank": null
+    },
+    {
+      "ts": 1762941600,
+      "heat": 102471.0,
+      "rank": null
+    }
+  ],
+  "summary": "每天喝咖啡vs从来不喝咖啡",
+  "tags": [
+    "每天喝咖啡vs从来不喝咖啡",
+    "健康知识科普",
+    "生活小贴士",
+    "微博兴趣创作计划",
+    "一分钟视频创作季",
+    "当内向的人被问有什么爱好",
+    "今年双十一首次延长至14日",
+    "喝咖啡的人vs不喝咖啡的人",
+    "长期喝咖啡的人身体会有哪些变化",
+    "心理放松一下",
+    "运动打卡",
+    "每天喝茶vs每天喝咖啡"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "每天喝咖啡vs从来不喝咖啡",
+        "label": "每天喝咖啡vs从来不喝咖啡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健康知识科普",
+        "label": "健康知识科普",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "生活小贴士",
+        "label": "生活小贴士",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "当内向的人被问有什么爱好",
+        "label": "当内向的人被问有什么爱好",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "今年双十一首次延长至14日",
+        "label": "今年双十一首次延长至14日",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "喝咖啡的人vs不喝咖啡的人",
+        "label": "喝咖啡的人vs不喝咖啡的人",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "长期喝咖啡的人身体会有哪些变化",
+        "label": "长期喝咖啡的人身体会有哪些变化",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "心理放松一下",
+        "label": "心理放松一下",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "运动打卡",
+        "label": "运动打卡",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "每天喝茶vs每天喝咖啡",
+        "label": "每天喝茶vs每天喝咖啡",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.15
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.25
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.05
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

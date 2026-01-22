@@ -1,0 +1,126 @@
+{
+  "event_id": "2025-11-07-topic-5e65d52a",
+  "date": "2025-11-07",
+  "title": "立冬京东送玄学秋裤",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.45,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.6
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1762495200,
+  "end_ts": 1762495200,
+  "heat_peak": 232832.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762495200,
+      "heat": 232832.0,
+      "rank": null
+    }
+  ],
+  "summary": "年轻人玄学消费成趋势，京东11.11暖暖惊喜日精准拿捏～搜【京东请客】1分抢猪猪侠、普陀山等4款玄学联名秋裤，还有百大品牌暖冬好物等你来！",
+  "tags": [
+    "立冬",
+    "立冬京东送玄学秋裤",
+    "传统文化",
+    "2025立冬"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "立冬",
+        "label": "立冬",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "立冬京东送玄学秋裤",
+        "label": "立冬京东送玄学秋裤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "传统文化",
+        "label": "传统文化",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2025立冬",
+        "label": "2025立冬",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.6
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

@@ -1,0 +1,133 @@
+{
+  "event_id": "2025-12-01-topic-78eb334b",
+  "date": "2025-12-01",
+  "title": "明年起避孕药品和用具征收增值税",
+  "category": "健康政策与公共服务",
+  "health_minor": "医疗保障政策",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1764579600,
+  "end_ts": 1764579600,
+  "heat_peak": 302093.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1764579600,
+      "heat": 302093.0,
+      "rank": null
+    }
+  ],
+  "summary": "明年起避孕药品和用具征收增值税",
+  "tags": [
+    "明年起避孕药品和用具征收增值税",
+    "微博热点优质创作计划",
+    "健闻登顶计划",
+    "为什么恢复避孕药品和用具收税",
+    "为什么避孕药品和用具要收税了"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "明年起避孕药品和用具征收增值税",
+        "label": "明年起避孕药品和用具征收增值税",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博热点优质创作计划",
+        "label": "微博热点优质创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么恢复避孕药品和用具收税",
+        "label": "为什么恢复避孕药品和用具收税",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "为什么避孕药品和用具要收税了",
+        "label": "为什么避孕药品和用具要收税了",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.1
+    },
+    {
+      "name": "伤心",
+      "value": 0.5
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "sample_posts": []
+}

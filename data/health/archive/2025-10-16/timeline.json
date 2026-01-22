@@ -1,0 +1,124 @@
+{
+  "updated_at": "2025-12-07T05:32:48.354665+08:00",
+  "summary": {
+    "total_events": 6,
+    "by_major": {
+      "健康政策与公共服务": 1,
+      "健康观念与社会现象": 1,
+      "医疗行业与技术动态": 1,
+      "特殊场景与群体健康": 2,
+      "食品药品安全": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-14-topic-4b33e726",
+      "title": "很少用震撼来形容一个手机壳",
+      "category": "健康政策与公共服务",
+      "start_ts": 1760403600,
+      "end_ts": 1760410800,
+      "heat_peak": 269807.0,
+      "sentiment": 0.35,
+      "region": "四川",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760410800,
+          "heat": 269807.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-3",
+      "title": "学生自习看恐怖片被吓病索赔3万",
+      "category": "食品药品安全",
+      "start_ts": 1760414400,
+      "end_ts": 1760421600,
+      "heat_peak": 241544.0,
+      "sentiment": -0.7,
+      "region": "吉林",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760421600,
+          "heat": 241544.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-topic-774c9f47",
+      "title": "李沛恩合约",
+      "category": "健康观念与社会现象",
+      "start_ts": 1760446800,
+      "end_ts": 1760454000,
+      "heat_peak": 288127.0,
+      "sentiment": 0.65,
+      "region": "上海",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760454000,
+          "heat": 288127.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-14-topic-a74f8da8",
+      "title": "飞鹤发布新一代奶粉",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1760450400,
+      "end_ts": 1760450400,
+      "heat_peak": 261996.0,
+      "sentiment": 0.8,
+      "region": "北京",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1760450400,
+          "heat": 261996.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-16-topic-8013b430",
+      "title": "家属回应女子缅北器官被摘除售卖",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760608800,
+      "end_ts": 1760612400,
+      "heat_peak": 381128.0,
+      "sentiment": -0.9,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1760612400,
+          "heat": 381128.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-16-topic-fd800d27",
+      "title": "男子应聘船员出海严重晕船自缢身亡",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1760619600,
+      "end_ts": 1760626800,
+      "heat_peak": 220636.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1760626800,
+          "heat": 220636.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-16"
+}

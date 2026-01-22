@@ -1,0 +1,213 @@
+{
+  "event_id": "2025-10-29-h3n2",
+  "date": "2025-10-29",
+  "title": "新毒株甲型H3N2来袭",
+  "category": "传染病与公共卫生应急",
+  "health_minor": "新发/突发传染病",
+  "sentiment": -0.3,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1761742800,
+  "end_ts": 1761750000,
+  "heat_peak": 464275.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1761742800,
+      "heat": 464275.0,
+      "rank": null
+    },
+    {
+      "ts": 1761746400,
+      "heat": 464275.0,
+      "rank": null
+    },
+    {
+      "ts": 1761750000,
+      "heat": 464275.0,
+      "rank": null
+    }
+  ],
+  "summary": "又到呼吸道传染病高发季！近日，江苏疾控发布提醒↓",
+  "tags": [
+    "新毒株甲型H3N2来袭",
+    "2025秋冬季流感",
+    "甲型H3N2毒株成流感绝对主力",
+    "所有人群对甲型H3N2普遍易感",
+    "病毒感冒vs细菌感冒vs支原体感冒",
+    "新毒株甲型h3n2来袭",
+    "一张图分清感冒和流感",
+    "甲流合胞病毒鼻病毒都来了",
+    "流感的症状",
+    "流感",
+    "甲型H3N2流行 症状前24小时排毒",
+    "世界流感日",
+    "健闻登顶计划",
+    "多数人对甲型H3N2毒株没有抵抗力",
+    "医生建议重点人群及时接种流感疫苗"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "新毒株甲型H3N2来袭",
+        "label": "新毒株甲型H3N2来袭",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2025秋冬季流感",
+        "label": "2025秋冬季流感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "甲型H3N2毒株成流感绝对主力",
+        "label": "甲型H3N2毒株成流感绝对主力",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "所有人群对甲型H3N2普遍易感",
+        "label": "所有人群对甲型H3N2普遍易感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "病毒感冒vs细菌感冒vs支原体感冒",
+        "label": "病毒感冒vs细菌感冒vs支原体感冒",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "新毒株甲型h3n2来袭",
+        "label": "新毒株甲型h3n2来袭",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一张图分清感冒和流感",
+        "label": "一张图分清感冒和流感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "甲流合胞病毒鼻病毒都来了",
+        "label": "甲流合胞病毒鼻病毒都来了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感的症状",
+        "label": "流感的症状",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "流感",
+        "label": "流感",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "甲型H3N2流行 症状前24小时排毒",
+        "label": "甲型H3N2流行 症状前24小时排毒",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "世界流感日",
+        "label": "世界流感日",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "多数人对甲型H3N2毒株没有抵抗力",
+        "label": "多数人对甲型H3N2毒株没有抵抗力",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "医生建议重点人群及时接种流感疫苗",
+        "label": "医生建议重点人群及时接种流感疫苗",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.5
+    },
+    {
+      "name": "恐惧",
+      "value": 0.7
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.2
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": []
+}

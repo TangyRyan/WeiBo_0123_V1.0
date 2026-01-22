@@ -1,0 +1,573 @@
+{
+  "event_id": "2026-01-22-topic-7b6f6600",
+  "date": "2026-01-22",
+  "title": "爱吃鸭头的人天塌了",
+  "category": "食品药品安全",
+  "health_minor": "食品安全突发情况",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.05
+    },
+    {
+      "name": "恐惧",
+      "value": 0.75
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.8
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1769014800,
+  "end_ts": 1769032800,
+  "heat_peak": 40406.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1769014800,
+      "heat": 40406.0,
+      "rank": null
+    },
+    {
+      "ts": 1769018400,
+      "heat": 40406.0,
+      "rank": null
+    },
+    {
+      "ts": 1769022000,
+      "heat": 40406.0,
+      "rank": null
+    },
+    {
+      "ts": 1769032800,
+      "heat": 40406.0,
+      "rank": null
+    }
+  ],
+  "summary": "爱吃鸭头的人天塌了",
+  "tags": [
+    "爱吃鸭头的人天塌了",
+    "微博跨域计划",
+    "ootd",
+    "特朗普称上周获取5000万桶原油",
+    "历年央八收视率排名"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "爱吃鸭头的人天塌了",
+        "label": "爱吃鸭头的人天塌了",
+        "weight": 20.0,
+        "community": 1
+      },
+      {
+        "id": "微博跨域计划",
+        "label": "微博跨域计划",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "ootd",
+        "label": "ootd",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "特朗普称上周获取5000万桶原油",
+        "label": "特朗普称上周获取5000万桶原油",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "历年央八收视率排名",
+        "label": "历年央八收视率排名",
+        "weight": 2.0,
+        "community": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "ootd",
+        "target": "微博跨域计划",
+        "weight": 1.0
+      },
+      {
+        "source": "ootd",
+        "target": "爱吃鸭头的人天塌了",
+        "weight": 1.0
+      },
+      {
+        "source": "微博跨域计划",
+        "target": "爱吃鸭头的人天塌了",
+        "weight": 1.0
+      },
+      {
+        "source": "历年央八收视率排名",
+        "target": "爱吃鸭头的人天塌了",
+        "weight": 1.0
+      },
+      {
+        "source": "历年央八收视率排名",
+        "target": "特朗普称上周获取5000万桶原油",
+        "weight": 1.0
+      },
+      {
+        "source": "爱吃鸭头的人天塌了",
+        "target": "特朗普称上周获取5000万桶原油",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "鸭头",
+      "weight": 35.0
+    },
+    {
+      "text": "天塌",
+      "weight": 23.0
+    },
+    {
+      "text": "视频",
+      "weight": 6.0
+    },
+    {
+      "text": "微博",
+      "weight": 5.0
+    },
+    {
+      "text": "看到",
+      "weight": 4.0
+    },
+    {
+      "text": "知道",
+      "weight": 4.0
+    },
+    {
+      "text": "卤鸭",
+      "weight": 4.0
+    },
+    {
+      "text": "鼻屎",
+      "weight": 3.0
+    },
+    {
+      "text": "完全",
+      "weight": 3.0
+    },
+    {
+      "text": "真的",
+      "weight": 3.0
+    },
+    {
+      "text": "以后",
+      "weight": 3.0
+    },
+    {
+      "text": "不会",
+      "weight": 3.0
+    },
+    {
+      "text": "##",
+      "weight": 3.0
+    },
+    {
+      "text": "梅子",
+      "weight": 3.0
+    },
+    {
+      "text": "啤酒",
+      "weight": 3.0
+    },
+    {
+      "text": "卤味",
+      "weight": 3.0
+    },
+    {
+      "text": "怎么",
+      "weight": 3.0
+    },
+    {
+      "text": "之后",
+      "weight": 2.0
+    },
+    {
+      "text": "特别",
+      "weight": 2.0
+    },
+    {
+      "text": "小吃",
+      "weight": 2.0
+    },
+    {
+      "text": "鸭子",
+      "weight": 2.0
+    },
+    {
+      "text": "鼻子",
+      "weight": 2.0
+    },
+    {
+      "text": "而且",
+      "weight": 2.0
+    },
+    {
+      "text": "再也",
+      "weight": 2.0
+    },
+    {
+      "text": "一道",
+      "weight": 2.0
+    },
+    {
+      "text": "鸭肉",
+      "weight": 2.0
+    },
+    {
+      "text": "不仅",
+      "weight": 2.0
+    },
+    {
+      "text": "好吃",
+      "weight": 2.0
+    },
+    {
+      "text": "展开",
+      "weight": 2.0
+    },
+    {
+      "text": "处理",
+      "weight": 2.0
+    },
+    {
+      "text": "还有",
+      "weight": 2.0
+    },
+    {
+      "text": "生活",
+      "weight": 2.0
+    },
+    {
+      "text": "玩意",
+      "weight": 2.0
+    },
+    {
+      "text": "A股",
+      "weight": 2.0
+    },
+    {
+      "text": "美股",
+      "weight": 2.0
+    },
+    {
+      "text": "特朗普",
+      "weight": 2.0
+    },
+    {
+      "text": "大宝",
+      "weight": 2.0
+    },
+    {
+      "text": "上学",
+      "weight": 2.0
+    },
+    {
+      "text": "哪些",
+      "weight": 2.0
+    },
+    {
+      "text": "地瓜",
+      "weight": 2.0
+    },
+    {
+      "text": "夜夜",
+      "weight": 2.0
+    },
+    {
+      "text": "笙歌",
+      "weight": 2.0
+    },
+    {
+      "text": "一次",
+      "weight": 2.0
+    },
+    {
+      "text": "宠物",
+      "weight": 1.0
+    },
+    {
+      "text": "小女孩",
+      "weight": 1.0
+    },
+    {
+      "text": "轻轻",
+      "weight": 1.0
+    },
+    {
+      "text": "那位",
+      "weight": 1.0
+    },
+    {
+      "text": "最爱",
+      "weight": 1.0
+    },
+    {
+      "text": "下饭",
+      "weight": 1.0
+    },
+    {
+      "text": "减肥",
+      "weight": 1.0
+    },
+    {
+      "text": "全是",
+      "weight": 1.0
+    },
+    {
+      "text": "零食",
+      "weight": 1.0
+    },
+    {
+      "text": "从来",
+      "weight": 1.0
+    },
+    {
+      "text": "想过",
+      "weight": 1.0
+    },
+    {
+      "text": "鼻涕",
+      "weight": 1.0
+    },
+    {
+      "text": "生椰",
+      "weight": 1.0
+    },
+    {
+      "text": "椰揶",
+      "weight": 1.0
+    },
+    {
+      "text": "ye",
+      "weight": 1.0
+    },
+    {
+      "text": "Jan",
+      "weight": 1.0
+    },
+    {
+      "text": "OOTD",
+      "weight": 1.0
+    },
+    {
+      "text": "超话",
+      "weight": 1.0
+    },
+    {
+      "text": "MUJI",
+      "weight": 1.0
+    },
+    {
+      "text": "纯棉",
+      "weight": 1.0
+    },
+    {
+      "text": "舒服",
+      "weight": 1.0
+    },
+    {
+      "text": "亲肤",
+      "weight": 1.0
+    },
+    {
+      "text": "配毛衫",
+      "weight": 1.0
+    },
+    {
+      "text": "静电",
+      "weight": 1.0
+    },
+    {
+      "text": "路边",
+      "weight": 1.0
+    },
+    {
+      "text": "那些",
+      "weight": 1.0
+    },
+    {
+      "text": "慰藉",
+      "weight": 1.0
+    },
+    {
+      "text": "心灵",
+      "weight": 1.0
+    },
+    {
+      "text": "早晚",
+      "weight": 1.0
+    },
+    {
+      "text": "一遍",
+      "weight": 1.0
+    },
+    {
+      "text": "跨域",
+      "weight": 1.0
+    },
+    {
+      "text": "计划",
+      "weight": 1.0
+    },
+    {
+      "text": "ootd",
+      "weight": 1.0
+    },
+    {
+      "text": "爱到",
+      "weight": 1.0
+    },
+    {
+      "text": "除了",
+      "weight": 1.0
+    },
+    {
+      "text": "骨头",
+      "weight": 1.0
+    },
+    {
+      "text": "之外",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.05
+    },
+    {
+      "name": "恐惧",
+      "value": 0.75
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.8
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-5033767352231838278",
+      "published_at": "2026-01-21T22:11:00+08:00",
+      "account_name": "箢桃",
+      "content_text": "#爱吃鸭头的人天塌了#宠物吃的鸭头都去鼻屎，人吃的不去，一个爱吃鸭头的小女孩轻轻的碎了 ​",
+      "reposts": 4,
+      "comments": 27,
+      "likes": 111
+    },
+    {
+      "post_id": "detail-8017771896933982385",
+      "published_at": "2026-01-21T22:07:00+08:00",
+      "account_name": "7分醉Chok",
+      "content_text": "#爱吃鸭头的人天塌了#你吸你的血，我啃我的鸭头。 ​",
+      "reposts": 1,
+      "comments": 4,
+      "likes": 28
+    },
+    {
+      "post_id": "detail-4956996875718168583",
+      "published_at": "2026-01-21T23:27:00+08:00",
+      "account_name": "王光海",
+      "content_text": "我就是那位最爱吃鸭头的人#爱吃鸭头的人天塌了#​",
+      "reposts": 34,
+      "comments": 50,
+      "likes": 78
+    },
+    {
+      "post_id": "detail-3885197450079805872",
+      "published_at": "2026-01-21T21:45:00+08:00",
+      "account_name": "仙女酵牧",
+      "content_text": "#爱吃鸭头的人天塌了#太下饭了，完全可以当减肥视频看，全是“小零食”​",
+      "reposts": 3,
+      "comments": 50,
+      "likes": 111
+    },
+    {
+      "post_id": "detail-3234730228424263582",
+      "published_at": "2026-01-21T23:23:00+08:00",
+      "account_name": "生椰椰揶ye",
+      "content_text": "#爱吃鸭头的人天塌了#看到之后真的天塌了 从来就没有想过有鼻涕啥的 我以后都不会吃了。L生椰椰揶ye的微博视频​",
+      "reposts": 6,
+      "comments": 49,
+      "likes": 97
+    },
+    {
+      "post_id": "detail-2166980009737811326",
+      "published_at": "2026-01-22T07:28:00+08:00",
+      "account_name": "HeyWanda",
+      "content_text": "Jan |OOTD超话MUJI的纯棉T真的舒服特别特别亲肤 配毛衫完全不会静电#爱吃鸭头的人天塌了#我懂了 路边那些可以慰藉心灵的小吃早早晚晚都得塌一遍#微博跨域计划##ootd#​",
+      "reposts": 0,
+      "comments": 37,
+      "likes": 8
+    },
+    {
+      "post_id": "detail-4960282112021669222",
+      "published_at": "2026-01-22T04:09:00+08:00",
+      "account_name": "Lucky糖炒栗子_",
+      "content_text": "#爱吃鸭头的人天塌了#我是一个爱吃鸭头，爱到除了骨头之外全部都要嗦进嘴里的程度，但当我知道鸭子的鼻子里面也有鼻屎，而且很少有商家愿意把鸭鼻子里的鼻屎挤出来之后，我现在看到鸭子的头再也没有了之前的欲望。已戒鸭头两个月，以后应该也会一直戒下去……​",
+      "reposts": 0,
+      "comments": 77,
+      "likes": 33
+    },
+    {
+      "post_id": "detail-7129756646391712847",
+      "published_at": "2026-01-22T07:17:00+08:00",
+      "account_name": "思坊菜AND思坊瑜伽",
+      "content_text": "#爱吃鸭头的人天塌了#别吃鸭头了，今天带宝子们做一道没有鸭头用乌梅子调的酱，味道酸酸甜甜的【 梅子啤酒鸭】吧，啤酒的香味、梅子的酸甜与鸭肉完 美 融 合，滋 补的鸭肉不仅入口鲜香，而且好吃不油腻、酱香浓郁，不仅带有一股啤酒清香，咬一口还梅香四溢，年夜饭上来一道可太好吃了🧚‍♀️​展开c",
+      "reposts": 6,
+      "comments": 57,
+      "likes": 123
+    }
+  ]
+}

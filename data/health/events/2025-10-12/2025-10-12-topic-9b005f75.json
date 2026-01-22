@@ -1,0 +1,519 @@
+{
+  "event_id": "2025-10-12-topic-9b005f75",
+  "date": "2025-10-12",
+  "title": "吃不吃麻辣烫的都沉默了",
+  "category": "食品药品安全",
+  "health_minor": "食品安全突发情况",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1760266800,
+  "end_ts": 1760281200,
+  "heat_peak": 256864.0,
+  "point_count": 5,
+  "points": [
+    {
+      "ts": 1760266800,
+      "heat": 256864.0,
+      "rank": null
+    },
+    {
+      "ts": 1760270400,
+      "heat": 256864.0,
+      "rank": null
+    },
+    {
+      "ts": 1760274000,
+      "heat": 256864.0,
+      "rank": null
+    },
+    {
+      "ts": 1760277600,
+      "heat": 256864.0,
+      "rank": null
+    },
+    {
+      "ts": 1760281200,
+      "heat": 256864.0,
+      "rank": null
+    }
+  ],
+  "summary": "吃不吃麻辣烫的都沉默了",
+  "tags": [
+    "吃不吃麻辣烫的都沉默了"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "吃不吃麻辣烫的都沉默了",
+        "label": "吃不吃麻辣烫的都沉默了",
+        "weight": 20.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [
+    {
+      "text": "麻辣烫",
+      "weight": 43.0
+    },
+    {
+      "text": "沉默",
+      "weight": 20.0
+    },
+    {
+      "text": "不吃",
+      "weight": 19.0
+    },
+    {
+      "text": "科技",
+      "weight": 9.0
+    },
+    {
+      "text": "微博",
+      "weight": 9.0
+    },
+    {
+      "text": "视频",
+      "weight": 9.0
+    },
+    {
+      "text": "狠活",
+      "weight": 7.0
+    },
+    {
+      "text": "火锅",
+      "weight": 7.0
+    },
+    {
+      "text": "健康",
+      "weight": 6.0
+    },
+    {
+      "text": "底料",
+      "weight": 5.0
+    },
+    {
+      "text": "外面",
+      "weight": 4.0
+    },
+    {
+      "text": "在家",
+      "weight": 4.0
+    },
+    {
+      "text": "喜欢",
+      "weight": 4.0
+    },
+    {
+      "text": "食材",
+      "weight": 4.0
+    },
+    {
+      "text": "里面",
+      "weight": 3.0
+    },
+    {
+      "text": "知道",
+      "weight": 3.0
+    },
+    {
+      "text": "多少",
+      "weight": 3.0
+    },
+    {
+      "text": "简单",
+      "weight": 3.0
+    },
+    {
+      "text": "外卖",
+      "weight": 3.0
+    },
+    {
+      "text": "牛奶",
+      "weight": 3.0
+    },
+    {
+      "text": "做法",
+      "weight": 3.0
+    },
+    {
+      "text": "展开",
+      "weight": 3.0
+    },
+    {
+      "text": "虽然",
+      "weight": 2.0
+    },
+    {
+      "text": "既然",
+      "weight": 2.0
+    },
+    {
+      "text": "添加剂",
+      "weight": 2.0
+    },
+    {
+      "text": "好吃",
+      "weight": 2.0
+    },
+    {
+      "text": "而且",
+      "weight": 2.0
+    },
+    {
+      "text": "其实",
+      "weight": 2.0
+    },
+    {
+      "text": "今天",
+      "weight": 2.0
+    },
+    {
+      "text": "召召",
+      "weight": 2.0
+    },
+    {
+      "text": "少数",
+      "weight": 2.0
+    },
+    {
+      "text": "美味",
+      "weight": 2.0
+    },
+    {
+      "text": "干净",
+      "weight": 2.0
+    },
+    {
+      "text": "平时",
+      "weight": 2.0
+    },
+    {
+      "text": "蔬菜",
+      "weight": 2.0
+    },
+    {
+      "text": "麻酱",
+      "weight": 2.0
+    },
+    {
+      "text": "蒜末",
+      "weight": 2.0
+    },
+    {
+      "text": "加入",
+      "weight": 2.0
+    },
+    {
+      "text": "这次",
+      "weight": 2.0
+    },
+    {
+      "text": "下次",
+      "weight": 2.0
+    },
+    {
+      "text": "不许",
+      "weight": 2.0
+    },
+    {
+      "text": "汤底",
+      "weight": 2.0
+    },
+    {
+      "text": "之后",
+      "weight": 2.0
+    },
+    {
+      "text": "枸杞",
+      "weight": 2.0
+    },
+    {
+      "text": "新鲜",
+      "weight": 2.0
+    },
+    {
+      "text": "方法",
+      "weight": 2.0
+    },
+    {
+      "text": "个人",
+      "weight": 2.0
+    },
+    {
+      "text": "一碗",
+      "weight": 1.0
+    },
+    {
+      "text": "刘文祥",
+      "weight": 1.0
+    },
+    {
+      "text": "摆在面前",
+      "weight": 1.0
+    },
+    {
+      "text": "不能",
+      "weight": 1.0
+    },
+    {
+      "text": "迷糊",
+      "weight": 1.0
+    },
+    {
+      "text": "北京",
+      "weight": 1.0
+    },
+    {
+      "text": "小女孩",
+      "weight": 1.0
+    },
+    {
+      "text": "彻底",
+      "weight": 1.0
+    },
+    {
+      "text": "崩溃",
+      "weight": 1.0
+    },
+    {
+      "text": "老百姓",
+      "weight": 1.0
+    },
+    {
+      "text": "生活",
+      "weight": 1.0
+    },
+    {
+      "text": "痛心",
+      "weight": 1.0
+    },
+    {
+      "text": "秋冬",
+      "weight": 1.0
+    },
+    {
+      "text": "串串",
+      "weight": 1.0
+    },
+    {
+      "text": "包围",
+      "weight": 1.0
+    },
+    {
+      "text": "季节",
+      "weight": 1.0
+    },
+    {
+      "text": "防不胜防",
+      "weight": 1.0
+    },
+    {
+      "text": "咱们",
+      "weight": 1.0
+    },
+    {
+      "text": "学学",
+      "weight": 1.0
+    },
+    {
+      "text": "高小卷",
+      "weight": 1.0
+    },
+    {
+      "text": "不过",
+      "weight": 1.0
+    },
+    {
+      "text": "现在",
+      "weight": 1.0
+    },
+    {
+      "text": "几乎",
+      "weight": 1.0
+    },
+    {
+      "text": "商家",
+      "weight": 1.0
+    },
+    {
+      "text": "打着",
+      "weight": 1.0
+    },
+    {
+      "text": "纯手工",
+      "weight": 1.0
+    },
+    {
+      "text": "晚上",
+      "weight": 1.0
+    },
+    {
+      "text": "这款",
+      "weight": 1.0
+    },
+    {
+      "text": "能够",
+      "weight": 1.0
+    },
+    {
+      "text": "几口",
+      "weight": 1.0
+    },
+    {
+      "text": "腥味",
+      "weight": 1.0
+    },
+    {
+      "text": "物质",
+      "weight": 1.0
+    },
+    {
+      "text": "极大丰富",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.8
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.7
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.4
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-2847395524470685682",
+      "published_at": "2025-10-12T20:09:00+08:00",
+      "account_name": "刘道静ssr",
+      "content_text": "虽然里面有科技和狠活但就这一碗刘文祥麻辣烫摆在面前能不能香迷糊了#吃不吃麻辣烫的都沉默了#2北京​",
+      "reposts": 21,
+      "comments": 87,
+      "likes": 222
+    },
+    {
+      "post_id": "detail-9072438436275138607",
+      "published_at": "2025-10-12T19:21:00+08:00",
+      "account_name": "痛郁本色",
+      "content_text": "#吃不吃麻辣烫的都沉默了#一个爱吃麻辣烫的小女孩彻底崩溃了科技狠活都用在老百姓的生活上了，痛心！ ​",
+      "reposts": 22,
+      "comments": 25,
+      "likes": 184
+    },
+    {
+      "post_id": "detail-762275690938397552",
+      "published_at": "2025-10-12T19:58:00+08:00",
+      "account_name": "高小卷-",
+      "content_text": "#吃不吃麻辣烫的都沉默了#秋冬是会被麻辣烫火锅串串包围的季节，既然外面的科技狠活防不胜防，咱们就学学在家做吧L高小卷-的微博视频​",
+      "reposts": 318,
+      "comments": 42,
+      "likes": 898
+    },
+    {
+      "post_id": "detail-1434461738367853742",
+      "published_at": "2025-10-12T21:14:00+08:00",
+      "account_name": "世界下萝卜雨",
+      "content_text": "#吃不吃麻辣烫的都沉默了#不过麻辣烫有添加剂的好吃，虽然知道不健康，现在没有添加剂的麻辣烫几乎没有了，而且有的商家打着纯手工其实里面多少还是有科技与狠活的。 ​",
+      "reposts": 18,
+      "comments": 24,
+      "likes": 212
+    },
+    {
+      "post_id": "detail-2975566162142870881",
+      "published_at": "2025-10-12T20:13:00+08:00",
+      "account_name": "召召与木木的26年",
+      "content_text": "今天晚上吃鱼，这款鱼是召召少数能够吃几口的，没有腥味。在物质极大丰富的今天，其实你喜欢的，还是少数的那几种。#吃不吃麻辣烫的都沉默了#L召召与木木的26年的微博视频​",
+      "reposts": 0,
+      "comments": 45,
+      "likes": 117
+    },
+    {
+      "post_id": "detail-5031524953337469208",
+      "published_at": "2025-10-12T19:23:00+08:00",
+      "account_name": "-小羊呆呆咩-",
+      "content_text": "#吃不吃麻辣烫的都沉默了#都说外面的麻辣烫不健康，干脆自己在家做！没想到这么简单，味道还一点不输外面的外卖！L-小羊呆呆咩-的微博视频​",
+      "reposts": 21,
+      "comments": 18,
+      "likes": 162
+    },
+    {
+      "post_id": "detail-923340469161501560",
+      "published_at": "2025-10-12T20:29:00+08:00",
+      "account_name": "刘涵阁",
+      "content_text": "美味的牛奶麻辣烫家庭版的麻辣烫，健康又美味，而且比外卖干净！食材：平时喜欢吃的蔬菜都可以煮，火锅底料，牛奶，麻酱，蒜末做法：1⃣️热火少油，加入葱姜蒜火锅底料小火慢炒香2⃣️加入白开水和牛奶3⃣️加丸子不易煮熟的食材4⃣️最后再放蔬菜5⃣️喜欢麻酱用开水化开再倒进去爱吃醋麻油 ​展开c",
+      "reposts": 14,
+      "comments": 85,
+      "likes": 82
+    },
+    {
+      "post_id": "detail-7554381724023335978",
+      "published_at": "2025-10-12T20:30:00+08:00",
+      "account_name": "耐耐与K",
+      "content_text": "麻辣烫 这次我就当没看见 下次不许了喔#吃不吃麻辣烫的都沉默了#​",
+      "reposts": 0,
+      "comments": 64,
+      "likes": 131
+    }
+  ]
+}

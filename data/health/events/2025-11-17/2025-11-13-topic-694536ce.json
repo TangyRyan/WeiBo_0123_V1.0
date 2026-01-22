@@ -1,0 +1,136 @@
+{
+  "event_id": "2025-11-13-topic-694536ce",
+  "date": "2025-11-13",
+  "title": "山姆正跌落神坛",
+  "category": "食品药品安全",
+  "health_minor": "食品安全突发情况",
+  "sentiment": -0.7,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "region": "广东",
+  "start_ts": 1763038800,
+  "end_ts": 1763046000,
+  "heat_peak": 1086066.0,
+  "point_count": 3,
+  "points": [
+    {
+      "ts": 1763038800,
+      "heat": 1086066.0,
+      "rank": null
+    },
+    {
+      "ts": 1763042400,
+      "heat": 1086066.0,
+      "rank": null
+    },
+    {
+      "ts": 1763046000,
+      "heat": 1086066.0,
+      "rank": null
+    }
+  ],
+  "summary": "APP改版风波、高管人事变动、选品标准质疑……今年以来，山姆超市备受质疑，陷入信任危机。",
+  "tags": [
+    "山姆正跌落神坛",
+    "不续山姆卡的人越来越多了",
+    "冬亚报社",
+    "热点现场"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "山姆正跌落神坛",
+        "label": "山姆正跌落神坛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "不续山姆卡的人越来越多了",
+        "label": "不续山姆卡的人越来越多了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冬亚报社",
+        "label": "冬亚报社",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点现场",
+        "label": "热点现场",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.3
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.4
+    },
+    {
+      "name": "讨厌",
+      "value": 0.5
+    },
+    {
+      "name": "气愤",
+      "value": 0.6
+    },
+    {
+      "name": "期盼",
+      "value": 0.1
+    }
+  ],
+  "sample_posts": []
+}

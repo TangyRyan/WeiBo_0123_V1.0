@@ -1,0 +1,166 @@
+{
+  "event_id": "2025-10-30-topic-8d1347c7",
+  "date": "2025-10-30",
+  "title": "解锁百岁老人长寿配方",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "广西",
+  "start_ts": 1761793200,
+  "end_ts": 1761796800,
+  "heat_peak": 224687.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1761793200,
+      "heat": 224687.0,
+      "rank": null
+    },
+    {
+      "ts": 1761796800,
+      "heat": 224687.0,
+      "rank": null
+    }
+  ],
+  "summary": "解锁百岁老人长寿配方",
+  "tags": [
+    "解锁百岁老人长寿配方",
+    "我的百年人生计划",
+    "令人向往的百岁人生在云南",
+    "人生一万年",
+    "高清无水印",
+    "中文字幕",
+    "长命百岁: 蓝色宝地的奥秘(全四集合集)",
+    "健闻登顶计划",
+    "微博中医药月"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "解锁百岁老人长寿配方",
+        "label": "解锁百岁老人长寿配方",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我的百年人生计划",
+        "label": "我的百年人生计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "令人向往的百岁人生在云南",
+        "label": "令人向往的百岁人生在云南",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "人生一万年",
+        "label": "人生一万年",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "高清无水印",
+        "label": "高清无水印",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "中文字幕",
+        "label": "中文字幕",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "长命百岁: 蓝色宝地的奥秘(全四集合集)",
+        "label": "长命百岁: 蓝色宝地的奥秘(全四集合集)",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健闻登顶计划",
+        "label": "健闻登顶计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博中医药月",
+        "label": "微博中医药月",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.6
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

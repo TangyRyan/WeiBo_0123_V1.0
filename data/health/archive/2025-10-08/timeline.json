@@ -1,0 +1,215 @@
+{
+  "updated_at": "2025-12-05T20:45:49.995835+08:00",
+  "summary": {
+    "total_events": 11,
+    "by_major": {
+      "健康政策与公共服务": 1,
+      "健康管理与养生": 4,
+      "健康观念与社会现象": 1,
+      "医疗行业与技术动态": 2,
+      "特殊场景与群体健康": 1,
+      "环境与灾害关联健康问题": 2
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-06-topic-f53afea7",
+      "title": "诺贝尔",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1759744800,
+      "end_ts": 1759748400,
+      "heat_peak": 298871.0,
+      "sentiment": 0.25,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759748400,
+          "heat": 298871.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-topic-a209d187",
+      "title": "多名中国公民在澳徒步登山身亡",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 240928.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 240928.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-vs",
+      "title": "最好的睡姿vs最差的睡姿",
+      "category": "健康管理与养生",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 247877.0,
+      "sentiment": 0.1,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 247877.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-124",
+      "title": "诺贝尔奖奖金124年没花完",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 251010.0,
+      "sentiment": 0.0,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 251010.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-07-topic-5e114f9d",
+      "title": "医生说加沙医院惨状像屠宰场",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759798800,
+      "end_ts": 1759816800,
+      "heat_peak": 202102.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759816800,
+          "heat": 202102.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-07-topic-f4bc4f4f",
+      "title": "迪奥设计师 工作累丑",
+      "category": "健康管理与养生",
+      "start_ts": 1759834800,
+      "end_ts": 1759849200,
+      "heat_peak": 406329.0,
+      "sentiment": -0.3,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759849200,
+          "heat": 406329.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-07-topic-09bab92f",
+      "title": "鸡排哥回应嘴唇发紫发白",
+      "category": "健康管理与养生",
+      "start_ts": 1759838400,
+      "end_ts": 1759849200,
+      "heat_peak": 236026.0,
+      "sentiment": -0.3,
+      "region": "江西",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759849200,
+          "heat": 236026.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-topic-41a60492",
+      "title": "杨澜呼吁大众警惕带状疱疹风险",
+      "category": "健康政策与公共服务",
+      "start_ts": 1759906800,
+      "end_ts": 1759906800,
+      "heat_peak": 221468.0,
+      "sentiment": 0.4,
+      "region": "上海",
+      "point_count": 1,
+      "points": [
+        {
+          "ts": 1759906800,
+          "heat": 221468.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-16",
+      "title": "女子久坐16小时火车旅游心脏骤停",
+      "category": "特殊场景与群体健康",
+      "start_ts": 1759917600,
+      "end_ts": 1759921200,
+      "heat_peak": 187013.0,
+      "sentiment": -0.4,
+      "region": "浙江",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759921200,
+          "heat": 187013.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-29-211",
+      "title": "29岁失联男子毕业于211院校",
+      "category": "健康观念与社会现象",
+      "start_ts": 1759928400,
+      "end_ts": 1759935600,
+      "heat_peak": 265422.0,
+      "sentiment": -0.4,
+      "region": "山东",
+      "point_count": 3,
+      "points": [
+        {
+          "ts": 1759935600,
+          "heat": 265422.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-08-9",
+      "title": "鸡排哥商标已被别人持有9年",
+      "category": "健康管理与养生",
+      "start_ts": 1759932000,
+      "end_ts": 1759935600,
+      "heat_peak": 321708.0,
+      "sentiment": 0.3,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759935600,
+          "heat": 321708.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-08"
+}

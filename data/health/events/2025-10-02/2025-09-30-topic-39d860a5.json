@@ -1,0 +1,675 @@
+{
+  "event_id": "2025-09-30-topic-39d860a5",
+  "date": "2025-09-30",
+  "title": "王菊怎么瘦成这样了",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.7
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1759233600,
+  "end_ts": 1759244400,
+  "heat_peak": 318162.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1759233600,
+      "heat": 318162.0,
+      "rank": null
+    },
+    {
+      "ts": 1759237200,
+      "heat": 318162.0,
+      "rank": null
+    },
+    {
+      "ts": 1759240800,
+      "heat": 318162.0,
+      "rank": null
+    },
+    {
+      "ts": 1759244400,
+      "heat": 318162.0,
+      "rank": null
+    }
+  ],
+  "summary": "王菊怎么瘦成这样了",
+  "tags": [
+    "王菊近照",
+    "王菊怎么瘦成这样了",
+    "我的幽默灵感片场",
+    "一分钟视频创作季",
+    "菊的fittingroom",
+    "全民运动flag大会",
+    "微博超有用视频大赛",
+    "小动一下好有意思",
+    "微博V影响力大会",
+    "秒懂热点就用智搜",
+    "智搜纠错"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "王菊近照",
+        "label": "王菊近照",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "王菊怎么瘦成这样了",
+        "label": "王菊怎么瘦成这样了",
+        "weight": 19.0,
+        "community": 0
+      },
+      {
+        "id": "我的幽默灵感片场",
+        "label": "我的幽默灵感片场",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "菊的fittingroom",
+        "label": "菊的fittingroom",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "全民运动flag大会",
+        "label": "全民运动flag大会",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "小动一下好有意思",
+        "label": "小动一下好有意思",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "微博V影响力大会",
+        "label": "微博V影响力大会",
+        "weight": 2.0,
+        "community": 1
+      },
+      {
+        "id": "秒懂热点就用智搜",
+        "label": "秒懂热点就用智搜",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "智搜纠错",
+        "label": "智搜纠错",
+        "weight": 2.0,
+        "community": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "王菊怎么瘦成这样了",
+        "target": "王菊近照",
+        "weight": 1.0
+      },
+      {
+        "source": "一分钟视频创作季",
+        "target": "我的幽默灵感片场",
+        "weight": 1.0
+      },
+      {
+        "source": "一分钟视频创作季",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "我的幽默灵感片场",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "王菊怎么瘦成这样了",
+        "target": "菊的fittingroom",
+        "weight": 1.0
+      },
+      {
+        "source": "全民运动flag大会",
+        "target": "小动一下好有意思",
+        "weight": 1.0
+      },
+      {
+        "source": "全民运动flag大会",
+        "target": "微博V影响力大会",
+        "weight": 1.0
+      },
+      {
+        "source": "全民运动flag大会",
+        "target": "微博超有用视频大赛",
+        "weight": 1.0
+      },
+      {
+        "source": "全民运动flag大会",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "小动一下好有意思",
+        "target": "微博V影响力大会",
+        "weight": 1.0
+      },
+      {
+        "source": "小动一下好有意思",
+        "target": "微博超有用视频大赛",
+        "weight": 1.0
+      },
+      {
+        "source": "小动一下好有意思",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "微博V影响力大会",
+        "target": "微博超有用视频大赛",
+        "weight": 1.0
+      },
+      {
+        "source": "微博V影响力大会",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "微博超有用视频大赛",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "智搜纠错",
+        "target": "王菊怎么瘦成这样了",
+        "weight": 1.0
+      },
+      {
+        "source": "智搜纠错",
+        "target": "秒懂热点就用智搜",
+        "weight": 1.0
+      },
+      {
+        "source": "王菊怎么瘦成这样了",
+        "target": "秒懂热点就用智搜",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "王菊",
+      "weight": 31.0
+    },
+    {
+      "text": "怎么",
+      "weight": 23.0
+    },
+    {
+      "text": "这样",
+      "weight": 21.0
+    },
+    {
+      "text": "瘦成",
+      "weight": 20.0
+    },
+    {
+      "text": "##",
+      "weight": 9.0
+    },
+    {
+      "text": "视频",
+      "weight": 8.0
+    },
+    {
+      "text": "分钟",
+      "weight": 7.0
+    },
+    {
+      "text": "训练",
+      "weight": 7.0
+    },
+    {
+      "text": "微博",
+      "weight": 7.0
+    },
+    {
+      "text": "真的",
+      "weight": 6.0
+    },
+    {
+      "text": "现在",
+      "weight": 6.0
+    },
+    {
+      "text": "燃脂",
+      "weight": 6.0
+    },
+    {
+      "text": "徒手",
+      "weight": 5.0
+    },
+    {
+      "text": "展开",
+      "weight": 4.0
+    },
+    {
+      "text": "创造",
+      "weight": 3.0
+    },
+    {
+      "text": "一路",
+      "weight": 3.0
+    },
+    {
+      "text": "越来越",
+      "weight": 3.0
+    },
+    {
+      "text": "好多",
+      "weight": 3.0
+    },
+    {
+      "text": "居家",
+      "weight": 3.0
+    },
+    {
+      "text": "踏步",
+      "weight": 3.0
+    },
+    {
+      "text": "全身",
+      "weight": 3.0
+    },
+    {
+      "text": "有氧",
+      "weight": 3.0
+    },
+    {
+      "text": "可能",
+      "weight": 3.0
+    },
+    {
+      "text": "王菊瘦",
+      "weight": 3.0
+    },
+    {
+      "text": "近照",
+      "weight": 2.0
+    },
+    {
+      "text": "居然",
+      "weight": 2.0
+    },
+    {
+      "text": "认识",
+      "weight": 2.0
+    },
+    {
+      "text": "漂亮",
+      "weight": 2.0
+    },
+    {
+      "text": "记得",
+      "weight": 2.0
+    },
+    {
+      "text": "朝阳",
+      "weight": 2.0
+    },
+    {
+      "text": "惊艳",
+      "weight": 2.0
+    },
+    {
+      "text": "很多",
+      "weight": 2.0
+    },
+    {
+      "text": "之前",
+      "weight": 2.0
+    },
+    {
+      "text": "女主",
+      "weight": 2.0
+    },
+    {
+      "text": "独特",
+      "weight": 2.0
+    },
+    {
+      "text": "行走",
+      "weight": 2.0
+    },
+    {
+      "text": "方案",
+      "weight": 2.0
+    },
+    {
+      "text": "帕梅拉",
+      "weight": 2.0
+    },
+    {
+      "text": "今天",
+      "weight": 2.0
+    },
+    {
+      "text": "燃烧",
+      "weight": 2.0
+    },
+    {
+      "text": "热量",
+      "weight": 2.0
+    },
+    {
+      "text": "来说",
+      "weight": 2.0
+    },
+    {
+      "text": "纱裙",
+      "weight": 2.0
+    },
+    {
+      "text": "仙子",
+      "weight": 2.0
+    },
+    {
+      "text": "认不出",
+      "weight": 2.0
+    },
+    {
+      "text": "以前",
+      "weight": 2.0
+    },
+    {
+      "text": "欧美",
+      "weight": 2.0
+    },
+    {
+      "text": "减肥",
+      "weight": 2.0
+    },
+    {
+      "text": "最后",
+      "weight": 2.0
+    },
+    {
+      "text": "演技",
+      "weight": 2.0
+    },
+    {
+      "text": "身形",
+      "weight": 2.0
+    },
+    {
+      "text": "如今",
+      "weight": 2.0
+    },
+    {
+      "text": "需要",
+      "weight": 2.0
+    },
+    {
+      "text": "大会",
+      "weight": 2.0
+    },
+    {
+      "text": "无缘",
+      "weight": 2.0
+    },
+    {
+      "text": "晋级",
+      "weight": 2.0
+    },
+    {
+      "text": "总决赛",
+      "weight": 2.0
+    },
+    {
+      "text": "感觉",
+      "weight": 1.0
+    },
+    {
+      "text": "很瘦",
+      "weight": 1.0
+    },
+    {
+      "text": "女人味",
+      "weight": 1.0
+    },
+    {
+      "text": "第一次",
+      "weight": 1.0
+    },
+    {
+      "text": "时候",
+      "weight": 1.0
+    },
+    {
+      "text": "里面",
+      "weight": 1.0
+    },
+    {
+      "text": "没想到",
+      "weight": 1.0
+    },
+    {
+      "text": "状态",
+      "weight": 1.0
+    },
+    {
+      "text": "认出来",
+      "weight": 1.0
+    },
+    {
+      "text": "选秀",
+      "weight": 1.0
+    },
+    {
+      "text": "其实",
+      "weight": 1.0
+    },
+    {
+      "text": "闪光点",
+      "weight": 1.0
+    },
+    {
+      "text": "而且",
+      "weight": 1.0
+    },
+    {
+      "text": "演戏",
+      "weight": 1.0
+    },
+    {
+      "text": "尴尬",
+      "weight": 1.0
+    },
+    {
+      "text": "Pamela",
+      "weight": 1.0
+    },
+    {
+      "text": "Reif",
+      "weight": 1.0
+    },
+    {
+      "text": "一次",
+      "weight": 1.0
+    },
+    {
+      "text": "超过",
+      "weight": 1.0
+    },
+    {
+      "text": "卡路里",
+      "weight": 1.0
+    },
+    {
+      "text": "身高",
+      "weight": 1.0
+    },
+    {
+      "text": "体重",
+      "weight": 1.0
+    },
+    {
+      "text": "还会",
+      "weight": 1.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.7
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-8880470194502798378",
+      "published_at": "2025-09-30T16:12:00+08:00",
+      "account_name": "冲浪吧星同事",
+      "content_text": "#王菊近照##王菊怎么瘦成这样了#王菊近照，咋瘦成这样叻！ ​",
+      "reposts": 142,
+      "comments": 348,
+      "likes": 5514
+    },
+    {
+      "post_id": "detail-6823964870248552865",
+      "published_at": "2025-09-30T18:42:00+08:00",
+      "account_name": "星闻记",
+      "content_text": "#王菊怎么瘦成这样了#感觉也不是很瘦，但是很有女人味。 ​",
+      "reposts": 18,
+      "comments": 93,
+      "likes": 846
+    },
+    {
+      "post_id": "detail-4015080131409726344",
+      "published_at": "2025-09-30T19:08:00+08:00",
+      "account_name": "超元气小晴",
+      "content_text": "#王菊怎么瘦成这样了#这居然是王菊？！第一次认识她还是在创造101的时候呢，真的好漂亮！ ​",
+      "reposts": 29,
+      "comments": 50,
+      "likes": 1184
+    },
+    {
+      "post_id": "detail-3918041505951356125",
+      "published_at": "2025-09-30T20:15:00+08:00",
+      "account_name": "心绪涩愈",
+      "content_text": "#王菊怎么瘦成这样了#还记得王菊在一路朝阳里面惊艳了很多人，没想到现在状态越来越好了，和之前比真的瘦了好多 ​",
+      "reposts": 15,
+      "comments": 25,
+      "likes": 484
+    },
+    {
+      "post_id": "detail-422998429340955011",
+      "published_at": "2025-09-30T19:38:00+08:00",
+      "account_name": "撒了个野",
+      "content_text": "#王菊怎么瘦成这样了#不是这居然是王菊，你不说我都没认出来，怎么瘦成这样了！从选秀到大女主，她真的赢了！她其实挺有闪光点的，很独特，而且王菊演戏挺好的，不尴尬 ​",
+      "reposts": 4,
+      "comments": 15,
+      "likes": 177
+    },
+    {
+      "post_id": "detail-5007430625196823486",
+      "published_at": "2025-10-01T09:55:00+08:00",
+      "account_name": "茶健身",
+      "content_text": "20分钟居家徒手行走踏步2000步全身有氧燃脂训练方案 帕梅拉 Pamela Reif今天的训练做一次就燃烧了超过200卡路里的热量！如果你身高比帕梅拉高、体重比她重，你可能还会燃烧更多的热量！有氧运动、跑步、Techno、性感拉丁——让我们随着节奏踏步20分钟吧对于很多人来说，20分钟的训练可能听起来很 ​展开c",
+      "reposts": 78,
+      "comments": 6,
+      "likes": 120
+    },
+    {
+      "post_id": "detail-4951947263107076188",
+      "published_at": "2025-09-30T22:46:00+08:00",
+      "account_name": "电视连续剧",
+      "content_text": "#王菊怎么瘦成这样了#王菊瘦后好惊艳，纱裙衬出仙子感，颜值气质双升！ ​",
+      "reposts": 0,
+      "comments": 28,
+      "likes": 148
+    },
+    {
+      "post_id": "detail-2472719273315569864",
+      "published_at": "2025-09-30T18:20:00+08:00",
+      "account_name": "染尘_V",
+      "content_text": "#王菊怎么瘦成这样了#娱乐圈怎么谁都瘦了？王菊瘦的都快认不出了，没有辨识度对演员来说不太好吧 ​",
+      "reposts": 3,
+      "comments": 40,
+      "likes": 188
+    }
+  ]
+}

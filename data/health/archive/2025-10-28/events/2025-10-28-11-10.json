@@ -1,0 +1,166 @@
+{
+  "event_id": "2025-10-28-11-10",
+  "date": "2025-10-28",
+  "title": "11岁孩子为锻炼舌头吞下10克金豆",
+  "category": "特殊场景与群体健康",
+  "health_minor": "特殊群体健康危机",
+  "sentiment": -0.65,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.0
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "region": "江苏",
+  "start_ts": 1761631200,
+  "end_ts": 1761634800,
+  "heat_peak": 224216.0,
+  "point_count": 2,
+  "points": [
+    {
+      "ts": 1761631200,
+      "heat": 224216.0,
+      "rank": null
+    },
+    {
+      "ts": 1761634800,
+      "heat": 224216.0,
+      "rank": null
+    }
+  ],
+  "summary": "11岁孩子为锻炼舌头吞下10克金豆",
+  "tags": [
+    "11岁孩子为锻炼舌头吞下10克金豆",
+    "孩子误吞金豆妈妈扒拉大便找金子",
+    "龙骨焚箱的箱是真香的香",
+    "娜娜的Vlog",
+    "徐姓导演真的太会拍陈坤",
+    "2026腾讯视频V视界大会",
+    "兰香如故",
+    "水龙吟",
+    "瑶有上镜心"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "11岁孩子为锻炼舌头吞下10克金豆",
+        "label": "11岁孩子为锻炼舌头吞下10克金豆",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "孩子误吞金豆妈妈扒拉大便找金子",
+        "label": "孩子误吞金豆妈妈扒拉大便找金子",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "龙骨焚箱的箱是真香的香",
+        "label": "龙骨焚箱的箱是真香的香",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "娜娜的Vlog",
+        "label": "娜娜的Vlog",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "徐姓导演真的太会拍陈坤",
+        "label": "徐姓导演真的太会拍陈坤",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2026腾讯视频V视界大会",
+        "label": "2026腾讯视频V视界大会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "兰香如故",
+        "label": "兰香如故",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "水龙吟",
+        "label": "水龙吟",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "瑶有上镜心",
+        "label": "瑶有上镜心",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.0
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.0
+    }
+  ],
+  "sample_posts": []
+}

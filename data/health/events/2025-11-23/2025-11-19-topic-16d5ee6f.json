@@ -1,0 +1,169 @@
+{
+  "event_id": "2025-11-19-topic-16d5ee6f",
+  "date": "2025-11-19",
+  "title": "中方向日方通报暂停进口日本水产品",
+  "category": "食品药品安全",
+  "health_minor": "食品安全突发情况",
+  "sentiment": 0.25,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "台湾",
+  "start_ts": 1763532000,
+  "end_ts": 1763542800,
+  "heat_peak": 256045.0,
+  "point_count": 4,
+  "points": [
+    {
+      "ts": 1763532000,
+      "heat": 256045.0,
+      "rank": null
+    },
+    {
+      "ts": 1763535600,
+      "heat": 256045.0,
+      "rank": null
+    },
+    {
+      "ts": 1763539200,
+      "heat": 256045.0,
+      "rank": null
+    },
+    {
+      "ts": 1763542800,
+      "heat": 256045.0,
+      "rank": null
+    }
+  ],
+  "summary": "据日本媒体19日报道，中国政府已向日本政府通报，暂停进口日本水产品。",
+  "tags": [
+    "中方向日方通报暂停进口日本水产品",
+    "高市惹大祸日本人有苦头吃了",
+    "中方暂停进口日本水产品",
+    "海外新鲜事",
+    "俄罗斯警告高市早苗",
+    "高市早苗惹怒4国",
+    "热点解读",
+    "攀谈攀谈"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "中方向日方通报暂停进口日本水产品",
+        "label": "中方向日方通报暂停进口日本水产品",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "高市惹大祸日本人有苦头吃了",
+        "label": "高市惹大祸日本人有苦头吃了",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "中方暂停进口日本水产品",
+        "label": "中方暂停进口日本水产品",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "海外新鲜事",
+        "label": "海外新鲜事",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "俄罗斯警告高市早苗",
+        "label": "俄罗斯警告高市早苗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "高市早苗惹怒4国",
+        "label": "高市早苗惹怒4国",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "热点解读",
+        "label": "热点解读",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "攀谈攀谈",
+        "label": "攀谈攀谈",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.4
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.1
+    },
+    {
+      "name": "讨厌",
+      "value": 0.6
+    },
+    {
+      "name": "气愤",
+      "value": 0.7
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

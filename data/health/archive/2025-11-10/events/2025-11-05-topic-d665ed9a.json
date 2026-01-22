@@ -1,0 +1,154 @@
+{
+  "event_id": "2025-11-05-topic-d665ed9a",
+  "date": "2025-11-05",
+  "title": "湖南通报祖某某曾某生活作风问题",
+  "category": "健康观念与社会现象",
+  "health_minor": "健康相关社会争议",
+  "sentiment": -0.4,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "region": "湖南",
+  "start_ts": 1762340400,
+  "end_ts": 1762340400,
+  "heat_peak": 313943.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762340400,
+      "heat": 313943.0,
+      "rank": null
+    }
+  ],
+  "summary": "湖南通报祖某某曾某生活作风问题",
+  "tags": [
+    "湖南通报祖某某曾某生活作风问题",
+    "湖南通报医院副院长出轨眼科主任",
+    "官方通报医院副院长被指出轨女医师",
+    "医院副院长出轨女医师两人被停职",
+    "财经",
+    "副院长被指与女同事有私情纪检介入",
+    "湖南省人民医院",
+    "官方通报网传副院长出轨眼科主任"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "湖南通报祖某某曾某生活作风问题",
+        "label": "湖南通报祖某某曾某生活作风问题",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "湖南通报医院副院长出轨眼科主任",
+        "label": "湖南通报医院副院长出轨眼科主任",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "官方通报医院副院长被指出轨女医师",
+        "label": "官方通报医院副院长被指出轨女医师",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "医院副院长出轨女医师两人被停职",
+        "label": "医院副院长出轨女医师两人被停职",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "财经",
+        "label": "财经",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "副院长被指与女同事有私情纪检介入",
+        "label": "副院长被指与女同事有私情纪检介入",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "湖南省人民医院",
+        "label": "湖南省人民医院",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "官方通报网传副院长出轨眼科主任",
+        "label": "官方通报网传副院长出轨眼科主任",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.0
+    },
+    {
+      "name": "信任",
+      "value": 0.1
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.4
+    },
+    {
+      "name": "气愤",
+      "value": 0.5
+    },
+    {
+      "name": "期盼",
+      "value": 0.2
+    }
+  ],
+  "sample_posts": []
+}

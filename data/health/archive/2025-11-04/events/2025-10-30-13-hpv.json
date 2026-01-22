@@ -1,0 +1,179 @@
+{
+  "event_id": "2025-10-30-13-hpv",
+  "date": "2025-10-30",
+  "title": "满13岁女生免费接种HPV疫苗",
+  "category": "健康政策与公共服务",
+  "health_minor": "公共健康服务",
+  "sentiment": 0.5,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1761818400,
+  "end_ts": 1761836400,
+  "heat_peak": 258883.0,
+  "point_count": 6,
+  "points": [
+    {
+      "ts": 1761818400,
+      "heat": 258883.0,
+      "rank": null
+    },
+    {
+      "ts": 1761822000,
+      "heat": 258883.0,
+      "rank": null
+    },
+    {
+      "ts": 1761825600,
+      "heat": 258883.0,
+      "rank": null
+    },
+    {
+      "ts": 1761829200,
+      "heat": 258883.0,
+      "rank": null
+    },
+    {
+      "ts": 1761832800,
+      "heat": 258883.0,
+      "rank": null
+    },
+    {
+      "ts": 1761836400,
+      "heat": 258883.0,
+      "rank": null
+    }
+  ],
+  "summary": "自2025年11月10日起，组织各地为2011年11月10日以后出生的满13周岁女孩免费接种2剂次双价HPV疫苗（间隔6个月）。",
+  "tags": [
+    "满13岁女生免费接种HPV疫苗",
+    "HPV疫苗正式纳入国家免疫规划",
+    "微博热点优质创作计划",
+    "一分钟视频创作季",
+    "校园v计划",
+    "我的微博日常",
+    "HPV持续感染可能引发宫颈癌",
+    "关于HPV这些一定要知道"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "满13岁女生免费接种HPV疫苗",
+        "label": "满13岁女生免费接种HPV疫苗",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "HPV疫苗正式纳入国家免疫规划",
+        "label": "HPV疫苗正式纳入国家免疫规划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博热点优质创作计划",
+        "label": "微博热点优质创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "一分钟视频创作季",
+        "label": "一分钟视频创作季",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "校园v计划",
+        "label": "校园v计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我的微博日常",
+        "label": "我的微博日常",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "HPV持续感染可能引发宫颈癌",
+        "label": "HPV持续感染可能引发宫颈癌",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "关于HPV这些一定要知道",
+        "label": "关于HPV这些一定要知道",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.4
+    },
+    {
+      "name": "信任",
+      "value": 0.3
+    },
+    {
+      "name": "恐惧",
+      "value": 0.1
+    },
+    {
+      "name": "惊喜",
+      "value": 0.2
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.3
+    }
+  ],
+  "sample_posts": []
+}

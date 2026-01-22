@@ -1,0 +1,189 @@
+{
+  "event_id": "2025-11-12-topic-b8b03eeb",
+  "date": "2025-11-12",
+  "title": "郑钦文右肘关节未完全恢复",
+  "category": "健康管理与养生",
+  "health_minor": "慢病管理与健康干预",
+  "sentiment": -0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "region": "湖北",
+  "start_ts": 1762923600,
+  "end_ts": 1762923600,
+  "heat_peak": 132135.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1762923600,
+      "heat": 132135.0,
+      "rank": null
+    }
+  ],
+  "summary": "郑钦文右肘关节未完全恢复",
+  "tags": [
+    "郑钦文退出全运会",
+    "郑钦文因伤退出本届全运会",
+    "郑钦文右肘关节伤情未恢复",
+    "艺起为健儿加油",
+    "v观全运会",
+    "郑钦文将退出本届全运会",
+    "郑钦文右肘关节未完全恢复",
+    "郑钦文因伤退出全运会",
+    "2025全运会",
+    "郑钦文中网退赛",
+    "满谈体育",
+    "郑钦文说距离完全恢复还需一段时间",
+    "郑钦文宣布退出比利·简·金杯总决赛"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "郑钦文退出全运会",
+        "label": "郑钦文退出全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文因伤退出本届全运会",
+        "label": "郑钦文因伤退出本届全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文右肘关节伤情未恢复",
+        "label": "郑钦文右肘关节伤情未恢复",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "艺起为健儿加油",
+        "label": "艺起为健儿加油",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "v观全运会",
+        "label": "v观全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文将退出本届全运会",
+        "label": "郑钦文将退出本届全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文右肘关节未完全恢复",
+        "label": "郑钦文右肘关节未完全恢复",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文因伤退出全运会",
+        "label": "郑钦文因伤退出全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "2025全运会",
+        "label": "2025全运会",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文中网退赛",
+        "label": "郑钦文中网退赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "满谈体育",
+        "label": "满谈体育",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文说距离完全恢复还需一段时间",
+        "label": "郑钦文说距离完全恢复还需一段时间",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "郑钦文宣布退出比利·简·金杯总决赛",
+        "label": "郑钦文宣布退出比利·简·金杯总决赛",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.05
+    },
+    {
+      "name": "信任",
+      "value": 0.2
+    },
+    {
+      "name": "恐惧",
+      "value": 0.05
+    },
+    {
+      "name": "惊喜",
+      "value": 0.0
+    },
+    {
+      "name": "伤心",
+      "value": 0.3
+    },
+    {
+      "name": "讨厌",
+      "value": 0.1
+    },
+    {
+      "name": "气愤",
+      "value": 0.1
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "sample_posts": []
+}

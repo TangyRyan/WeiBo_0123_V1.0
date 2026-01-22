@@ -1,0 +1,231 @@
+{
+  "event_id": "2025-11-13-topic-cf5a6aab",
+  "date": "2025-11-13",
+  "title": "眼镜应该戴戴停停还是长久戴",
+  "category": "健康管理与养生",
+  "health_minor": "健康生活方式",
+  "sentiment": 0.18,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.35
+    },
+    {
+      "name": "恐惧",
+      "value": 0.15
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "region": "未知",
+  "start_ts": 1762963200,
+  "end_ts": 1762988400,
+  "heat_peak": 75116.0,
+  "point_count": 8,
+  "points": [
+    {
+      "ts": 1762963200,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762966800,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762970400,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762974000,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762977600,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762981200,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762984800,
+      "heat": 75116.0,
+      "rank": null
+    },
+    {
+      "ts": 1762988400,
+      "heat": 75116.0,
+      "rank": null
+    }
+  ],
+  "summary": "眼镜应该戴戴停停还是长久戴",
+  "tags": [
+    "生活笑料撞满怀",
+    "我的幽默灵感片场",
+    "眼镜应该戴戴停停还是长久戴",
+    "健康素养up",
+    "冷知识百科",
+    "微博兴趣创作计划",
+    "看手机时千万不要摘眼镜",
+    "南昌入选亚洲100必打卡目的地榜单",
+    "杨超越脸和身材没一个落下的",
+    "早安南阳",
+    "北京极光",
+    "微博超有用视频大赛",
+    "啾啾日常",
+    "天气聊一聊"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "生活笑料撞满怀",
+        "label": "生活笑料撞满怀",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "我的幽默灵感片场",
+        "label": "我的幽默灵感片场",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "眼镜应该戴戴停停还是长久戴",
+        "label": "眼镜应该戴戴停停还是长久戴",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "健康素养up",
+        "label": "健康素养up",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "冷知识百科",
+        "label": "冷知识百科",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博兴趣创作计划",
+        "label": "微博兴趣创作计划",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "看手机时千万不要摘眼镜",
+        "label": "看手机时千万不要摘眼镜",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "南昌入选亚洲100必打卡目的地榜单",
+        "label": "南昌入选亚洲100必打卡目的地榜单",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "杨超越脸和身材没一个落下的",
+        "label": "杨超越脸和身材没一个落下的",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "早安南阳",
+        "label": "早安南阳",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "北京极光",
+        "label": "北京极光",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "微博超有用视频大赛",
+        "label": "微博超有用视频大赛",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "啾啾日常",
+        "label": "啾啾日常",
+        "weight": 1.0,
+        "community": null
+      },
+      {
+        "id": "天气聊一聊",
+        "label": "天气聊一聊",
+        "weight": 1.0,
+        "community": null
+      }
+    ],
+    "edges": []
+  },
+  "wordcloud": [],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.1
+    },
+    {
+      "name": "信任",
+      "value": 0.35
+    },
+    {
+      "name": "恐惧",
+      "value": 0.15
+    },
+    {
+      "name": "惊喜",
+      "value": 0.05
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.25
+    }
+  ],
+  "sample_posts": []
+}

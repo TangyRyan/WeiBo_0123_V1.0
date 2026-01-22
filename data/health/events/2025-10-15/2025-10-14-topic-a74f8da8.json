@@ -1,0 +1,551 @@
+{
+  "event_id": "2025-10-14-topic-a74f8da8",
+  "date": "2025-10-14",
+  "title": "飞鹤发布新一代奶粉",
+  "category": "医疗行业与技术动态",
+  "health_minor": "医疗技术创新",
+  "sentiment": 0.8,
+  "sentiment_vector": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.8
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "region": "北京",
+  "start_ts": 1760450400,
+  "end_ts": 1760450400,
+  "heat_peak": 261996.0,
+  "point_count": 1,
+  "points": [
+    {
+      "ts": 1760450400,
+      "heat": 261996.0,
+      "rank": null
+    }
+  ],
+  "summary": "飞鹤发布新一代奶粉",
+  "tags": [
+    "飞鹤发布新一代奶粉",
+    "更适合中国宝宝的含金量还在上升",
+    "飞鹤奶粉",
+    "更适合中国宝宝体质"
+  ],
+  "tag_graph": {
+    "nodes": [
+      {
+        "id": "飞鹤发布新一代奶粉",
+        "label": "飞鹤发布新一代奶粉",
+        "weight": 20.0,
+        "community": 0
+      },
+      {
+        "id": "更适合中国宝宝的含金量还在上升",
+        "label": "更适合中国宝宝的含金量还在上升",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "飞鹤奶粉",
+        "label": "飞鹤奶粉",
+        "weight": 2.0,
+        "community": 0
+      },
+      {
+        "id": "更适合中国宝宝体质",
+        "label": "更适合中国宝宝体质",
+        "weight": 2.0,
+        "community": 0
+      }
+    ],
+    "edges": [
+      {
+        "source": "更适合中国宝宝体质",
+        "target": "更适合中国宝宝的含金量还在上升",
+        "weight": 1.0
+      },
+      {
+        "source": "更适合中国宝宝体质",
+        "target": "飞鹤发布新一代奶粉",
+        "weight": 1.0
+      },
+      {
+        "source": "更适合中国宝宝体质",
+        "target": "飞鹤奶粉",
+        "weight": 1.0
+      },
+      {
+        "source": "更适合中国宝宝的含金量还在上升",
+        "target": "飞鹤发布新一代奶粉",
+        "weight": 1.0
+      },
+      {
+        "source": "更适合中国宝宝的含金量还在上升",
+        "target": "飞鹤奶粉",
+        "weight": 1.0
+      },
+      {
+        "source": "飞鹤发布新一代奶粉",
+        "target": "飞鹤奶粉",
+        "weight": 1.0
+      }
+    ]
+  },
+  "wordcloud": [
+    {
+      "text": "奶粉",
+      "weight": 49.0
+    },
+    {
+      "text": "飞鹤",
+      "weight": 38.0
+    },
+    {
+      "text": "新一代",
+      "weight": 28.0
+    },
+    {
+      "text": "宝宝",
+      "weight": 27.0
+    },
+    {
+      "text": "发布",
+      "weight": 22.0
+    },
+    {
+      "text": "中国",
+      "weight": 15.0
+    },
+    {
+      "text": "母乳",
+      "weight": 14.0
+    },
+    {
+      "text": "营养",
+      "weight": 13.0
+    },
+    {
+      "text": "适合",
+      "weight": 11.0
+    },
+    {
+      "text": "展开",
+      "weight": 11.0
+    },
+    {
+      "text": "体质",
+      "weight": 9.0
+    },
+    {
+      "text": "配方",
+      "weight": 6.0
+    },
+    {
+      "text": "安全",
+      "weight": 6.0
+    },
+    {
+      "text": "直播",
+      "weight": 5.0
+    },
+    {
+      "text": "标准",
+      "weight": 5.0
+    },
+    {
+      "text": "孩子",
+      "weight": 5.0
+    },
+    {
+      "text": "冷友斌",
+      "weight": 4.0
+    },
+    {
+      "text": "产品",
+      "weight": 4.0
+    },
+    {
+      "text": "鲜活",
+      "weight": 4.0
+    },
+    {
+      "text": "现在",
+      "weight": 4.0
+    },
+    {
+      "text": "科研",
+      "weight": 4.0
+    },
+    {
+      "text": "导航",
+      "weight": 4.0
+    },
+    {
+      "text": "样本",
+      "weight": 4.0
+    },
+    {
+      "text": "分析",
+      "weight": 4.0
+    },
+    {
+      "text": "##",
+      "weight": 3.0
+    },
+    {
+      "text": "新品",
+      "weight": 3.0
+    },
+    {
+      "text": "启萃",
+      "weight": 3.0
+    },
+    {
+      "text": "生态",
+      "weight": 3.0
+    },
+    {
+      "text": "全国",
+      "weight": 3.0
+    },
+    {
+      "text": "系统",
+      "weight": 3.0
+    },
+    {
+      "text": "东西",
+      "weight": 3.0
+    },
+    {
+      "text": "守护",
+      "weight": 3.0
+    },
+    {
+      "text": "用心",
+      "weight": 3.0
+    },
+    {
+      "text": "成长",
+      "weight": 3.0
+    },
+    {
+      "text": "当年",
+      "weight": 3.0
+    },
+    {
+      "text": "看到",
+      "weight": 3.0
+    },
+    {
+      "text": "需求",
+      "weight": 3.0
+    },
+    {
+      "text": "国外",
+      "weight": 3.0
+    },
+    {
+      "text": "营养成分",
+      "weight": 3.0
+    },
+    {
+      "text": "通过",
+      "weight": 3.0
+    },
+    {
+      "text": "含金量",
+      "weight": 2.0
+    },
+    {
+      "text": "10.14",
+      "weight": 2.0
+    },
+    {
+      "text": "发布会",
+      "weight": 2.0
+    },
+    {
+      "text": "迹萃",
+      "weight": 2.0
+    },
+    {
+      "text": "上市",
+      "weight": 2.0
+    },
+    {
+      "text": "复刻",
+      "weight": 2.0
+    },
+    {
+      "text": "年建",
+      "weight": 2.0
+    },
+    {
+      "text": "研发",
+      "weight": 2.0
+    },
+    {
+      "text": "北纬",
+      "weight": 2.0
+    },
+    {
+      "text": "奶源",
+      "weight": 2.0
+    },
+    {
+      "text": "小时",
+      "weight": 2.0
+    },
+    {
+      "text": "生态圈",
+      "weight": 2.0
+    },
+    {
+      "text": "母源",
+      "weight": 2.0
+    },
+    {
+      "text": "仿生",
+      "weight": 2.0
+    },
+    {
+      "text": "当妈",
+      "weight": 2.0
+    },
+    {
+      "text": "之前",
+      "weight": 2.0
+    },
+    {
+      "text": "哪个",
+      "weight": 2.0
+    },
+    {
+      "text": "之后",
+      "weight": 2.0
+    },
+    {
+      "text": "慢慢",
+      "weight": 2.0
+    },
+    {
+      "text": "四个",
+      "weight": 2.0
+    },
+    {
+      "text": "开始",
+      "weight": 2.0
+    },
+    {
+      "text": "比如",
+      "weight": 2.0
+    },
+    {
+      "text": "才能",
+      "weight": 2.0
+    },
+    {
+      "text": "放心",
+      "weight": 2.0
+    },
+    {
+      "text": "时候",
+      "weight": 2.0
+    },
+    {
+      "text": "妈妈",
+      "weight": 2.0
+    },
+    {
+      "text": "贴合",
+      "weight": 2.0
+    },
+    {
+      "text": "一口",
+      "weight": 2.0
+    },
+    {
+      "text": "考虑",
+      "weight": 2.0
+    },
+    {
+      "text": "家里",
+      "weight": 2.0
+    },
+    {
+      "text": "小孩",
+      "weight": 2.0
+    },
+    {
+      "text": "重要",
+      "weight": 2.0
+    },
+    {
+      "text": "用品",
+      "weight": 2.0
+    },
+    {
+      "text": "日子",
+      "weight": 2.0
+    },
+    {
+      "text": "了解",
+      "weight": 2.0
+    },
+    {
+      "text": "而且",
+      "weight": 2.0
+    },
+    {
+      "text": "为了",
+      "weight": 2.0
+    },
+    {
+      "text": "牧场",
+      "weight": 2.0
+    },
+    {
+      "text": "确实",
+      "weight": 2.0
+    },
+    {
+      "text": "独特性",
+      "weight": 2.0
+    }
+  ],
+  "emotions": [
+    {
+      "name": "喜悦",
+      "value": 0.7
+    },
+    {
+      "name": "信任",
+      "value": 0.8
+    },
+    {
+      "name": "恐惧",
+      "value": 0.0
+    },
+    {
+      "name": "惊喜",
+      "value": 0.4
+    },
+    {
+      "name": "伤心",
+      "value": 0.0
+    },
+    {
+      "name": "讨厌",
+      "value": 0.0
+    },
+    {
+      "name": "气愤",
+      "value": 0.0
+    },
+    {
+      "name": "期盼",
+      "value": 0.5
+    }
+  ],
+  "sample_posts": [
+    {
+      "post_id": "detail-8589507562946343930",
+      "published_at": "2025-10-15T16:16:00+08:00",
+      "account_name": "飞鹤",
+      "content_text": "飞鹤冷友斌央视直播提前剧透，新一代更适合宝宝产品抢先曝光。#飞鹤发布新一代奶粉##更适合中国宝宝的含金量还在上升##飞鹤奶粉##更适合中国宝宝体质#L飞鹤的微博视频​",
+      "reposts": 0,
+      "comments": 10,
+      "likes": 40
+    },
+    {
+      "post_id": "detail-6705433055384276705",
+      "published_at": "2025-10-14T21:15:00+08:00",
+      "account_name": "树上好像有只兔",
+      "content_text": "#飞鹤发布新一代奶粉#10.14飞鹤京办发布会，发布“新一代更适合中国宝宝体质”新品，启萃/迹萃将上市，复刻母乳生态，其自2009年建全国母乳库支撑研发。 ​",
+      "reposts": 5,
+      "comments": 18,
+      "likes": 95
+    },
+    {
+      "post_id": "detail-5740534094346890887",
+      "published_at": "2025-10-14T21:17:00+08:00",
+      "account_name": "总是起不来-",
+      "content_text": "#飞鹤发布新一代奶粉#北纬47°奶源+2小时生态圈，独创鲜活营养系统锁留活性。母源仿生配方实证6倍好吸收，更适合中国宝宝体质 。 ​",
+      "reposts": 5,
+      "comments": 18,
+      "likes": 100
+    },
+    {
+      "post_id": "detail-9126009672950693593",
+      "published_at": "2025-10-14T21:00:00+08:00",
+      "account_name": "舒女王Suven",
+      "content_text": "当妈之前，我买东西就看哪个好看、哪个口碑好；当妈之后，我才慢慢懂了——“安全标准”这四个字，才是给宝宝最实在的守护。这份体会，是从一次次看成分表、查安全说明积累起来的。一开始我也被各种认证绕得头晕，后来才明白，原来国家为孩子的吃穿用度定了好多严格的标准。比如宝宝用的安全护栏 ​展开c",
+      "reposts": 15,
+      "comments": 34,
+      "likes": 110
+    },
+    {
+      "post_id": "detail-2851640954087688270",
+      "published_at": "2025-10-14T21:17:00+08:00",
+      "account_name": "每天都要吃肉肉yuki",
+      "content_text": "#飞鹤发布新一代奶粉#好的奶粉孩子才能吃得放心，飞鹤奶粉更适合我们中国宝宝的体质。 ​",
+      "reposts": 5,
+      "comments": 18,
+      "likes": 96
+    },
+    {
+      "post_id": "detail-8802133611302052298",
+      "published_at": "2025-10-14T21:21:00+08:00",
+      "account_name": "仙狗嗨炸了",
+      "content_text": "#飞鹤发布新一代奶粉#无论什么时候，一款好的奶粉才能让孩子的妈妈放心！ ​",
+      "reposts": 5,
+      "comments": 19,
+      "likes": 98
+    },
+    {
+      "post_id": "detail-7644636276265573973",
+      "published_at": "2025-10-14T21:16:00+08:00",
+      "account_name": "早起吃可爱多",
+      "content_text": "#飞鹤发布新一代奶粉#飞鹤10.14京发“新一代更适合”奶粉，启萃等新品贴合母乳，董事长冷友斌称自2009年建12区母乳库助力研发，供近母乳营养。 ​",
+      "reposts": 5,
+      "comments": 18,
+      "likes": 99
+    },
+    {
+      "post_id": "detail-7536843854627342750",
+      "published_at": "2025-10-14T21:17:00+08:00",
+      "account_name": "苏苏不是酥酥u",
+      "content_text": "#飞鹤发布新一代奶粉#63年深耕，联合顶尖机构破译母乳密码！飞鹤新一代奶粉携鲜活营养系统与母源仿生配方而来，更贴合中国宝宝体质，每一口都是安心守护 。 ​",
+      "reposts": 5,
+      "comments": 18,
+      "likes": 98
+    }
+  ]
+}

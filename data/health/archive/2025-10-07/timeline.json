@@ -1,0 +1,194 @@
+{
+  "updated_at": "2025-12-05T20:45:44.962859+08:00",
+  "summary": {
+    "total_events": 10,
+    "by_major": {
+      "健康管理与养生": 4,
+      "医疗行业与技术动态": 2,
+      "环境与灾害关联健康问题": 4
+    }
+  },
+  "events": [
+    {
+      "event_id": "2025-10-05-topic-5e2547c6",
+      "title": "珠峰东坡暴雪有人员已出现失温症状",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759658400,
+      "end_ts": 1759662000,
+      "heat_peak": 335645.0,
+      "sentiment": -0.4,
+      "region": "西藏",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759662000,
+          "heat": 335645.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-1cf1bf2f",
+      "title": "建议气血不足的人不要留长发",
+      "category": "健康管理与养生",
+      "start_ts": 1759672800,
+      "end_ts": 1759676400,
+      "heat_peak": 205664.0,
+      "sentiment": 0.0,
+      "region": "未知",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759676400,
+          "heat": 205664.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-05-topic-a9063be9",
+      "title": "河南多地现行走的硫酸",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759672800,
+      "end_ts": 1759676400,
+      "heat_peak": 1128296.0,
+      "sentiment": -0.6,
+      "region": "河南",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759676400,
+          "heat": 1128296.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-topic-f53afea7",
+      "title": "诺贝尔",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1759744800,
+      "end_ts": 1759748400,
+      "heat_peak": 298871.0,
+      "sentiment": 0.25,
+      "region": "国外",
+      "point_count": 2,
+      "points": [
+        {
+          "ts": 1759748400,
+          "heat": 298871.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-topic-a209d187",
+      "title": "多名中国公民在澳徒步登山身亡",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 240928.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 240928.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-vs",
+      "title": "最好的睡姿vs最差的睡姿",
+      "category": "健康管理与养生",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 247877.0,
+      "sentiment": 0.1,
+      "region": "未知",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 247877.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-06-124",
+      "title": "诺贝尔奖奖金124年没花完",
+      "category": "医疗行业与技术动态",
+      "start_ts": 1759748400,
+      "end_ts": 1759762800,
+      "heat_peak": 251010.0,
+      "sentiment": 0.0,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759762800,
+          "heat": 251010.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-07-topic-5e114f9d",
+      "title": "医生说加沙医院惨状像屠宰场",
+      "category": "环境与灾害关联健康问题",
+      "start_ts": 1759798800,
+      "end_ts": 1759816800,
+      "heat_peak": 202102.0,
+      "sentiment": -0.7,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759816800,
+          "heat": 202102.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-07-topic-f4bc4f4f",
+      "title": "迪奥设计师 工作累丑",
+      "category": "健康管理与养生",
+      "start_ts": 1759834800,
+      "end_ts": 1759849200,
+      "heat_peak": 406329.0,
+      "sentiment": -0.3,
+      "region": "国外",
+      "point_count": 5,
+      "points": [
+        {
+          "ts": 1759849200,
+          "heat": 406329.0,
+          "rank": null
+        }
+      ]
+    },
+    {
+      "event_id": "2025-10-07-topic-09bab92f",
+      "title": "鸡排哥回应嘴唇发紫发白",
+      "category": "健康管理与养生",
+      "start_ts": 1759838400,
+      "end_ts": 1759849200,
+      "heat_peak": 236026.0,
+      "sentiment": -0.3,
+      "region": "江西",
+      "point_count": 4,
+      "points": [
+        {
+          "ts": 1759849200,
+          "heat": 236026.0,
+          "rank": null
+        }
+      ]
+    }
+  ],
+  "date": "2025-10-07"
+}
