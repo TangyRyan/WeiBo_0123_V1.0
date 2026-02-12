@@ -34,6 +34,7 @@ from spider.update_posts import (
     ensure_topic_posts,
     refresh_posts_for_date,
 )
+from spider.post_health import check_hourly_posts_empty, check_daily_posts_empty
 from backend.config import HOURLY_DIR, POST_DIR
 from backend.storage import (
     load_daily_archive,
@@ -48,6 +49,20 @@ def _resolve_path(value: Optional[str], default: Path) -> Path:
     if not value:
         return default
     return from_data_relative(value)
+
+
+def _parse_daily_check_time(raw: str) -> Tuple[int, int]:
+    try:
+        parts = str(raw).strip().split(":")
+        if len(parts) != 2:
+            return 15, 40
+        hour = int(parts[0])
+        minute = int(parts[1])
+        if 0 <= hour <= 23 and 0 <= minute <= 59:
+            return hour, minute
+    except Exception:
+        pass
+    return 15, 40
 
 
 POLL_INTERVAL_SECONDS = get_env_int("WEIBO_MONITOR_POLL_INTERVAL", 600) or 600
@@ -71,6 +86,9 @@ HOURLY_POST_LIMIT = get_env_int("WEIBO_MONITOR_HOURLY_POST_LIMIT", 50) or 50
 RATE_LIMIT_SLEEP_SECONDS = get_env_int("WEIBO_MONITOR_AICARD_SLEEP", 300) or 300
 POST_REFRESH_INTERVAL_SECONDS = get_env_int("WEIBO_POST_REFRESH_INTERVAL_SECONDS", 14400) or 14400
 POST_REFRESH_META_PATH = POST_DIR / "post_refresh_meta.json"
+_DAILY_CHECK_TIME_RAW = get_env_str("WEIBO_DAILY_POST_EMPTY_CHECK_TIME", "15:40") or "15:40"
+_DAILY_CHECK_HOUR, _DAILY_CHECK_MINUTE = _parse_daily_check_time(_DAILY_CHECK_TIME_RAW)
+_LAST_DAILY_CHECK_DATE: Optional[str] = None
 
 
 def ensure_hourly_dir() -> None:
@@ -187,6 +205,10 @@ def process_hour(date_str: str, hour: int) -> bool:
         return False
     _refresh_posts_if_needed(date_str)
     _collect_hourly_posts(date_str, hour, topics)
+    try:
+        check_hourly_posts_empty(date_str, hour, trigger=True, async_mode=True)
+    except Exception as exc:  # pragma: no cover - guardrails for monitor loop
+        logging.warning("Hourly posts empty check failed for %s %02d: %s", date_str, hour, exc)
     logging.debug("Completed processing for %s %02d (local_used=%s)", date_str, hour, local_used)
     return True
 
@@ -420,12 +442,27 @@ def _collect_hourly_posts(date_str: str, hour: int, topics: List[dict]) -> Dict[
     return payload_map
 
 
+def _maybe_run_daily_posts_check(now: datetime) -> None:
+    global _LAST_DAILY_CHECK_DATE  # noqa: PLW0603
+    date_str = now.strftime("%Y-%m-%d")
+    if _LAST_DAILY_CHECK_DATE == date_str:
+        return
+    if (now.hour, now.minute) < (_DAILY_CHECK_HOUR, _DAILY_CHECK_MINUTE):
+        return
+    _LAST_DAILY_CHECK_DATE = date_str
+    try:
+        check_daily_posts_empty(date_str, trigger=True, async_mode=True)
+    except Exception as exc:  # pragma: no cover - guardrails for monitor loop
+        logging.warning("Daily posts empty check failed for %s: %s", date_str, exc)
+
+
 async def run_loop() -> None:
     ensure_dirs()
     ensure_hourly_dir()
     await asyncio.to_thread(process_latest_hour, True)
     while True:
         processed = await asyncio.to_thread(process_pending_hours)
+        _maybe_run_daily_posts_check(datetime.now(tz=CHINA_TZ))
         sleep_for = RECENT_RETRY_SECONDS if processed else POLL_INTERVAL_SECONDS
         logging.info("Sleeping %s seconds before next check", sleep_for)
         await asyncio.sleep(sleep_for)

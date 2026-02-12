@@ -27,7 +27,9 @@ def _should_weibo_login() -> bool:
     if not get_env_bool("RUN_SERVER_WEIBO_LOGIN", True):
         _logger.info("RUN_SERVER_WEIBO_LOGIN=0 -> skipping media_platform login")
         return False
-    if get_env_str("WEIBO_COOKIE") or get_env_str("WEIBO_COOKIES"):
+    if get_env_str("WEIBO_COOKIES"):
+        _logger.warning("WEIBO_COOKIES is set but ignored; use WEIBO_COOKIE only.")
+    if get_env_str("WEIBO_COOKIE"):
         return False
     return True
 
@@ -54,6 +56,9 @@ def _ensure_weibo_cookie() -> None:
         get_env_str("RUN_SERVER_WEIBO_LOGIN_ENV_PATH", str(weibo_login.ENV_PATH))
         or str(weibo_login.ENV_PATH)
     )
+
+    if not os.environ.get("WEIBO_COOKIE_ENV_PATH"):
+        os.environ["WEIBO_COOKIE_ENV_PATH"] = str(env_path)
 
     weibo_login.USER_DATA_DIR = user_data_dir
     weibo_login.LOGIN_HEADLESS = headless

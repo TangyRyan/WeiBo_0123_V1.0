@@ -17,6 +17,7 @@ from backend.config import (
     AICARD_DIR,
     ARCHIVE_DIR,
     DAILY_LLM_TIME,
+    DAILY_TOTALS_TIME,
     DELETE_RETENTION_DAYS,
     HEALTH_TOPIC_ENABLED,
     HEALTH_TOPIC_INTERVAL_MINUTES,
@@ -35,6 +36,8 @@ from backend.config import (
     SLIM_RETENTION_DAYS,
     SLIM_TIME,
 )
+from backend.daily_totals import refresh_daily_totals
+from backend.settings import get_env_str
 from backend.central_cache import update_central_cache_for_date
 from backend.llm.analysis import call_openai
 from backend.health import refresh_health_snapshot
@@ -59,6 +62,7 @@ from backend.storage import (
 )
 from spider.crawler_core import CHINA_TZ, slugify_title
 from spider.monitor_remote_hot_topics import collect_pending_hours, hour_path, process_hour
+from spider.post_health import check_daily_posts_empty
 
 logger = logging.getLogger(__name__)
 
@@ -68,6 +72,7 @@ _SCHEDULER: Optional[BackgroundScheduler] = None
 ARCHIVE_LOCK = threading.Lock()
 _DATE_TOKEN_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _HASHTAG_PATTERN = re.compile(r"#([^#]+)#")
+_DAILY_EMPTY_CHECK_TIME = get_env_str("WEIBO_DAILY_POST_EMPTY_CHECK_TIME", "15:40") or "15:40"
 
 
 def _parse_monitor_cron(cron_expr: str) -> Optional[CronTrigger]:
@@ -91,6 +96,20 @@ def _parse_monitor_cron(cron_expr: str) -> Optional[CronTrigger]:
         logger.exception("Invalid WEIBO_MONITOR_CRON=%s; fallback to interval", cron_expr)
         return None
     logger.error("Invalid WEIBO_MONITOR_CRON format: %s", cron_expr)
+    return None
+
+
+def _parse_daily_check_time(value: str) -> Optional[tuple[int, int]]:
+    try:
+        parts = str(value).strip().split(":")
+        if len(parts) != 2:
+            return None
+        hour = int(parts[0])
+        minute = int(parts[1])
+        if 0 <= hour <= 23 and 0 <= minute <= 59:
+            return hour, minute
+    except Exception:
+        return None
     return None
 
 
@@ -209,6 +228,14 @@ def _health_topic_job() -> None:
         )
     except Exception:
         logger.exception("Health topic job failed")
+
+
+def _daily_posts_empty_job() -> None:
+    try:
+        today = datetime.now(tz=CHINA_TZ).strftime("%Y-%m-%d")
+        check_daily_posts_empty(today, trigger=True, async_mode=True, logger=logger)
+    except Exception:
+        logger.exception("Daily posts empty job failed")
 
 
 def _coerce_media(item: Dict[str, Any]) -> List[str]:
@@ -834,6 +861,10 @@ def daily_llm_update(*, target_date: Optional[str] = None, force: bool = False) 
         update_central_cache_for_date(target_str, archive, max_days=LIGHT_RETENTION_DAYS)
     except Exception:
         logger.exception("Failed to update central cache for %s", target_str)
+    try:
+        refresh_daily_totals()
+    except Exception:
+        logger.exception("Failed to refresh daily totals")
 
 
 def top_risk_warnings(window_days: int = 7, top_k: int = 5) -> Dict[str, Any]:
@@ -897,6 +928,25 @@ def start_scheduler() -> BackgroundScheduler:
         )
     else:
         logger.info("Daily LLM job disabled via WEIBO_LLM_ENABLED")
+    try:
+        totals_hh, totals_mm = DAILY_TOTALS_TIME.split(":")
+        scheduler.add_job(
+            refresh_daily_totals,
+            CronTrigger(hour=int(totals_hh), minute=int(totals_mm), timezone="Asia/Shanghai"),
+            id="daily_totals",
+        )
+    except Exception:
+        logger.exception("Invalid DAILY_TOTALS_TIME=%s; daily totals job skipped", DAILY_TOTALS_TIME)
+    daily_check_time = _parse_daily_check_time(_DAILY_EMPTY_CHECK_TIME)
+    if daily_check_time:
+        check_hh, check_mm = daily_check_time
+        scheduler.add_job(
+            _daily_posts_empty_job,
+            CronTrigger(hour=check_hh, minute=check_mm, timezone="Asia/Shanghai"),
+            id="daily_posts_empty",
+        )
+    else:
+        logger.warning("Invalid WEIBO_DAILY_POST_EMPTY_CHECK_TIME=%s; daily empty check skipped", _DAILY_EMPTY_CHECK_TIME)
     try:
         slim_hh, slim_mm = SLIM_TIME.split(":")
         scheduler.add_job(

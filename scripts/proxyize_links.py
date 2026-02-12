@@ -7,9 +7,16 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from backend.proxy import build_proxy_media_url, is_media_url
+from backend.proxy import (
+    LEGACY_PROXY_PATH,
+    PROXY_MEDIA_PATH,
+    build_proxy_media_url,
+    is_media_url,
+)
 
-URL_PATTERN_MD = re.compile(r"(?:https?:)?//[^\s)\"'>]+")
+URL_PATTERN_MD = re.compile(
+    r"(?:https?:)?//[^\s)\"'>]+|/(?:proxy/media|api/proxy/image)\?[^\s)\"'>]+"
+)
 DATE_DIR_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}$")
 
 
@@ -20,9 +27,14 @@ def process_md(path: Path) -> int:
     def repl(match: re.Match) -> str:
         nonlocal count
         url = match.group(0)
+        if url.startswith((PROXY_MEDIA_PATH, LEGACY_PROXY_PATH)):
+            upgraded = build_proxy_media_url(url, images_only=True)
+            if upgraded != url:
+                count += 1
+            return upgraded
         if not is_media_url(url):
             return url
-        proxied = build_proxy_media_url(url, images_only=False)
+        proxied = build_proxy_media_url(url, images_only=True)
         if proxied != url:
             count += 1
             return proxied
@@ -36,11 +48,16 @@ def process_md(path: Path) -> int:
 
 def walk_json(value, counter):
     if isinstance(value, str):
+        if value.startswith((PROXY_MEDIA_PATH, LEGACY_PROXY_PATH)):
+            proxied = build_proxy_media_url(value, images_only=True)
+            if proxied != value:
+                counter[0] += 1
+            return proxied
         if value.startswith(("http://", "https://", "//")):
             if not is_media_url(value):
                 return value
             try:
-                proxied = build_proxy_media_url(value, images_only=False)
+                proxied = build_proxy_media_url(value, images_only=True)
             except Exception:
                 return value
             if proxied != value:

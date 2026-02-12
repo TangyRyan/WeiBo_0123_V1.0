@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Optional, Sequence
 from spider.config import get_env_float, get_env_int, get_env_str
 from spider.crawler_core import CHINA_TZ, CrawlParams, crawl_topic, ensure_hashtag_format, slugify_title
 from spider.weibo_topic_detail import WeiboPost, get_top_20_hot_posts
-from backend.proxy import attach_proxy_to_media
+from backend.proxy import attach_proxy_to_media, build_proxy_media_url
 from backend.config import ARCHIVE_DIR, POST_DIR, KNOWN_IDS_MAX, SLIM_POST_TEXT_LIMIT
 from backend.storage import load_daily_archive, save_daily_archive, to_data_relative, write_json
 
@@ -249,8 +249,9 @@ def _slim_post_item(item: Dict[str, Any], *, text_limit: int = 0) -> Dict[str, A
     if text_limit and len(text) > text_limit:
         text = text[:text_limit]
     pics = item.get("pics") or item.get("image_links") or []
-    proxied_pics = attach_proxy_to_media(pics, images_only=True)
-    proxied_video = attach_proxy_to_media(item.get("video"), images_only=True)
+    # pics 已明确是图片列表，强制走代理避免无扩展名图片漏掉
+    proxied_pics = attach_proxy_to_media(pics, images_only=False)
+    proxied_video = _proxy_video_images(item.get("video"))
     return {
         "id": item.get("id") or item.get("mid") or item.get("post_id"),
         "bid": item.get("bid"),
@@ -264,6 +265,17 @@ def _slim_post_item(item: Dict[str, Any], *, text_limit: int = 0) -> Dict[str, A
         "pics": proxied_pics,
         "video": proxied_video,
     }
+
+
+def _proxy_video_images(video: Any) -> Any:
+    if not isinstance(video, dict):
+        return video
+    copy = dict(video)
+    for key in ("cover", "poster", "thumbnail", "thumb", "image", "pic"):
+        value = copy.get(key)
+        if isinstance(value, str) and value:
+            copy[key] = build_proxy_media_url(value, images_only=False)
+    return copy
 
 
 def _build_video_payload(video_link: str) -> Optional[Dict[str, Any]]:

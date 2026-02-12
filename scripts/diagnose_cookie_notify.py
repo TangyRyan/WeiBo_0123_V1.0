@@ -10,7 +10,7 @@ if ROOT not in sys.path:
     sys.path.append(ROOT)
 
 from spider.config import get_env_bool, get_env_list, get_env_str
-from spider.cookie_pool import get_cookie_pool
+from spider.cookie_manager import get_cookie, refresh_cookie_sync
 from spider.notify_email import notify_cookie_invalid
 
 
@@ -26,9 +26,9 @@ def main() -> int:
         help="Trigger notify_cookie_invalid directly (will attempt to send email).",
     )
     parser.add_argument(
-        "--mark-bad",
+        "--refresh-cookie",
         action="store_true",
-        help="Trigger cookie_pool.mark_bad on current cookie (will attempt to send email).",
+        help="Trigger login refresh flow (will attempt to send QR email).",
     )
     args = parser.parse_args()
 
@@ -36,27 +36,21 @@ def main() -> int:
     user_set = bool((get_env_str("WEIBO_EMAIL_USER") or "").strip())
     auth_set = bool((get_env_str("WEIBO_EMAIL_AUTH_CODE") or "").strip())
     to_list = get_env_list("WEIBO_EMAIL_TO")
-    pool_enabled = get_env_bool("WEIBO_COOKIE_POOL_ENABLED", True)
-    cookie_single = bool((get_env_str("WEIBO_COOKIE") or "").strip())
-    cookie_multi = bool((get_env_str("WEIBO_COOKIES") or "").strip())
+    cookie_single = bool(get_cookie())
 
     print(f"email_notify_enabled={_flag(enabled)}")
     print(f"email_user_set={_flag(user_set)}")
     print(f"email_auth_code_set={_flag(auth_set)}")
     print(f"email_to_set={_flag(bool(to_list))}")
-    print(f"cookie_pool_enabled={_flag(pool_enabled)}")
     print(f"weibo_cookie_set={_flag(cookie_single)}")
-    print(f"weibo_cookies_set={_flag(cookie_multi)}")
 
     if args.send_test:
         notify_cookie_invalid("manual_test", "manual_test")
         print("notify_cookie_invalid triggered (check logs)")
 
-    if args.mark_bad:
-        pool = get_cookie_pool()
-        choice = pool.current()
-        pool.mark_bad(choice, reason="manual_test")
-        print(f"mark_bad triggered for label={choice.label}")
+    if args.refresh_cookie:
+        refreshed = refresh_cookie_sync("manual_test", notify_label="manual_refresh")
+        print("refresh_cookie triggered" if refreshed else "refresh_cookie skipped/failed")
 
     return 0
 

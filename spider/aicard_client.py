@@ -10,7 +10,7 @@ from requests import Response, Session
 from urllib.parse import quote_plus
 
 from spider.rate_limiter import create_policy_from_env
-from spider.cookie_pool import CookieChoice, get_cookie_pool
+from spider.cookie_manager import get_cookie, refresh_cookie_sync
 
 CHINA_TZ = timezone.utc  # fallback; overwritten on module load
 
@@ -36,7 +36,7 @@ _RATE_POLICY = create_policy_from_env(
     cooldown_window=3600,
     soft_threshold=2,
 )
-_COOKIE_POOL = get_cookie_pool()
+_COOKIE_NOTIFY_LABEL = "aicard_cookie_refresh"
 
 DEFAULT_HEADERS: Dict[str, str] = {
     "Pragma": "no-cache",
@@ -173,9 +173,9 @@ def fetch_ai_card(
     if retries < 0:
         raise ValueError("retries must be non-negative")
 
-    cookie_choice = _COOKIE_POOL.current()
+    cookie_value = get_cookie()
     extra_has_cookie = bool(extra_headers and "Cookie" in extra_headers)
-    headers = _build_headers(extra_headers, cookie_choice.cookie if not extra_has_cookie else None)
+    headers = _build_headers(extra_headers, cookie_value if not extra_has_cookie else None)
     payload = _build_payload(query, extra_payload, request_id)
     owns_session = session is None
     sess = session or requests.Session()
@@ -184,6 +184,7 @@ def fetch_ai_card(
     try:
         last_error: Optional[Exception] = None
         response: Optional[Response] = None
+        refreshed = False
         for attempt in range(retries + 1):
             try:
                 in_cooldown, cooldown_wait = policy.in_cooldown()
@@ -192,9 +193,11 @@ def fetch_ai_card(
                 response = _send_request(sess, payload, headers, timeout)
                 status = response.status_code
                 if status in {403, 418}:
-                    if not extra_has_cookie:
-                        cookie_choice = _COOKIE_POOL.mark_bad(cookie_choice, f"aicard_http_{status}")
-                        headers["Cookie"] = cookie_choice.cookie
+                    if not extra_has_cookie and not refreshed:
+                        new_cookie = refresh_cookie_sync(f"aicard_http_{status}", notify_label=_COOKIE_NOTIFY_LABEL)
+                        if new_cookie:
+                            headers["Cookie"] = new_cookie
+                        refreshed = True
                     wait_seconds = policy.next_delay()
                     logger.warning(
                         "AI Card request hit HTTP %s on attempt %s/%s; sleeping %.1fs",

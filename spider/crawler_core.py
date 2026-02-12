@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Optional, Sequence, Set, Tuple
 
 import requests
 
-from spider.cookie_pool import CookieChoice, get_cookie_pool
+from spider.cookie_manager import get_cookie, refresh_cookie_sync
 from spider.notify_email import notify_cookie_invalid
 from spider.rate_limiter import create_policy_from_env
 
@@ -54,20 +54,29 @@ _CRAWLER_POLICY = create_policy_from_env(
     soft_threshold=2,
 )
 
-_COOKIE_POOL = get_cookie_pool()
 _CONNECTION_NOTIFY_LABEL = "crawler_connection_error"
+_COOKIE_NOTIFY_LABEL = "crawler_cookie_refresh"
+_COOKIE_LABEL = "env"
 
 
-def _apply_cookie(session: requests.Session, choice: CookieChoice) -> CookieChoice:
-    session.headers["Cookie"] = choice.cookie
-    return choice
+def _apply_cookie(session: requests.Session, cookie: str) -> str:
+    cookie = (cookie or "").strip()
+    if cookie:
+        session.headers["Cookie"] = cookie
+    else:
+        session.headers.pop("Cookie", None)
+    return cookie
 
 
-def _rotate_cookie(session: requests.Session, current: CookieChoice, reason: str) -> CookieChoice:
-    new_choice = _COOKIE_POOL.mark_bad(current, reason=reason)
-    session.headers["Cookie"] = new_choice.cookie
-    logging.warning("Switched cookie to %s (%s)", new_choice.label, reason)
-    return new_choice
+def _refresh_cookie(session: requests.Session, current_cookie: str, reason: str) -> str:
+    new_cookie = refresh_cookie_sync(reason, notify_label=_COOKIE_NOTIFY_LABEL)
+    if new_cookie:
+        session.headers["Cookie"] = new_cookie
+        logging.warning("Refreshed cookie (%s)", reason)
+        return new_cookie
+    if current_cookie:
+        session.headers["Cookie"] = current_cookie
+    return current_cookie
 
 
 def _is_connection_error(exc: Exception) -> bool:
@@ -235,8 +244,8 @@ def calculate_score(mblog: Dict[str, Any]) -> float:
 
 
 def fetch_page(
-    session: requests.Session, hashtag: str, page: int, cookie: CookieChoice
-) -> Tuple[Optional[Dict[str, Any]], Optional[str], CookieChoice]:
+    session: requests.Session, hashtag: str, page: int, cookie: str
+) -> Tuple[Optional[Dict[str, Any]], Optional[str], str]:
     params = {"containerid": f"231522type=60&q={hashtag}&t=10"}
     if page > 1:
         params["page"] = page
@@ -245,6 +254,7 @@ def fetch_page(
     last_error: Optional[str] = None
     policy = _CRAWLER_POLICY
     active_cookie = cookie
+    refreshed = False
     notified_connection_error = False
     while attempt < MAX_RETRIES:
         attempt += 1
@@ -269,18 +279,19 @@ def fetch_page(
                 last_error = f"ok={data.get('ok')}"
                 msg = str(data.get("msg") or data.get("message") or "").lower()
                 if any(key in msg for key in ["login", "登录", "auth", "频繁"]):
-                    active_cookie = _rotate_cookie(
-                        session,
-                        active_cookie,
-                        f"api_msg:{msg[:32]}",
-                    )
-                    continue
+                    if not refreshed:
+                        active_cookie = _refresh_cookie(session, active_cookie, f"api_msg:{msg[:32]}")
+                        refreshed = True
+                        continue
+                    return None, last_error, active_cookie
                 logging.warning("page %s returned ok=%s (stopping)", page, data.get("ok"))
                 return None, last_error, active_cookie
             if response.status_code in {403, 418}:
                 last_error = f"http_{response.status_code}"
                 logging.error("HTTP %s requires new cookie or lower frequency", response.status_code)
-                active_cookie = _rotate_cookie(session, active_cookie, last_error)
+                if not refreshed:
+                    active_cookie = _refresh_cookie(session, active_cookie, last_error)
+                    refreshed = True
                 wait_seconds = policy.next_delay()
                 logging.warning(
                     "Crawler rate limit backoff sleeping %.1fs (attempt %s/%s)",
@@ -305,7 +316,7 @@ def fetch_page(
             logging.warning("request error on page %s: %s", page, exc)
             if not notified_connection_error and _is_connection_error(exc):
                 notified_connection_error = True
-                _notify_connection_error(f"crawler:{active_cookie.label}:{exc}")
+                _notify_connection_error(f"crawler:{_COOKIE_LABEL}:{exc}")
         delay = (RETRY_BACKOFF ** (attempt - 1)) + random.uniform(0, 0.5)
         time.sleep(delay)
     logging.error("page %s failed after max retries", page)
@@ -316,8 +327,8 @@ def fetch_page(
 def crawl_topic(params: CrawlParams) -> Dict[str, Any]:
     session = requests.Session()
     session.headers.update(DEFAULT_HEADERS)
-    active_cookie = _apply_cookie(session, _COOKIE_POOL.current())
-    logging.info("Using cookie %s for topic %s", active_cookie.label, params.hashtag)
+    active_cookie = _apply_cookie(session, get_cookie())
+    logging.info("Using cookie %s for topic %s", _COOKIE_LABEL, params.hashtag)
     skip_ids = set(params.skip_ids or [])
     seen_ids = set(skip_ids)
     collected: List[Dict[str, Any]] = []

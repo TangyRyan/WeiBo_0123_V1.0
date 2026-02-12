@@ -106,20 +106,6 @@ def _persist_login_state(storage_state: dict) -> List[dict]:
         pass
     return cookies
 
-def _load_cookies_from_file() -> Optional[List[dict]]:
-    """（可选）从 weibo_cookies.json 预置一份 Cookie 到上下文"""
-    if COOKIES_PATH.exists():
-        try:
-            data = json.loads(COOKIES_PATH.read_text(encoding="utf-8"))
-            # 兼容两种结构：纯 list 或 {"cookies": [...]}
-            if isinstance(data, dict) and "cookies" in data:
-                return data["cookies"]
-            if isinstance(data, list):
-                return data
-        except Exception:
-            return None
-    return None
-
 def _cookie_dict(cookies: List[dict]) -> dict:
     result = {}
     for item in cookies:
@@ -390,8 +376,6 @@ async def get_top_20_hot_posts(topic_title: str) -> List[WeiboPost]:
     search_url = POSTS_SEARCH_URL.format(quote(topic_title.replace("#", "")))
     logging.info(f"开始抓取话题 '{topic_title}' 的热门微博...")
 
-    seed_cookies = _load_cookies_from_file()  # 仅用于冷启动时的种子 Cookie
-
     async with async_playwright() as p:
         attempt = 0
         posts: List[WeiboPost] = []
@@ -405,13 +389,6 @@ async def get_top_20_hot_posts(topic_title: str) -> List[WeiboPost]:
                 headless=HEADLESS,  # ★ 常态：静默
                 args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox", "--window-position=-32000,-32000"]
             )
-
-            # 冷启动可补种 cookie（不会覆盖 storage_state 里已有cookie）
-            try:
-                if seed_cookies:
-                    await context.add_cookies(seed_cookies)
-            except Exception:
-                pass
 
             page = await context.new_page()
 

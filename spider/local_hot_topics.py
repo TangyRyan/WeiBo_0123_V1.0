@@ -15,7 +15,7 @@ from lxml import etree
 from urllib.parse import quote
 
 from backend.config import HOURLY_DIR
-from spider.cookie_pool import CookieChoice, get_cookie_pool
+from spider.cookie_manager import get_cookie, refresh_cookie_sync
 
 logger = logging.getLogger(__name__)
 
@@ -26,24 +26,24 @@ DETAIL_URL = "https://m.s.weibo.com/topic/detail?q={query}"
 REQUEST_TIMEOUT = 10
 DEFAULT_LIMIT = 50
 LOCAL_ARCHIVE_ROOT = HOURLY_DIR / "local"
-_COOKIE_POOL = get_cookie_pool()
+_COOKIE_NOTIFY_LABEL = "local_hot_topics_cookie_refresh"
 
 
 def fetch_latest_topics_local(limit: int = DEFAULT_LIMIT, *, persist: bool = True) -> List[Dict[str, Any]]:
     """Fetch the current Weibo hot topics and optionally persist a snapshot."""
     limit = max(limit, 0)
     session = requests.Session()
-    cookie_choice = _COOKIE_POOL.current()
+    cookie_value = get_cookie()
     try:
-        topics, cookie_choice = _fetch_from_hot_search_api(limit, session, cookie_choice)
+        topics, cookie_value = _fetch_from_hot_search_api(limit, session, cookie_value)
         if not topics:
             logger.info("Hot search API yielded no data; falling back to HTML parse")
-            topics, cookie_choice = _fetch_from_html(limit, session, cookie_choice)
+            topics, cookie_value = _fetch_from_html(limit, session, cookie_value)
             if not topics:
                 logger.warning("Local crawler produced no topics from API or HTML fallback")
                 return []
 
-        cookie_choice = _enrich_topics(topics, session, cookie_choice)
+        cookie_value = _enrich_topics(topics, session, cookie_value)
     finally:
         session.close()
 
@@ -56,102 +56,107 @@ def fetch_latest_topics_local(limit: int = DEFAULT_LIMIT, *, persist: bool = Tru
     return topics
 
 
+def _refresh_cookie_value(cookie_value: str, reason: str) -> str:
+    new_cookie = refresh_cookie_sync(reason, notify_label=_COOKIE_NOTIFY_LABEL)
+    return new_cookie or cookie_value
+
+
 def _fetch_from_hot_search_api(
-    limit: int, session: requests.Session, cookie_choice: CookieChoice, *, retry: bool = True
-) -> Tuple[List[Dict[str, Any]], CookieChoice]:
-    headers = _build_headers(cookie_choice.cookie)
+    limit: int, session: requests.Session, cookie_value: str, *, retry: bool = True
+) -> Tuple[List[Dict[str, Any]], str]:
+    headers = _build_headers(cookie_value)
     try:
         response = session.get(HOT_SEARCH_API, headers=headers, timeout=REQUEST_TIMEOUT)
     except requests.RequestException as exc:
         logger.error("Hot search API request failed: %s", exc)
-        return [], cookie_choice
+        return [], cookie_value
 
     if response.status_code in {403, 418}:
-        cookie_choice = _COOKIE_POOL.mark_bad(cookie_choice, f"hot_api_http_{response.status_code}")
-        headers = _build_headers(cookie_choice.cookie)
+        cookie_value = _refresh_cookie_value(cookie_value, f"hot_api_http_{response.status_code}")
+        headers = _build_headers(cookie_value)
         try:
             response = session.get(HOT_SEARCH_API, headers=headers, timeout=REQUEST_TIMEOUT)
         except requests.RequestException as exc:
             logger.error("Hot search API retry failed: %s", exc)
-            return [], cookie_choice
+            return [], cookie_value
         if response.status_code in {403, 418}:
             logger.error("Hot search API blocked with HTTP %s after cookie switch", response.status_code)
-            return [], cookie_choice
+            return [], cookie_value
 
     try:
         response.raise_for_status()
         payload = response.json()
     except requests.RequestException as exc:
         logger.error("Hot search API request failed: %s", exc)
-        return [], cookie_choice
+        return [], cookie_value
     except ValueError as exc:
         logger.error("Hot search API returned invalid JSON: %s", exc)
-        return [], cookie_choice
+        return [], cookie_value
 
     msg = str(payload.get("msg") or payload.get("message") or "").lower()
     if retry and msg and any(key in msg for key in ["login", "登录", "auth", "频繁"]):
-        cookie_choice = _COOKIE_POOL.mark_bad(cookie_choice, f"hot_api_msg:{msg[:32]}")
-        return _fetch_from_hot_search_api(limit, session, cookie_choice, retry=False)
+        cookie_value = _refresh_cookie_value(cookie_value, f"hot_api_msg:{msg[:32]}")
+        return _fetch_from_hot_search_api(limit, session, cookie_value, retry=False)
 
     data = payload.get("data", {})
     realtime = data.get("realtime") or []
     if not isinstance(realtime, list):
         logger.error("Unexpected hot search payload format: %s", type(realtime))
-        return [], cookie_choice
+        return [], cookie_value
 
     normalized = [_normalize_api_topic(item) for item in realtime]
-    return list(_take_unique(normalized, limit)), cookie_choice
+    return list(_take_unique(normalized, limit)), cookie_value
 
 
 def _fetch_from_html(
-    limit: int, session: requests.Session, cookie_choice: CookieChoice
-) -> Tuple[List[Dict[str, Any]], CookieChoice]:
-    html, cookie_choice = fetch_hot_topics_html(session, cookie_choice)
+    limit: int, session: requests.Session, cookie_value: str
+) -> Tuple[List[Dict[str, Any]], str]:
+    html, cookie_value = fetch_hot_topics_html(session, cookie_value)
     if not html:
         logger.warning("Local crawler received empty HTML payload")
-        return [], cookie_choice
+        return [], cookie_value
 
     raw_topics = parse_hot_topics(html)
     if not raw_topics:
         logger.warning("Local crawler found no topics in parsed HTML")
-        return [], cookie_choice
+        return [], cookie_value
 
     normalized = [_normalize_parsed_topic(topic) for topic in raw_topics]
-    return list(_take_unique(normalized, limit)), cookie_choice
+    return list(_take_unique(normalized, limit)), cookie_value
 
 
 def fetch_hot_topics_html(
-    session: requests.Session, cookie_choice: CookieChoice, *, retry: bool = True
-) -> Tuple[str, CookieChoice]:
+    session: requests.Session, cookie_value: str, *, retry: bool = True
+) -> Tuple[str, str]:
     """Retrieve the hot topics HTML page."""
-    headers = _build_headers(cookie_choice.cookie)
+    headers = _build_headers(cookie_value)
     url = f"{BASE_URL}{SUMMARY_ENDPOINT}"
     try:
         response = session.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
     except requests.RequestException as exc:
         logger.error("Failed to fetch %s: %s", url, exc)
-        return "", cookie_choice
+        return "", cookie_value
 
     if retry and response.status_code in {403, 418}:
-        cookie_choice = _COOKIE_POOL.mark_bad(cookie_choice, f"hot_html_http_{response.status_code}")
-        headers = _build_headers(cookie_choice.cookie)
+        cookie_value = _refresh_cookie_value(cookie_value, f"hot_html_http_{response.status_code}")
+        headers = _build_headers(cookie_value)
         try:
             response = session.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
         except requests.RequestException as exc:
             logger.error("HTML retry failed for %s: %s", url, exc)
-            return "", cookie_choice
+            return "", cookie_value
         if response.status_code in {403, 418}:
             logger.error("HTML blocked with HTTP %s after cookie switch", response.status_code)
-            return "", cookie_choice
+            return "", cookie_value
 
     try:
         response.raise_for_status()
     except requests.RequestException as exc:
         logger.error("Failed to fetch %s: %s", url, exc)
-        return "", cookie_choice
+        return "", cookie_value
 
     response.encoding = response.apparent_encoding or response.encoding
-    return response.text or "", cookie_choice
+    return response.text or "", cookie_value
 
 
 def parse_hot_topics(html: str) -> List[Dict[str, Any]]:
@@ -275,14 +280,14 @@ def _split_hot_and_category(hot_text: str) -> Tuple[int, str]:
 
 
 def _enrich_topics(
-    topics: List[Dict[str, Any]], session: requests.Session, cookie_choice: CookieChoice
-) -> CookieChoice:
+    topics: List[Dict[str, Any]], session: requests.Session, cookie_value: str
+) -> str:
     """Populate read/discuss statistics via the topic detail page."""
     for topic in topics:
         title = topic.get("title")
         if not title:
             continue
-        detail, cookie_choice = _fetch_topic_detail(title, session, cookie_choice)
+        detail, cookie_value = _fetch_topic_detail(title, session, cookie_value)
         if not detail:
             continue
         if detail.get("category"):
@@ -292,38 +297,38 @@ def _enrich_topics(
         topic["readCount"] = detail.get("read_count", topic.get("readCount", 0))
         topic["discussCount"] = detail.get("discuss_count", topic.get("discussCount", 0))
         topic["origin"] = detail.get("origin", topic.get("origin", 0))
-    return cookie_choice
+    return cookie_value
 
 
 def _fetch_topic_detail(
-    title: str, session: requests.Session, cookie_choice: CookieChoice, *, retry: bool = True
-) -> Tuple[Dict[str, Any], CookieChoice]:
+    title: str, session: requests.Session, cookie_value: str, *, retry: bool = True
+) -> Tuple[Dict[str, Any], str]:
     query = quote(title, safe="")
     url = DETAIL_URL.format(query=query)
-    headers = _build_detail_headers(cookie_choice.cookie)
+    headers = _build_detail_headers(cookie_value)
     try:
         response = session.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
     except requests.RequestException as exc:
         logger.warning("Detail request failed for %s: %s", title, exc)
-        return {}, cookie_choice
+        return {}, cookie_value
 
     if retry and response.status_code in {403, 418}:
-        cookie_choice = _COOKIE_POOL.mark_bad(cookie_choice, f"detail_http_{response.status_code}")
-        headers = _build_detail_headers(cookie_choice.cookie)
+        cookie_value = _refresh_cookie_value(cookie_value, f"detail_http_{response.status_code}")
+        headers = _build_detail_headers(cookie_value)
         try:
             response = session.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
         except requests.RequestException as exc:
             logger.warning("Detail retry failed for %s: %s", title, exc)
-            return {}, cookie_choice
+            return {}, cookie_value
         if response.status_code in {403, 418}:
             logger.warning("Detail blocked with HTTP %s after cookie switch", response.status_code)
-            return {}, cookie_choice
+            return {}, cookie_value
 
     try:
         response.raise_for_status()
     except requests.RequestException as exc:
         logger.warning("Detail request failed for %s: %s", title, exc)
-        return {}, cookie_choice
+        return {}, cookie_value
 
     soup = BeautifulSoup(response.text, "html.parser")
     category_elem = soup.select_one("#pl_topicband dl > dd")
@@ -336,7 +341,7 @@ def _fetch_topic_detail(
         "discuss_count": stats[1] if len(stats) > 1 else 0,
         "origin": stats[2] if len(stats) > 2 else 0,
     }
-    return detail, cookie_choice
+    return detail, cookie_value
 
 
 def _to_number(val: str) -> int:

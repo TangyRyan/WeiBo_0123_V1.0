@@ -158,6 +158,8 @@ def build_proxy_media_url(raw_url: str, *, images_only: bool = False) -> str:
         return raw_url
     if not normalized or normalized.startswith("data:"):
         return normalized
+    if PROXY_MEDIA_BASE and normalized.startswith((PROXY_MEDIA_PATH, LEGACY_PROXY_PATH)):
+        return PROXY_MEDIA_BASE.rstrip("/") + normalized
     if _is_already_proxied(normalized):
         return normalized
     if not normalized.startswith(("http://", "https://")):
