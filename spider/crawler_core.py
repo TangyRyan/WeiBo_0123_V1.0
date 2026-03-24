@@ -15,6 +15,8 @@ import requests
 from spider.cookie_manager import get_cookie, refresh_cookie_sync
 from spider.notify_email import notify_cookie_invalid
 from spider.rate_limiter import create_policy_from_env
+from spider.config import get_env_str
+from spider.proxy_manager import get_proxy_url, refresh_proxy_in_env, is_proxy_error
 
 try:
     from bs4 import BeautifulSoup  # type: ignore
@@ -57,6 +59,13 @@ _CRAWLER_POLICY = create_policy_from_env(
 _CONNECTION_NOTIFY_LABEL = "crawler_connection_error"
 _COOKIE_NOTIFY_LABEL = "crawler_cookie_refresh"
 _COOKIE_LABEL = "env"
+
+
+def _apply_proxy(session: requests.Session) -> None:
+    proxy = get_proxy_url()
+    if proxy:
+        session.proxies = {"http": proxy, "https": proxy}
+        logging.info("Using HTTP proxy for crawler")
 
 
 def _apply_cookie(session: requests.Session, cookie: str) -> str:
@@ -278,9 +287,17 @@ def fetch_page(
                     return data, None, active_cookie
                 last_error = f"ok={data.get('ok')}"
                 msg = str(data.get("msg") or data.get("message") or "").lower()
-                if any(key in msg for key in ["login", "登录", "auth", "频繁"]):
+                redirect_url = str(data.get("url") or "").lower()
+                needs_login = (
+                    any(key in msg for key in ["login", "登录", "auth", "频繁"])
+                    or data.get("ok") == -100
+                    or "captcha" in redirect_url
+                    or "signin" in redirect_url
+                )
+                if needs_login:
                     if not refreshed:
-                        active_cookie = _refresh_cookie(session, active_cookie, f"api_msg:{msg[:32]}")
+                        logging.warning("page %s login/captcha required (ok=%s), refreshing cookie", page, data.get("ok"))
+                        active_cookie = _refresh_cookie(session, active_cookie, f"api_ok:{data.get('ok')}")
                         refreshed = True
                         continue
                     return None, last_error, active_cookie
@@ -314,7 +331,12 @@ def fetch_page(
         except requests.RequestException as exc:
             last_error = f"exception:{exc}"
             logging.warning("request error on page %s: %s", page, exc)
-            if not notified_connection_error and _is_connection_error(exc):
+            if is_proxy_error(exc):
+                logging.warning("Proxy error detected, refreshing proxy...")
+                new_proxy = refresh_proxy_in_env()
+                if new_proxy:
+                    _apply_proxy(session)
+            elif not notified_connection_error and _is_connection_error(exc):
                 notified_connection_error = True
                 _notify_connection_error(f"crawler:{_COOKIE_LABEL}:{exc}")
         delay = (RETRY_BACKOFF ** (attempt - 1)) + random.uniform(0, 0.5)
@@ -327,6 +349,7 @@ def fetch_page(
 def crawl_topic(params: CrawlParams) -> Dict[str, Any]:
     session = requests.Session()
     session.headers.update(DEFAULT_HEADERS)
+    _apply_proxy(session)
     active_cookie = _apply_cookie(session, get_cookie())
     logging.info("Using cookie %s for topic %s", _COOKIE_LABEL, params.hashtag)
     skip_ids = set(params.skip_ids or [])

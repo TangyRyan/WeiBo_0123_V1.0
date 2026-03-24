@@ -7,6 +7,7 @@ from flask import Blueprint, jsonify, request
 
 from backend.health import available_dates, health_event_detail, latest_timeline
 from backend.health.dataset_loader import dataset_date_range, load_dataset_detail, load_dataset_events, summarize_events
+from backend.text_cleaning import normalize_posts_for_display
 from spider.crawler_core import CHINA_TZ
 
 bp = Blueprint("health_api", __name__, url_prefix="/api/health")
@@ -60,11 +61,11 @@ def health_event(event_id: str):
     date = request.args.get("date")
     detail = load_dataset_detail(event_id)
     if detail:
-        return jsonify(detail)
+        return jsonify(_sanitize_health_detail(detail))
     detail = health_event_detail(event_id, date)
     if not detail:
         return jsonify({"error": "event not found"}), 404
-    return jsonify(detail)
+    return jsonify(_sanitize_health_detail(detail))
 
 
 @bp.route("/dates")
@@ -78,3 +79,12 @@ def _build_summary(events: List[Dict[str, Any]]) -> Dict[str, Any]:
         major = event.get("category") or "其他"
         counts[major] = counts.get(major, 0) + 1
     return {"total_events": len(events), "by_major": counts}
+
+
+def _sanitize_health_detail(detail: Dict[str, Any]) -> Dict[str, Any]:
+    payload = dict(detail)
+    if "sample_posts" in payload:
+        payload["sample_posts"] = normalize_posts_for_display(payload.get("sample_posts"))
+    if "posts" in payload:
+        payload["posts"] = normalize_posts_for_display(payload.get("posts"))
+    return payload

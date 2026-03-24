@@ -86,6 +86,7 @@ SLIM_POST_TEXT_LIMIT = max(0, get_env_int("WEIBO_SLIM_POST_TEXT_LIMIT", 500) or 
 # 大模型
 OPENAI_API_KEY = get_env_str("OPENAI_API_KEY", "")
 OPENAI_MODEL = get_env_str("OPENAI_MODEL", "deepseek-r1-250120")
+OPENAI_BASE_URL = get_env_str("OPENAI_BASE_URL", "https://ark.cn-beijing.volces.com/api/v3")
 
 # 风险评分
 RISK_WEIGHTS = {
@@ -187,6 +188,7 @@ __all__ = [
     "SLIM_POST_TEXT_LIMIT",
     "OPENAI_API_KEY",
     "OPENAI_MODEL",
+    "OPENAI_BASE_URL",
     "RISK_WEIGHTS",
     "HIGH_SENSITIVE",
     "MEDIUM_SENSITIVE",

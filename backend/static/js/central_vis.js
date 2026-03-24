@@ -307,7 +307,8 @@
       return;
     }
     const html = posts.slice(0, 4).map(post => {
-      const text = post.content_text || post.content || post.summary || post.text || '';
+      const text = String(post.content_text || post.content || post.summary || post.text || '')
+        .replace(/[\s\u00a0\u200b\ufeff]*展开c?\s*$/u, '……');
       const time = formatPostTime(post.published_at || post.publishedAt || post.published_at);
       return `
         <div style="margin-bottom:8px;">

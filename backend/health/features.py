@@ -3,7 +3,7 @@ from __future__ import annotations
 import itertools
 import re
 from collections import Counter, defaultdict
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from backend.health.constants import EMOTION_DIMENSIONS, STOPWORDS
 from backend.health.models import EventDetail, EventFeatures, FeatureEdge, FeatureNode, HealthEvent, TimelinePoint, WordCloudItem
@@ -29,7 +29,7 @@ HASHTAG_PATTERN = re.compile(r"#([^#]+)#")
 
 def build_event_detail(event: HealthEvent) -> EventDetail:
     normalized_points = normalize_points(event.raw_points)
-    wordcloud = _build_wordcloud(event.posts)
+    wordcloud = _build_wordcloud(event.posts, fallback_tags=event.tags)
     tag_graph = _build_tag_graph(event)
     emotions = _build_emotions(event.sentiment_vector)
     posts = _summarize_posts(event.posts)
@@ -94,10 +94,12 @@ def _build_tag_graph(event: HealthEvent) -> EventFeatures:
     return EventFeatures(nodes=nodes, edges=edges)
 
 
-def _build_wordcloud(posts: List[Dict[str, Any]]) -> List[WordCloudItem]:
+def _build_wordcloud(posts: List[Dict[str, Any]], *, fallback_tags: Optional[List[str]] = None) -> List[WordCloudItem]:
     texts = " ".join((post.get("content_text") or "") for post in posts)
     if not texts.strip():
-        return []
+        tag_counts = Counter((tag or "").strip() for tag in (fallback_tags or []) if str(tag or "").strip())
+        top_tags = tag_counts.most_common(80)
+        return [WordCloudItem(text=text, weight=float(weight)) for text, weight in top_tags]
 
     tokens: List[str]
     if jieba:

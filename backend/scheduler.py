@@ -33,6 +33,8 @@ from backend.config import (
     MONITOR_ENABLED,
     MONITOR_CRON,
     POST_DIR,
+    SLIM_POSTS_PER_EVENT,
+    SLIM_POST_TEXT_LIMIT,
     SLIM_RETENTION_DAYS,
     SLIM_TIME,
 )
@@ -419,6 +421,57 @@ def _extract_tags(existing: Any, posts: Any) -> List[str]:
     return deduped
 
 
+def _coerce_non_negative_int(raw: Any) -> int:
+    try:
+        return max(0, int(raw or 0))
+    except Exception:
+        return 0
+
+
+def _truncate_text(raw: Any, limit: int) -> str:
+    text = str(raw or "")
+    if limit > 0 and len(text) > limit:
+        return text[:limit]
+    return text
+
+
+def _build_health_sample_posts(event: Dict[str, Any]) -> List[Dict[str, Any]]:
+    source = event.get("health_sample_posts")
+    if not isinstance(source, list) or not source:
+        source = event.get("posts")
+    if not isinstance(source, list):
+        return []
+
+    post_limit = max(0, SLIM_POSTS_PER_EVENT)
+    text_limit = max(0, SLIM_POST_TEXT_LIMIT)
+    slimmed: List[Dict[str, Any]] = []
+
+    for idx, post in enumerate(source):
+        if not isinstance(post, dict):
+            continue
+        content = (
+            post.get("content_text")
+            or post.get("text")
+            or post.get("content")
+            or post.get("text_raw")
+            or ""
+        )
+        slimmed.append(
+            {
+                "post_id": post.get("post_id") or post.get("id") or f"health_post_{idx}",
+                "published_at": post.get("published_at") or post.get("created_at"),
+                "account_name": post.get("account_name") or post.get("user_name") or "未知用户",
+                "content_text": _truncate_text(content, text_limit),
+                "reposts": _coerce_non_negative_int(post.get("reposts") or post.get("forwards_count")),
+                "comments": _coerce_non_negative_int(post.get("comments") or post.get("comments_count")),
+                "likes": _coerce_non_negative_int(post.get("likes") or post.get("likes_count")),
+            }
+        )
+        if post_limit and len(slimmed) >= post_limit:
+            break
+    return slimmed
+
+
 def _build_slim_event(name: str, event: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     slim: Dict[str, Any] = {}
     llm_block = event.get("llm") or {}
@@ -474,9 +527,16 @@ def _build_slim_event(name: str, event: Dict[str, Any]) -> Optional[Dict[str, An
             slim["summary"] = event.get("summary")
         if "description" in event:
             slim["description"] = event.get("description")
-        tags = _extract_tags(event.get("tags"), event.get("posts"))
+        health_sample_posts = _build_health_sample_posts(event)
+        if health_sample_posts:
+            slim["health_sample_posts"] = health_sample_posts
+        tags = _extract_tags(
+            event.get("health_keywords") or event.get("tags"),
+            health_sample_posts or event.get("posts"),
+        )
         if tags:
             slim["tags"] = tags
+            slim["health_keywords"] = tags
         if "appeared_hours" in event:
             slim["appeared_hours"] = event.get("appeared_hours")
         if "first_seen" in event:

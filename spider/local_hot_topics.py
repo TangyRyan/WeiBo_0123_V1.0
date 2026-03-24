@@ -16,6 +16,8 @@ from urllib.parse import quote
 
 from backend.config import HOURLY_DIR
 from spider.cookie_manager import get_cookie, refresh_cookie_sync
+from spider.config import get_env_str
+from spider.proxy_manager import get_proxy_url, refresh_proxy_in_env, is_proxy_error
 
 logger = logging.getLogger(__name__)
 
@@ -33,6 +35,9 @@ def fetch_latest_topics_local(limit: int = DEFAULT_LIMIT, *, persist: bool = Tru
     """Fetch the current Weibo hot topics and optionally persist a snapshot."""
     limit = max(limit, 0)
     session = requests.Session()
+    proxy = get_proxy_url()
+    if proxy:
+        session.proxies = {"http": proxy, "https": proxy}
     cookie_value = get_cookie()
     try:
         topics, cookie_value = _fetch_from_hot_search_api(limit, session, cookie_value)

@@ -3,6 +3,7 @@ import asyncio
 import base64
 import json
 import logging
+import os
 import re
 import urllib.request
 from collections import OrderedDict
@@ -15,6 +16,8 @@ from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright, TimeoutError as PlaywrightTimeout
 from backend.storage import write_json
 from spider.notify_email import notify_cookie_invalid
+from spider.config import get_env_str
+from spider.proxy_manager import get_proxy_url
 
 # -------------------- 常量配置 --------------------
 POSTS_SEARCH_URL = "https://s.weibo.com/weibo?q=%23{}%23&xsort=hot&suball=1&tw=hotweibo"
@@ -22,6 +25,7 @@ MAX_POSTS_TO_FETCH = 20          # 每个话题抓取的微博数量上限
 MAX_SEARCH_PAGES = 2             # 搜索列表最多翻页数
 SCROLL_COUNT = 2                 # 每页滚动次数，帮助加载更多
 SCROLL_DELAY_MS = 2000           # 每次滚动等待(ms)
+DETAIL_FETCH_CONCURRENCY = max(1, int(os.getenv("WEIBO_TOPIC_DETAIL_CONCURRENCY", "4")))
 
 BASE_DIR = Path(__file__).parent
 USER_DATA_DIR = BASE_DIR / "browser_data_detail"  # 持久化上下文目录（保存登录态）
@@ -45,6 +49,28 @@ LOGIN_SUCCESS_WAIT_SECONDS = 5
 QR_CODE_SELECTOR = "img.w-full.h-full"
 COOKIE_NOTIFY_LABEL = "topic_detail_login_refresh"
 CONNECTION_NOTIFY_LABEL = "topic_detail_connection_error"
+
+
+async def _block_media(route, request):
+    """拦截并屏蔽图片/字体/媒体请求，减少页面加载时间。"""
+    if request.resource_type in ("image", "media", "font", "stylesheet"):
+        await route.abort()
+    else:
+        await route.continue_()
+
+
+def _get_playwright_proxy() -> Optional[dict]:
+    """Parse WEIBO_HTTP_PROXY into Playwright proxy config (separate credentials)."""
+    import re as _re
+    raw = get_proxy_url()
+    if not raw:
+        return None
+    # Parse http://user:pass@host:port into separate fields for Playwright
+    m = _re.match(r'(https?://)([^:]+):([^@]+)@(.+)', raw)
+    if m:
+        scheme, user, passwd, hostport = m.group(1), m.group(2), m.group(3), m.group(4)
+        return {"server": scheme + hostport, "username": user, "password": passwd}
+    return {"server": raw}
 
 # -------------------- 数据结构 --------------------
 @dataclass
@@ -228,9 +254,22 @@ def _notify_connection_error(reason: str) -> None:
     except Exception:
         logging.exception("Failed to notify connection error.")
 
-async def _wait_for_login(context, timeout_seconds: int, no_logged_in_session: str) -> List[dict]:
-    deadline = asyncio.get_running_loop().time() + timeout_seconds
-    while asyncio.get_running_loop().time() < deadline:
+async def _wait_for_login(
+    context,
+    timeout_seconds: int,
+    no_logged_in_session: str,
+    *,
+    page=None,
+    notify_label: Optional[str] = None,
+    notify_reason: str = "",
+    qr_refresh_interval: int = 60,
+) -> List[dict]:
+    """等待扫码登录，并每隔 qr_refresh_interval 秒刷新一次 QR 码截图后重新发邮件。"""
+    loop = asyncio.get_running_loop()
+    deadline = loop.time() + timeout_seconds
+    last_qr_refresh = loop.time()
+
+    while loop.time() < deadline:
         cookies = await context.cookies()
         if _is_logged_in(cookies):
             return cookies
@@ -238,6 +277,17 @@ async def _wait_for_login(context, timeout_seconds: int, no_logged_in_session: s
             current_session = _cookie_dict(cookies).get("WBPSESS")
             if current_session and current_session != no_logged_in_session:
                 return cookies
+
+        # 定期重新截图 QR 码并重新发邮件（微博 QR 约 2 分钟过期）
+        if page and notify_label and (loop.time() - last_qr_refresh) >= qr_refresh_interval:
+            try:
+                await _save_login_qrcode(page)
+                notify_cookie_invalid(notify_label, notify_reason)
+                logging.info("QR 码已刷新并重新发送邮件通知。")
+            except Exception as exc:
+                logging.warning(f"QR 码刷新失败：{exc}")
+            last_qr_refresh = loop.time()
+
         await asyncio.sleep(LOGIN_POLL_INTERVAL_SECONDS)
     return []
 
@@ -254,11 +304,15 @@ async def _login_and_update_cookies(
     USER_DATA_DIR.mkdir(exist_ok=True)
 
     for attempt in range(1, LOGIN_RETRY_TIMES + 1):
-        context = await playwright.chromium.launch_persistent_context(
+        _pw_proxy = _get_playwright_proxy()
+        _ctx_kwargs = dict(
             user_data_dir=str(USER_DATA_DIR),
             headless=LOGIN_HEADLESS,
-            args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox"]
+            args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox"],
         )
+        if _pw_proxy:
+            _ctx_kwargs["proxy"] = _pw_proxy
+        context = await playwright.chromium.launch_persistent_context(**_ctx_kwargs)
         try:
             cookies = await context.cookies()
             if _is_logged_in(cookies):
@@ -267,7 +321,7 @@ async def _login_and_update_cookies(
                 return _persist_login_state(storage)
 
             page = await context.new_page()
-            await page.goto(LOGIN_URL, wait_until="load", timeout=60000)
+            await page.goto(LOGIN_URL, wait_until="domcontentloaded", timeout=90000)
 
             try:
                 qr_path = await _save_login_qrcode(page)
@@ -287,7 +341,10 @@ async def _login_and_update_cookies(
             cookies = await _wait_for_login(
                 context,
                 LOGIN_TIMEOUT_SECONDS,
-                no_logged_in_session
+                no_logged_in_session,
+                page=page,
+                notify_label=notify_label,
+                notify_reason=notify_reason,
             )
 
             if not cookies:
@@ -314,7 +371,9 @@ async def _get_post_details(context, detail_url: str, base_data: dict) -> Option
     """
     page = await context.new_page()
     try:
-        await page.goto(detail_url, wait_until="load", timeout=60000)
+        # 屏蔽图片/字体/媒体，只加载 HTML+JS，大幅降低超时风险
+        await page.route("**/*", _block_media)
+        await page.goto(detail_url, wait_until="domcontentloaded", timeout=90000)
         # 等待正文区域出现（尽量宽松一些）
         try:
             await page.wait_for_selector("article, div.Detail, div.WB_detail", timeout=10000)
@@ -384,16 +443,21 @@ async def get_top_20_hot_posts(topic_title: str) -> List[WeiboPost]:
             attempt += 1
 
             USER_DATA_DIR.mkdir(exist_ok=True)
-            context = await p.chromium.launch_persistent_context(
+            _pw_proxy = _get_playwright_proxy()
+            _ctx_kwargs = dict(
                 user_data_dir=str(USER_DATA_DIR),
                 headless=HEADLESS,  # ★ 常态：静默
-                args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox", "--window-position=-32000,-32000"]
+                args=["--disable-gpu", "--disable-dev-shm-usage", "--no-sandbox", "--window-position=-32000,-32000"],
             )
+            if _pw_proxy:
+                _ctx_kwargs["proxy"] = _pw_proxy
+            context = await p.chromium.launch_persistent_context(**_ctx_kwargs)
 
             page = await context.new_page()
+            await page.route("**/*", _block_media)
 
             try:
-                await page.goto(search_url, wait_until="load", timeout=60000)
+                await page.goto(search_url, wait_until="domcontentloaded", timeout=90000)
                 await page.wait_for_selector("div.card-wrap", timeout=10000)
                 # 如果能到这里，说明无需登录，直接解析列表
             except Exception as exc:
@@ -506,7 +570,7 @@ async def get_top_20_hot_posts(topic_title: str) -> List[WeiboPost]:
                     extra = await context.new_page()
                     page_completed = False
                     try:
-                        await extra.goto(page_url, wait_until="load", timeout=60000)
+                        await extra.goto(page_url, wait_until="domcontentloaded", timeout=90000)
                         await extra.wait_for_selector("div.card-wrap", timeout=10000)
                         page_completed = await collect_from_page(extra, page_idx)
                     except Exception as exc:
@@ -529,7 +593,7 @@ async def get_top_20_hot_posts(topic_title: str) -> List[WeiboPost]:
                 logging.info(f"列表页抓取完成：共 {len(initial_posts)} 条，开始抓取详情页...")
 
                 # 详情页并发抓取（适度并发，避免过快）
-                sem = asyncio.Semaphore(4)
+                sem = asyncio.Semaphore(DETAIL_FETCH_CONCURRENCY)
 
                 async def wrap_detail(d):
                     async with sem:

@@ -122,7 +122,8 @@ async function loadEvent(name){
   $("#event-dims").textContent = `情绪:${(js.llm?.sentiment ?? 0).toFixed(2)} 地区:${js.llm?.region || "-"} 类型:${js.llm?.topic_type || "-"} 风险:${(js.risk_score ?? 0).toFixed(1)} 维度:${Object.entries(js.risk_dims || {}).map(([k,v])=>k+':'+v.toFixed(1)).join(' / ')}`;
   const posts = $("#event-posts"); posts.innerHTML="";
   (js.posts||[]).forEach(p=>{ const el=create("div","post");
-    el.innerHTML=`<div class="meta">${p.account_name} | ${p.published_at}</div><div class="text">${p.content_text}</div><div class="stats">转:${p.reposts} 评:${p.comments} 赞:${p.likes}</div>`;
+    const text = String(p.content_text || "").replace(/[\s\u00a0\u200b\ufeff]*展开c?\s*$/u, "……");
+    el.innerHTML=`<div class="meta">${p.account_name} | ${p.published_at}</div><div class="text">${text}</div><div class="stats">转:${p.reposts} 评:${p.comments} 赞:${p.likes}</div>`;
     posts.appendChild(el);
   });
 }

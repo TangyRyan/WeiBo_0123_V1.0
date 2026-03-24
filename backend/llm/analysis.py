@@ -7,10 +7,8 @@ import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
-from ..config import OPENAI_API_KEY, OPENAI_MODEL, REGION_LIST
+from ..config import OPENAI_API_KEY, OPENAI_BASE_URL, OPENAI_MODEL, REGION_LIST
 from ..health.constants import EMOTION_DIMENSIONS
-
-OPENAI_BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
 MAX_SAMPLE_POSTS = 20
 
 try:

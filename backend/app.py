@@ -28,6 +28,7 @@ from backend.storage import (
     write_json,
 )
 from backend.proxy import is_allowed_image_host, normalize_image_url
+from backend.text_cleaning import normalize_posts_for_display
 from spider.hot_topics_api import bp as hot_topics_bp
 from spider.crawler_core import slugify_title
 
@@ -331,7 +332,7 @@ def risk_event():
         "risk_dims": event.get("risk_dims", {}),
         "llm": event.get("llm", {}),
         "summary_html": event.get("summary_html"),
-        "posts": event.get("posts") or [],
+        "posts": normalize_posts_for_display(event.get("posts") or []),
     }
     score = float(event.get("risk_score", 0.0))
     segments = risk_tier_segments(score)

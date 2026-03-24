@@ -1654,7 +1654,7 @@ function renderTimelineList(entries = [], dayXMap = timelineLayout.dayX) {
 
       block.append("p").attr("class", "excerpt")
 
-        .text(post.content_text || "");
+        .text(String(post.content_text || "").replace(/[\s\u00a0\u200b\ufeff]*展开c?\s*$/u, "……"));
 
     });
 

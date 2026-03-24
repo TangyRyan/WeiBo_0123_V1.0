@@ -6,6 +6,7 @@ from typing import Any, Dict, Iterable, List, Optional
 
 from backend.health.constants import DEFAULT_WINDOW_HOURS, HEALTH_CATEGORY_TREE
 from backend.health.models import HealthEvent, TimelinePoint
+from backend.health.serializer import load_best_event_detail
 from backend.storage import load_daily_archive
 from spider.crawler_core import CHINA_TZ, slugify_title
 
@@ -83,9 +84,24 @@ def _coerce_health_event(name: str, data: Dict[str, Any], date_str: str) -> Opti
     slug = data.get("slug") or slugify_title(name) or f"evt-{abs(hash(name)) % 10000}"
     event_id = f"{date_str}-{slug}"
 
-    posts = _prepare_posts(data.get("posts") or [])
-    tags = _extract_tags(data.get("tags"), posts)
-    summary = data.get("description") or data.get("summary") or ""
+    raw_posts = data.get("posts") or data.get("health_sample_posts") or []
+    posts = _prepare_posts(raw_posts)
+
+    cached_detail: Dict[str, Any] = {}
+    if not posts:
+        payload = load_best_event_detail(event_id)
+        if isinstance(payload, dict):
+            cached_detail = payload
+            posts = _prepare_posts(payload.get("sample_posts") or payload.get("posts") or [])
+
+    raw_tags = data.get("health_keywords") or data.get("tags") or cached_detail.get("tags")
+    tags = _extract_tags(raw_tags, posts)
+    summary = (
+        data.get("description")
+        or data.get("summary")
+        or cached_detail.get("summary")
+        or ""
+    )
 
     return HealthEvent(
         event_id=event_id,

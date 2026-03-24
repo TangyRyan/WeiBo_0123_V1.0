@@ -4,7 +4,7 @@ import os
 import time
 from contextlib import contextmanager
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 
 from backend.health.models import EventDetail, TimelinePayload
 from backend.settings import DATA_ROOT
@@ -41,6 +41,9 @@ def write_event_detail(date_str: str, detail: EventDetail) -> None:
     event_dir = EVENT_DIR / date_str
     event_dir.mkdir(parents=True, exist_ok=True)
     payload = detail.to_dict()
+    existing = load_event_detail(detail.event_id, date_str) or load_best_event_detail(detail.event_id)
+    if isinstance(existing, dict):
+        payload = _merge_event_detail(existing, payload)
     target = event_dir / f"{detail.event_id}.json"
     archive_target = ARCHIVE_DIR / date_str / "events" / f"{detail.event_id}.json"
     archive_target.parent.mkdir(parents=True, exist_ok=True)
@@ -78,6 +81,38 @@ def load_event_detail(event_id: str, date_str: Optional[str] = None) -> Optional
     return read_json(path, default=None)
 
 
+def load_best_event_detail(event_id: str) -> Optional[Dict]:
+    """Load the richest known event detail across all date partitions."""
+    ensure_directories()
+
+    base = load_event_detail(event_id)
+    best = base if isinstance(base, dict) else None
+    best_score = _detail_score(best) if isinstance(best, dict) else -1
+    ranked_paths: List[tuple[str, Path]] = []
+
+    for path in EVENT_DIR.glob(f"*/{event_id}.json"):
+        ranked_paths.append((path.parent.name, path))
+    for path in ARCHIVE_DIR.glob(f"*/events/{event_id}.json"):
+        ranked_paths.append((path.parent.parent.name, path))
+
+    seen: set[str] = set()
+    for _, path in sorted(ranked_paths, key=lambda item: item[0], reverse=True):
+        key = str(path)
+        if key in seen:
+            continue
+        seen.add(key)
+        payload = read_json(path, default=None)
+        if not isinstance(payload, dict):
+            continue
+        score = _detail_score(payload)
+        if score > best_score:
+            best = payload
+            best_score = score
+            if best_score >= 3:
+                return best
+    return best
+
+
 @contextmanager
 def acquire_lock(timeout: float = 10.0):
     """Simple file lock to guard scheduler writes."""
@@ -108,6 +143,48 @@ def _update_index(date_str: str) -> None:
         dates.append(date_str)
     dates.sort(reverse=True)
     write_json(INDEX_PATH, {"dates": dates})
+
+
+def _has_items(value: Any) -> bool:
+    return isinstance(value, list) and bool(value)
+
+
+def _detail_score(payload: Optional[Dict[str, Any]]) -> int:
+    if not isinstance(payload, dict):
+        return -1
+    score = 0
+    if _has_items(payload.get("sample_posts")):
+        score += 1
+    if _has_items(payload.get("wordcloud")):
+        score += 1
+    if _has_items(payload.get("tags")):
+        score += 1
+    return score
+
+
+def _is_empty_tag_graph(value: Any) -> bool:
+    if not isinstance(value, dict):
+        return True
+    nodes = value.get("nodes")
+    edges = value.get("edges")
+    has_nodes = isinstance(nodes, list) and bool(nodes)
+    has_edges = isinstance(edges, list) and bool(edges)
+    return not (has_nodes or has_edges)
+
+
+def _merge_event_detail(existing: Dict[str, Any], fresh: Dict[str, Any]) -> Dict[str, Any]:
+    merged = dict(fresh)
+    for field in ("sample_posts", "wordcloud", "tags"):
+        if _has_items(existing.get(field)) and not _has_items(merged.get(field)):
+            merged[field] = existing.get(field)
+
+    if _is_empty_tag_graph(merged.get("tag_graph")) and not _is_empty_tag_graph(existing.get("tag_graph")):
+        merged["tag_graph"] = existing.get("tag_graph")
+
+    if not str(merged.get("summary") or "").strip() and str(existing.get("summary") or "").strip():
+        merged["summary"] = existing.get("summary")
+
+    return merged
 
 
 def _atomic_write(target: Path, data: Dict) -> None:

@@ -925,7 +925,14 @@ def topic_aicard() -> Any:
     slug = request.args.get("slug")
     title = request.args.get("title")
     raw_rank = request.args.get("rank")
+    requested_date = date
+    requested_hour = raw_hour
+    requested_slug = slug
+    requested_title = title
+    requested_rank = raw_rank
     resolved_by = None
+    resolved_rank = None
+    hour_provided = raw_hour is not None
 
     try:
         hour = _parse_hour(raw_hour)
@@ -948,15 +955,17 @@ def topic_aicard() -> Any:
         title = title.strip()
         if not title:
             title = None
-        else:
-            resolved_by = resolved_by or "title"
-            if not slug:
-                slug = slugify_title(title)
+        elif not slug:
+            slug = slugify_title(title)
 
     if slug:
         slug = slug.strip()
+        if not slug:
+            slug = None
 
-    if raw_rank and not title:
+    # Keep API behavior aligned with /api/hot_topics/posts:
+    # use rank as a fallback locator, not as an unconditional override.
+    if raw_rank and not slug and not title:
         try:
             rank = int(raw_rank)
         except ValueError:
@@ -970,11 +979,21 @@ def topic_aicard() -> Any:
         if rank > len(topic_snapshot.topics):
             return jsonify({"error": "rank exceeds available topics"}), 400
         topic_entry = topic_snapshot.topics[rank - 1]
-        title = topic_entry.get("title") or title
-        slug = slugify_title(title or "")
+        resolved_title = (topic_entry.get("title") or "").strip()
+        if not resolved_title:
+            return jsonify({"error": "Unable to resolve topic title from rank"}), 404
+        title = resolved_title
+        entry_slug = (topic_entry.get("slug") or "").strip()
+        slug = entry_slug or slugify_title(title)
         if hour is None:
             hour = topic_snapshot.ref.hour
         resolved_by = "rank"
+        resolved_rank = rank
+    else:
+        if slug:
+            resolved_by = resolved_by or "slug"
+        if not resolved_by and title:
+            resolved_by = "title"
 
     if topic_snapshot and not title and slug:
         for topic_entry in topic_snapshot.topics:
@@ -983,6 +1002,7 @@ def topic_aicard() -> Any:
                 title = topic_title
                 if hour is None:
                     hour = topic_snapshot.ref.hour
+                resolved_by = resolved_by or "slug"
                 break
 
     archive: Optional[Dict[str, Dict[str, Any]]] = None
@@ -997,7 +1017,7 @@ def topic_aicard() -> Any:
             title, record = _locate_archive_record_by_slug(archive, slug, title)
         if title and not record and archive:
             title, record = _locate_archive_record_by_title(archive, title)
-        if record and record.get("slug"):
+        if record and record.get("slug") and not slug:
             slug = record.get("slug") or slug
         if not title and archive:
             record = None
@@ -1014,7 +1034,7 @@ def topic_aicard() -> Any:
             title, record = _locate_archive_record_by_slug(archive, slug, title)
         if record is None and title and archive:
             title, record = _locate_archive_record_by_title(archive, title)
-        if record and record.get("slug"):
+        if record and record.get("slug") and not slug:
             slug = record.get("slug") or slug
 
     record = record or {}
@@ -1028,7 +1048,9 @@ def topic_aicard() -> Any:
     hour_key = f"{hour:02d}"
     aicard_info = record.get("aicard") or {}
     hours_map = aicard_info.get("hours", {})
-    aicard_snapshot = hours_map.get(hour_key) or aicard_info.get("latest")
+    aicard_snapshot = hours_map.get(hour_key)
+    if not aicard_snapshot and not hour_provided:
+        aicard_snapshot = aicard_info.get("latest")
 
     if not aicard_snapshot:
         if not _within_retention(date, AICARD_RETENTION_DAYS):
@@ -1057,6 +1079,47 @@ def topic_aicard() -> Any:
                 save_archive(date, archive)
     if not aicard_snapshot:
         return jsonify({"error": "AI card not available"}), 404
+
+    expected_slug = slug
+    snapshot_slug = (aicard_snapshot.get("slug") or "").strip()
+    if expected_slug and snapshot_slug and snapshot_slug != expected_slug:
+        if not _within_retention(date, AICARD_RETENTION_DAYS):
+            return jsonify({
+                "error": "ai_card_slug_mismatch",
+                "message": "AI card slug does not match requested slug",
+                "expected_slug": expected_slug,
+                "snapshot_slug": snapshot_slug,
+            }), 409
+        try:
+            refreshed_snapshot = ensure_aicard_snapshot(title, date, hour, slug=expected_slug)
+        except AICardCooldownError as exc:
+            return jsonify({
+                "error": "ai_card_cooldown",
+                "message": str(exc),
+                "retry_after": exc.retry_after,
+                "level": exc.level,
+            }), 429
+        except AICardRateLimitError as exc:
+            return jsonify({
+                "error": "ai_card_rate_limited",
+                "message": str(exc),
+            }), 429
+        if refreshed_snapshot:
+            aicard_snapshot = refreshed_snapshot
+            hours_map[hour_key] = aicard_snapshot
+            aicard_info["hours"] = hours_map
+            aicard_info["latest"] = aicard_snapshot
+            record["aicard"] = aicard_info
+            if archive is not None and title:
+                archive[title] = record
+                save_archive(date, archive)
+        else:
+            return jsonify({
+                "error": "ai_card_slug_mismatch",
+                "message": "AI card slug does not match requested slug",
+                "expected_slug": expected_slug,
+                "snapshot_slug": snapshot_slug,
+            }), 409
 
     markdown_rel = aicard_snapshot.get("markdown_path") or aicard_info.get("markdown")
     markdown_abs = from_data_relative(markdown_rel) if markdown_rel else None
@@ -1098,6 +1161,12 @@ def topic_aicard() -> Any:
         "links": aicard_snapshot.get("links"),
         "media": media_payload,
         "fetched_at": aicard_snapshot.get("fetched_at"),
+        "resolved_rank": resolved_rank,
+        "requested_date": requested_date,
+        "requested_hour": requested_hour,
+        "requested_rank": requested_rank,
+        "requested_title": requested_title,
+        "requested_slug": requested_slug,
     }
     if resolved_by:
         response["resolved_by"] = resolved_by

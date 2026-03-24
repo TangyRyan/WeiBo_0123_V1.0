@@ -11,6 +11,8 @@ from urllib.parse import quote_plus
 
 from spider.rate_limiter import create_policy_from_env
 from spider.cookie_manager import get_cookie, refresh_cookie_sync
+from spider.config import get_env_str
+from spider.proxy_manager import get_proxy_url
 
 CHINA_TZ = timezone.utc  # fallback; overwritten on module load
 
@@ -179,6 +181,10 @@ def fetch_ai_card(
     payload = _build_payload(query, extra_payload, request_id)
     owns_session = session is None
     sess = session or requests.Session()
+    if owns_session:
+        proxy = get_proxy_url()
+        if proxy:
+            sess.proxies = {"http": proxy, "https": proxy}
 
     policy = _RATE_POLICY
     try:

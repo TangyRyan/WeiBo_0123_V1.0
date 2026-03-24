@@ -1,5 +1,6 @@
 import json
 import logging
+import copy
 from datetime import datetime, timedelta, timezone
 from typing import Any, Dict, List, Optional, Sequence
 
@@ -71,11 +72,11 @@ BASE_TOPIC_FIELDS = [
 
 TOPIC_DEFAULTS: Dict[str, Any] = {
     "description": "",
-    "appeared_hours": [],
-    "known_ids": [],
+    "appeared_hours": list,
+    "known_ids": list,
     "needs_refresh": True,
-    "aicard": {},
-    "latest_posts": {},
+    "aicard": dict,
+    "latest_posts": dict,
     "last_post_total": 0,
     "ads": False,
 }
@@ -120,7 +121,8 @@ def normalize_topic_record(record: Dict[str, Any]) -> Dict[str, Any]:
     for key, default in TOPIC_DEFAULTS.items():
         value = record.get(key)
         if value is None:
-            record[key] = default() if callable(default) else default
+            # Avoid shared mutable defaults across different topic records.
+            record[key] = default() if callable(default) else copy.deepcopy(default)
         elif key in {"appeared_hours", "known_ids"} and not isinstance(value, list):
             record[key] = list(value) if value else []
         elif key in {"aicard", "latest_posts"} and not isinstance(value, dict):
